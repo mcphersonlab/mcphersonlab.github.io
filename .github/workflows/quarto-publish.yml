@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      metadata: read
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -38,6 +39,8 @@ jobs:
         with:
           # Cache Quarto installation for faster builds
           tinytex: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
