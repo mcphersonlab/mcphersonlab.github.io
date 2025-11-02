@@ -76,7 +76,7 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": ""
+        "url": "https://drive.hhs.gov/innovation2025.html"
     },
     {
         "name": "AWS re:Invent",
@@ -177,7 +177,7 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": ""
+        "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit"
     },
     {
         "name": "CROI Annual",
