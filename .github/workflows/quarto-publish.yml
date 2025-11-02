@@ -45,15 +45,45 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
+      # Upload rendered site for PRs as a regular artifact (for preview/testing)
+      - name: Upload PR preview artifact
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-preview-${{ github.event.pull_request.number }}
+          path: ./_site
+          retention-days: 7
+
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v4
 
+      # Upload for GitHub Pages deployment (main branch only)
       - name: Upload build artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
+
+      # Create a job summary for visibility
+      - name: Create build summary
+        if: always()
+        run: |
+          echo "## Quarto Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Event:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "✅ **Site rendered successfully for PR #${{ github.event.pull_request.number }}**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "The rendered site has been uploaded as an artifact and can be downloaded for preview." >> $GITHUB_STEP_SUMMARY
+          elif [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            echo "✅ **Site rendered and ready for deployment**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **Site rendered successfully**" >> $GITHUB_STEP_SUMMARY
+          fi
 
   # Deploy job - only runs on main branch push
   deploy:
