@@ -66,6 +66,19 @@ conferences = [
         "url": "https://githubuniverse.com/"
     },
     {
+        "name": "BARDA Innovation Symposium",
+        "location": "Washington, DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "start_date": "2025-11-20",
+        "end_date": "2025-11-20",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": ""
+    },
+    {
         "name": "AWS re:Invent",
         "location": "Las Vegas, NV",
         "lat": 36.1219,
@@ -129,6 +142,19 @@ conferences = [
         "url": "https://imari.org"
     },
     {
+        "name": "BSAC and GARDP Antimicrobial Chemotherapy Conference",
+        "location": "Online",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "start_date": "2026-02-04",
+        "end_date": "2026-02-05",
+        "abstract_open": "",
+        "abstract_close": "2025-11-15",
+        "abstract_note": "Free online conference",
+        "type": "Conference",
+        "url": "https://acc-conference.com/"
+    },
+    {
         "name": "AAAS Annual",
         "location": "Phoenix, AZ",
         "lat": 33.4484,
@@ -139,6 +165,19 @@ conferences = [
         "abstract_close": "2025-09-07",
         "type": "Conference",
         "url": "https://www.aaas.org/meetings"
+    },
+    {
+        "name": "CSIRO AMR Summit",
+        "location": "Sydney, Australia",
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "start_date": "2026-02-18",
+        "end_date": "2026-02-20",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": ""
     },
     {
         "name": "CROI Annual",
