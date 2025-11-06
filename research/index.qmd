@@ -12,6 +12,9 @@ listing:
       - area/infectious-diseases/index.qmd
       - area/antimicrobial-resistance/index.qmd
       - area/human-gut-microbiome/index.qmd
+      - area/genomics/index.qmd
+      - area/structural-biology/index.qmd
+      - area/advanced-methods/index.qmd
     type: grid
     fields: [image, title]
     sort: false  # Disable sorting to maintain custom research area order

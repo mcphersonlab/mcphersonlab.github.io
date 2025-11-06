@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural Biology Research Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #4a1942 0%, #6b2d5c 50%, #4a1942 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .protein-structure {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .atom {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: radial-gradient(circle at 30% 30%, #c084fc, #9333ea);
+            border-radius: 50%;
+            opacity: 0.5;
+            animation: orbit 5s infinite ease-in-out;
+        }
+        
+        @keyframes orbit {
+            0%, 100% {
+                transform: scale(1) translateX(0);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.3) translateX(10px);
+                opacity: 0.8;
+            }
+        }
+        
+        .atom:nth-child(1) { top: 15%; left: 15%; animation-delay: 0s; }
+        .atom:nth-child(2) { top: 25%; left: 22%; animation-delay: 0.4s; }
+        .atom:nth-child(3) { top: 35%; left: 18%; animation-delay: 0.8s; }
+        .atom:nth-child(4) { top: 45%; left: 25%; animation-delay: 1.2s; }
+        .atom:nth-child(5) { top: 55%; left: 20%; animation-delay: 1.6s; }
+        .atom:nth-child(6) { top: 65%; left: 23%; animation-delay: 2s; }
+        .atom:nth-child(7) { top: 20%; left: 70%; animation-delay: 0.5s; }
+        .atom:nth-child(8) { top: 30%; left: 75%; animation-delay: 0.9s; }
+        .atom:nth-child(9) { top: 40%; left: 72%; animation-delay: 1.3s; }
+        .atom:nth-child(10) { top: 50%; left: 78%; animation-delay: 1.7s; }
+        .atom:nth-child(11) { top: 60%; left: 73%; animation-delay: 2.1s; }
+        
+        .bond {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #c084fc, transparent);
+            opacity: 0.3;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            font-weight: 300;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #c084fc;
+            font-weight: 600;
+        }
+        
+        .structural-icon {
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            font-size: 150px;
+            opacity: 0.15;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="protein-structure">
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+            <div class="atom"></div>
+        </div>
+        
+        <div class="structural-icon">🔬</div>
+        
+        <div class="content">
+            <h1 class="title">Structural Biology</h1>
+            <p class="subtitle">Investigating <span class="highlight">molecular structures</span> and protein dynamics to reveal biological function</p>
+        </div>
+    </div>
+</body>
+</html>
