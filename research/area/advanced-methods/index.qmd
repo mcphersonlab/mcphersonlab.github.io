@@ -1,7 +1,7 @@
 ---
 title: Advanced Methods ⚗️
 alias: &ALIAS advanced-methods
-# image: featured.png
+image: featured.png
 listing:
   id: pubs
   #template: ../../../_ejs/publications-people.ejs 
