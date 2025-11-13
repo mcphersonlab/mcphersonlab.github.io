@@ -22,6 +22,12 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
+        "journal": "Nature Methods/Nature Structural & Molecular Biology",
+        "due_date": "2026-07-28",
+        "topic": "Methods development in Cryo-ET and in situ structural determination",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
         "journal": "BMC Medicine",
         "due_date": "2025-12-29",
         "topic": "Diabetes and infectious disease",
