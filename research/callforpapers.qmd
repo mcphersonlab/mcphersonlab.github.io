@@ -46,6 +46,12 @@ call_for_papers = [
         "website": "https://www.nature.com/ncomms/calls-for-papers"
     },
     {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-01-10",
+        "topic": "Economics of AI in Healthcare",
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
+    },
+    {
         "journal": "NPJ Antimicrobials and Resistance",
         "due_date": "2026-01-15",
         "topic": "Pathogen Drug Permeability",
@@ -70,6 +76,12 @@ call_for_papers = [
         "website": "https://www.nature.com/ncomms/calls-for-papers"
     },
     {
+        "journal": "npj Biofilms and Microbiomes",
+        "due_date": "2026-02-20",
+        "topic": "Natural bioactives, Gut microbiome, and human metabolism",
+        "website": "https://www.nature.com/npjbiofilms/calls-for-papers"
+    },
+    {
         "journal": "Nature Communications",
         "due_date": "2026-02-27",
         "topic": "Therapies for cystic fibrosis",
@@ -86,6 +98,12 @@ call_for_papers = [
         "due_date": "2026-03-01",
         "topic": "Climate change and infectious diseases",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-03-12",
+        "topic": "Impact of Agentic AI on Care Delivery",
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
     },
     {
         "journal": "ACS",
@@ -106,6 +124,12 @@ call_for_papers = [
         "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers"
     },
     {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-05-15",
+        "topic": "AI for Population Medicine and Public Health",
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
+    },
+    {
         "journal": "Journal of Bacteriology",
         "due_date": "2026-05-31",
         "topic": "Biofilms (antibiotic resistance)",
@@ -122,6 +146,18 @@ call_for_papers = [
         "due_date": "2026-05-31",
         "topic": "Mechanistic insights into human host and microbiome interactions",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "npj Genomic Medicine",
+        "due_date": "2026-06-23",
+        "topic": "Artificial Intelligence in Genomic Medicine",
+        "website": "https://www.nature.com/npjgenmed/calls-for-papers"
+    },
+    {
+        "journal": "npj Biofilms and Microbiomes",
+        "due_date": "2026-07-15",
+        "topic": "Gut microbiome-virome dynamics and interactions",
+        "website": "https://www.nature.com/npjbiofilms/calls-for-papers"
     },
     {
         "journal": "Nature Communications",
