@@ -18,6 +18,20 @@ We believe in:
 - **Excellence**: Maintaining the highest standards in our research
 
 
+## Our Culture of Science
+
+We learn through podcast 🎙️ conversations in: 
+
+- [**Infectious Diseases**](https://jacobkmcpherson.com/infectious-diseases) 🦠
+- [**Science**](https://jacobkmcpherson.com/science) 🔬
+- [**Medicine**](https://jacobkmcpherson.com/medicine) ⚕️
+- [**Pharmacy**](https://jacobkmcpherson.com/pharmacy) 💊
+
+& enjoy the dissemination of our works at research conferences through multimedia
+
+- [Gallery](https://jacobkmcpherson.com/gallery) 🎥📸
+- [Blog](https://jacobkmcpherson.com/blog) ✍🏻📚
+
 <!-- This is a silent comment in markdown. It won't appear in output. -->
 
 <!-- ## Lab Environment -->
