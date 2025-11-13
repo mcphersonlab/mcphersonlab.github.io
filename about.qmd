@@ -20,7 +20,7 @@ We believe in:
 
 ## Our Culture of Science
 
-We learn through podcast 🎙️ conversations in: 
+We learn through podcast conversations 🎙️🔉
 
 - [**Infectious Diseases**](https://jacobkmcpherson.com/infectious-diseases) 🦠
 - [**Science**](https://jacobkmcpherson.com/science) 🔬
@@ -29,8 +29,8 @@ We learn through podcast 🎙️ conversations in:
 
 & enjoy the dissemination of our works at research conferences through multimedia
 
-- [Gallery](https://jacobkmcpherson.com/gallery) 🎥📸
-- [Blog](https://jacobkmcpherson.com/blog) ✍🏻📚
+- [**Gallery**](https://jacobkmcpherson.com/gallery) 🎥📸
+- [**Blog**](https://jacobkmcpherson.com/blog) ✍🏻📚
 
 <!-- This is a silent comment in markdown. It won't appear in output. -->
 
