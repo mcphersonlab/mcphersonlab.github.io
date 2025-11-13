@@ -46,11 +46,8 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 
 ## Contact Information
 
-**Principal Investigator**: Jacob K. McPherson
-
-**Email**: [jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
-
-**Business Inquiries**: [jacobkmcpherson.com](https://www.jacobkmcpherson.com)
+**Principal Investigator**: [Jacob K. McPherson](https://jacobkmcpherson.github.io)
+**Contact**: [jacobkmcpherson.com](https://www.jacobkmcpherson.com/contact)
 
 For joining the group, please use the above link [join](people/join.qmd)
 
