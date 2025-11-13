@@ -28,7 +28,7 @@ call_for_papers = [
         "website": "https://bmcmedicine.biomedcentral.com/call-for-papers"
     },
     {
-        "journal": "Nature Communications",
+        "journal": "Nature Microbiology/Nature Medicine",
         "due_date": "2025-12-11",
         "topic": "The clinical microbiome",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
@@ -70,7 +70,7 @@ call_for_papers = [
         "website": "https://www.nature.com/ncomms/calls-for-papers"
     },
     {
-        "journal": "Nature Communications",
+        "journal": "Nature Structural & Molecular Biology",
         "due_date": "2026-02-18",
         "topic": "AI methodology in structural biology",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
@@ -94,7 +94,7 @@ call_for_papers = [
         "website": "https://www.nature.com/ncomms/calls-for-papers"
     },
     {
-        "journal": "Nature Communications",
+        "journal": "Nature Microbiology/Nature Health",
         "due_date": "2026-03-01",
         "topic": "Climate change and infectious diseases",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
@@ -166,7 +166,7 @@ call_for_papers = [
         "website": "https://www.nature.com/ncomms/calls-for-papers"
     },
     {
-        "journal": "Nature Communications",
+        "journal": "Nature Immunology",
         "due_date": "2026-07-30",
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
         "website": "https://www.nature.com/ncomms/calls-for-papers"
