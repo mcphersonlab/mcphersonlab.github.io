@@ -4,49 +4,261 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Structural Biology Research Banner</title>
-    <meta name="description" content="Structural Biology: Molecular structures and protein dynamics to reveal biological function." />
     <style>
-        :root {
-            --bg-start:#44163d; --bg-mid:#6b2d5c; --bg-end:#44163d;
-            --text-light:#ffffff; --text-subtle:#d9e8ea; --accent:#c084fc;
-            --shadow:0 20px 60px rgba(0,0,0,.45);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        *{margin:0;padding:0;box-sizing:border-box;}
-        body{font-family:system-ui, Arial, sans-serif; background:transparent; display:flex; justify-content:center; align-items:center; min-height:100vh; padding:20px;}
-        .banner{width:100%; max-width:1200px; height:400px; position:relative; background:linear-gradient(135deg,var(--bg-start) 0%, var(--bg-mid) 55%, var(--bg-end) 100%); border-radius:20px; overflow:hidden; box-shadow:var(--shadow); isolation:isolate;}
-        .protein-structure{position:absolute; inset:0;}
-        .atom{position:absolute; width:22px; height:22px; background:radial-gradient(circle at 30% 30%, var(--accent), #9333ea); border-radius:50%; opacity:.55; animation:orbit 6s ease-in-out infinite;}
-        @keyframes orbit {0%,100%{ transform:translateX(0) scale(1); opacity:.55;}50%{ transform:translateX(12px) scale(1.25); opacity:.85; }}
-        @media (prefers-reduced-motion: reduce){ .atom{ animation:none; } }
-        .atom:nth-child(1){ top:15%; left:15%; animation-delay:0s; }
-        .atom:nth-child(2){ top:25%; left:22%; animation-delay:.4s; }
-        .atom:nth-child(3){ top:35%; left:18%; animation-delay:.8s; }
-        .atom:nth-child(4){ top:45%; left:25%; animation-delay:1.2s; }
-        .atom:nth-child(5){ top:55%; left:20%; animation-delay:1.6s; }
-        .atom:nth-child(6){ top:65%; left:23%; animation-delay:2s; }
-        .atom:nth-child(7){ top:20%; left:70%; animation-delay:.5s; }
-        .atom:nth-child(8){ top:30%; left:75%; animation-delay:.9s; }
-        .atom:nth-child(9){ top:40%; left:72%; animation-delay:1.3s; }
-        .atom:nth-child(10){ top:50%; left:78%; animation-delay:1.7s; }
-        .atom:nth-child(11){ top:60%; left:73%; animation-delay:2.1s; }
-        .content{position:relative; z-index:2; padding:58px; display:flex; flex-direction:column; justify-content:center; height:100%;}
-        .title{font-size:clamp(2.2rem,5vw,3.5rem); font-weight:900; color:var(--text-light); margin:0 0 16px; letter-spacing:-1px; text-shadow:2px 2px 18px rgba(0,0,0,.65);}
-        .subtitle{font-size:clamp(1rem,2.2vw,1.25rem); color:var(--text-subtle); font-weight:300; max-width:640px; line-height:1.55; text-shadow:1px 1px 10px rgba(0,0,0,.5);}
-        .highlight{color:var(--accent); font-weight:600;}
-        .structural-icon{position:absolute; top:50%; right:8%; transform:translateY(-50%); font-size:150px; opacity:.14; filter:drop-shadow(0 0 10px rgba(0,0,0,.4));}
-        @media (max-width: 768px){ .banner{ height:360px;} .content{ padding:40px;} .structural-icon{ font-size:110px; right:5%; }}
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #003366 0%, #004080 50%, #003366 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .protein-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .protein-structure {
+            position: absolute;
+            opacity: 0.5;
+            animation: rotate-protein 10s infinite ease-in-out;
+        }
+        
+        @keyframes rotate-protein {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            33% {
+                transform: translateY(-25px) rotate(120deg);
+            }
+            66% {
+                transform: translateY(-15px) rotate(240deg);
+            }
+        }
+        
+        .protein-structure:nth-child(1) {
+            top: 18%;
+            left: 14%;
+            width: 100px;
+            height: 100px;
+            animation-delay: 0s;
+        }
+        
+        .protein-structure:nth-child(2) {
+            top: 52%;
+            left: 20%;
+            width: 120px;
+            height: 120px;
+            animation-delay: 1.5s;
+        }
+        
+        .protein-structure:nth-child(3) {
+            top: 72%;
+            left: 10%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 2.8s;
+        }
+        
+        .protein-structure:nth-child(4) {
+            top: 32%;
+            right: 14%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 2s;
+        }
+        
+        .protein-structure:nth-child(5) {
+            top: 68%;
+            right: 18%;
+            width: 95px;
+            height: 95px;
+            animation-delay: 0.8s;
+        }
+        
+        .atom {
+            width: 22px;
+            height: 22px;
+            background: radial-gradient(circle at 30% 30%, #c084fc, #9333ea);
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: 0 0 15px rgba(192, 132, 252, 0.7);
+        }
+        
+        .carbon-atom {
+            background: radial-gradient(circle at 30% 30%, #868e96, #495057);
+            box-shadow: 0 0 12px rgba(134, 142, 150, 0.6);
+        }
+        
+        .nitrogen-atom {
+            background: radial-gradient(circle at 30% 30%, #74c0fc, #4dabf7);
+            box-shadow: 0 0 12px rgba(116, 192, 252, 0.6);
+        }
+        
+        .bond {
+            position: absolute;
+            height: 3px;
+            background: linear-gradient(90deg, #c084fc, #9333ea);
+            transform-origin: left center;
+        }
+        
+        .microscope-icon {
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            font-size: 150px;
+            opacity: 0.15;
+        }
+        
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(192, 132, 252, 0.4);
+            border-radius: 50%;
+            animation: particleRise 10s infinite;
+        }
+        
+        .particle:nth-child(1) { left: 30%; animation-delay: 0s; }
+        .particle:nth-child(2) { left: 50%; animation-delay: 1.5s; }
+        .particle:nth-child(3) { left: 70%; animation-delay: 3s; }
+        .particle:nth-child(4) { left: 40%; animation-delay: 2s; }
+        .particle:nth-child(5) { left: 60%; animation-delay: 1s; }
+        .particle:nth-child(6) { left: 80%; animation-delay: 2.5s; }
+        
+        @keyframes particleRise {
+            0% {
+                top: 100%;
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.6;
+            }
+            90% {
+                opacity: 0.6;
+            }
+            100% {
+                top: -5%;
+                opacity: 0;
+            }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            font-weight: 300;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #c084fc;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
-<div class="banner" role="region" aria-label="Structural biology research banner">
-    <div class="protein-structure" aria-hidden="true">
-        <div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div><div class="atom"></div>
+    <div class="banner">
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="protein-container">
+            <div class="protein-structure">
+                <div class="atom carbon-atom" style="top: 10px; left: 20px;"></div>
+                <div class="atom carbon-atom" style="top: 40px; left: 0;"></div>
+                <div class="atom carbon-atom" style="top: 40px; left: 40px;"></div>
+                <div class="atom nitrogen-atom" style="top: 70px; left: 20px;"></div>
+                <div class="bond" style="top: 20px; left: 20px; width: 30px; transform: rotate(-60deg);"></div>
+                <div class="bond" style="top: 20px; left: 32px; width: 30px; transform: rotate(60deg);"></div>
+                <div class="bond" style="top: 50px; left: 20px; width: 30px; transform: rotate(90deg);"></div>
+            </div>
+            <div class="protein-structure">
+                <div class="atom carbon-atom" style="top: 15px; left: 25px;"></div>
+                <div class="atom carbon-atom" style="top: 45px; left: 5px;"></div>
+                <div class="atom carbon-atom" style="top: 45px; left: 45px;"></div>
+                <div class="atom" style="top: 75px; left: 25px;"></div>
+                <div class="atom nitrogen-atom" style="top: 15px; left: 65px;"></div>
+            </div>
+            <div class="protein-structure">
+                <div class="atom carbon-atom" style="top: 5px; left: 15px;"></div>
+                <div class="atom carbon-atom" style="top: 30px; left: 0;"></div>
+                <div class="atom carbon-atom" style="top: 30px; left: 35px;"></div>
+                <div class="atom nitrogen-atom" style="top: 55px; left: 15px;"></div>
+            </div>
+            <div class="protein-structure">
+                <div class="atom" style="top: 18px; left: 18px;"></div>
+                <div class="atom carbon-atom" style="top: 48px; left: 32px;"></div>
+                <div class="atom carbon-atom" style="top: 18px; left: 48px;"></div>
+                <div class="atom nitrogen-atom" style="top: 48px; left: 62px;"></div>
+            </div>
+            <div class="protein-structure">
+                <div class="atom carbon-atom" style="top: 12px; left: 12px;"></div>
+                <div class="atom" style="top: 38px; left: 38px;"></div>
+                <div class="atom carbon-atom" style="top: 12px; left: 62px;"></div>
+            </div>
+        </div>
+        
+        <div class="microscope-icon">🔬</div>
+        
+        <div class="content">
+            <h1 class="title">Structural Biology</h1>
+            <p class="subtitle">Investigating <span class="highlight">molecular structures</span> and protein dynamics to reveal biological function</p>
+        </div>
     </div>
-    <div class="structural-icon" aria-hidden="true">🔬</div>
-    <div class="content">
-        <h1 class="title">Structural Biology</h1>
-        <p class="subtitle">Investigating <span class="highlight">molecular structures</span> and protein dynamics to reveal biological function.</p>
-    </div>
-</div>
 </body>
 </html>
