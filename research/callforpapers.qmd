@@ -1,0 +1,250 @@
+<!-- 
+This file contains the call for papers table for the research page.
+To edit call for papers information:
+1. Find the 'call_for_papers' list in the Python code block below
+2. Add, remove, or modify entries following the existing format
+3. Each entry needs: journal, due_date, topic, and website
+4. The table will automatically update based on this data
+
+This file is included in research/index.qmd and renders on the research page.
+-->
+
+## Call for Papers
+
+```{python}
+#| echo: false
+#| warning: false
+
+import pandas as pd
+from datetime import datetime
+from IPython.display import display, HTML
+
+# Call for papers data
+call_for_papers = [
+    {
+        "journal": "BMC Medicine",
+        "due_date": "2025-12-29",
+        "topic": "Diabetes and infectious disease",
+        "website": "https://bmcmedicine.biomedcentral.com/call-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2025-12-11",
+        "topic": "The clinical microbiome",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2025-12-31",
+        "topic": "Viral hepatitis",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2025-12-31",
+        "topic": "Infection and cancer",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "NPJ Antimicrobials and Resistance",
+        "due_date": "2026-01-15",
+        "topic": "Pathogen Drug Permeability",
+        "website": "https://www.nature.com/npjamar/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-01-14",
+        "topic": "Health policy and systems research",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-01-31",
+        "topic": "Molecular motors and machines",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-02-18",
+        "topic": "AI methodology in structural biology",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-02-27",
+        "topic": "Therapies for cystic fibrosis",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-02-28",
+        "topic": "Computational methodology for drug discovery",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-03-01",
+        "topic": "Climate change and infectious diseases",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "ACS",
+        "due_date": "2026-04-01",
+        "topic": "AI for Next Generation Anti-infective Discovery",
+        "website": "https://axial.acs.org/collection/call-for-papers"
+    },
+    {
+        "journal": "NPJ Antimicrobials and Resistance",
+        "due_date": "2026-04-07",
+        "topic": "Data Science and AI Approaches to AMR",
+        "website": "https://www.nature.com/npjamar/calls-for-papers"
+    },
+    {
+        "journal": "BJP",
+        "due_date": "2026-05-01",
+        "topic": "Virtual Cell Models and AI in Drug Discovery",
+        "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers"
+    },
+    {
+        "journal": "Journal of Bacteriology",
+        "due_date": "2026-05-31",
+        "topic": "Biofilms (antibiotic resistance)",
+        "website": "https://journals.asm.org/asm-calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-05-31",
+        "topic": "Physics-informed machine learning",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-05-31",
+        "topic": "Mechanistic insights into human host and microbiome interactions",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-07-27",
+        "topic": "Diagnosis and care of sepsis",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Nature Communications",
+        "due_date": "2026-07-30",
+        "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
+        "website": "https://www.nature.com/ncomms/calls-for-papers"
+    },
+    {
+        "journal": "Patterns",
+        "due_date": "2026-08-01",
+        "topic": "Reanalysis",
+        "website": "https://www.cell.com/patterns/special-issues/call-for-papers"
+    },
+    {
+        "journal": "CID",
+        "due_date": "Ongoing",
+        "topic": "Infection Complications of hurricanes, floods, and weather issues",
+        "website": "https://academic.oup.com/idsa/pages/calls-for-papers"
+    },
+    {
+        "journal": "JID",
+        "due_date": "Ongoing",
+        "topic": "Moving the microbiome from the bench to the bedside",
+        "website": "https://academic.oup.com/idsa/pages/calls-for-papers"
+    }
+]
+
+def create_callforpapers_html(papers_data):
+    # Parse dates and sort (most recent first, then by journal name)
+    # Convert "Ongoing" to a far future date for sorting purposes
+    for paper in papers_data:
+        if paper['due_date'] == 'Ongoing':
+            paper['sort_date'] = datetime(9999, 12, 31)
+            paper['display_date'] = 'Ongoing'
+        else:
+            paper['sort_date'] = datetime.strptime(paper['due_date'], '%Y-%m-%d')
+            paper['display_date'] = paper['sort_date'].strftime('%B %d, %Y')
+    
+    # Sort by date (earliest first), but put "Ongoing" at the end
+    sorted_papers = sorted(papers_data, key=lambda x: (x['sort_date'], x['journal']))
+    
+    html = """
+    <style>
+        .callforpapers-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .callforpapers-table thead tr {
+            background-color: #dc3545;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+        .callforpapers-table th,
+        .callforpapers-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+        .callforpapers-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        .callforpapers-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .callforpapers-table tbody tr:hover {
+            background-color: #f8d7da;
+            cursor: pointer;
+        }
+        .callforpapers-table tbody tr.upcoming-deadline {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+        .callforpapers-table tbody tr.upcoming-deadline:hover {
+            background-color: #ffe69c;
+        }
+    </style>
+    <table class="callforpapers-table">
+        <thead>
+            <tr>
+                <th>Journal</th>
+                <th>Due Date</th>
+                <th>Topic</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
+    
+    current_date = datetime.now()
+    
+    for paper in sorted_papers:
+        # Highlight upcoming deadlines (within 60 days)
+        row_class = ""
+        if paper['due_date'] != 'Ongoing':
+            days_until = (paper['sort_date'] - current_date).days
+            if 0 <= days_until <= 60:
+                row_class = ' class="upcoming-deadline"'
+        
+        website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Visit</a>"
+        
+        html += f"""
+            <tr{row_class}>
+                <td><strong>{paper['journal']}</strong></td>
+                <td>{paper['display_date']}</td>
+                <td>{paper['topic']}</td>
+                <td>{website_html}</td>
+            </tr>
+        """
+    
+    html += """
+        </tbody>
+    </table>
+    """
+    return html
+
+display(HTML(create_callforpapers_html(call_for_papers)))
+```
