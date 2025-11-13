@@ -53,6 +53,8 @@ jupyter: python3
 
 {{< include conferences.qmd >}}
 
+{{< include callforpapers.qmd >}}
+
 {{< include funding.qmd >}}
 
 ## Research Resources
