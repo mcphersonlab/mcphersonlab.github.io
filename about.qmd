@@ -32,7 +32,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/1D79kHPArirj7kVhQUBBCE"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -43,7 +43,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/66C9Cul1toQ643HVjFMUH3"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -54,7 +54,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/4OuP4z0aWTTTbqnVCVSDGl"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -65,7 +65,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/4GFyrCmRyrkByGhz0Y2bEp"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -76,7 +76,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/6nMGZTc5BYJ1Yj5bYnxvNU"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -88,7 +88,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/4NkEBt3uRsk6YCNnDpILjz"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -99,7 +99,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/78uAfdHWOza6UD54zLkK5X"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -110,7 +110,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/7ziyiBB9HIUZMZWjXjBGH3"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -121,7 +121,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/7gCaRhkSnM0pMoDuCnyZIn"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -132,7 +132,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/6GifipQkBOoRzOpMxw3Xix"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
@@ -143,7 +143,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/5ior8qV0tizAkecGsaJ6Jr"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
@@ -154,7 +154,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://open.spotify.com/embed/show/6kQocuUH2JdVu7uNTxDobN"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
@@ -165,7 +165,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border‑radius:12px"
         src="https://open.spotify.com/embed/show/6IFqZ6DJQ9lo4HcAOI4CeI"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
@@ -176,7 +176,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border‑radius:12px"
         src="https://open.spotify.com/embed/show/7vA26ZVp392p6udK7jltrI"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
@@ -187,7 +187,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border‑radius:12px"
         src="https://open.spotify.com/embed/show/4StpCH4qynz91T8GROC5vj"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
@@ -198,7 +198,7 @@ We immerse ourselves in the science through podcasts 🎙️🔉
 ```{=html}
 <iframe style="border‑radius:12px"
         src="https://open.spotify.com/embed/show/4yMuoUaLwimFznBhkDv92N"
-        width="60%" height="160" frameborder="0"
+        width="80%" height="160" frameborder="0"
         allowfullscreen=""
         allow="autoplay; clipboard‑write; encrypted‑media; fullscreen; picture‑in‑picture"
         loading="lazy">
