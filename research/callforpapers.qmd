@@ -194,6 +194,12 @@ call_for_papers = [
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
         "website": "https://academic.oup.com/idsa/pages/calls-for-papers"
+    },
+    {
+        "journal": "mBio",
+        "due_date": "Ongoing",
+        "topic": "Clinical microbiology",
+        "website": "https://journals.asm.org/asm-calls-for-papers"
     }
 ]
 
@@ -294,3 +300,14 @@ def create_callforpapers_html(papers_data):
 
 display(HTML(create_callforpapers_html(call_for_papers)))
 ```
+
+And other great journals:
+
+- The Lancet Infectious Diseases
+- Clinical Infectious Diseases
+- Nature Microbiology
+- Nature Reviews Microbiology
+- Cell Host and Microbe
+- Antimicrobial Agents and Chemotherapy
+- Clinical Microbiology and Infection
+- Journal of Antimicrobial Chemotherapy
