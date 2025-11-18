@@ -586,6 +586,7 @@ def create_calendar_html(df):
                 <th>Start Date</th>
                 <th>End Date</th>
                 <th>Website</th>
+                <th>Project</th>
             </tr>
         </thead>
         <tbody>
@@ -614,6 +615,9 @@ def create_calendar_html(df):
         if row['Abstract Note']:
             abstract_close_cell += f"<br><span class='abstract-note'>{row['Abstract Note']}</span>"
         
+        # Add project link (placeholder)
+        project_link = "<a href='#' style='color: #007bff;'>Project Link</a>"
+        
         html += f"""
             <tr{row_class_str}>
                 <td><strong>{row['Event']}</strong></td>
@@ -623,6 +627,7 @@ def create_calendar_html(df):
                 <td>{row['Start Date']}</td>
                 <td>{row['End Date']}</td>
                 <td>{url_link}</td>
+                <td>{project_link}</td>
             </tr>
         """
     
