@@ -604,15 +604,17 @@ def create_calendar_html(df):
         
         row_class_str = f" class='{' '.join(row_classes)}'" if row_classes else ""
         
-        # Format Event column with Event name, URL link, Location and Conference dates in italics
+        # Format Event column with Event name, Location, Conference dates, and URL link in italics
         event_cell = f"<strong>{row['Event']}</strong>"
-        if url_link:
-            event_cell += f"<br>{url_link}"
         event_cell += f"<br><i>{row['Location']}</i>"
         
         # Format conference dates (merged start - end) and add to Event column
         conference_dates = f"{row['Start Date']} - {row['End Date']}"
         event_cell += f"<br><i>{conference_dates}</i>"
+        
+        # Add URL link on the fourth line if available
+        if url_link:
+            event_cell += f"<br>{url_link}"
         
         # Format abstract submission column (merged open - close) with bold close date
         if row['Abstract Open'] != "NA" and row['Abstract Close'] != "NA":
