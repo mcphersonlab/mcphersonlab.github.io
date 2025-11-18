@@ -303,11 +303,15 @@ display(HTML(create_callforpapers_html(call_for_papers)))
 
 And other great journals:
 
-- The Lancet Infectious Diseases
-- Clinical Infectious Diseases
-- Nature Microbiology
-- Nature Reviews Microbiology
-- Cell Host and Microbe
-- Antimicrobial Agents and Chemotherapy
-- Clinical Microbiology and Infection
-- Journal of Antimicrobial Chemotherapy
+- [Clinical Infectious Diseases (CID)](https://academic.oup.com/cid)
+- [Nature Microbiology](https://www.nature.com/nmicrobiol/)
+- [Nature Reviews Microbiology](https://www.nature.com/nrmicro/)
+- [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)
+- [The Lancet Microbe](https://www.thelancet.com/journals/lanmic/home)
+- [The Lancet HIV](https://www.thelancet.com/journals/lanhiv/home)
+- [Cell Host and Microbe](https://www.cell.com/cell-host-microbe/home)
+- [Antimicrobial Agents and Chemotherapy (AAC)](https://journals.asm.org/journal/aac)
+- [Clinical Microbiology and Infection (CMI)](https://www.clinicalmicrobiologyandinfection.org/)
+- [Journal of Antimicrobial Chemotherapy (JAC)](https://academic.oup.com/jac)
+- [Journal of American Medical Association (JAMA)](https://jamanetwork.com/journals/jama)
+

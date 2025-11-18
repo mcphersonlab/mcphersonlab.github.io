@@ -67,7 +67,7 @@ These efforts accomplish our mission to advance the
 [clinical](area/pharmacy/index.qmd) 
 and 
 [economic](area/economic-analysis/index.qmd) 
-outcomes in the treatment of infectious diseases for the benefit of society today and generations tomorrow. 
+outcomes in the treatment and elimination of infectious diseases for the benefit of society today and generations tomorrow. 
 
 ## Research Areas
 
