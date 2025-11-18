@@ -46,9 +46,11 @@ page-layout: full
 jupyter: python3
 ---
 
-we are a 
-[pharmacology](area/pharmacology/index.qmd) lab 
-that studies 
+we are a computational 
+[chemistry](area/medicinal-chemistry/index.qmd) 
+and
+[pharmacology](area/pharmacology/index.qmd) 
+lab that studies 
 [infectious diseases](area/infectious-diseases), 
 [antimicrobial resistance](area/antimicrobial-resistance/index.qmd),
 and the 
@@ -58,7 +60,6 @@ Our approaches include
 [artificial intelligence](area/artificial-intelligence/index/index.qmd) and high-performance computing of 
 [genomics](area/genomics/index.qmd), 
 [structural biology](area/structural-biology/index.qmd), 
-[medicinal chemistry](area/medicinal-chemistry/index.qmd), 
 and other
 [advanced methods](area/advanced-methods/index.qmd)
 
