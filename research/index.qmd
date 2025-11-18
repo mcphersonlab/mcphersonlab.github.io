@@ -46,28 +46,6 @@ page-layout: full
 jupyter: python3
 ---
 
-We are a 
-[pharmacology](area/pharmacology/index.qmd) 
-and
-[computational chemistry](area/medicinal-chemistry/index.qmd) 
-lab that studies 
-[infectious diseases](area/infectious-diseases), 
-[antimicrobial resistance](area/antimicrobial-resistance/index.qmd),
-and the 
-[human gut microbiome](area/human-gut-microbiome/index.qmd). 
-Our approaches include 
-[artificial intelligence](area/artificial-intelligence/index/index.qmd) and high-performance computing of 
-[genomics](area/genomics/index.qmd), 
-[structural biology](area/structural-biology/index.qmd), 
-and other
-[advanced methods](area/advanced-methods/index.qmd),
-These efforts accomplish our mission to advance the 
-[drug development](area/drug-development),
-[clinical](area/pharmacy/index.qmd),
-and 
-[economic](area/economic-analysis/index.qmd) 
-outcomes in the treatment and elimination of infectious diseases for the benefit of society today and generations tomorrow. 
-
 ## Research Areas
 
 ::: {#research-areas}
