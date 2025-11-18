@@ -280,8 +280,8 @@ def create_callforpapers_html(papers_data):
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
         # Format Journal column with journal name and website link below
         journal_cell = f"<strong>{paper['journal']}</strong><br>{website_html}"
-        # Add project link (placeholder)
-        project_link = "<a href='#' style='color: #007bff;'>Link</a>"
+        # Add project link to GitHub organization projects index
+        project_link = "<a href='projects.html' style='color: #007bff;'>Projects</a>"
         
         html += f"""
             <tr{row_class}>

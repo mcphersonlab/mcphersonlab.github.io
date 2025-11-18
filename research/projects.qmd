@@ -1,0 +1,53 @@
+---
+title: "Ongoing Projects"
+page-layout: full
+---
+
+## GitHub Organization Projects
+
+This page provides an index of ongoing research projects in the McPherson Lab. Our projects are organized through our [GitHub Organization](https://github.com/McPhersonLab) where we collaborate on research initiatives related to conferences, journal publications, and grant applications.
+
+### Project Repository Structure
+
+Our research projects are categorized and tracked through GitHub repositories and project boards:
+
+- **[Template Project Repository](https://github.com/mcphersonlab/template_science_research)**: Starting template for new research projects
+- **[CRediT (Contributor Roles Taxonomy)](https://credit.niso.org/)**: Standard for identifying contributions to research outputs
+- **Conference Abstracts**: Research and abstracts for upcoming conferences
+- **Manuscripts in Preparation**: Manuscripts in preparation for journal submissions
+- **Grant Projects**: Grant proposals and collaborative research initiatives
+- **Methods Development**: Novel computational and analytical methods
+- **Data Analysis**: Ongoing data analysis and visualization projects
+
+### How to Connect Projects
+
+Each conference and call for papers entry in our [Research page](index.qmd) can be linked to:
+
+1. **GitHub Repository**: A specific repository containing project code, data, and documentation
+2. **GitHub Project Board**: A project board tracking tasks and milestones
+3. **GitHub Issues**: Specific issues for abstract submissions, paper drafts, or collaborative work
+
+### Current Active Projects
+
+Visit our [GitHub Organization](https://github.com/McPhersonLab) to see all active repositories and project boards. Projects are typically organized by:
+
+- Conference name and year (e.g., `idweek-2025`)
+- Journal and topic (e.g., `nature-amr-methods`)
+- Research theme (e.g., `microbiome-ai`, `amr-genomics`)
+
+### Contributing
+
+Lab members can contribute to projects by:
+
+1. Creating a new repository for a conference submission or paper
+2. Adding the project to the relevant conference or call for papers entry
+3. Using GitHub Issues and Projects to track progress
+4. Collaborating through pull requests and code reviews
+
+For more information on our GitHub workflow, see the lab handbook or contact the PI.
+
+---
+
+**GitHub Organization**: [https://github.com/McPhersonLab](https://github.com/McPhersonLab)
+
+**Questions?** Contact [jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
