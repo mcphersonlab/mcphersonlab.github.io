@@ -11,8 +11,10 @@ This page provides an index of ongoing research projects in the McPherson Lab. O
 
 Our research projects are categorized and tracked through GitHub repositories and project boards:
 
-- **Conference Projects**: Research and abstracts for upcoming conferences
-- **Publication Projects**: Manuscripts in preparation for journal submissions
+- **[Template Project Repository](https://github.com/mcphersonlab/template_science_research)**: Starting template for new research projects
+- **[CRediT (Contributor Roles Taxonomy)](https://credit.niso.org/)**: Standard for identifying contributions to research outputs
+- **Conference Abstracts**: Research and abstracts for upcoming conferences
+- **Manuscripts in Preparation**: Manuscripts in preparation for journal submissions
 - **Grant Projects**: Grant proposals and collaborative research initiatives
 - **Methods Development**: Novel computational and analytical methods
 - **Data Analysis**: Ongoing data analysis and visualization projects
