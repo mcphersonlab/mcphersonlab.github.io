@@ -9,7 +9,7 @@ To edit call for papers information:
 This file is included in research/index.qmd and renders on the research page.
 -->
 
-## Call for Papers
+## Calls for Papers
 
 ```{python}
 #| echo: false
@@ -255,7 +255,6 @@ def create_callforpapers_html(papers_data):
                 <th>Journal</th>
                 <th>Due Date</th>
                 <th>Topic</th>
-                <th>Website</th>
                 <th>Project</th>
             </tr>
         </thead>
@@ -272,16 +271,17 @@ def create_callforpapers_html(papers_data):
             if 0 <= days_until <= 60:
                 row_class = ' class="upcoming-deadline"'
         
-        website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Visit</a>"
+        website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
+        # Format Journal column with journal name and website link below
+        journal_cell = f"<strong>{paper['journal']}</strong><br>{website_html}"
         # Add project link (placeholder)
         project_link = "<a href='#' style='color: #007bff;'>Link</a>"
         
         html += f"""
             <tr{row_class}>
-                <td><strong>{paper['journal']}</strong></td>
+                <td>{journal_cell}</td>
                 <td>{paper['display_date']}</td>
                 <td>{paper['topic']}</td>
-                <td>{website_html}</td>
                 <td>{project_link}</td>
             </tr>
         """
