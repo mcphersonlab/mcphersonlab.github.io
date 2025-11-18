@@ -66,6 +66,19 @@ conferences = [
         "url": "https://githubuniverse.com/"
     },
     {
+        "name": "MS Ignite",
+        "location": "San Francisco, CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "start_date": "2025-11-18",
+        "end_date": "2025-11-21",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://ignite.microsoft.com/"
+    },
+    {
         "name": "BARDA Innovation Symposium",
         "location": "Washington, DC",
         "lat": 38.9072,
@@ -192,6 +205,19 @@ conferences = [
         "url": "https://www.croiconference.org/"
     },
     {
+        "name": "EMBL AI and Biology",
+        "location": "EMBL Heidelberg and Virtual",
+        "lat": 49.3988,
+        "lon": 8.6724,
+        "start_date": "2026-03-10",
+        "end_date": "2026-03-13",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/"
+    },
+    {
         "name": "NVIDIA GTC",
         "location": "San Jose, CA",
         "lat": 37.3297,
@@ -292,7 +318,7 @@ conferences = [
         "url": "https://www.iuphar.org/"
     },
     {
-        "name": "AACP Annual",
+        "name": "AACP Pharmacy Education",
         "location": "Grapevine, TX",
         "lat": 32.9342,
         "lon": -97.0781,
@@ -302,7 +328,7 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.aacp.org/event/pharmacy-education-2026"
+        "url": "https://www.aacp.org/events/annual-meetings"
     },
     {
         "name": "Conference on Beneficial Microbes",
@@ -340,6 +366,19 @@ conferences = [
         "abstract_close": "2026-07-31",
         "type": "Conference",
         "url": "https://msgerc.org/2026-biennial-meeting/"
+    },
+    {
+        "name": "Rice AI in Health",
+        "location": "Houston, TX",
+        "lat": 29.7174,
+        "lon": -95.4018,
+        "start_date": "2026-09-14",
+        "end_date": "2026-09-17",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.aihealthconference.com/"
     },
     {
         "name": "ESCV Annual",
