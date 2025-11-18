@@ -579,11 +579,9 @@ def create_calendar_html(df):
     <table class="calendar-table">
         <thead>
             <tr>
-                <th>Event Name</th>
-                <th>Location</th>
+                <th>Event</th>
                 <th>Abstract Submission</th>
                 <th>Conference Dates</th>
-                <th>Website</th>
                 <th>Project</th>
             </tr>
         </thead>
@@ -591,7 +589,7 @@ def create_calendar_html(df):
     """
     
     for idx, row in df.iterrows():
-        url_link = f"<a href='{row['URL']}' target='_blank' style='color: #007bff;'>Visit</a>" if row['URL'] else "N/A"
+        url_link = f"<a href='{row['URL']}' target='_blank' style='color: #007bff;'>Visit</a>" if row['URL'] else ""
         
         # Determine row classes
         row_classes = []
@@ -607,11 +605,17 @@ def create_calendar_html(df):
         
         row_class_str = f" class='{' '.join(row_classes)}'" if row_classes else ""
         
-        # Format abstract submission column (merged open - close)
+        # Format Event column with Event name, URL link, and Location in italics
+        event_cell = f"<strong>{row['Event']}</strong>"
+        if url_link:
+            event_cell += f"<br>{url_link}"
+        event_cell += f"<br><i>{row['Location']}</i>"
+        
+        # Format abstract submission column (merged open - close) with bold close date
         if row['Abstract Open'] != "NA" and row['Abstract Close'] != "NA":
-            abstract_submission = f"{row['Abstract Open']} - {row['Abstract Close']}"
+            abstract_submission = f"{row['Abstract Open']} - <strong>{row['Abstract Close']}</strong>"
         elif row['Abstract Close'] != "NA":
-            abstract_submission = row['Abstract Close']
+            abstract_submission = f"<strong>{row['Abstract Close']}</strong>"
         elif row['Abstract Open'] != "NA":
             abstract_submission = row['Abstract Open']
         else:
@@ -628,11 +632,9 @@ def create_calendar_html(df):
         
         html += f"""
             <tr{row_class_str}>
-                <td><strong>{row['Event']}</strong></td>
-                <td>{row['Location']}</td>
+                <td>{event_cell}</td>
                 <td>{abstract_submission}</td>
                 <td>{conference_dates}</td>
-                <td>{url_link}</td>
                 <td>{project_link}</td>
             </tr>
         """
