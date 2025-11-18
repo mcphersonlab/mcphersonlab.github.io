@@ -256,6 +256,7 @@ def create_callforpapers_html(papers_data):
                 <th>Due Date</th>
                 <th>Topic</th>
                 <th>Website</th>
+                <th>Project</th>
             </tr>
         </thead>
         <tbody>
@@ -272,6 +273,8 @@ def create_callforpapers_html(papers_data):
                 row_class = ' class="upcoming-deadline"'
         
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Visit</a>"
+        # Add project link (placeholder)
+        project_link = "<a href='#' style='color: #007bff;'>Project Link</a>"
         
         html += f"""
             <tr{row_class}>
@@ -279,6 +282,7 @@ def create_callforpapers_html(papers_data):
                 <td>{paper['display_date']}</td>
                 <td>{paper['topic']}</td>
                 <td>{website_html}</td>
+                <td>{project_link}</td>
             </tr>
         """
     
