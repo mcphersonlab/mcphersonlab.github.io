@@ -581,10 +581,8 @@ def create_calendar_html(df):
             <tr>
                 <th>Event Name</th>
                 <th>Location</th>
-                <th>Abstract Open</th>
-                <th>Abstract Close</th>
-                <th>Start Date</th>
-                <th>End Date</th>
+                <th>Abstract Submission</th>
+                <th>Conference Dates</th>
                 <th>Website</th>
                 <th>Project</th>
             </tr>
@@ -609,23 +607,31 @@ def create_calendar_html(df):
         
         row_class_str = f" class='{' '.join(row_classes)}'" if row_classes else ""
         
-        # Format abstract columns with optional note
-        abstract_open_cell = row['Abstract Open']
-        abstract_close_cell = row['Abstract Close']
+        # Format abstract submission column (merged open - close)
+        if row['Abstract Open'] != "NA" and row['Abstract Close'] != "NA":
+            abstract_submission = f"{row['Abstract Open']} - {row['Abstract Close']}"
+        elif row['Abstract Close'] != "NA":
+            abstract_submission = row['Abstract Close']
+        elif row['Abstract Open'] != "NA":
+            abstract_submission = row['Abstract Open']
+        else:
+            abstract_submission = "NA"
+        
         if row['Abstract Note']:
-            abstract_close_cell += f"<br><span class='abstract-note'>{row['Abstract Note']}</span>"
+            abstract_submission += f"<br><span class='abstract-note'>{row['Abstract Note']}</span>"
+        
+        # Format conference dates column (merged start - end)
+        conference_dates = f"{row['Start Date']} - {row['End Date']}"
         
         # Add project link (placeholder)
-        project_link = "<a href='#' style='color: #007bff;'>Project Link</a>"
+        project_link = "<a href='#' style='color: #007bff;'>Link</a>"
         
         html += f"""
             <tr{row_class_str}>
                 <td><strong>{row['Event']}</strong></td>
                 <td>{row['Location']}</td>
-                <td>{abstract_open_cell}</td>
-                <td>{abstract_close_cell}</td>
-                <td>{row['Start Date']}</td>
-                <td>{row['End Date']}</td>
+                <td>{abstract_submission}</td>
+                <td>{conference_dates}</td>
                 <td>{url_link}</td>
                 <td>{project_link}</td>
             </tr>
