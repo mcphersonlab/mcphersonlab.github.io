@@ -629,8 +629,8 @@ def create_calendar_html(df):
         if row['Abstract Note']:
             abstract_submission += f"<br><span class='abstract-note'>{row['Abstract Note']}</span>"
         
-        # Add project link (placeholder)
-        project_link = "<a href='#' style='color: #007bff;'>Link</a>"
+        # Add project link to GitHub organization projects index
+        project_link = "<a href='projects.html' style='color: #007bff;'>Projects</a>"
         
         html += f"""
             <tr{row_class_str}>
