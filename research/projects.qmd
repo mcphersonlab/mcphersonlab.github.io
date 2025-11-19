@@ -11,7 +11,7 @@ This page provides an index of ongoing research projects in the McPherson Lab. O
 
 Our research projects are categorized and tracked through GitHub repositories and project boards:
 
-- **[Template Project Repository](https://github.com/mcphersonlab/template_science_research)**: Starting template for new research projects
+- **[Template Project Repository](https://github.com/mcphersonlab/template)**: Starting template for new research projects
 - **[CRediT (Contributor Roles Taxonomy)](https://credit.niso.org/)**: Standard for identifying contributions to research outputs
 - **Conference Abstracts**: Research and abstracts for upcoming conferences
 - **Manuscripts in Preparation**: Manuscripts in preparation for journal submissions
