@@ -38,7 +38,8 @@ conferences = [
         "abstract_close": "2025-04-22",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/"
+        "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/",
+        "projects": []
     },
     {
         "name": "IDSA IDWeek",
@@ -50,7 +51,11 @@ conferences = [
         "abstract_open": "2025-02-18",
         "abstract_close": "2025-05-01",
         "type": "Conference",
-        "url": "https://www.idweek.org/"
+        "url": "https://www.idweek.org/",
+        "projects": [
+            "https://github.com/McPhersonLab/idweek-2025-abstract1",
+            "https://github.com/McPhersonLab/idweek-2025-abstract2"
+        ]
     },
     {
         "name": "GitHub Universe",
@@ -63,7 +68,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://githubuniverse.com/"
+        "url": "https://githubuniverse.com/",
+        "projects": []
     },
     {
         "name": "MS Ignite",
@@ -76,7 +82,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://ignite.microsoft.com/"
+        "url": "https://ignite.microsoft.com/",
+        "projects": []
     },
     {
         "name": "BARDA Innovation Symposium",
@@ -89,7 +96,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://drive.hhs.gov/innovation2025.html"
+        "url": "https://drive.hhs.gov/innovation2025.html",
+        "projects": []
     },
     {
         "name": "AWS re:Invent",
@@ -102,7 +110,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://reinvent.awsevents.com/"
+        "url": "https://reinvent.awsevents.com/",
+        "projects": []
     },
     {
         "name": "ASHP Midyear",
@@ -115,7 +124,8 @@ conferences = [
         "abstract_close": "2025-10-01",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition"
+        "url": "https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition",
+        "projects": []
     },
     {
         "name": "BPS Annual",
@@ -127,7 +137,8 @@ conferences = [
         "abstract_open": "2025-04-01",
         "abstract_close": "2025-09-09",
         "type": "Conference",
-        "url": "https://www.bps.ac.uk/events"
+        "url": "https://www.bps.ac.uk/events",
+        "projects": []
     },
     {
         "name": "TMC AMR",
@@ -140,7 +151,8 @@ conferences = [
         "abstract_close": "2025-11-15",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.tmc.edu/events/"
+        "url": "https://www.tmc.edu/events/",
+        "projects": []
     },
     {
         "name": "IMARI Annual",
@@ -152,7 +164,8 @@ conferences = [
         "abstract_open": "2025-07-16",
         "abstract_close": "2025-10-01",
         "type": "Conference",
-        "url": "https://imari.org"
+        "url": "https://imari.org",
+        "projects": []
     },
     {
         "name": "BSAC and GARDP Antimicrobial Chemotherapy Conference",
@@ -165,7 +178,8 @@ conferences = [
         "abstract_close": "2025-11-15",
         "abstract_note": "Free online conference",
         "type": "Conference",
-        "url": "https://acc-conference.com/"
+        "url": "https://acc-conference.com/",
+        "projects": []
     },
     {
         "name": "AAAS Annual",
@@ -177,7 +191,8 @@ conferences = [
         "abstract_open": "2025-06-05",
         "abstract_close": "2025-09-07",
         "type": "Conference",
-        "url": "https://www.aaas.org/meetings"
+        "url": "https://www.aaas.org/meetings",
+        "projects": []
     },
     {
         "name": "CSIRO AMR Summit",
@@ -190,7 +205,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit"
+        "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit",
+        "projects": []
     },
     {
         "name": "CROI Annual",
@@ -202,7 +218,8 @@ conferences = [
         "abstract_open": "2025-08-28",
         "abstract_close": "2025-10-01",
         "type": "Conference",
-        "url": "https://www.croiconference.org/"
+        "url": "https://www.croiconference.org/",
+        "projects": []
     },
     {
         "name": "EMBL AI and Biology",
@@ -215,7 +232,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/"
+        "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/",
+        "projects": []
     },
     {
         "name": "NVIDIA GTC",
@@ -228,7 +246,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.nvidia.com/gtc/"
+        "url": "https://www.nvidia.com/gtc/",
+        "projects": []
     },
     {
         "name": "ESCMID Annual",
@@ -240,7 +259,8 @@ conferences = [
         "abstract_open": "2025-10-15",
         "abstract_close": "2025-11-26",
         "type": "Conference",
-        "url": "https://www.escmid.org/congress-events/escmid-global/"
+        "url": "https://www.escmid.org/congress-events/escmid-global/",
+        "projects": []
     },
     {
         "name": "Google Cloud Next",
@@ -253,7 +273,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://cloud.withgoogle.com/next"
+        "url": "https://cloud.withgoogle.com/next",
+        "projects": []
     },
     {
         "name": "ASPET Annual",
@@ -265,7 +286,8 @@ conferences = [
         "abstract_open": "2025-09-22",
         "abstract_close": "2025-12-04",
         "type": "Conference",
-        "url": "https://www.aspet.org/aspet/meetings-awards"
+        "url": "https://www.aspet.org/aspet/meetings-awards",
+        "projects": []
     },
     {
         "name": "ISPOR Annual",
@@ -277,7 +299,8 @@ conferences = [
         "abstract_open": "2025-10-31",
         "abstract_close": "2026-01-09",
         "type": "Conference",
-        "url": "https://www.ispor.org/conferences-education"
+        "url": "https://www.ispor.org/conferences-education",
+        "projects": []
     },
     {
         "name": "ASM Microbe",
@@ -290,7 +313,8 @@ conferences = [
         "abstract_close": "2026-01-21",
         "abstract_note": "Travel awards: Oct 15 - Dec 2, 2025; Abstracts: Dec 2, 2025 - Jan 21, 2026",
         "type": "Conference",
-        "url": "https://asm.org/events/asm-microbe"
+        "url": "https://asm.org/events/asm-microbe",
+        "projects": []
     },
     {
         "name": "Anaerobe Biennial",
@@ -303,7 +327,8 @@ conferences = [
         "abstract_close": "2026-02-01",
         "abstract_note": "Oral: Jan 1, 2026; Poster: Feb 1, 2026",
         "type": "Conference",
-        "url": "http://www.anaerobe.org/2026/"
+        "url": "http://www.anaerobe.org/2026/",
+        "projects": []
     },
     {
         "name": "IUPHAR Annual",
@@ -315,7 +340,8 @@ conferences = [
         "abstract_open": "2025-02-01",
         "abstract_close": "2025-09-15",
         "type": "Conference",
-        "url": "https://www.iuphar.org/"
+        "url": "https://www.iuphar.org/",
+        "projects": []
     },
     {
         "name": "AACP Pharmacy Education",
@@ -328,7 +354,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.aacp.org/events/annual-meetings"
+        "url": "https://www.aacp.org/events/annual-meetings",
+        "projects": []
     },
     {
         "name": "Conference on Beneficial Microbes",
@@ -341,7 +368,8 @@ conferences = [
         "abstract_close": "2026-04-08",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://conferences.union.wisc.edu/microbes/"
+        "url": "https://conferences.union.wisc.edu/microbes/",
+        "projects": []
     },
     {
         "name": "ASV Annual",
@@ -353,7 +381,8 @@ conferences = [
         "abstract_open": "2025-12-01",
         "abstract_close": "2026-02-01",
         "type": "Conference",
-        "url": "https://www.asv.org/annual-meeting"
+        "url": "https://www.asv.org/annual-meeting",
+        "projects": []
     },
     {
         "name": "MSGERC Biennial",
@@ -365,7 +394,8 @@ conferences = [
         "abstract_open": "2026-04-01",
         "abstract_close": "2026-07-31",
         "type": "Conference",
-        "url": "https://msgerc.org/2026-biennial-meeting/"
+        "url": "https://msgerc.org/2026-biennial-meeting/",
+        "projects": []
     },
     {
         "name": "Rice AI in Health",
@@ -378,7 +408,8 @@ conferences = [
         "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
-        "url": "https://www.aihealthconference.com/"
+        "url": "https://www.aihealthconference.com/",
+        "projects": []
     },
     {
         "name": "ESCV Annual",
@@ -390,7 +421,8 @@ conferences = [
         "abstract_open": "2026-02-02",
         "abstract_close": "2026-05-11",
         "type": "Conference",
-        "url": "https://escv.eu/calendar-events/"
+        "url": "https://escv.eu/calendar-events/",
+        "projects": []
     }
 ]
 
@@ -496,6 +528,7 @@ for conf in conferences:
         "Start Date": start.strftime("%B %d, %Y"),
         "End Date": end.strftime("%B %d, %Y"),
         "URL": conf.get("url", ""),
+        "Projects": conf.get("projects", []),
         "start_datetime": start,
         "end_datetime": end,
         "abstract_open_dt": datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None,
@@ -629,14 +662,21 @@ def create_calendar_html(df):
         if row['Abstract Note']:
             abstract_submission += f"<br><span class='abstract-note'>{row['Abstract Note']}</span>"
         
-        # Add project link to GitHub organization projects index
-        project_link = "<a href='projects.html' style='color: #007bff;'>Projects</a>"
+        # Add project links - support multiple project-specific links
+        projects = row.get('Projects', [])
+        if projects and isinstance(projects, list) and len(projects) > 0:
+            project_links = []
+            for project_url in projects:
+                project_links.append(f"<a href='{project_url}' target='_blank' style='color: #007bff;'>Link</a>")
+            project_cell = "<br>".join(project_links)
+        else:
+            project_cell = ""
         
         html += f"""
             <tr{row_class_str}>
                 <td>{event_cell}</td>
                 <td>{abstract_submission}</td>
-                <td>{project_link}</td>
+                <td>{project_cell}</td>
             </tr>
         """
     
