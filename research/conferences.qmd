@@ -653,7 +653,10 @@ def create_calendar_html(df):
         conference_dates = f"{row['Start Date']} - {row['End Date']}"
         
         # Format abstract submission column (merged open - close) with bold close date
-        if row['Abstract Open'] != "NA" and row['Abstract Close'] != "NA":
+        # Check if abstracts are closed (current date past close date)
+        if row['abstract_close_dt'] and current_date > row['abstract_close_dt']:
+            abstract_submission = "<strong>Abstracts Closed</strong>"
+        elif row['Abstract Open'] != "NA" and row['Abstract Close'] != "NA":
             abstract_submission = f"{row['Abstract Open']} - <strong>{row['Abstract Close']}</strong>"
         elif row['Abstract Close'] != "NA":
             abstract_submission = f"<strong>{row['Abstract Close']}</strong>"
