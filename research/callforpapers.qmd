@@ -25,181 +25,213 @@ call_for_papers = [
         "journal": "Nature Methods/Nature Structural & Molecular Biology",
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "BMC Medicine",
         "due_date": "2025-12-29",
         "topic": "Diabetes and infectious disease",
-        "website": "https://bmcmedicine.biomedcentral.com/call-for-papers"
+        "website": "https://bmcmedicine.biomedcentral.com/call-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Microbiology/Nature Medicine",
         "due_date": "2025-12-11",
         "topic": "The clinical microbiome",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": [
+            "https://github.com/McPhersonLab/clinical-microbiome-manuscript"
+        ]
     },
     {
         "journal": "Nature Communications",
         "due_date": "2025-12-31",
         "topic": "Viral hepatitis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2025-12-31",
         "topic": "Infection and cancer",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Digital Medicine",
         "due_date": "2026-01-10",
         "topic": "Economics of AI in Healthcare",
-        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "NPJ Antimicrobials and Resistance",
         "due_date": "2026-01-15",
         "topic": "Pathogen Drug Permeability",
-        "website": "https://www.nature.com/npjamar/calls-for-papers"
+        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-01-14",
         "topic": "Health policy and systems research",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-01-31",
         "topic": "Molecular motors and machines",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Structural & Molecular Biology",
         "due_date": "2026-02-18",
         "topic": "AI methodology in structural biology",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Biofilms and Microbiomes",
         "due_date": "2026-02-20",
         "topic": "Natural bioactives, Gut microbiome, and human metabolism",
-        "website": "https://www.nature.com/npjbiofilms/calls-for-papers"
+        "website": "https://www.nature.com/npjbiofilms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-02-27",
         "topic": "Therapies for cystic fibrosis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-02-28",
         "topic": "Computational methodology for drug discovery",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Microbiology/Nature Health",
         "due_date": "2026-03-01",
         "topic": "Climate change and infectious diseases",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Digital Medicine",
         "due_date": "2026-03-12",
         "topic": "Impact of Agentic AI on Care Delivery",
-        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "ACS",
         "due_date": "2026-04-01",
         "topic": "AI for Next Generation Anti-infective Discovery",
-        "website": "https://axial.acs.org/collection/call-for-papers"
+        "website": "https://axial.acs.org/collection/call-for-papers",
+        "projects": []
     },
     {
         "journal": "NPJ Antimicrobials and Resistance",
         "due_date": "2026-04-07",
         "topic": "Data Science and AI Approaches to AMR",
-        "website": "https://www.nature.com/npjamar/calls-for-papers"
+        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "BJP",
         "due_date": "2026-05-01",
         "topic": "Virtual Cell Models and AI in Drug Discovery",
-        "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers"
+        "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Digital Medicine",
         "due_date": "2026-05-15",
         "topic": "AI for Population Medicine and Public Health",
-        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers"
+        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Journal of Bacteriology",
         "due_date": "2026-05-31",
         "topic": "Biofilms (antibiotic resistance)",
-        "website": "https://journals.asm.org/asm-calls-for-papers"
+        "website": "https://journals.asm.org/asm-calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-05-31",
         "topic": "Physics-informed machine learning",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-05-31",
         "topic": "Mechanistic insights into human host and microbiome interactions",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Genomic Medicine",
         "due_date": "2026-06-23",
         "topic": "Artificial Intelligence in Genomic Medicine",
-        "website": "https://www.nature.com/npjgenmed/calls-for-papers"
+        "website": "https://www.nature.com/npjgenmed/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "npj Biofilms and Microbiomes",
         "due_date": "2026-07-15",
         "topic": "Gut microbiome-virome dynamics and interactions",
-        "website": "https://www.nature.com/npjbiofilms/calls-for-papers"
+        "website": "https://www.nature.com/npjbiofilms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-07-27",
         "topic": "Diagnosis and care of sepsis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Nature Immunology",
         "due_date": "2026-07-30",
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
-        "website": "https://www.nature.com/ncomms/calls-for-papers"
+        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "Patterns",
         "due_date": "2026-08-01",
         "topic": "Reanalysis",
-        "website": "https://www.cell.com/patterns/special-issues/call-for-papers"
+        "website": "https://www.cell.com/patterns/special-issues/call-for-papers",
+        "projects": []
     },
     {
         "journal": "CID",
         "due_date": "Ongoing",
         "topic": "Infection Complications of hurricanes, floods, and weather issues",
-        "website": "https://academic.oup.com/idsa/pages/calls-for-papers"
+        "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "JID",
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
-        "website": "https://academic.oup.com/idsa/pages/calls-for-papers"
+        "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
+        "projects": []
     },
     {
         "journal": "mBio",
         "due_date": "Ongoing",
         "topic": "Clinical microbiology",
-        "website": "https://journals.asm.org/asm-calls-for-papers"
+        "website": "https://journals.asm.org/asm-calls-for-papers",
+        "projects": []
     }
 ]
 
@@ -280,15 +312,23 @@ def create_callforpapers_html(papers_data):
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
         # Format Journal column with journal name and website link below
         journal_cell = f"<strong>{paper['journal']}</strong><br>{website_html}"
-        # Add project link to GitHub organization projects index
-        project_link = "<a href='projects.html' style='color: #007bff;'>Projects</a>"
+        
+        # Add project links - support multiple project-specific links
+        projects = paper.get('projects', [])
+        if projects and isinstance(projects, list) and len(projects) > 0:
+            project_links = []
+            for project_url in projects:
+                project_links.append(f"<a href='{project_url}' target='_blank' style='color: #007bff;'>Link</a>")
+            project_cell = "<br>".join(project_links)
+        else:
+            project_cell = ""
         
         html += f"""
             <tr{row_class}>
                 <td>{journal_cell}</td>
                 <td>{paper['display_date']}</td>
                 <td>{paper['topic']}</td>
-                <td>{project_link}</td>
+                <td>{project_cell}</td>
             </tr>
         """
     
