@@ -86,20 +86,6 @@ conferences = [
         "projects": []
     },
     {
-        "name": "BARDA Innovation Symposium",
-        "location": "Washington, DC",
-        "lat": 38.9072,
-        "lon": -77.0369,
-        "start_date": "2025-11-20",
-        "end_date": "2025-11-20",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://drive.hhs.gov/innovation2025.html",
-        "projects": []
-    },
-    {
         "name": "AWS re:Invent",
         "location": "Las Vegas, NV",
         "lat": 36.1219,
