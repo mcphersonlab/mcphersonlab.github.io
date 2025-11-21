@@ -10,7 +10,7 @@ listing:
     filter-ui: true
     #include:
     #    categories: *ALIAS
-    fields: [image, pub_number, title, publication, author,url_source]
+    fields: [image, categories, pub_number, title, publication, author,url_source]
 page-layout: full
 ---
 
