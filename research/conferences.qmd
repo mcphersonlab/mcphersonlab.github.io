@@ -27,20 +27,6 @@ m = Map(center=(20, 0), zoom=2)
 # Conference data - locations, dates, and details
 # Sorted by start date (nearest first) and only includes upcoming conferences
 conferences = [
-  {
-        "name": "Peggy Lillis Foundation Scientific Symposium",
-        "location": "Houston, TX",
-        "lat": 29.7191,
-        "lon": -95.3881,
-        "start_date": "2025-11-21",
-        "end_date": "2025-11-21",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Symposium",
-        "url": "https://cdiff.org/",
-        "projects": []
-    },
     {
         "name": "Houston C diff & Microbiome Conference",
         "location": "Houston, TX",
@@ -57,7 +43,7 @@ conferences = [
     },
     {
         "name": "IDSA IDWeek",
-        "location": "Atlanta, GA",
+        "location": "Atlanta, GA and online",
         "lat": 33.749,
         "lon": -84.388,
         "start_date": "2025-10-19",
@@ -97,6 +83,20 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://ignite.microsoft.com/",
+        "projects": []
+    },
+    {
+        "name": "Peggy Lillis Foundation Scientific Symposium",
+        "location": "Online",
+        "lat": 29.7191,
+        "lon": -95.3881,
+        "start_date": "2025-11-21",
+        "end_date": "2025-11-21",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Symposium",
+        "url": "https://cdiff.org/",
         "projects": []
     },
     {
@@ -183,7 +183,7 @@ conferences = [
     },
     {
         "name": "AAAS Annual",
-        "location": "Phoenix, AZ",
+        "location": "Phoenix, AZ and online",
         "lat": 33.4484,
         "lon": -112.074,
         "start_date": "2026-02-12",
@@ -223,7 +223,7 @@ conferences = [
     },
     {
         "name": "EMBL AI and Biology",
-        "location": "EMBL Heidelberg and Virtual",
+        "location": "EMBL Heidelberg and Online",
         "lat": 49.3988,
         "lon": 8.6724,
         "start_date": "2026-03-10",
