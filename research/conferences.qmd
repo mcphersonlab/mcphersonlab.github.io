@@ -27,6 +27,20 @@ m = Map(center=(20, 0), zoom=2)
 # Conference data - locations, dates, and details
 # Sorted by start date (nearest first) and only includes upcoming conferences
 conferences = [
+  {
+        "name": "Peggy Lillis Foundation Scientific Symposium",
+        "location": "Houston, TX",
+        "lat": 29.7191,
+        "lon": -95.3881,
+        "start_date": "2025-11-21",
+        "end_date": "2025-11-21",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Symposium",
+        "url": "https://cdiff.org/",
+        "projects": []
+    },
     {
         "name": "Houston C diff & Microbiome Conference",
         "location": "Houston, TX",
