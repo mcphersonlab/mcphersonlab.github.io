@@ -423,6 +423,20 @@ conferences = [
         "type": "Conference",
         "url": "https://escv.eu/calendar-events/",
         "projects": []
+    },
+    {
+        "name": "Global AMR Innovators' Conference (GAMRIC)",
+        "location": "Lisbon, Portugal",
+        "lat": 38.7223,
+        "lon": -9.1393,
+        "start_date": "2026-09-22",
+        "end_date": "2026-09-24",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.gamric.org/",
+        "projects": []
     }
 ]
 
