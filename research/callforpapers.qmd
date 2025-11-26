@@ -426,6 +426,40 @@ const journalISSNs = [
     "1531-2267", "1758-0463"
 ];
 
+// Sanitize user input to escape special characters that could interfere with PubMed query syntax
+function sanitizeInput(input) {
+    // Escape special characters: quotes, parentheses, brackets
+    return input.replace(/["\[\]()]/g, ' ').trim();
+}
+
+// Build PubMed URL from pathogen and topic inputs
+function generatePubMedUrl(pathogen, topic) {
+    const sanitizedPathogen = sanitizeInput(pathogen);
+    const sanitizedTopic = topic ? sanitizeInput(topic) : '';
+    
+    // Build the search term
+    let searchTerm = `("${sanitizedPathogen}"[tiab])`;
+    if (sanitizedTopic) {
+        searchTerm = `("${sanitizedPathogen}"[tiab] AND "${sanitizedTopic}"[tiab])`;
+    }
+    
+    // Build journal filter
+    const journalFilter = journalISSNs.map(issn => `"${issn}"[ta]`).join(' OR ');
+    
+    // Combine into full query
+    const fullQuery = `${searchTerm} AND (${journalFilter})`;
+    
+    // Build and return the URL
+    const encodedQuery = encodeURIComponent(fullQuery);
+    return `https://pubmed.ncbi.nlm.nih.gov/?term=${encodedQuery}&sort=date&size=200`;
+}
+
+// Show the generated URL in preview section
+function showUrlPreview(url) {
+    document.getElementById('url-preview').style.display = 'block';
+    document.getElementById('generated-url').textContent = url;
+}
+
 function buildPubMedUrl() {
     const pathogen = document.getElementById('pathogen-input').value.trim();
     const topic = document.getElementById('topic-input').value.trim();
@@ -435,25 +469,8 @@ function buildPubMedUrl() {
         return null;
     }
     
-    // Build the search term
-    let searchTerm = `("${pathogen}"[tiab])`;
-    if (topic) {
-        searchTerm = `("${pathogen}"[tiab] AND "${topic}"[tiab])`;
-    }
-    
-    // Build journal filter
-    const journalFilter = journalISSNs.map(issn => `"${issn}"[ta]`).join(' OR ');
-    
-    // Combine into full query
-    const fullQuery = `${searchTerm} AND (${journalFilter})`;
-    
-    // Build the URL
-    const encodedQuery = encodeURIComponent(fullQuery);
-    const url = `https://pubmed.ncbi.nlm.nih.gov/?term=${encodedQuery}&sort=date&size=200`;
-    
-    // Show preview
-    document.getElementById('url-preview').style.display = 'block';
-    document.getElementById('generated-url').textContent = url;
+    const url = generatePubMedUrl(pathogen, topic);
+    showUrlPreview(url);
     
     // Open in new tab
     window.open(url, '_blank');
@@ -471,27 +488,20 @@ function copyPubMedUrl() {
         return;
     }
     
-    // Build the URL without opening it
-    let searchTerm = `("${pathogen}"[tiab])`;
-    if (topic) {
-        searchTerm = `("${pathogen}"[tiab] AND "${topic}"[tiab])`;
+    const url = generatePubMedUrl(pathogen, topic);
+    showUrlPreview(url);
+    
+    // Check for clipboard API availability and copy to clipboard
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url).then(() => {
+            showFeedback('URL copied to clipboard!', 'success');
+        }).catch(() => {
+            showFeedback('Failed to copy URL. Please copy it manually from the preview below.', 'warning');
+        });
+    } else {
+        // Fallback for non-secure contexts (HTTP)
+        showFeedback('Clipboard not available. Please copy the URL manually from the preview below.', 'warning');
     }
-    
-    const journalFilter = journalISSNs.map(issn => `"${issn}"[ta]`).join(' OR ');
-    const fullQuery = `${searchTerm} AND (${journalFilter})`;
-    const encodedQuery = encodeURIComponent(fullQuery);
-    const url = `https://pubmed.ncbi.nlm.nih.gov/?term=${encodedQuery}&sort=date&size=200`;
-    
-    // Show preview
-    document.getElementById('url-preview').style.display = 'block';
-    document.getElementById('generated-url').textContent = url;
-    
-    // Copy to clipboard
-    navigator.clipboard.writeText(url).then(() => {
-        showFeedback('URL copied to clipboard!', 'success');
-    }).catch(() => {
-        showFeedback('Failed to copy URL. Please copy it manually from below.', 'warning');
-    });
 }
 
 function clearInputs() {
