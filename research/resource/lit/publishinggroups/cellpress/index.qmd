@@ -2,6 +2,7 @@
 title: Cell Press
 alias: &ALIAS cellpress
 image: featured.jpg
+href: https://www.cell.com
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 

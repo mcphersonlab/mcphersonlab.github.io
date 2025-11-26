@@ -2,6 +2,7 @@
 title: Nature Navigator
 alias: &ALIAS naturenavigator
 image: featured.png
+href: https://navigator.nature.com/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -41,7 +42,7 @@ Nature Navigator is a research discovery tool that helps scientists explore and 
 
 ## Getting Started
 
-Access Nature Navigator through [nature.com](https://www.nature.com) with your institutional or personal subscription to the Nature portfolio.
+Access Nature Navigator through [navigator.nature.com](https://navigator.nature.com/) with your institutional or personal subscription to the Nature portfolio.
 
 ## Related Publications
 

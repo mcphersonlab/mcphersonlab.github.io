@@ -2,6 +2,7 @@
 title: Overleaf
 alias: &ALIAS overleaf
 image: featured.jpg
+href: https://www.overleaf.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

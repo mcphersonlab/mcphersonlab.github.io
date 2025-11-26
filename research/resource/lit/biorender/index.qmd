@@ -2,6 +2,7 @@
 title: BioRender
 alias: &ALIAS biorender
 image: featured.jpg
+href: https://biorender.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

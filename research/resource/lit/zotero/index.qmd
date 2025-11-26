@@ -2,6 +2,7 @@
 title: Zotero
 alias: &ALIAS zotero
 image: featured.jpg
+href: https://www.zotero.org
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

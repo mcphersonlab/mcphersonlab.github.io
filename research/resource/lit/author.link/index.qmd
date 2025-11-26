@@ -2,6 +2,7 @@
 title: Author.Link
 alias: &ALIAS author.link
 image: featured.png
+href: https://author.link
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

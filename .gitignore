@@ -67,3 +67,4 @@ node_modules/
 __pycache__/
 
 **/*.quarto_ipynb
+**/*.ipynb

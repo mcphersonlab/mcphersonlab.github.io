@@ -2,6 +2,7 @@
 title: Zenodo
 alias: &ALIAS zenodo
 image: featured.jpg
+href: https://zenodo.org
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

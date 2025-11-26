@@ -2,6 +2,7 @@
 title: Reviewer3
 alias: &ALIAS reviewer3
 image: featured.jpg
+href: https://www.reviewer3.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

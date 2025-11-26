@@ -2,6 +2,7 @@
 title: The Lancet Group
 alias: &ALIAS thelancet
 image: featured.jpg
+href: https://www.thelancet.com
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 
