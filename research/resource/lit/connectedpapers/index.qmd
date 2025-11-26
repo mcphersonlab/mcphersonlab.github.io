@@ -2,6 +2,7 @@
 title: Connected Papers
 alias: &ALIAS connectedpapers
 image: featured.jpg
+href: https://www.connectedpapers.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

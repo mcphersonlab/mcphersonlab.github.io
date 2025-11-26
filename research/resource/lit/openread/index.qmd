@@ -2,6 +2,7 @@
 title: OpenRead
 alias: &ALIAS openread
 image: featured.jpg
+href: https://www.openread.academy
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

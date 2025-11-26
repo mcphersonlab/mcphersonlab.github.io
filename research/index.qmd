@@ -21,11 +21,13 @@ listing:
   - id: literature
     contents: resource/lit/*/index.qmd
     type: grid
-    fields: [title]
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
   - id: publishing-groups
     contents: resource/lit/publishinggroups/*/index.qmd
     type: grid
-    fields: [title]
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
   - id: experimentation  
     contents: resource/exp/*/index.qmd
     type: grid
