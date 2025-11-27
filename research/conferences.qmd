@@ -225,6 +225,20 @@ conferences = [
         "projects": ["https://github.com/mcphersonlab/amr-hiv"]
     },
     {
+        "name": "Biophysical Society Annual",
+        "location": "San Francisco, CA",
+        "lat": 37.8070,
+        "lon": -122.4311,
+        "start_date": "2026-02-21",
+        "end_date": "2026-02-26",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.biophysics.org/upcoming-annual-meetings",
+        "projects": ["https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"]
+    },
+    {
         "name": "EMBL AI and Biology",
         "location": "EMBL Heidelberg and Online",
         "lat": 49.3988,
@@ -319,6 +333,20 @@ conferences = [
         "type": "Conference",
         "url": "https://asm.org/events/asm-microbe",
         "projects": []
+    },
+    {
+        "name": "ASBMB Annual",
+        "location": "Washington, DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "start_date": "2026-03-07",
+        "end_date": "2026-03-10",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.asbmb.org/annual-meeting",
+        "projects": ["https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"]
     },
     {
         "name": "Anaerobe Biennial",
