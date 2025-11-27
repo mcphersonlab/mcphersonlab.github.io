@@ -39,7 +39,10 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre"]
+        "projects": [
+                     "https://github.com/mcphersonlab/mgx-cdi", 
+                     "https://github.com/mcphersonlab/mgx-cdi-vre", 
+                    ]
     },
     {
         "name": "IDSA IDWeek",
@@ -52,14 +55,9 @@ conferences = [
         "abstract_close": "2025-05-01",
         "type": "Conference",
         "url": "https://www.idweek.org/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre", 
-                     "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
+        "projects": [
                      "https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"
+                     "https://github.com/mcphersonlab/amr-kpneumoniae"
                      ]
     },
     {
@@ -157,14 +155,9 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.tmc.edu/events/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
+        "projects": [
+                     "https://github.com/mcphersonlab/mgx-cdi-vre", 
                      "https://github.com/mcphersonlab/amr-vre", 
-                     "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
-                     "https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"
                      ]
     },
     {
@@ -178,12 +171,8 @@ conferences = [
         "abstract_close": "2025-10-01",
         "type": "Conference",
         "url": "https://imari.org",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre", 
+        "projects": [ 
                      "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
-                     "https://github.com/mcphersonlab/amr-saureus",
                      "https://github.com/mcphersonlab/amr-abaumannii", 
                      "https://github.com/mcphersonlab/amr-ngonorrhoeae"]
     },
@@ -226,14 +215,8 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre", 
-                     "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
-                     "https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"]
+        "projects": [
+                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"
     },
     {
         "name": "CROI Annual",
@@ -289,14 +272,9 @@ conferences = [
         "abstract_close": "2025-11-26",
         "type": "Conference",
         "url": "https://www.escmid.org/congress-events/escmid-global/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre", 
-                     "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
+        "projects": [
                      "https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"
+                     "https://github.com/mcphersonlab/amr-kpneumoniae"
                      ]
     },
     {
@@ -365,9 +343,10 @@ conferences = [
         "abstract_note": "Oral: Jan 1, 2026; Poster: Feb 1, 2026",
         "type": "Conference",
         "url": "http://www.anaerobe.org/2026/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre"]
+        "projects": [
+                     "https://github.com/mcphersonlab/amr-cdifficile",
+                     "https://github.com/mcphersonlab/mgx-cdifficile"
+                    ]
     },
     {
         "name": "IUPHAR Annual",
@@ -421,8 +400,10 @@ conferences = [
         "abstract_close": "2026-02-01",
         "type": "Conference",
         "url": "https://www.asv.org/annual-meeting",
-        "projects": ["https://github.com/mcphersonlab/mgx-virome", 
-                     "https://github.com/mcphersonlab/amr-hiv"]
+        "projects": [
+                     "https://github.com/mcphersonlab/mgx-virome", 
+                     "https://github.com/mcphersonlab/amr-hiv"
+                     ]
     },
     {
         "name": "MSGERC Biennial",
@@ -462,9 +443,27 @@ conferences = [
         "abstract_close": "2026-05-11",
         "type": "Conference",
         "url": "https://escv.eu/calendar-events/",
-        "projects": ["https://github.com/mcphersonlab/mgx-virome", 
+        "projects": [
+                     "https://github.com/mcphersonlab/mgx-virome", 
                      "https://github.com/mcphersonlab/amr-hiv"]
     },
+    {
+        "name": "The 9th International C. difficile Symposium (ICDS)",
+        "location": "Bled, Slovenia",
+        "lat": 46.3683,
+        "lon": 14.1146,
+        "start_date": "2026-09-08",
+        "end_date": "2026-09-10",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Symposium",
+        "url": "https://www.icds.si/",
+        "projects": [
+                     "https://github.com/mcphersonlab/mgx-cdi-vre",
+                     "https://github.com/mcphersonlab/amr-cdifficile", 
+                     "https://github.com/mcphersonlab/mgx-cdifficile"]
+    }
     {
         "name": "Global AMR Innovators' Conference (GAMRIC)",
         "location": "Lisbon, Portugal",
@@ -477,14 +476,9 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.gamric.org/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/amr-vre", 
-                     "https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae", 
+        "projects": [
                      "https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"
+                     "https://github.com/mcphersonlab/amr-kpneumoniae"
                      ]
     }, 
     {
