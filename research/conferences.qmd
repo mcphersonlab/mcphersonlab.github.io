@@ -508,8 +508,8 @@ conferences = [
     {
         "name": "Global TB Summit (Qiagen)",
         "location": "Online",
-        "lat": ,
-        "lon": ,
+        "lat": "",
+        "lon": "",
         "start_date": "2026-10-13",
         "end_date": "2026-10-16",
         "abstract_open": "",
