@@ -450,7 +450,7 @@ conferences = [
         "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre",
                      "https://github.com/mcphersonlab/amr-clostridioides-difficile", 
                      "https://github.com/mcphersonlab/mgx-clostridioides-difficile"]
-    }
+    },
     {
         "name": "Global AMR Innovators' Conference (GAMRIC)",
         "location": "Lisbon, Portugal",
