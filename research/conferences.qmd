@@ -222,8 +222,7 @@ conferences = [
         "abstract_close": "2025-10-01",
         "type": "Conference",
         "url": "https://www.croiconference.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis", 
-                     "https://github.com/mcphersonlab/amr-hiv"]
+        "projects": ["https://github.com/mcphersonlab/amr-hiv"]
     },
     {
         "name": "EMBL AI and Biology",
@@ -333,8 +332,7 @@ conferences = [
         "abstract_note": "Oral: Jan 1, 2026; Poster: Feb 1, 2026",
         "type": "Conference",
         "url": "http://www.anaerobe.org/2026/",
-        "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile",
-                     "https://github.com/mcphersonlab/ca-fusobacterium-nucleatum-fna_c2"]
+        "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile"]
     },
     {
         "name": "IUPHAR Annual",
@@ -463,8 +461,7 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.gamric.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus",
-                     "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
+        "projects": []
     }, 
     {
         "name": "North American Cystic Fibrosis (CF) Conference",
@@ -479,6 +476,20 @@ conferences = [
         "type": "Conference",
         "url": "https://www.nacfconference.org/",
         "projects": ["https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa"]
+    }, 
+    {
+        "name": "Global TB Summit (Qiagen)",
+        "location": "Online",
+        "lat": ,
+        "lon": ,
+        "start_date": "2026-10-13",
+        "end_date": "2026-10-16",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://tbsummit.qiagen.com/",
+        "projects": ["https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis"]
     }, 
 ]
 
