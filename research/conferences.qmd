@@ -40,7 +40,7 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/",
-        "projects": ["https://github.com/mcphersonlab/mgx-cdi", 
+        "projects": ["https://github.com/mcphersonlab/mgx-clostridioides-difficile", 
                      "https://github.com/mcphersonlab/mgx-cdi-vre"]
     },
     {
@@ -54,8 +54,8 @@ conferences = [
         "abstract_close": "2025-05-01",
         "type": "Conference",
         "url": "https://www.idweek.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae"]
+        "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus",
+                     "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
     },
     {
         "name": "GitHub Universe",
@@ -153,7 +153,7 @@ conferences = [
         "type": "Conference",
         "url": "https://www.tmc.edu/events/",
         "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre", 
-                     "https://github.com/mcphersonlab/amr-vre"]
+                     "https://github.com/mcphersonlab/amr-enterococcus-faecium"]
     },
     {
         "name": "IMARI Annual",
@@ -166,9 +166,9 @@ conferences = [
         "abstract_close": "2025-10-01",
         "type": "Conference",
         "url": "https://imari.org",
-        "projects": ["https://github.com/mcphersonlab/amr-cauris",
-                     "https://github.com/mcphersonlab/amr-abaumannii", 
-                     "https://github.com/mcphersonlab/amr-ngonorrhoeae"]
+        "projects": ["https://github.com/mcphersonlab/amr-candida-auris",
+                     "https://github.com/mcphersonlab/amr-acinetobacter-baumannii", 
+                     "https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
     },
     {
         "name": "BSAC and GARDP Antimicrobial Chemotherapy Conference",
@@ -209,7 +209,7 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit",
-        "projects": ["https://github.com/mcphersonlab/amr-ngonorrhoeae"]
+        "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
     },
     {
         "name": "CROI Annual",
@@ -222,7 +222,7 @@ conferences = [
         "abstract_close": "2025-10-01",
         "type": "Conference",
         "url": "https://www.croiconference.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-mtuberculosis", 
+        "projects": ["https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis", 
                      "https://github.com/mcphersonlab/amr-hiv"]
     },
     {
@@ -264,8 +264,8 @@ conferences = [
         "abstract_close": "2025-11-26",
         "type": "Conference",
         "url": "https://www.escmid.org/congress-events/escmid-global/",
-        "projects": ["https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae"]
+        "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus",
+                     "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
     },
     {
         "name": "Google Cloud Next",
@@ -333,8 +333,8 @@ conferences = [
         "abstract_note": "Oral: Jan 1, 2026; Poster: Feb 1, 2026",
         "type": "Conference",
         "url": "http://www.anaerobe.org/2026/",
-        "projects": ["https://github.com/mcphersonlab/amr-cdifficile",
-                     "https://github.com/mcphersonlab/mgx-cdifficile"]
+        "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/ca-fusobacterium-nucleatum-fna_c2"]
     },
     {
         "name": "IUPHAR Annual",
@@ -402,7 +402,10 @@ conferences = [
         "abstract_close": "2026-07-31",
         "type": "Conference",
         "url": "https://msgerc.org/2026-biennial-meeting/",
-        "projects": ["https://github.com/mcphersonlab/amr-cauris"]
+        "projects": ["https://github.com/mcphersonlab/amr-candida-auris",
+                     "https://github.com/mcphersonlab/amr-aspergillus-fumigatus",
+                     "https://github.com/mcphersonlab/amr-lomentospora-prolificans",
+                    ]
     },
     {
         "name": "Rice AI in Health",
@@ -445,8 +448,8 @@ conferences = [
         "type": "Symposium",
         "url": "https://www.icds.si/",
         "projects": ["https://github.com/mcphersonlab/mgx-cdi-vre",
-                     "https://github.com/mcphersonlab/amr-cdifficile", 
-                     "https://github.com/mcphersonlab/mgx-cdifficile"]
+                     "https://github.com/mcphersonlab/amr-clostridioides-difficile", 
+                     "https://github.com/mcphersonlab/mgx-clostridioides-difficile"]
     }
     {
         "name": "Global AMR Innovators' Conference (GAMRIC)",
@@ -460,8 +463,8 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.gamric.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-saureus",
-                     "https://github.com/mcphersonlab/amr-kpneumoniae"]
+        "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus",
+                     "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
     }, 
     {
         "name": "North American Cystic Fibrosis (CF) Conference",
@@ -475,7 +478,7 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.nacfconference.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-paeruginosa"]
+        "projects": ["https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa"]
     }, 
 ]
 
