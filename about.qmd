@@ -6,16 +6,18 @@ title: "About"
 
 ## Our Mission
 
-The McPherson Lab is a [pharmacology]((https://mcphersonlab.github.io/research/#research-areas)) lab that uses advanced [cloud computing resources](https://mcphersonlab.github.io/research/#research-areas) that furthers the treatment and elimination of [infectious diseases](https://mcphersonlab.github.io/research/#research-areas) for the benefit of society today and generations tomorrow using. Ongoing projects can be found at [the Lab GitHub page](https://github.com/McPhersonLab). 
+The McPherson Lab is a [pharmacology]((https://mcphersonlab.github.io/research/#research-areas)) lab that uses advanced [cloud computing resources](https://mcphersonlab.github.io/research/#research-areas) for the treatment and elimination of [infectious diseases](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow. 
+
+Ongoing projects can be found at the Lab [GitHub](https://github.com/McPhersonLab). 
 
 ## Research Philosophy
 
 We believe in:
 
 - **Open Science**: Making our research accessible and reproducible on our [GitHub](https://github.com/McPhersonLab) and [Zenodo](https://zenodo.org/communities/mcphersonlab)
-- **Collaboration**: Working across disciplines to tackle complex problems: [OverLeaf](https://www.overleaf.com/)
+- **Collaboration**: Working across disciplines to tackle complex problems: [OverLeaf](https://www.overleaf.com/) and [Zotero](https://www.zotero.org/groups/6318889/mcphersonlab/library)
 - **Innovation**: Developing new methods and approaches
-- **Excellence**: Maintaining the highest standards in our research by publishing in [reputable journals](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder)
+- **Excellence**: Maintaining the highest standards in our research by publishing in [highly reputable journals](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder)
 
 
 ## Our Culture of Science
