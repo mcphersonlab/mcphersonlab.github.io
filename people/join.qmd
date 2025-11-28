@@ -11,19 +11,19 @@ jupyter: python3
 
 Create a *free* account in 
 
-1. [**Google Scholar**](https://scholar.google.com), [**Scopus**](https://scopus.com), [**ORCID**](https://orcid.org); use the latter to sign-in to: [**OverLeaf**](https://www.overleaf.com/) and [**My NCBI**](https://account.ncbi.nlm.nih.gov/)
+1. [**Google Scholar**](https://scholar.google.com), [**Scopus**](https://scopus.com) (Elsevier), [**ORCID**](https://orcid.org); use the latter to sign-in to: [**OverLeaf**](https://www.overleaf.com/) and [**My NCBI**](https://account.ncbi.nlm.nih.gov/)
 
-2. Create a [**Springer Nature Research Communities**](https://communities.springernature.com/) account using your ORCID
+2. [**Springer Nature Research Communities**](https://communities.springernature.com/) account using your ORCID
 
-3. [**GitHub**](https://github.com); use to sign-in to [**RStudio Cloud**](https://posit.cloud) and [**VS Code**](https://vscode.dev); integrates with [**OverLeaf**](https://www.overleaf.com/)
+3. [**GitHub**](https://github.com) (Microsoft); use to sign-in to [**RStudio Cloud**](https://posit.cloud) and [**VS Code**](https://vscode.dev); integrates with [**OverLeaf**](https://www.overleaf.com/)
 
-4. Create an account on [**Zenodo**](https://zenodo.org/) and join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/)
+4. [**Zenodo**](https://zenodo.org/) (EU scientific resource) and join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/)
 
 5. [**Zotero**](https://www.zotero.org/), a citation manager that integrates with Chrome, Word, Overleaf
 
 6. Create a quarto-rendered github-pages profile at repo named '*CHANGETOYOURUSERNAME.github.io*', similar to [mine](https://github.com/JacobKMcPherson/jacobkmcpherson.github.io). Let me know when this is done so I may add you to [**People**](https://mcphersonlab.github.io/people/)
 
-7. Create your own Elsevier [**Interfolio**](https://www.interfolio.com/) account for tracking your dossier, letters and applications. 
+7. [**Interfolio**](https://www.interfolio.com/) (Elsevier) for your dossier, letters and applications. 
 
 
 Future endeavors: Science via [**Emerald Cloud Labs (ECL)**](https://www.emeraldcloudlab.com/), [**CLC Genomics (Qiagen)**](https://digitalinsights.qiagen.com/) and [**AWS**](https://aws.amazon.com/), which I maintain access via the SIB's [**AWS-Docker**](https://sib-swiss.github.io/AWS-docker/)
