@@ -44,8 +44,14 @@ website:
         text: Join
         aria-label: Join
     right:
+      - icon: vector-pen
+        href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
+        aria-label: SCOPUS
+      - icon: book
+        href: https://scholar.google.com/citations?user=MsZPCoIAAAAJ&hl=en
+        aria-label: Google Scholar
       - icon: envelope
-        href: mailto:jacobmcpherson@utexas.edu;jkmcpherson@uh.edu;jacob@jacobkmcpherson.com
+        href: mailto:jacobmcpherson@utexas.edu
         aria-label: Email
       - icon: calendar-date
         href: https://calendar.app.google/hFWaGJn7qYa74EYaA
@@ -56,6 +62,15 @@ website:
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
+      - icon: bluesky
+        href: https://bsky.app/profile/jacobkmcpherson.bsky.social
+        aria-label: BlueSky
+      - icon: twitter
+        href: https://x.com/JacobKMcPherson/
+        aria-label: Twitter
+      - icon: linkedin
+        href: https://linkedin.com/in/jacobkmcpherson/
+        aria-label: LinkedIn
   page-footer:
     left: "Copyright © 2025 Jacob K. McPherson, PharmD, PhD - All Rights Reserved"
     right: 
