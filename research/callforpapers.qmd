@@ -213,6 +213,13 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "BMC Microbiology",
+        "due_date": "2026-08-28",
+        "topic": "Antimicrobial Resistance",
+        "website": "https://link.springer.com/collections/bdjebgejee",
+        "projects": []
+    },
+    {
         "journal": "CID",
         "due_date": "Ongoing",
         "topic": "Infection Complications of hurricanes, floods, and weather issues",
