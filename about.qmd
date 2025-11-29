@@ -8,7 +8,7 @@ title: "About"
 
 The McPherson Lab is a [pharmacology]((https://mcphersonlab.github.io/research/#research-areas)) lab that uses advanced [cloud computing resources](https://mcphersonlab.github.io/research/#research-areas) for the treatment and elimination of [infectious diseases](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow. 
 
-Ongoing projects can be found at the Lab [GitHub](https://github.com/McPhersonLab). 
+Ongoing projects can be found at the Lab [GitHub](https://github.com/McPhersonLab/projects). 
 
 ## Research Philosophy
 

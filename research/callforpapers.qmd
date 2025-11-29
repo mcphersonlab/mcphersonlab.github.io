@@ -22,6 +22,321 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
+        "journal": "BMC Public Health",
+        "due_date": "2026-07-03",
+        "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
+        "website": "https://link.springer.com/collections/jbeiehebjj",
+        "projects": []
+    }, 
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-06-30",
+        "topic": "Infectious disease management in infants and children",
+        "website": "https://link.springer.com/collections/jibcibadih",
+        "projects": []
+    }, 
+    {
+        "journal": "AAPS Open",
+        "due_date": "2026-06-30",
+        "topic": "Artificial Intelligence and Computational Tools in Drug Development",
+        "website": "https://link.springer.com/collections/ifeeeaadce",
+        "projects": []
+    }, 
+    {
+        "journal": "BMC Immunology",
+        "due_date": "2026-06-26",
+        "topic": "Fungal infections",
+        "website": "https://link.springer.com/collections/ddhfibjigd",
+        "projects": []
+    }, 
+    {
+        "journal": "Microbiome",
+        "due_date": "2026-06-16",
+        "topic": "Microbiome and Reproductive Health",
+        "website": "https://link.springer.com/collections/fbfahacdhi",
+        "projects": []
+    }, 
+    {
+        "journal": "BMC Medical Research Methodology",
+        "due_date": "2026-06-18",
+        "topic": "Impact of AI on medical research",
+        "website": "https://link.springer.com/collections/cdieieiacj",
+        "projects": []
+    }, 
+    {
+        "journal": "Antimicrobial Resistance & Infection Control",
+        "due_date": "2026-06-25",
+        "topic": "What is new in the prevention, diagnosis, and treatment of hospital-acquired pneumonia?",
+        "website": "https://link.springer.com/collections/bgbhjabeba",
+        "projects": []
+    }, 
+    {
+        "journal": "Journal of Epidemiology and Global Health",
+        "due_date": "2026-06-26",
+        "topic": "Infectious disease outbreak in conflict-driven displacement",
+        "website": "https://link.springer.com/collections/dijaajbcjh",
+        "projects": []
+    }, 
+    {
+        "journal": "BMC Pharmacology and Toxicology",
+        "due_date": "2026-07-15",
+        "topic": "Small molecule therapy",
+        "website": "https://link.springer.com/collections/bdbegfifge",
+        "projects": []
+    },
+    {
+        "journal": "Human Genomics",
+        "due_date": "2026-07-15",
+        "topic": "Artificial Intelligence in Omics and Translational Research",
+        "website": "https://link.springer.com/collections/dfaifjhcej",
+        "projects": []
+    },
+    {
+        "journal": "Cardiovascular Diabetology",
+        "due_date": "2026-07-15",
+        "topic": "Cardiometabolic and Hepatic Interconnections: From Mechanisms to Clinical Implications",
+        "website": "https://link.springer.com/collections/dieeaahafg",
+        "projects": []
+    },
+    {
+        "journal": "BMC Microbiology",
+        "due_date": "2026-07-16",
+        "topic": "Mycobacteria: advances in physiology and mycobacterial diseases research",
+        "website": "https://link.springer.com/collections/bajaefecgf",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-07-20",
+        "topic": "Urinary tract infections in older patients",
+        "website": "https://link.springer.com/collections/aiffadagdf",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-07-20",
+        "topic": "Hepatitis virus infections and treatment",
+        "website": "https://link.springer.com/collections/cidhfidfaf",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-07-20",
+        "topic": "Genomics of Infectious Diseases",
+        "website": "https://link.springer.com/collections/ffbaaggicb",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-07-20",
+        "topic": "Staphylococcal infections",
+        "website": "https://link.springer.com/collections/fjheihhice",
+        "projects": []
+    },
+    {
+        "journal": "BMC Genomics",
+        "due_date": "2026-07-24",
+        "topic": "Genomics of human pathogens",
+        "website": "https://link.springer.com/collections/iaeiigfdid",
+        "projects": []
+    },
+    {
+        "journal": "Genes & Nutrition",
+        "due_date": "2026-07-24",
+        "topic": "Metabolomics, Metabolism, and Nutrition: Experimental Studies, Data Resources, and Computational Methods",
+        "website": "https://link.springer.com/collections/bddbciigje",
+        "projects": []
+    },
+    {
+        "journal": "BMC Urology",
+        "due_date": "2026-07-28",
+        "topic": "Urinary tract infections: antibiotic resistance and management",
+        "website": "https://link.springer.com/collections/igedifhjah",
+        "projects": []
+    },
+    {
+        "journal": "BMC Primary Care",
+        "due_date": "2026-07-30",
+        "topic": "Communication in Primary Care",
+        "website": "https://link.springer.com/collections/eebbhjjdda",
+        "projects": []
+    },
+    {
+        "journal": "BMC Medical Research Methodology",
+        "due_date": "2026-07-30",
+        "topic": "Causal inference and observational data vol. 2",
+        "website": "https://link.springer.com/collections/hgihdahcfj",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-07-31",
+        "topic": "Bacteremia: advances in diagnosis, treatment, and management",
+        "website": "https://www.biomedcentral.com/collections/col3461",
+        "projects": []
+    },    
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-08-02",
+        "topic": "Infectious diseases of livestock",
+        "website": "https://link.springer.com/collections/ehacghjgic",
+        "projects": []
+    },
+    {
+        "journal": "BMC Personalized Medicine",
+        "due_date": "2026-08-05",
+        "topic": "Microbiome–drug interaction networks",
+        "website": "https://link.springer.com/collections/idddeddhgf",
+        "projects": []
+    },
+    {
+        "journal": "Malaria Journal",
+        "due_date": "2026-08-11",
+        "topic": "AI for Malaria Elimination: Data-Driven Innovations in Surveillance and Control",
+        "website": "https://link.springer.com/collections/jiiggbechj",
+        "projects": []
+    },
+    {
+        "journal": "BMC Cancer",
+        "due_date": "2026-08-14",
+        "topic": "Cancer control in low- and middle-income countries – Part II",
+        "website": "https://link.springer.com/collections/bcefgdbfdf",
+        "projects": []
+    },
+    {
+        "journal": "BMC Anesthesiology",
+        "due_date": "2026-08-19",
+        "topic": "Antimicrobial therapy in the intensive care unit",
+        "website": "https://link.springer.com/collections/eibadehcci",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "due_date": "2026-08-19",
+        "topic": "Systematic reviews on infectious diseases - Part II",
+        "website": "https://link.springer.com/collections/egjifidhdf",
+        "projects": []
+    },
+    {
+        "journal": "Veterinary Research",
+        "due_date": "2026-08-26",
+        "topic": "Streptococcus suis, a major swine pathogen with zoonotic impact – advances in epidemiology, pathogenesis, and control",
+        "website": "https://link.springer.com/collections/faaehfdcbe",
+        "projects": []
+    },
+    {
+        "journal": "BMC Artificial Intelligence",
+        "due_date": "2026-12-01",
+        "topic": "AI for clinical trial optimization",
+        "website": "https://link.springer.com/collections/ahddfdfifi",
+        "projects": []
+    },
+    {
+        "journal": "BMC Medical Informatics and Decision Making",
+        "due_date": "2026-12-01",
+        "topic": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
+        "website": "https://link.springer.com/collections/jjejdiccch",
+        "projects": []
+    },
+    {
+        "journal": "Philosophy & Technology",
+        "due_date": "2026-12-01",
+        "topic": "The ethics of medical artificial intelligence: Trust and adoption of AI in healthcare",
+        "website": "https://link.springer.com/collections/abfhhheefd",
+        "projects": []
+    },
+    {
+        "journal": "International Journal for Educational Integrity",
+        "due_date": "2026-12-31",
+        "topic": "Artificial Intelligence: Ethical Implications for Teaching, Learning, Assessment, Science, and Research",
+        "website": "https://link.springer.com/collections/iehehbacdi",
+        "projects": []
+    },
+    {
+        "journal": "International Journal of STEM Education",
+        "due_date": "2027-01-31",
+        "topic": "AI Literacy and STEM Education",
+        "website": "https://link.springer.com/collections/chdfcibfje",
+        "projects": []
+    },
+    {
+        "journal": "International Journal of STEM Education",
+        "due_date": "2027-01-31",
+        "topic": "Assessment for STEM Education in the AI Era",
+        "website": "https://link.springer.com/collections/chdfcibfje",
+        "projects": []
+    },
+    {
+        "journal": "British Journal of Pharmacology",
+        "due_date": "2026-05-01",
+        "topic": "Virtual Cell Models and AI in Drug Discovery",
+        "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers",
+        "projects": []
+    },
+    {
+        "journal": "npj Digital Medicine/npj Digital Public Health",
+        "due_date": "2025-12-28",
+        "topic": "AI for Population Medicine and Public Health",
+        "website": "https://www.nature.com/collections/jaibcfdhef",
+        "projects": []
+    },
+    {
+        "journal": "npj Genomic Medicine",
+        "due_date": "2025-12-28",
+        "topic": "The microbiome in precision medicine",
+        "website": "https://www.nature.com/collections/iaadjjbbea",
+        "projects": []
+    },
+    {
+        "journal": "npj Drug Discovery",
+        "due_date": "2026-07-31",
+        "topic": "Pharmacokinetic-driven strategies in personalized drug discovery",
+        "website": "https://www.nature.com/collections/fddbafafhg",
+        "projects": []
+    },
+    {
+        "journal": "npj Drug Discovery",
+        "due_date": "2025-12-16",
+        "topic": "AI and Small-Molecule Drug Discovery",
+        "website": "https://www.nature.com/collections/ajgfabehdd",
+        "projects": []
+    },
+    {
+        "journal": "BMC Medicine",
+        "due_date": "2026-03-02",
+        "topic": "Climate change and human health",
+        "website": "https://link.springer.com/collections/idgcedfhia",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "due_date": "2026-03-24",
+        "topic": "Cracking the code of AMR: resistance genomics",
+        "website": "https://www.nature.com/collections/cfbjiegbcg",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "due_date": "2026-04-07",
+        "topic": "Data Science, AI and Machine Learning Approaches to AMR",
+        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "due_date": "2025-12-19",
+        "topic": "Antimicrobials and Resistance in the Food Chain",
+        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "due_date": "2026-07-28",
+        "topic": "Water Testing: Antimicrobial Resistance in Water",
+        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "projects": []
+    },
+    {
         "journal": "Nature Methods/Nature Structural & Molecular Biology",
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
@@ -80,17 +395,10 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "Nature Communications",
-        "due_date": "2026-01-31",
-        "topic": "Molecular motors and machines",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
-    },
-    {
         "journal": "Nature Structural & Molecular Biology",
         "due_date": "2026-02-18",
         "topic": "AI methodology in structural biology",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/jbdjhghacg",
         "projects": []
     },
     {
@@ -104,21 +412,21 @@ call_for_papers = [
         "journal": "Nature Communications",
         "due_date": "2026-02-27",
         "topic": "Therapies for cystic fibrosis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/jhbbbdafac",
         "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-02-28",
         "topic": "Computational methodology for drug discovery",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/dhcgiaigac",
         "projects": []
     },
     {
         "journal": "Nature Microbiology/Nature Health",
         "due_date": "2026-03-01",
         "topic": "Climate change and infectious diseases",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/bagaffbjja",
         "projects": []
     },
     {
@@ -159,22 +467,15 @@ call_for_papers = [
     {
         "journal": "Journal of Bacteriology",
         "due_date": "2026-05-31",
-        "topic": "Biofilms (antibiotic resistance)",
+        "topic": "Biofilms",
         "website": "https://journals.asm.org/asm-calls-for-papers",
         "projects": []
     },
     {
         "journal": "Nature Communications",
         "due_date": "2026-05-31",
-        "topic": "Physics-informed machine learning",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
-    },
-    {
-        "journal": "Nature Communications",
-        "due_date": "2026-05-31",
         "topic": "Mechanistic insights into human host and microbiome interactions",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/ihcfhcieic",
         "projects": []
     },
     {
@@ -195,14 +496,14 @@ call_for_papers = [
         "journal": "Nature Communications",
         "due_date": "2026-07-27",
         "topic": "Diagnosis and care of sepsis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/fecjcifefd",
         "projects": []
     },
     {
         "journal": "Nature Immunology",
         "due_date": "2026-07-30",
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/jgggbjghji",
         "projects": []
     },
     {
