@@ -50,6 +50,8 @@ jupyter: python3
 
 ## Research Areas
 
+[Projects](projects.qmd)
+
 ::: {#research-areas}
 :::
 
