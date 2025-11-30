@@ -35,6 +35,26 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab) to see all acti
 - Journal and topic (e.g., `nature-amr-methods`)
 - Research theme (e.g., `microbiome-ai`, `amr-genomics`)
 
+| Project (Link) | Question | Conference(s) | Target Journal #1 | Target Journal #2 |
+|:---------------|:---------|:--------------|:------------------|:------------------|
+| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | Metagenomic analysis of C. difficile | Houston C diff & Microbiome Conference; 9th International C. difficile Symposium (ICDS) | Microbiome | Gut Microbes |
+| [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | C. difficile and VRE co-colonization | Houston C diff & Microbiome Conference; TMC AMR; 9th International C. difficile Symposium (ICDS) | Nature Microbiology | Gut Microbes |
+| [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | Antimicrobial resistance in C. difficile | Anaerobe Biennial; 9th International C. difficile Symposium (ICDS) | npj Antimicrobials and Resistance | Anaerobe |
+| [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | MRSA resistance mechanisms | IDSA IDWeek; ESCMID Annual | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
+| [amr-klebsiella-pneumoniae](https://github.com/mcphersonlab/amr-klebsiella-pneumoniae) | Carbapenem-resistant K. pneumoniae | IDSA IDWeek; ESCMID Annual | Antimicrobial Agents and Chemotherapy | npj Antimicrobials and Resistance |
+| [amr-enterococcus-faecium](https://github.com/mcphersonlab/amr-enterococcus-faecium) | VRE genomics and resistance | TMC AMR | Journal of Antimicrobial Chemotherapy | mBio |
+| [amr-candida-auris](https://github.com/mcphersonlab/amr-candida-auris) | Antifungal resistance in C. auris | IMARI Annual; MSGERC Biennial | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
+| [amr-acinetobacter-baumannii](https://github.com/mcphersonlab/amr-acinetobacter-baumannii) | Carbapenem-resistant A. baumannii | IMARI Annual | Antimicrobial Agents and Chemotherapy | npj Antimicrobials and Resistance |
+| [amr-neisseria-gonorrhoeae](https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae) | AMR in N. gonorrhoeae | IMARI Annual; CSIRO AMR Summit | The Lancet Infectious Diseases | npj Antimicrobials and Resistance |
+| [amr-aspergillus-fumigatus](https://github.com/mcphersonlab/amr-aspergillus-fumigatus) | Azole resistance in A. fumigatus | MSGERC Biennial | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
+| [amr-lomentospora-prolificans](https://github.com/mcphersonlab/amr-lomentospora-prolificans) | Antifungal resistance in L. prolificans | MSGERC Biennial | Clinical Infectious Diseases | Antimicrobial Agents and Chemotherapy |
+| [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | HIV drug resistance | CROI Annual; ASV Annual; ESCV Annual | The Lancet HIV | Nature Microbiology |
+| [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | MDR-TB genomics | Global TB Summit (Qiagen) | The Lancet Infectious Diseases | npj Antimicrobials and Resistance |
+| [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | Multidrug-resistant P. aeruginosa | North American Cystic Fibrosis (CF) Conference | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
+| [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | Gut virome characterization | ASV Annual; ESCV Annual | Nature Microbiology | Cell Host & Microbe |
+| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | Protein structure and dynamics | Biophysical Society Annual; ASBMB Annual | Nature Structural & Molecular Biology | Biophysical Journal |
+| [clinical-microbiome-manuscript](https://github.com/McPhersonLab/clinical-microbiome-manuscript) | Clinical applications of microbiome | — | Nature Microbiology | Nature Medicine |
+
 ### Contributing
 
 Lab members can contribute to projects by:
