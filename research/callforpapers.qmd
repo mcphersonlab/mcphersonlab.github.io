@@ -26,7 +26,7 @@ call_for_papers = [
         "due_date": "2026-07-03",
         "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
         "website": "https://link.springer.com/collections/jbeiehebjj",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-abx-healthy"]
     }, 
     {
         "journal": "BMC Infectious Diseases",
@@ -40,7 +40,8 @@ call_for_papers = [
         "due_date": "2026-06-30",
         "topic": "Artificial Intelligence and Computational Tools in Drug Development",
         "website": "https://link.springer.com/collections/ifeeeaadce",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     }, 
     {
         "journal": "BMC Immunology",
@@ -63,14 +64,15 @@ call_for_papers = [
         "due_date": "2026-06-18",
         "topic": "Impact of AI on medical research",
         "website": "https://link.springer.com/collections/cdieieiacj",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     }, 
     {
         "journal": "Antimicrobial Resistance & Infection Control",
         "due_date": "2026-06-25",
         "topic": "What is new in the prevention, diagnosis, and treatment of hospital-acquired pneumonia?",
         "website": "https://link.springer.com/collections/bgbhjabeba",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-cap"]
     }, 
     {
         "journal": "Journal of Epidemiology and Global Health",
@@ -91,7 +93,8 @@ call_for_papers = [
         "due_date": "2026-07-15",
         "topic": "Artificial Intelligence in Omics and Translational Research",
         "website": "https://link.springer.com/collections/dfaifjhcej",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/ai-microbiome-transmission"]
     },
     {
         "journal": "Cardiovascular Diabetology",
@@ -126,7 +129,9 @@ call_for_papers = [
         "due_date": "2026-07-20",
         "topic": "Genomics of Infectious Diseases",
         "website": "https://link.springer.com/collections/ffbaaggicb",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/amr-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
     },
     {
         "journal": "BMC Infectious Diseases",
@@ -141,7 +146,8 @@ call_for_papers = [
         "due_date": "2026-07-24",
         "topic": "Genomics of human pathogens",
         "website": "https://link.springer.com/collections/iaeiigfdid",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/amr-clostridioides-difficile"]
     },
     {
         "journal": "Genes & Nutrition",
@@ -212,7 +218,8 @@ call_for_papers = [
         "due_date": "2026-08-19",
         "topic": "Antimicrobial therapy in the intensive care unit",
         "website": "https://link.springer.com/collections/eibadehcci",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-cap",
+                     "https://github.com/mcphersonlab/tx-staph-bacteremia"]
     },
     {
         "journal": "BMC Infectious Diseases",
@@ -233,14 +240,14 @@ call_for_papers = [
         "due_date": "2026-12-01",
         "topic": "AI for clinical trial optimization",
         "website": "https://link.springer.com/collections/ahddfdfifi",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     },
     {
         "journal": "BMC Medical Informatics and Decision Making",
         "due_date": "2026-12-01",
         "topic": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
         "website": "https://link.springer.com/collections/jjejdiccch",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
         "journal": "Philosophy & Technology",
@@ -275,14 +282,15 @@ call_for_papers = [
         "due_date": "2026-05-01",
         "topic": "Virtual Cell Models and AI in Drug Discovery",
         "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology",
+                     "https://github.com/mcphersonlab/structure-function-pharmacology"]
     },
     {
         "journal": "npj Digital Medicine/npj Digital Public Health",
         "due_date": "2025-12-28",
         "topic": "AI for Population Medicine and Public Health",
         "website": "https://www.nature.com/collections/jaibcfdhef",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-influenza"]
     },
     {
         "journal": "npj Genomic Medicine",
@@ -305,7 +313,7 @@ call_for_papers = [
         "due_date": "2025-12-16",
         "topic": "AI and Small-Molecule Drug Discovery",
         "website": "https://www.nature.com/collections/ajgfabehdd",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     },
     {
         "journal": "BMC Medicine",
@@ -349,7 +357,7 @@ call_for_papers = [
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"]
     },
     {
         "journal": "BMC Medicine",
@@ -379,14 +387,15 @@ call_for_papers = [
         "due_date": "2025-12-31",
         "topic": "Infection and cancer",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer"]
     },
     {
         "journal": "npj Digital Medicine",
         "due_date": "2026-01-10",
         "topic": "Economics of AI in Healthcare",
         "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/cost-amr",
+                     "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"]
     },
     {
         "journal": "NPJ Antimicrobials and Resistance",
@@ -407,14 +416,14 @@ call_for_papers = [
         "due_date": "2026-02-18",
         "topic": "AI methodology in structural biology",
         "website": "https://www.nature.com/collections/jbdjhghacg",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"]
     },
     {
         "journal": "npj Biofilms and Microbiomes",
         "due_date": "2026-02-20",
         "topic": "Natural bioactives, Gut microbiome, and human metabolism",
         "website": "https://www.nature.com/npjbiofilms/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-glp-1"]
     },
     {
         "journal": "Nature Communications",
@@ -428,7 +437,8 @@ call_for_papers = [
         "due_date": "2026-02-28",
         "topic": "Computational methodology for drug discovery",
         "website": "https://www.nature.com/collections/dhcgiaigac",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology",
+                     "https://github.com/mcphersonlab/structure-function-pharmacology"]
     },
     {
         "journal": "Nature Microbiology/Nature Health",
@@ -449,28 +459,29 @@ call_for_papers = [
         "due_date": "2026-04-01",
         "topic": "AI for Next Generation Anti-infective Discovery",
         "website": "https://axial.acs.org/collection/call-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
         "journal": "NPJ Antimicrobials and Resistance",
         "due_date": "2026-04-07",
         "topic": "Data Science and AI Approaches to AMR",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
         "journal": "BJP",
         "due_date": "2026-05-01",
         "topic": "Virtual Cell Models and AI in Drug Discovery",
         "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology",
+                     "https://github.com/mcphersonlab/structure-function-pharmacology"]
     },
     {
         "journal": "npj Digital Medicine",
         "due_date": "2026-05-15",
         "topic": "AI for Population Medicine and Public Health",
         "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-influenza"]
     },
     {
         "journal": "Journal of Bacteriology",
@@ -492,7 +503,8 @@ call_for_papers = [
         "due_date": "2026-06-23",
         "topic": "Artificial Intelligence in Genomic Medicine",
         "website": "https://www.nature.com/npjgenmed/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/ai-microbiome-transmission"]
     },
     {
         "journal": "npj Biofilms and Microbiomes",
@@ -506,14 +518,14 @@ call_for_papers = [
         "due_date": "2026-07-27",
         "topic": "Diagnosis and care of sepsis",
         "website": "https://www.nature.com/collections/fecjcifefd",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-staph-bacteremia"]
     },
     {
         "journal": "Nature Immunology",
         "due_date": "2026-07-30",
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
         "website": "https://www.nature.com/collections/jgggbjghji",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells"]
     },
     {
         "journal": "Patterns",
@@ -551,7 +563,8 @@ call_for_papers = [
         "due_date": "Ongoing",
         "topic": "Clinical microbiology",
         "website": "https://journals.asm.org/asm-calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
     }
 ]
 
