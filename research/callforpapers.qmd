@@ -65,7 +65,7 @@ call_for_papers = [
     }, 
     {
         "journal": "Nature Communications/Communications Chemistry",
-        "due_date": "2026-02-28,
+        "due_date": "2026-02-28",
         "topic": "Computational methodology for drug discovery",
         "website": "https://www.nature.com/collections/dhcgiaigac",
         "projects": [""]
