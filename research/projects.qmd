@@ -47,6 +47,10 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | HIV drug resistance | CROI Annual; ASV Annual; ESCV Annual | The Lancet HIV | Nature Microbiology |
 | [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | MDR-TB genomics | Global TB Summit (Qiagen) | The Lancet Infectious Diseases | npj Antimicrobials and Resistance |
 | [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | Multidrug-resistant P. aeruginosa | North American Cystic Fibrosis (CF) Conference | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
+| [tx-cap](https://github.com/mcphersonlab/tx-cap) | Treatment of community-acquired pneumonia | IDSA IDWeek | Clinical Infectious Diseases | The Lancet Infectious Diseases |
+| [tx-uuti](https://github.com/mcphersonlab/tx-uuti) | Treatment of uncomplicated urinary tract infections | IDSA IDWeek | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
+| [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | Treatment of Staphylococcal bacteremia | ASHP Midyear | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
+| [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of C. difficile infection | 9th International C. difficile Symposium (ICDS) | Clinical Infectious Diseases | Gut Microbes |
 | [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | Gut virome characterization | ASV Annual; ESCV Annual | Nature Microbiology | Cell Host & Microbe |
 
 
