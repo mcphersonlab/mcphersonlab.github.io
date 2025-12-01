@@ -66,6 +66,8 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [cost-amr](https://github.com/mcphersonlab/cost-amr) | Economic burden of antimicrobial resistance | Global AMR Innovators' Conference (GAMRIC) | The Lancet Infectious Diseases | Clinical Infectious Diseases |
 | [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | Return on investment analysis for CDI interventions | 9th International C. difficile Symposium (ICDS) | Clinical Infectious Diseases | Value in Health |
 | [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | ROI analysis for antimicrobial drug development | ISPOR Annual | Value in Health | Pharmacoeconomics |
+| [EarthEpi](https://github.com/mcphersonlab/EarthEpi) | Environmental epidemiology and climate-health relationships | AAAS Annual | BMC Medicine | Nature Microbiology |
+| [StormPath](https://github.com/mcphersonlab/StormPath) | Storm and weather impacts on infectious disease dynamics | AAAS Annual | Clinical Infectious Diseases | BMC Medicine |
 
 
 ### Contributing
