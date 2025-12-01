@@ -29,15 +29,11 @@ Each conference and call for papers entry in our [Research page](index.qmd) can 
 
 ### Current Active Projects
 
-Visit our [GitHub Organization](https://github.com/McPhersonLab) to see all active repositories and project boards. Projects are typically organized by:
+Visit our [GitHub Organization](https://github.com/McPhersonLab):
 
-- Conference name and year (e.g., `idweek-2025`)
-- Journal and topic (e.g., `nature-amr-methods`)
-- Research theme (e.g., `microbiome-ai`, `amr-genomics`)
-
-| Project (Link) | Question | Conference(s) | Target Journal #1 | Target Journal #2 |
+| Project (Link) | Question | Target Conference | Target Journal #1 | Target Journal #2 |
 |:---------------|:---------|:--------------|:------------------|:------------------|
-| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | Metagenomic analysis of C. difficile | Houston C diff & Microbiome Conference; 9th International C. difficile Symposium (ICDS) | Microbiome | Gut Microbes |
+| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | Metagenomic analysis of C. difficile | Houston C diff & Microbiome Conference | Microbiome | Gut Microbes |
 | [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | C. difficile and VRE co-colonization | Houston C diff & Microbiome Conference; TMC AMR; 9th International C. difficile Symposium (ICDS) | Nature Microbiology | Gut Microbes |
 | [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | Antimicrobial resistance in C. difficile | Anaerobe Biennial; 9th International C. difficile Symposium (ICDS) | npj Antimicrobials and Resistance | Anaerobe |
 | [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | MRSA resistance mechanisms | IDSA IDWeek; ESCMID Annual | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
@@ -52,8 +48,7 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab) to see all acti
 | [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | MDR-TB genomics | Global TB Summit (Qiagen) | The Lancet Infectious Diseases | npj Antimicrobials and Resistance |
 | [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | Multidrug-resistant P. aeruginosa | North American Cystic Fibrosis (CF) Conference | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
 | [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | Gut virome characterization | ASV Annual; ESCV Annual | Nature Microbiology | Cell Host & Microbe |
-| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | Protein structure and dynamics | Biophysical Society Annual; ASBMB Annual | Nature Structural & Molecular Biology | Biophysical Journal |
-| [clinical-microbiome-manuscript](https://github.com/McPhersonLab/clinical-microbiome-manuscript) | Clinical applications of microbiome | — | Nature Microbiology | Nature Medicine |
+
 
 ### Contributing
 
