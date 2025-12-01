@@ -52,6 +52,20 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | Treatment of Staphylococcal bacteremia | ASHP Midyear | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
 | [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of C. difficile infection | 9th International C. difficile Symposium (ICDS) | Clinical Infectious Diseases | Gut Microbes |
 | [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | Gut virome characterization | ASV Annual; ESCV Annual | Nature Microbiology | Cell Host & Microbe |
+| [mgx-mbx-abx-cdi](https://github.com/mcphersonlab/mgx-mbx-abx-cdi) | Metagenomic and metabolomic determinants of CDI | Houston C diff & Microbiome Conference | Gut Microbes | npj Biofilms and Microbiomes |
+| [mgx-abx-healthy](https://github.com/mcphersonlab/mgx-abx-healthy) | Antibiotic effects on healthy gut microbiome | BSAC and GARDP Antimicrobial Chemotherapy Conference | Microbiome | Nature Communications |
+| [mgx-immunol-regulatory-t-cells](https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells) | Microbiome-immune regulatory T cell interactions | AAAS Annual | Nature Immunology | Nature Communications |
+| [mgx-mbx-colorectal-cancer](https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer) | Microbiome and metabolome in colorectal cancer | AAAS Annual | Nature Medicine | Cell Host & Microbe |
+| [mgx-mbx-glp-1](https://github.com/mcphersonlab/mgx-mbx-glp-1) | GLP-1 agonists and gut microbiome interactions | AAAS Annual | Nature Medicine | Gut |
+| [ai-amr](https://github.com/mcphersonlab/ai-amr) | AI methods for antimicrobial resistance prediction | IMARI Annual | npj Antimicrobials and Resistance | Nature Machine Intelligence |
+| [ai-forecast-influenza](https://github.com/mcphersonlab/ai-forecast-influenza) | AI forecasting of influenza dynamics | ASV Annual | The Lancet Infectious Diseases | Nature Communications |
+| [ai-forecast-pharmacology](https://github.com/mcphersonlab/ai-forecast-pharmacology) | AI-driven pharmacological predictions | IUPHAR Annual | Nature Reviews Drug Discovery | Nature Machine Intelligence |
+| [ai-microbiome-transmission](https://github.com/mcphersonlab/ai-microbiome-transmission) | AI modeling of microbiome transmission | ASM Microbe | Nature Microbiology | Nature Communications |
+| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | Biophysical analysis of protein machinery | Biophysical Society Annual | Nature Structural & Molecular Biology | Biophysical Journal |
+| [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | Structure-function relationships in pharmacology | IUPHAR Annual | Nature Reviews Drug Discovery | Molecular Pharmacology |
+| [cost-amr](https://github.com/mcphersonlab/cost-amr) | Economic burden of antimicrobial resistance | Global AMR Innovators' Conference (GAMRIC) | The Lancet Infectious Diseases | Clinical Infectious Diseases |
+| [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | Return on investment analysis for CDI interventions | 9th International C. difficile Symposium (ICDS) | Clinical Infectious Diseases | Value in Health |
+| [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | ROI analysis for antimicrobial drug development | ISPOR Annual | Value in Health | Pharmacoeconomics |
 
 
 ### Contributing
