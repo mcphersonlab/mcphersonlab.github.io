@@ -47,7 +47,9 @@ call_for_papers = [
         "due_date": "2026-06-26",
         "topic": "Fungal infections",
         "website": "https://link.springer.com/collections/ddhfibjigd",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-candida-auris",
+                     "https://github.com/mcphersonlab/amr-aspergillus-fumigatus",
+                     "https://github.com/mcphersonlab/amr-lomentospora-prolificans"]
     }, 
     {
         "journal": "Microbiome",
@@ -103,14 +105,14 @@ call_for_papers = [
         "due_date": "2026-07-16",
         "topic": "Mycobacteria: advances in physiology and mycobacterial diseases research",
         "website": "https://link.springer.com/collections/bajaefecgf",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis"]
     },
     {
         "journal": "BMC Infectious Diseases",
         "due_date": "2026-07-20",
         "topic": "Urinary tract infections in older patients",
         "website": "https://link.springer.com/collections/aiffadagdf",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-uuti"]
     },
     {
         "journal": "BMC Infectious Diseases",
@@ -131,7 +133,8 @@ call_for_papers = [
         "due_date": "2026-07-20",
         "topic": "Staphylococcal infections",
         "website": "https://link.springer.com/collections/fjheihhice",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus", 
+                     "https://github.com/mcphersonlab/tx-staph-bacteremia"]
     },
     {
         "journal": "BMC Genomics",
@@ -152,7 +155,7 @@ call_for_papers = [
         "due_date": "2026-07-28",
         "topic": "Urinary tract infections: antibiotic resistance and management",
         "website": "https://link.springer.com/collections/igedifhjah",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-uuti"]
     },
     {
         "journal": "BMC Primary Care",
@@ -173,7 +176,7 @@ call_for_papers = [
         "due_date": "2026-07-31",
         "topic": "Bacteremia: advances in diagnosis, treatment, and management",
         "website": "https://www.biomedcentral.com/collections/col3461",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/tx-staph-bacteremia"]
     },    
     {
         "journal": "BMC Infectious Diseases",
@@ -187,7 +190,8 @@ call_for_papers = [
         "due_date": "2026-08-05",
         "topic": "Microbiome–drug interaction networks",
         "website": "https://link.springer.com/collections/idddeddhgf",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
+                     "https://github.com/mcphersonlab/mgx-abx-healthy"]
     },
     {
         "journal": "Malaria Journal",
@@ -285,7 +289,9 @@ call_for_papers = [
         "due_date": "2025-12-28",
         "topic": "The microbiome in precision medicine",
         "website": "https://www.nature.com/collections/iaadjjbbea",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
+                     "https://github.com/mcphersonlab/mgx-abx-healthy"]
     },
     {
         "journal": "npj Drug Discovery",
@@ -313,14 +319,16 @@ call_for_papers = [
         "due_date": "2026-03-24",
         "topic": "Cracking the code of AMR: resistance genomics",
         "website": "https://www.nature.com/collections/cfbjiegbcg",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-klebsiella-pneumoniae",
+                     "https://github.com/mcphersonlab/amr-enterococcus-faecium",
+                     "https://github.com/mcphersonlab/amr-acinetobacter-baumannii"]
     },
     {
         "journal": "npj Antimicrobials and Resistance",
         "due_date": "2026-04-07",
         "topic": "Data Science, AI and Machine Learning Approaches to AMR",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
         "journal": "npj Antimicrobials and Resistance",
@@ -413,7 +421,7 @@ call_for_papers = [
         "due_date": "2026-02-27",
         "topic": "Therapies for cystic fibrosis",
         "website": "https://www.nature.com/collections/jhbbbdafac",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa"]
     },
     {
         "journal": "Nature Communications",
@@ -476,7 +484,8 @@ call_for_papers = [
         "due_date": "2026-05-31",
         "topic": "Mechanistic insights into human host and microbiome interactions",
         "website": "https://www.nature.com/collections/ihcfhcieic",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells",
+                     "https://github.com/mcphersonlab/ai-microbiome-transmission"]
     },
     {
         "journal": "npj Genomic Medicine",
@@ -490,7 +499,7 @@ call_for_papers = [
         "due_date": "2026-07-15",
         "topic": "Gut microbiome-virome dynamics and interactions",
         "website": "https://www.nature.com/npjbiofilms/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-virome"]
     },
     {
         "journal": "Nature Communications",
@@ -518,7 +527,9 @@ call_for_papers = [
         "due_date": "2026-08-28",
         "topic": "Antimicrobial Resistance",
         "website": "https://link.springer.com/collections/bdjebgejee",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/amr-staphylococcus-aureus",
+                     "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
     },
     {
         "journal": "CID",
@@ -532,7 +543,8 @@ call_for_papers = [
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
         "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+                     "https://github.com/mcphersonlab/tx-cdi"]
     },
     {
         "journal": "mBio",
