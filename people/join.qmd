@@ -11,7 +11,7 @@ jupyter: python3
 
 Create a *free* account in 
 
-1. [**Google Scholar**](https://scholar.google.com), [**Scopus**](https://scopus.com) (Elsevier), [**ORCID**](https://orcid.org); use the latter to sign-in to: [**OverLeaf**](https://www.overleaf.com/) and [**My NCBI**](https://account.ncbi.nlm.nih.gov/)
+1. [**Google Scholar**](https://scholar.google.com), [**Scopus**](https://scopus.com) (Elsevier), [**ORCID**](https://orcid.org); use the latter to sign-in to: [**Clarivate/Web of Science/EndNote**](https://clarivate.com/) [**OverLeaf**](https://www.overleaf.com/) and [**My NCBI**](https://account.ncbi.nlm.nih.gov/)
 
 2. [**Springer Nature Research Communities**](https://communities.springernature.com/) account using your ORCID
 

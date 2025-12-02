@@ -22,6 +22,146 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
+        "journal": "BMC Bioinformatics",
+        "due_date": "2026-08-14",
+        "topic": "Predictive toxicology and chemical risk assessment",
+        "website": "https://www.biomedcentral.com/collections/COL-3110",
+        "projects": [""]
+    },
+    {
+        "journal": "BMC Public Health",
+        "due_date": "2026-07-03",
+        "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
+        "website": "https://www.biomedcentral.com/collections/COL2741",
+        "projects": [""]
+    },
+    {
+        "journal": "ACS Infectious Diseases",
+        "due_date": "2026-04-01",
+        "topic": "Artificial intelligence for next-generation anti-infective discovery",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-03-12",
+        "topic": "Impact of agentic AI on care delivery",
+        "website": "https://www.nature.com/collections/ghaghgcbei",
+        "projects": [""]
+    }, 
+    {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-06-03",
+        "topic": "Evaluating the real-world clinical performance of AI",
+        "website": "https://www.nature.com/collections/hcdeibadid",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Digital Public Health",
+        "due_date": "2026-02-15",
+        "topic": "AI for population medicine and public health",
+        "website": "https://www.nature.com/collections/jaibcfdhef",
+        "projects": [""]
+    },
+    {
+        "journal": "Journal of Chemical Theory and Computation (JCTC)",
+        "due_date": "2026-04-30",
+        "topic": "Call For Papers: 100 Years of Quantum Mechanics—All About Molecules",
+        "website": "https://axial.acs.org/theoretical-and-computational-chemistry/call-for-papers-100-years-of-quantum-mechanics-all-about-molecules",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Journal of Medicinal Chemistry",
+        "due_date": "2026-04-30",
+        "topic": "Pharmaceutical Innovation and Global Health: Breakthroughs and Future",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-pharmaceutical-innovation-and-global-health-breakthroughs-and-future",
+        "projects": [""]
+    },
+    {
+        "journal": "Scientific Data",
+        "due_date": "2026-02-08",
+        "topic": "Invertebrate omics",
+        "website": "https://www.nature.com/collections/gaadijhebd",
+        "projects": [""]
+    }, 
+    {
+        "journal": "BMC Microbiology",
+        "due_date": "2026-01-09",
+        "topic": "Artificial intelligence and machine learning applications in microbiology",
+        "website": "https://link.springer.com/collections/bbiccggggj",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Genome Biology",
+        "due_date": "2026-05-29",
+        "topic": "Biology of drug resistance and tolerance in bacteria, viruses, fungi",
+        "website": "https://link.springer.com/collections/bjhecaieha",
+        "projects": [""]
+    },     
+    {
+        "journal": "BMC Genomics",
+        "due_date": "2026-07-20",
+        "topic": "Genomics of human pathogens",
+        "website": "https://link.springer.com/collections/iaeiigfdid",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Tropical Medicine and Health",
+        "due_date": "2026-03-25",
+        "topic": "Exploring the New Frontier in Tropical Medicine with Computational Intelligence, AI, and IoT Integration for Healthcare",
+        "website": "https://link.springer.com/collections/hfjhadfjeh",
+        "projects": [""]
+    }, 
+    {
+        "journal": "npj Drug Discovery",
+        "due_date": "2025-12-16",
+        "topic": "AI and Small-Molecule Drug Discovery",
+        "website": "https://www.nature.com/collections/ajgfabehdd",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Nature Communications/Communications Chemistry",
+        "due_date": "2026-02-28",
+        "topic": "Computational methodology for drug discovery",
+        "website": "https://www.nature.com/collections/dhcgiaigac",
+        "projects": [""]
+    }, 
+    {
+        "journal": "npj Drug Discovery",
+        "due_date": "2026-04-02",
+        "topic": "Animal toxins for drug discovery",
+        "website": "https://www.nature.com/collections/iahgbddeeg",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Scientific Data",
+        "due_date": "2026-03-26",
+        "topic": "Data on Science and Innovation Processes, Outputs and Outcomes",
+        "website": "https://www.nature.com/collections/ijdfjejjeh",
+        "projects": [""]
+    },     
+    {
+        "journal": "Nature Communications/Communications Health/Communications Biology",
+        "due_date": "2026-08-28",
+        "topic": "Infectious disease modelling for health policy",
+        "website": "https://www.nature.com/collections/cafdeadabd/",
+        "projects": [""]
+    }, 
+    {
+        "journal": "BMC Microbiology",
+        "due_date": "2026-02-27",
+        "topic": "Advances in microbial ecology",
+        "website": "https://link.springer.com/collections/ddbhjfadca",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Nature Communications/Nature Structural & Molecular Biology",
+        "due_date": "2026-02-28",
+        "topic": "Artificial Intelligence Methodology in Structural Biology",
+        "website": "https://www.nature.com/collections/jbdjhghacg",
+        "projects": [""]
+    }, 
+    {
         "journal": "BMC Public Health",
         "due_date": "2026-07-03",
         "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
