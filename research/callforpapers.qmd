@@ -22,6 +22,62 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
+        "journal": "BMC Bioinformatics",
+        "due_date": "2026-08-14",
+        "topic": "Predictive toxicology and chemical risk assessment",
+        "website": "https://www.biomedcentral.com/collections/COL-3110",
+        "projects": [""]
+    },
+    {
+        "journal": "BMC Public Health",
+        "due_date": "2026-07-03",
+        "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
+        "website": "https://www.biomedcentral.com/collections/COL2741",
+        "projects": [""]
+    },
+    {
+        "journal": "ACS Infectious Diseases",
+        "due_date": "2026-04-01",
+        "topic": "Artificial intelligence for next-generation anti-infective discovery",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-03-12",
+        "topic": "Impact of agentic AI on care delivery",
+        "website": "https://www.nature.com/collections/ghaghgcbei",
+        "projects": [""]
+    }, 
+    {
+        "journal": "npj Digital Medicine",
+        "due_date": "2026-06-03",
+        "topic": "Evaluating the real-world clinical performance of AI",
+        "website": "https://www.nature.com/collections/hcdeibadid",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Digital Public Health",
+        "due_date": "2026-02-15",
+        "topic": "AI for population medicine and public health",
+        "website": "https://www.nature.com/collections/jaibcfdhef",
+        "projects": [""]
+    },
+    {
+        "journal": "Journal of Chemical Theory and Computation (JCTC)",
+        "due_date": "2026-04-30",
+        "topic": "Call For Papers: 100 Years of Quantum Mechanics—All About Molecules",
+        "website": "https://axial.acs.org/theoretical-and-computational-chemistry/call-for-papers-100-years-of-quantum-mechanics-all-about-molecules",
+        "projects": [""]
+    }, 
+    {
+        "journal": "Journal of Medicinal Chemistry",
+        "due_date": "2026-04-30",
+        "topic": "Pharmaceutical Innovation and Global Health: Breakthroughs and Future",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-pharmaceutical-innovation-and-global-health-breakthroughs-and-future",
+        "projects": [""]
+    },
+    {
         "journal": "Scientific Data",
         "due_date": "2026-02-08",
         "topic": "Invertebrate omics",
