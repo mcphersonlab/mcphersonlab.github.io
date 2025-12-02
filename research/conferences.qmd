@@ -212,7 +212,9 @@ conferences = [
         "url": "https://www.aaas.org/meetings",
         "projects": ["https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells", 
                      "https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer", 
-                     "https://github.com/mcphersonlab/mgx-mbx-glp-1"]
+                     "https://github.com/mcphersonlab/mgx-mbx-glp-1",
+                     "https://github.com/mcphersonlab/EarthEpi",
+                     "https://github.com/mcphersonlab/StormPath"]
     },
     {
         "name": "CSIRO AMR Summit",
