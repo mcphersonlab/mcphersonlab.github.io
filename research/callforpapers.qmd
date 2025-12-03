@@ -19,6 +19,19 @@ import pandas as pd
 from datetime import datetime
 from IPython.display import display, HTML
 
+
+# PROJECTS in need of a (home) call for paper
+# "https://github.com/mcphersonlab/cost-amr", 
+# "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"
+# "https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"
+# "https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer"
+# "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+# "https://github.com/mcphersonlab/ai-microbiome-transmission",
+# "https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
+# "https://github.com/mcphersonlab/mgx-abx-healthy"
+# "https://github.com/mcphersonlab/structure-function-pharmacology"
+
+
 # Call for papers data
 call_for_papers = [
     {
@@ -124,14 +137,14 @@ call_for_papers = [
         "due_date": "2026-02-28",
         "topic": "Artificial Intelligence Methodology in Structural Biology",
         "website": "https://www.nature.com/collections/jbdjhghacg",
-        "projects": ["https://github.com/mcphersonlab/structure-function-pharmacology"]
+        "projects": []
     }, 
     {
         "journal": "BMC Public Health",
         "due_date": "2026-07-03",
         "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
         "website": "https://link.springer.com/collections/jbeiehebjj",
-        "projects": ["https://github.com/mcphersonlab/mgx-abx-healthy"]
+        "projects": []
     }, 
     {
         "journal": "BMC Infectious Diseases",
@@ -198,8 +211,7 @@ call_for_papers = [
         "due_date": "2026-07-15",
         "topic": "Artificial Intelligence in Omics and Translational Research",
         "website": "https://link.springer.com/collections/dfaifjhcej",
-        "projects": ["https://github.com/mcphersonlab/ai-amr",
-                     "https://github.com/mcphersonlab/ai-microbiome-transmission"]
+        "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
         "journal": "Cardiovascular Diabetology",
@@ -301,8 +313,7 @@ call_for_papers = [
         "due_date": "2026-08-05",
         "topic": "Microbiome–drug interaction networks",
         "website": "https://link.springer.com/collections/idddeddhgf",
-        "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
-                     "https://github.com/mcphersonlab/mgx-abx-healthy"]
+        "projects": []
     },
     {
         "journal": "Malaria Journal",
@@ -467,11 +478,9 @@ call_for_papers = [
         "journal": "Nature Microbiology/Nature Medicine",
         "due_date": "2025-12-11",
         "topic": "The clinical microbiome",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": ["https://github.com/mcphersonlab/mgx-clostridioides-difficile",
-            "https://github.com/mcphersonlab/ai-microbiome-transmission",
-            "https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
-            "https://github.com/mcphersonlab/mgx-abx-healthy"
+        "website": "https://www.nature.com/collections/cajbgagjib",
+        "projects": [
+          
         ]
     },
     {
@@ -486,7 +495,7 @@ call_for_papers = [
         "due_date": "2025-12-31",
         "topic": "Infection and cancer",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": ["https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer"]
+        "projects": []
     },
     {
         "journal": "npj Digital Medicine",
@@ -528,8 +537,7 @@ call_for_papers = [
         "due_date": "2026-02-28",
         "topic": "Computational methodology for drug discovery",
         "website": "https://www.nature.com/collections/dhcgiaigac",
-        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology",
-                     "https://github.com/mcphersonlab/structure-function-pharmacology"]
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     },
     {
         "journal": "Nature Microbiology/Nature Health",
@@ -618,8 +626,7 @@ call_for_papers = [
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
         "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
-        "projects": ["https://github.com/mcphersonlab/mgx-clostridioides-difficile",
-                     "https://github.com/mcphersonlab/tx-cdi"]
+        "projects": []
     },
     {
         "journal": "mBio",
@@ -630,12 +637,7 @@ call_for_papers = [
                      "https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
     }
 ]
-
-# PROJECTS in need of a (home) call for paper
-# "https://github.com/mcphersonlab/cost-amr", 
-# "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"
-# "https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"
-
+            
 def create_callforpapers_html(papers_data):
     # Parse dates and sort (most recent first, then by journal name)
     # Convert "Ongoing" to a far future date for sorting purposes
