@@ -170,20 +170,6 @@ conferences = [
         "projects": []
     },
     {
-        "name": "AI-Driven Innovation for Smarter and Safer Drug Development",
-        "location": "Virtual (Online)",
-        "lat": "",
-        "lon": "",
-        "start_date": "2026-01-14",
-        "end_date": "2026-01-14",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Symposium",
-        "url": "https://my.bps.ac.uk/events/",
-        "projects": []
-    },
-    {
         "name": "TMC AMR",
         "location": "Houston, TX",
         "lat": 29.7110,
