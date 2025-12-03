@@ -5,7 +5,21 @@ page-layout: full
 
 ## GitHub Organization Projects
 
-This page provides an index of ongoing research projects in the McPherson Lab. Our projects are organized through our [GitHub Organization](https://github.com/McPhersonLab) where we collaborate on research initiatives related to conferences, journal publications, and grant applications.
+This page provides a comprehensive index of ongoing research projects in the McPherson Lab. Our projects are organized through our [GitHub Organization](https://github.com/McPhersonLab) where we collaborate on research initiatives related to conferences, journal publications, and grant applications.
+
+### Quick Overview
+
+We maintain **35+ active research projects** across multiple domains including:
+
+- **Antimicrobial Resistance (AMR)**: Genomic and clinical investigations of drug-resistant pathogens
+- **Gut Microbiome**: Metagenomic and metabolomic analyses of human gut microbiota
+- **Treatment Optimization**: Evidence-based approaches to infectious disease management
+- **Artificial Intelligence**: Machine learning applications in microbiology and medicine
+- **Biophysics & Pharmacology**: Molecular mechanisms and drug discovery
+- **Health Economics**: Cost-effectiveness and ROI analyses
+- **Environmental Health**: Climate change impacts on infectious diseases
+
+All projects use standardized workflows, documentation templates, and CRediT contributor roles for transparent collaboration.
 
 ### Project Repository Structure
 
@@ -27,9 +41,10 @@ Each conference and call for papers entry in our [Research page](index.qmd) can 
 2. **GitHub Project Board**: A project board tracking tasks and milestones
 3. **GitHub Issues**: Specific issues for abstract submissions, paper drafts, or collaborative work
 
-::: {#fig-mypic .center}
+::: {#fig-project-workflow .center}
 ![](flowchart.jpeg){width=70%}
-Caption for the image.
+
+**Figure 1: Project Workflow and Integration.** This diagram illustrates how research projects flow from initial concepts through GitHub repositories, conference presentations, and journal submissions. Projects are linked to specific calls for papers and conferences, with GitHub issues and project boards tracking progress at each stage.
 :::
 ### Current Active Projects
 
@@ -74,19 +89,55 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [StormPath](https://github.com/mcphersonlab/StormPath) | Storm and weather impacts on infectious disease dynamics | AAAS Annual | Clinical Infectious Diseases | BMC Medicine |
 
 
-### Contributing
+### Contributing to Projects
 
-Lab members can contribute to projects by:
+Lab members and collaborators can contribute to projects by following these steps:
 
-1. Creating a new repository for a conference submission or paper
-2. Adding the project to the relevant conference or call for papers entry
-3. Using GitHub Issues and Projects to track progress
-4. Collaborating through pull requests and code reviews
+1. **Start a New Project**:
+   - Fork or use the [Template Project Repository](https://github.com/mcphersonlab/template)
+   - Set up project structure with README, data directories, and analysis scripts
+   - Define contributor roles using [CRediT taxonomy](https://credit.niso.org/)
 
-For more information on our GitHub workflow, see the lab handbook or contact the PI.
+2. **Link to Opportunities**:
+   - Add the project to relevant [conference](conferences.qmd) entries
+   - Associate with [calls for papers](callforpapers.qmd) that match the research topic
+   - Update the project table above with target venues
+
+3. **Track Progress**:
+   - Use GitHub Issues for tasks, bugs, and feature requests
+   - Maintain a GitHub Project Board for milestone tracking
+   - Document progress in regular commits with meaningful messages
+
+4. **Collaborate Effectively**:
+   - Submit pull requests for code review
+   - Participate in discussions on issues and PRs
+   - Follow lab coding standards and documentation guidelines
+
+5. **Prepare for Submission**:
+   - Ensure all analyses are reproducible
+   - Complete documentation and data availability statements
+   - Prepare manuscripts using lab templates
+
+### Project Resources
+
+- **GitHub Organization**: [McPherson Lab on GitHub](https://github.com/McPhersonLab)
+- **CRediT Roles**: [Contributor Roles Taxonomy](https://credit.niso.org/)
+- **Template Repository**: [Project Template](https://github.com/mcphersonlab/template)
+
+### Project Categories and Prefixes
+
+Our projects use standardized naming conventions:
+
+- `amr-*`: Antimicrobial resistance studies
+- `mgx-*`: Metagenomics and microbiome research
+- `tx-*`: Treatment and therapeutic interventions
+- `ai-*`: Artificial intelligence and machine learning
+- `cost-*` or `roi-*`: Health economics and cost-effectiveness
+- `biophysics-*`: Structural biology and biophysics
+- `structure-function-*`: Pharmacology and drug design
 
 ---
 
-**GitHub Organization**: [https://github.com/McPhersonLab](https://github.com/McPhersonLab)
+**Questions or want to join a project?** Contact [jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
 
-**Questions?** Contact [jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
+**Browse all repositories**: [https://github.com/McPhersonLab](https://github.com/McPhersonLab)
