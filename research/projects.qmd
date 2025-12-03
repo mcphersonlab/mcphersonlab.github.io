@@ -44,7 +44,7 @@ Each conference and call for papers entry in our [Research page](index.qmd) can 
 ::: {#fig-project-workflow .center}
 ![](flowchart.jpeg){width=70%}
 
-**Figure 1: Project Workflow and Integration.** This diagram illustrates how research projects flow from initial concepts through GitHub repositories, conference presentations, and journal submissions. Projects are linked to specific calls for papers and conferences, with GitHub issues and project boards tracking progress at each stage.
+**Project Workflow and Integration.** This diagram illustrates how research projects flow from initial concepts through GitHub repositories, conference presentations, and journal submissions. Projects are linked to specific calls for papers and conferences, with GitHub issues and project boards tracking progress at each stage.
 :::
 ### Current Active Projects
 
