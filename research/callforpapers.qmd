@@ -198,13 +198,6 @@ call_for_papers = [
         "due_date": "2026-04-01",
         "topic": "Artificial intelligence for next-generation anti-infective discovery",
         "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery",
-        "projects": []
-    },
-    {
-        "journal": "ACS",
-        "due_date": "2026-04-01",
-        "topic": "AI for Next Generation Anti-infective Discovery",
-        "website": "https://axial.acs.org/collection/call-for-papers",
         "projects": ["https://github.com/mcphersonlab/ai-amr"]
     },
     {
