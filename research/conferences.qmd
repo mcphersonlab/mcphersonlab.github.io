@@ -59,6 +59,20 @@ conferences = [
         "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
     },
     {
+        "name": "STI Prevention Conference",
+        "location": "Atlanta, Georgia, USA",
+        "lat": "33.7490",
+        "lon": "-84.3880",
+        "start_date": "2024-09-16",
+        "end_date": "2024-09-19",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://stipreventionconference.org/",
+        "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
+    },
+    {
         "name": "IDSA IDWeek",
         "location": "Atlanta, GA and online",
         "lat": 33.749,
@@ -463,20 +477,6 @@ conferences = [
         "url": "https://msgerc.org/2026-biennial-meeting/",
         "projects": ["https://github.com/mcphersonlab/amr-aspergillus-fumigatus",
                      "https://github.com/mcphersonlab/amr-lomentospora-prolificans"]
-    },
-    {
-        "name": "STI Prevention Conference",
-        "location": "Atlanta, Georgia, USA",
-        "lat": "33.7490",
-        "lon": "-84.3880",
-        "start_date": "2024-09-16",
-        "end_date": "2024-09-19",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://stipreventionconference.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
     },
     {
         "name": "Rice AI in Health",
