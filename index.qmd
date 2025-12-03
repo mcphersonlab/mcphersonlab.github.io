@@ -18,7 +18,7 @@ title: "Welcome"
 ## a Computational Approach
 
 ::: {#fig-project-workflow .center}
-![](flowchart.jpeg){width=70%}
+![](research/flowchart.jpeg){width=70%}
 
 
 ## Pharmacology

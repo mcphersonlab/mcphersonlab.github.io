@@ -289,7 +289,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {{< include funding.qmd >}}
 
+
+
 ## Research Resources
+
 
 ### Literature
 
