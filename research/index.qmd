@@ -268,7 +268,7 @@ function showFeedback(message, type) {
 
 // Allow Enter key to trigger search
 document.addEventListener('DOMContentLoaded', function() {
-    const inputs = document.querySelectorAll('#pathogen-input, #topic-input, #author-select');
+    const inputs = document.querySelectorAll('#pathogen-input, #topic-input');
     inputs.forEach(input => {
         input.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
