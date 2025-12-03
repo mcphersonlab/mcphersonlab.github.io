@@ -14,3 +14,14 @@ title: "Welcome"
   </div>
 </div>
 ```
+
+## a Computational Approach
+
+::: {#fig-project-workflow .center}
+![](flowchart.jpeg){width=70%}
+
+
+## Pharmacology
+
+The dose- or concentration-response curve of anything
+
