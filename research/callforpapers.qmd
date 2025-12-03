@@ -25,10 +25,7 @@ from IPython.display import display, HTML
 # "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"
 # "https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"
 # "https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer"
-# "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
 # "https://github.com/mcphersonlab/ai-microbiome-transmission",
-# "https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
-# "https://github.com/mcphersonlab/mgx-abx-healthy"
 # "https://github.com/mcphersonlab/structure-function-pharmacology"
 
 
@@ -39,14 +36,16 @@ call_for_papers = [
         "due_date": "2025-12-11",
         "topic": "The clinical microbiome",
         "website": "https://www.nature.com/collections/cajbgagjib",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi", 
+                     "https://github.com/mcphersonlab/mgx-abx-healthy", 
+                     "https://github.com/mcphersonlab/mgx-clostridioides-difficile"]
     },
     {
         "journal": "npj Antimicrobials and Resistance",
         "due_date": "2025-12-19",
         "topic": "Antimicrobials and Resistance in the Food Chain",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/amr-env-food"]
     },
     {
         "journal": "npj Digital Medicine/npj Digital Public Health",
@@ -89,7 +88,7 @@ call_for_papers = [
         "due_date": "2026-01-09",
         "topic": "Artificial intelligence and machine learning applications in microbiology",
         "website": "https://link.springer.com/collections/bbiccggggj",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/MicroSCOPE"]
     },
     {
         "journal": "npj Digital Medicine",
@@ -106,7 +105,7 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "NPJ Antimicrobials and Resistance",
+        "journal": "npj Antimicrobials and Resistance",
         "due_date": "2026-01-15",
         "topic": "Pathogen Drug Permeability",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
@@ -138,7 +137,7 @@ call_for_papers = [
         "due_date": "2026-02-28",
         "topic": "Artificial Intelligence Methodology in Structural Biology",
         "website": "https://www.nature.com/collections/jbdjhghacg",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-structural-biology"]
     },
     {
         "journal": "Nature Communications",
@@ -275,8 +274,7 @@ call_for_papers = [
         "due_date": "2026-06-18",
         "topic": "Impact of AI on medical research",
         "website": "https://link.springer.com/collections/cdieieiacj",
-        "projects": ["https://github.com/mcphersonlab/ai-amr", 
-                     "https://github.com/mcphersonlab/ai-forecast-pharmacology"]
+        "projects": []
     },
     {
         "journal": "npj Genomic Medicine",
@@ -437,8 +435,8 @@ call_for_papers = [
         "journal": "npj Antimicrobials and Resistance",
         "due_date": "2026-07-28",
         "topic": "Water Testing: Antimicrobial Resistance in Water",
-        "website": "https://www.nature.com/npjamar/calls-for-papers",
-        "projects": []
+        "website": "https://www.nature.com/collections/bjgbhdgcbf",
+        "projects": ["https://github.com/mcphersonlab/amr-env-water"]
     },
     {
         "journal": "Nature Methods/Nature Structural & Molecular Biology",
@@ -459,7 +457,7 @@ call_for_papers = [
         "due_date": "2026-07-30",
         "topic": "Causal inference and observational data vol. 2",
         "website": "https://link.springer.com/collections/hgihdahcfj",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/DOOR-STEP"]
     },
     {
         "journal": "Nature Immunology",
@@ -540,13 +538,6 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "Veterinary Research",
-        "due_date": "2026-08-26",
-        "topic": "Streptococcus suis, a major swine pathogen with zoonotic impact – advances in epidemiology, pathogenesis, and control",
-        "website": "https://link.springer.com/collections/faaehfdcbe",
-        "projects": []
-    },
-    {
         "journal": "Nature Communications/Communications Health/Communications Biology",
         "due_date": "2026-08-28",
         "topic": "Infectious disease modelling for health policy",
@@ -567,7 +558,7 @@ call_for_papers = [
         "due_date": "2026-12-01",
         "topic": "AI for clinical trial optimization",
         "website": "https://link.springer.com/collections/ahddfdfifi",
-        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
+        "projects": []
     },
     {
         "journal": "BMC Medical Informatics and Decision Making",
