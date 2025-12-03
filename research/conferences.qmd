@@ -156,6 +156,20 @@ conferences = [
         "projects": []
     },
     {
+        "name": "AI-Driven Innovation for Smarter and Safer Drug Development",
+        "location": "Virtual (Online)",
+        "lat": "",
+        "lon": "",
+        "start_date": "2026-01-14",
+        "end_date": "2026-01-14",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Symposium",
+        "url": "https://my.bps.ac.uk/events/",
+        "projects": []
+    },
+    {
         "name": "TMC AMR",
         "location": "Houston, TX",
         "lat": 29.7110,
@@ -185,6 +199,7 @@ conferences = [
                      "https://github.com/mcphersonlab/amr-acinetobacter-baumannii", 
                      "https://github.com/mcphersonlab/amr-candida-auris"]
     },
+    
     {
         "name": "BSAC and GARDP Antimicrobial Chemotherapy Conference",
         "location": "Online",
@@ -353,34 +368,6 @@ conferences = [
         "projects": ["https://github.com/mcphersonlab/roi-pipeline-antimicrobial"]
     },
     {
-        "name": "AI-Driven Innovation for Smarter and Safer Drug Development",
-        "location": "Virtual (Online)",
-        "lat": "",
-        "lon": "",
-        "start_date": "2026-01-14",
-        "end_date": "2026-01-14",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Symposium",
-        "url": "https://my.bps.ac.uk/events/",
-        "projects": []
-    },
-    {
-        "name": "STI Prevention Conference",
-        "location": "Atlanta, Georgia, USA",
-        "lat": "33.7490",
-        "lon": "-84.3880",
-        "start_date": "2024-09-16",
-        "end_date": "2024-09-19",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://stipreventionconference.org/",
-        "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
-    },
-    {
         "name": "ASM Microbe",
         "location": "Washington, DC",
         "lat": 38.9072,
@@ -478,6 +465,20 @@ conferences = [
                      "https://github.com/mcphersonlab/amr-lomentospora-prolificans"]
     },
     {
+        "name": "STI Prevention Conference",
+        "location": "Atlanta, Georgia, USA",
+        "lat": "33.7490",
+        "lon": "-84.3880",
+        "start_date": "2024-09-16",
+        "end_date": "2024-09-19",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://stipreventionconference.org/",
+        "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
+    },
+    {
         "name": "Rice AI in Health",
         "location": "Houston, TX",
         "lat": 29.7174,
@@ -550,8 +551,8 @@ conferences = [
     {
         "name": "Global TB Summit (Qiagen)",
         "location": "Online",
-        "lat": "",
-        "lon": "",
+        "lat": "51.5072",
+        "lon": "0.1276",
         "start_date": "2026-10-13",
         "end_date": "2026-10-16",
         "abstract_open": "",
