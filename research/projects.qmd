@@ -27,6 +27,10 @@ Each conference and call for papers entry in our [Research page](index.qmd) can 
 2. **GitHub Project Board**: A project board tracking tasks and milestones
 3. **GitHub Issues**: Specific issues for abstract submissions, paper drafts, or collaborative work
 
+::: {#fig-mypic .center}
+![](flowchart.jpeg){width=70%}
+Caption for the image.
+:::
 ### Current Active Projects
 
 Visit our [GitHub Organization](https://github.com/McPhersonLab):
