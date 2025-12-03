@@ -64,7 +64,7 @@ PubMed Literature Search Builder
 </h4>
 <p style="color: #6c757d; margin-bottom: 20px; font-size: 14px;">Search across top-tier journals for pathogen and topic research. Enter a pathogen name and optionally a topic to generate a custom PubMed search.</p>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
 <div>
 <label for="pathogen-input" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Pathogen <span style="color: #dc3545;">*</span></label>
 <input type="text" id="pathogen-input" placeholder="e.g., Clostridioides difficile" 
@@ -79,6 +79,19 @@ PubMed Literature Search Builder
     onfocus="this.style.borderColor='#dc3545'; this.style.boxShadow='0 0 0 3px rgba(220,53,69,0.15)';"
     onblur="this.style.borderColor='#ced4da'; this.style.boxShadow='none';">
 </div>
+</div>
+
+<div style="margin-bottom: 20px;">
+<label for="author-select" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Author <span style="color: #6c757d; font-weight: normal;">(optional)</span></label>
+<select id="author-select" 
+    style="width: 100%; padding: 12px 14px; border: 2px solid #ced4da; border-radius: 8px; font-size: 14px; transition: all 0.2s ease; box-sizing: border-box; background: white; cursor: pointer;"
+    onfocus="this.style.borderColor='#dc3545'; this.style.boxShadow='0 0 0 3px rgba(220,53,69,0.15)';"
+    onblur="this.style.borderColor='#ced4da'; this.style.boxShadow='none';">
+<option value="">Select an author to include in search...</option>
+<option value="Segata N">Segata N</option>
+<option value="Maier L">Maier L</option>
+<option value="Smits WK">Smits WK</option>
+</select>
 </div>
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
@@ -144,15 +157,21 @@ function sanitizeInput(input) {
     return input.replace(/["\[\]()]/g, ' ').trim();
 }
 
-// Build PubMed URL from pathogen and topic inputs
-function generatePubMedUrl(pathogen, topic) {
+// Build PubMed URL from pathogen, topic, and author inputs
+function generatePubMedUrl(pathogen, topic, author) {
     const sanitizedPathogen = sanitizeInput(pathogen);
     const sanitizedTopic = topic ? sanitizeInput(topic) : '';
+    const sanitizedAuthor = author ? sanitizeInput(author) : '';
     
     // Build the search term
     let searchTerm = `("${sanitizedPathogen}"[tiab])`;
     if (sanitizedTopic) {
         searchTerm = `("${sanitizedPathogen}"[tiab] AND "${sanitizedTopic}"[tiab])`;
+    }
+    
+    // Add author filter if provided
+    if (sanitizedAuthor) {
+        searchTerm = `${searchTerm} AND "${sanitizedAuthor}"[au]`;
     }
     
     // Build journal filter
@@ -175,13 +194,14 @@ function showUrlPreview(url) {
 function buildPubMedUrl() {
     const pathogen = document.getElementById('pathogen-input').value.trim();
     const topic = document.getElementById('topic-input').value.trim();
+    const author = document.getElementById('author-select').value;
     
     if (!pathogen) {
         showFeedback('Please enter a pathogen name.', 'warning');
         return null;
     }
     
-    const url = generatePubMedUrl(pathogen, topic);
+    const url = generatePubMedUrl(pathogen, topic, author);
     showUrlPreview(url);
     
     // Open in new tab
@@ -194,13 +214,14 @@ function buildPubMedUrl() {
 function copyPubMedUrl() {
     const pathogen = document.getElementById('pathogen-input').value.trim();
     const topic = document.getElementById('topic-input').value.trim();
+    const author = document.getElementById('author-select').value;
     
     if (!pathogen) {
         showFeedback('Please enter a pathogen name first.', 'warning');
         return;
     }
     
-    const url = generatePubMedUrl(pathogen, topic);
+    const url = generatePubMedUrl(pathogen, topic, author);
     showUrlPreview(url);
     
     // Check for clipboard API availability and copy to clipboard
@@ -219,6 +240,7 @@ function copyPubMedUrl() {
 function clearInputs() {
     document.getElementById('pathogen-input').value = '';
     document.getElementById('topic-input').value = '';
+    document.getElementById('author-select').value = '';
     document.getElementById('url-preview').style.display = 'none';
     document.getElementById('feedback-message').style.display = 'none';
 }
