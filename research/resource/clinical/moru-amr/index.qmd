@@ -1,7 +1,7 @@
 ---
 title: Mahidol Oxford Research Unit (MORU) AMR Datasets
 alias: &ALIAS moru-amr
-href: https://www.tropmedres.ac/
+href: https://www.tropmedres.ac.th/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -39,7 +39,7 @@ The Mahidol Oxford Tropical Medicine Research Unit (MORU) conducts extensive ant
 
 ## Getting Started
 
-Visit the [MORU website](https://www.tropmedres.ac/) to learn about research programs and data access.
+Visit the [MORU website](https://www.tropmedres.ac.th/) to learn about research programs and data access.
 
 ## Related Publications
 
