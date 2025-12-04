@@ -1,0 +1,47 @@
+---
+title: ECDC EARS-Net (European Antimicrobial Resistance Surveillance Network)
+alias: &ALIAS ecdc-ears-net
+href: https://www.ecdc.europa.eu/en/about-us/partnerships-and-networks/disease-and-laboratory-networks/ears-net
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The European Antimicrobial Resistance Surveillance Network (EARS-Net) collects and analyzes antimicrobial resistance data from clinical laboratories across Europe. Operating since 1999 and coordinated by the European Centre for Disease Prevention and Control (ECDC), EARS-Net provides standardized, validated data on resistance patterns in invasive bacterial infections.
+
+## Key Features
+
+- **European Coverage**: Data from all EU/EEA countries
+- **Long-Term Trends**: Over 20 years of surveillance data
+- **Invasive Infections**: Focus on bloodstream and CSF isolates
+- **Priority Pathogens**: Eight bacterial species of public health importance
+- **Standardized Methods**: Harmonized protocols and quality assurance
+- **Public Data Portal**: Interactive database for data exploration
+
+## Use Cases in Research
+
+- European antimicrobial resistance trends and patterns
+- International comparison of resistance epidemiology
+- Early detection of emerging resistance threats
+- Impact evaluation of national action plans
+- Burden of AMR estimation
+- Healthcare-associated infection research
+
+## Getting Started
+
+Visit the [EARS-Net website](https://www.ecdc.europa.eu/en/about-us/partnerships-and-networks/disease-and-laboratory-networks/ears-net) to access surveillance data and annual reports.
+
+## Related Publications
+
+:::{#pubs}
+:::

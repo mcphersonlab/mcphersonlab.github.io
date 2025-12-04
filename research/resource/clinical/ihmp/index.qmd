@@ -1,0 +1,47 @@
+---
+title: The Integrated Human Microbiome Project Part 2 (iHMP/HMP2)
+alias: &ALIAS ihmp
+href: https://hmpdacc.org/ihmp/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Integrative Human Microbiome Project (iHMP), also known as HMP2, built upon the foundational work of HMP1 by examining the microbiome in the context of specific diseases and conditions. The project integrated multi-omics data to understand microbiome dynamics and their functional roles in health outcomes.
+
+## Key Features
+
+- **Disease Focus**: Studies on inflammatory bowel disease, pregnancy/preterm birth, and type 2 diabetes
+- **Multi-Omics**: Metagenomics, metatranscriptomics, metabolomics, and host data
+- **Dense Sampling**: Weekly to daily sampling protocols
+- **Systems Biology Approach**: Integration of microbiome with host immune and metabolic data
+- **Longitudinal Design**: Extensive temporal profiling
+- **Public Data**: Comprehensive datasets available through the HMP portal
+
+## Use Cases in Research
+
+- Microbiome dynamics in disease states
+- Host-microbiome-metabolome interactions
+- Predictive modeling of disease outcomes
+- Microbiome biomarker discovery
+- Mechanistic studies of microbiome impact on health
+- Multi-omics integration methods development
+
+## Getting Started
+
+Visit the [iHMP Portal](https://hmpdacc.org/ihmp/) to access multi-omics datasets and study protocols.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,47 @@
+---
+title: NCBI Pathogen Detection & NCBI BioProjects
+alias: &ALIAS ncbi-pathogen
+href: https://www.ncbi.nlm.nih.gov/pathogens/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+NCBI Pathogen Detection is a pipeline and resource that integrates genomic and metadata for foodborne and other bacterial pathogens to support public health surveillance and outbreak investigation. Linked to NCBI BioProjects, it provides access to massive collections of pathogen genome sequences with associated epidemiological data.
+
+## Key Features
+
+- **Real-Time Surveillance**: Continuous monitoring of pathogen sequences
+- **Genomic Clustering**: SNP-based cluster identification for outbreak detection
+- **Global Data**: Sequences from public health labs worldwide
+- **Antimicrobial Resistance**: Prediction of resistance genes from genomic data
+- **Interactive Visualization**: Tree-based and map-based data exploration
+- **Integration with BioProjects**: Links to comprehensive research datasets
+
+## Use Cases in Research
+
+- Outbreak investigation and source tracking
+- Evolution and transmission dynamics of pathogens
+- Antimicrobial resistance genomics
+- Comparative genomics and phylogenetics
+- Virulence factor identification
+- Pathogen surveillance and epidemiology
+
+## Getting Started
+
+Visit the [NCBI Pathogen Detection Portal](https://www.ncbi.nlm.nih.gov/pathogens/) to search isolates, browse clusters, and download sequence data.
+
+## Related Publications
+
+:::{#pubs}
+:::

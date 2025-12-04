@@ -1,0 +1,47 @@
+---
+title: Human Microbiome Project Part 1 (HMP1)
+alias: &ALIAS hmp1
+href: https://hmpdacc.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Human Microbiome Project (HMP) was a landmark NIH initiative to characterize the microbial communities that inhabit the human body and their role in human health and disease. HMP1 focused on establishing a baseline understanding of the healthy human microbiome across multiple body sites in a large cohort of healthy adults.
+
+## Key Features
+
+- **Multi-Site Sampling**: 15-18 body sites per individual
+- **Large Cohort**: 242 healthy adults (ages 18-40)
+- **Comprehensive Sequencing**: 16S rRNA and whole genome shotgun metagenomic data
+- **Reference Genomes**: Over 900 reference microbial genomes
+- **Longitudinal Data**: Multiple timepoints for stability analysis
+- **Public Data**: All data freely available through the HMP Data Portal
+
+## Use Cases in Research
+
+- Normal human microbiome composition and variation
+- Development of microbiome analysis methods
+- Comparative microbiome studies across body sites
+- Baseline for disease microbiome comparisons
+- Microbial community assembly and stability
+- Host-microbiome interactions
+
+## Getting Started
+
+Visit the [HMP Data Portal](https://hmpdacc.org/) to access sequence data, metadata, and reference genomes.
+
+## Related Publications
+
+:::{#pubs}
+:::
