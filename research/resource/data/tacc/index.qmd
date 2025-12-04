@@ -1,0 +1,63 @@
+---
+title: Texas Advanced Computing Center
+alias: &ALIAS tacc
+#image: featured.png
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The **Texas Advanced Computing Center (TACC)** at **The University of Texas at Austin** is one of the world’s leading academic supercomputing facilities, supporting cutting-edge computational science, engineering, and data-driven discovery. TACC provides researchers with access to advanced computing architectures, high-performance storage systems, visualization resources, and expert support teams who enable large-scale, reproducible research workflows. Whether modeling complex biological systems, analyzing multi-omics datasets, or developing AI pipelines, **TACC** serves as a foundational resource that accelerates innovation across disciplines.
+
+
+## Key Features
+
+**High-Performance Computing Systems**
+
+TACC hosts some of the most powerful supercomputers in the nation, including systems optimized for CPU-intensive workloads, GPU-accelerated deep learning, and large-memory analyses. These architectures support scalable parallel computing, enabling researchers to process massive datasets and run simulations that exceed the capabilities of standard laboratory hardware.
+
+**Large-Scale Data Storage**
+
+With multi-petabyte storage solutions and high-throughput data transfer capabilities, TACC allows researchers to securely manage, archive, and retrieve scientific datasets. Systems like Corral and Ranch provide tiered storage options for active projects, long-term retention, and collaboration across teams.
+
+**Advanced Visualization**
+
+TACC’s visualization environments—including high-resolution display walls and remote visualization clusters—support interactive inspection of complex structures, volumetric datasets, spatial analyses, and 3D scientific modeling.
+
+**Software Ecosystem & Support**
+
+TACC maintains a broad suite of research software tools spanning bioinformatics, structural biology, machine learning, physics, chemistry, and engineering. Expert consultants work closely with investigators to optimize code, parallelize workflows, and ensure computational reproducibility.
+
+**Secure Cloud & Gateway Interfaces**
+
+Through web-based portals such as TACC Frontera Portal, DesignSafe, Galaxy, and others, investigators can access powerful compute resources without needing deep command-line experience. These gateways allow faculty and trainees to run analyses, manage jobs, and visualize results from anywhere.
+
+## Citing TACC 
+
+**Suggested Citation**
+*The authors acknowledge the Texas Advanced Computing Center (TACC) at The University of Texas at Austin for providing computational resources that have contributed to the research results reported within this paper. URL: http://www.tacc.utexas.edu*
+
+**Minimum Citation**
+*Texas Advanced Computing Center (TACC) The University of Texas at Austin*
+
+
+## Getting Started
+
+Visit [tacc.utexas.edu](https://tacc.utexas.edu/) to browse articles and tutorials on statistics and R programming.
+
+## Related Publications
+
+:::{#pubs}
+:::

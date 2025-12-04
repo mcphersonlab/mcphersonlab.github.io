@@ -24,6 +24,14 @@ We believe in:
 ::: {#fig-project-workflow .center}
 ![](research/flowchart.jpeg){width=70%}
 
+Computing resources utilized by the [Texas Advanced Computing Center (TACC)](https://tacc.utexas.edu/), a **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
+
+Please reference TACC in any research report, journal or publication that requires citations.
+**Suggested Citation**
+*The authors acknowledge the Texas Advanced Computing Center (TACC) at The University of Texas at Austin for providing computational resources that have contributed to the research results reported within this paper. URL: http://www.tacc.utexas.edu*
+
+**Minimum Citation**
+*Texas Advanced Computing Center (TACC) The University of Texas at Austin*
 
 and data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics](https://www.sib.swiss/)
 
