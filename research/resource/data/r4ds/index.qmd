@@ -2,6 +2,7 @@
 title: R for Data Science (R4DS)
 alias: &ALIAS r4ds
 image: featured.png
+href: https://r4ds.had.co.nz
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

@@ -2,6 +2,7 @@
 title: SciSure
 alias: &ALIAS scisure
 image: featured.png
+href: https://www.scisure.co
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

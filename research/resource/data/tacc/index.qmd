@@ -1,7 +1,8 @@
 ---
-title: Texas Advanced Computing Center
+title: Texas Advanced Computing Center (TACC)
 alias: &ALIAS tacc
 #image: featured.png
+href: https://tacc.utexas.edu/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

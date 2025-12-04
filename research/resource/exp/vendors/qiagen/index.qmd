@@ -2,6 +2,7 @@
 title: QIAGEN
 alias: &ALIAS qiagen
 image: featured.png
+href: https://www.qiagen.com
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 

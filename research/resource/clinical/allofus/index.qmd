@@ -1,6 +1,7 @@
 ---
 title: All of Us Research Program
 alias: &ALIAS allofus
+href: https://allofus.nih.gov/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -11,7 +12,7 @@ listing:
   include:
     categories: *ALIAS
   fields: [publication, title, categories, image, date, author]
-href: https://allofus.nih.gov/
+
 ---
 
 ## Overview

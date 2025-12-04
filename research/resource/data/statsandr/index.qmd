@@ -2,6 +2,7 @@
 title: StatsAndR
 alias: &ALIAS statsandr
 image: featured.png
+href: https://www.statsandr.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

@@ -1,6 +1,7 @@
 ---
 title: IQVIA
 alias: &ALIAS iqvia
+href: https://www.iqvia.com/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -11,7 +12,7 @@ listing:
   include:
     categories: *ALIAS
   fields: [publication, title, categories, image, date, author]
-href: https://www.iqvia.com/
+
 ---
 
 ## Overview

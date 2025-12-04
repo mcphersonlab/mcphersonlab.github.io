@@ -2,6 +2,7 @@
 title: Thermo Fisher Scientific
 alias: &ALIAS thermofisher
 image: featured.png
+href: https://www.thermofisher.com
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 

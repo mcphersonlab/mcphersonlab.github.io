@@ -1,6 +1,7 @@
 ---
 title: UK Biobank
 alias: &ALIAS ukbiobank
+href: https://www.ukbiobank.ac.uk/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -11,7 +12,7 @@ listing:
   include:
     categories: *ALIAS
   fields: [publication, title, categories, image, date, author]
-href: https://www.ukbiobank.ac.uk/
+
 ---
 
 ## Overview

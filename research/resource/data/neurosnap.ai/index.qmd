@@ -2,6 +2,7 @@
 title: Neurosnap.ai
 alias: &ALIAS neurosnap.ai
 image: featured.png
+href: https://www.neurosnap.ai
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

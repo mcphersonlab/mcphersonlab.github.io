@@ -2,6 +2,7 @@
 title: REDCap
 alias: &ALIAS redcap
 image: featured.jpg
+href: https://project-redcap.org/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

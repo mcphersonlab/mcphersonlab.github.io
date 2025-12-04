@@ -2,6 +2,7 @@
 title: AWS-Docker
 alias: &ALIAS aws-docker
 image: featured.jpg
+href: https://sib-swiss.github.io/AWS-docker/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

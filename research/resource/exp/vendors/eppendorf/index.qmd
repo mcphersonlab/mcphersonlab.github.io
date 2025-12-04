@@ -2,6 +2,7 @@
 title: Eppendorf
 alias: &ALIAS eppendorf
 image: featured.jpg
+href: https://www.eppendorf.com
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 

@@ -2,6 +2,7 @@
 title: Springer Nature Experiments
 alias: &ALIAS springernatureexperiments
 image: featured.jpg
+href: https://experiments.springernature.com
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
