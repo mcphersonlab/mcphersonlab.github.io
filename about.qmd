@@ -6,7 +6,7 @@ title: "About"
 
 We are a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-areas)) that uses [**cloud computing** and **artificial intelligence**](https://mcphersonlab.github.io/research/#research-areas) for drug discovery, research and development of anti-infective agents for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow.
 
-Ongoing projects can be found at the Lab [**GitHub**](https://github.com/McPhersonLab/projects). 
+Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
 
 ## Research Philosophy
 
