@@ -1,0 +1,47 @@
+---
+title: Korean Antimicrobial Resistance Monitoring System (KARMS)
+alias: &ALIAS karms
+href: https://www.kdca.go.kr/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Korean Antimicrobial Resistance Monitoring System (KARMS) is South Korea's national surveillance program coordinated by the Korea Disease Control and Prevention Agency (KDCA). KARMS monitors antimicrobial resistance patterns in clinical isolates from healthcare facilities across the country to guide treatment policies and prevention strategies.
+
+## Key Features
+
+- **National Surveillance**: Data from hospitals throughout South Korea
+- **Comprehensive Coverage**: Multiple bacterial species and antimicrobial agents
+- **Standardized Testing**: Uniform protocols across participating laboratories
+- **Regular Reporting**: Annual surveillance reports and trend analyses
+- **Quality Control**: Rigorous quality assurance programs
+- **Integration**: Links to broader infectious disease surveillance
+
+## Use Cases in Research
+
+- Korean national AMR trends and patterns
+- Healthcare-associated resistance epidemiology
+- Impact of national stewardship programs
+- Comparative East Asian resistance studies
+- Emerging resistance detection
+- Treatment guideline development
+
+## Getting Started
+
+Visit the [KDCA website](https://www.kdca.go.kr/) to access KARMS data and surveillance reports.
+
+## Related Publications
+
+:::{#pubs}
+:::
