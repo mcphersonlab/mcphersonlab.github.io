@@ -2,11 +2,9 @@
 title: "About"
 ---
 
-<!--- # About the McPherson Lab -->
+## Our Approach
 
-## Our Mission
-
-The McPherson Lab is a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-areas)) lab that uses advanced [**cloud computing** and **artificial intelligence resources**](https://mcphersonlab.github.io/research/#research-areas) for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow. 
+We are a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-areas)) that uses [**cloud computing** and **artificial intelligence**](https://mcphersonlab.github.io/research/#research-areas) for drug discovery, research and development of anti-infective agents for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow.
 
 Ongoing projects can be found at the Lab [**GitHub**](https://github.com/McPhersonLab/projects). 
 
