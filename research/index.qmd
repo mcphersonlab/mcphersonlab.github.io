@@ -31,19 +31,19 @@ listing:
   - id: experimentation  
     contents: resource/exp/*/index.qmd
     type: grid
-    fields: [title]
+    fields: [title, href]
   - id: vendors
     contents: resource/exp/vendors/*/index.qmd
     type: grid
-    fields: [title]
+    fields: [title, href]
   - id: data-analysis
     contents: resource/data/*/index.qmd
     type: grid
-    fields: [title]
+    fields: [title, href]
   - id: clinical-data
     contents: resource/clinical/*/index.qmd
     type: grid
-    fields: [title]
+    fields: [title, href]
 page-layout: full
 jupyter: python3
 ---
