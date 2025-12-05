@@ -40,6 +40,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
+          # Install dependencies for sync script (separate from Quarto rendering)
           pip install pyyaml requests
 
       - name: Run member publication synchronization
@@ -50,7 +51,9 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet publications/ || echo "changes=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain publications/)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
