@@ -48,7 +48,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install TeX Live on Linux (for PDF builds)
-        if: runner.os == 'Linux'
         run: |
           sudo apt-get update -y
           # Install core TeX packages commonly required by Quarto/Pandoc PDF rendering.
