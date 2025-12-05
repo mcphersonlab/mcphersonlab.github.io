@@ -781,7 +781,7 @@ def create_callforpapers_html(papers_data):
         
         # Format Impact column
         impact = paper.get('impact', '')
-        impact_cell = impact if impact else ""
+        impact_cell = f'<span style="font-weight: bold;">{impact}</span>' if impact else '—'
         
         # Add project links - support multiple project-specific links
         projects = paper.get('projects', [])
