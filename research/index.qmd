@@ -42,7 +42,8 @@ listing:
     fields: [title, href]
   - id: clinical-data
     contents: resource/clinical/*/index.qmd
-    
+    type: grid
+    fields: [title, href]
 page-layout: full
 jupyter: python3
 ---

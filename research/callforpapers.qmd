@@ -123,7 +123,7 @@ call_for_papers = [
         "due_date": "2026-02-27",
         "topic": "Advances in microbial ecology",
         "website": "https://link.springer.com/collections/ddbhjfadca",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/MicrobiomeHUES"]
     },
     {
         "journal": "Nature Communications",
@@ -607,7 +607,7 @@ call_for_papers = [
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
         "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/MicrobiomeHUES"]
     },
     {
         "journal": "mBio",
