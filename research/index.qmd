@@ -205,7 +205,9 @@ function generatePubMedUrl(pathogen, topic, author) {
         searchTerm = `("${sanitizedPathogen}"[tiab] AND "${sanitizedTopic}"[tiab])`;
     }
     
-    // Add author filter if provided (author already includes [au] tag and quotes)
+    // Add author filter if provided
+    // Author comes from predefined dropdown with pre-formatted PubMed syntax (e.g., "Author Name"[au])
+    // No sanitization needed since values are hardcoded in the dropdown, not user input
     if (author) {
         searchTerm = `${searchTerm} AND ${author}`;
     }
