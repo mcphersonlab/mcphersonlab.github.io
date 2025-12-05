@@ -94,9 +94,36 @@ PubMed Literature Search Builder
     onfocus="this.style.borderColor='#dc3545'; this.style.boxShadow='0 0 0 3px rgba(220,53,69,0.15)';"
     onblur="this.style.borderColor='#ced4da'; this.style.boxShadow='none';">
 <option value="">Select an author to include in search...</option>
-<option value="Segata N">Segata N</option>
-<option value="Maier L">Maier L</option>
-<option value="Smits WK">Smits WK</option>
+<option value="&quot;Segata Nicola&quot;[au]">Segata Nicola</option>
+<option value="&quot;Maier Lisa&quot;[au]">Maier Lisa</option>
+<option value="&quot;Smits Wiep Klaas&quot;[au]">Smits Wiep Klaas</option>
+<option value="&quot;Huttenhower Curtis&quot;[au]">Huttenhower Curtis</option>
+<option value="&quot;Koonin Eugene V&quot;[au]">Koonin Eugene V</option>
+<option value="&quot;Chiu Wah&quot;[au]">Chiu Wah</option>
+<option value="&quot;Bork Peer&quot;[au]">Bork Peer</option>
+<option value="&quot;Lacy D Borden&quot;[au]">Lacy D Borden</option>
+<option value="&quot;Kuijper Ed J&quot;[au]">Kuijper Ed J</option>
+<option value="&quot;Wilcox Mark&quot;[au]">Wilcox Mark</option>
+<option value="&quot;Hurdle Julian G&quot;[au]">Hurdle Julian G</option>
+<option value="&quot;Garey Kevin W&quot;[au]">Garey Kevin W</option>
+<option value="&quot;Melnyk Roman A&quot;[au]">Melnyk Roman A</option>
+<option value="&quot;Zackular Joseph P&quot;[au]">Zackular Joseph P</option>
+<option value="&quot;Young Vincent B&quot;[au]">Young Vincent B</option>
+<option value="&quot;Theriot Casey M&quot;[au]">Theriot Casey M</option>
+<option value="&quot;Seekatz Anna M&quot;[au]">Seekatz Anna M</option>
+<option value="&quot;Sorg Joseph A&quot;[au]">Sorg Joseph A</option>
+<option value="&quot;Savidge Tor C&quot;[au]">Savidge Tor C</option>
+<option value="&quot;Spinler Jennifer K&quot;[au]">Spinler Jennifer K</option>
+<option value="&quot;Shelburne Samuel&quot;[au]">Shelburne Samuel</option>
+<option value="&quot;Shropshire William C&quot;[au]">Shropshire William C</option>
+<option value="&quot;Galloway-Peña Jessica&quot;[au]">Galloway-Peña Jessica</option>
+<option value="&quot;Arias Cesar A&quot;[au]">Arias Cesar A</option>
+<option value="&quot;Fowler Vance G&quot;[au]">Fowler Vance G</option>
+<option value="&quot;Pamer Eric G&quot;[au]">Pamer Eric G</option>
+<option value="&quot;Shen Aimee&quot;[au]">Shen Aimee</option>
+<option value="&quot;Baker David&quot;[au]">Baker David</option>
+<option value="&quot;Hassabis Demis&quot;[au]">Hassabis Demis</option>
+<option value="(&quot;Jumper John&quot;[au] OR &quot;Jumper John M&quot;[au])">Jumper John</option>
 </select>
 </div>
 
@@ -171,7 +198,6 @@ function sanitizeInput(input) {
 function generatePubMedUrl(pathogen, topic, author) {
     const sanitizedPathogen = sanitizeInput(pathogen);
     const sanitizedTopic = topic ? sanitizeInput(topic) : '';
-    const sanitizedAuthor = author ? sanitizeInput(author) : '';
     
     // Build the search term
     let searchTerm = `("${sanitizedPathogen}"[tiab])`;
@@ -179,9 +205,9 @@ function generatePubMedUrl(pathogen, topic, author) {
         searchTerm = `("${sanitizedPathogen}"[tiab] AND "${sanitizedTopic}"[tiab])`;
     }
     
-    // Add author filter if provided
-    if (sanitizedAuthor) {
-        searchTerm = `${searchTerm} AND "${sanitizedAuthor}"[au]`;
+    // Add author filter if provided (author already includes [au] tag and quotes)
+    if (author) {
+        searchTerm = `${searchTerm} AND ${author}`;
     }
     
     // Build journal filter
