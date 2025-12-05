@@ -5,7 +5,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  # Allow manual triggering
   workflow_dispatch:
 
 # Required permissions for GitHub Pages deployment
@@ -14,15 +13,16 @@ permissions:
   pages: write
   id-token: write
 
-# Prevent concurrent deployments to avoid conflicts
+# Prevent concurrent deployments
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job - runs on both push and PR
+  # Build job - renders Quarto project
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: read
     steps:
@@ -33,16 +33,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install jupyter nbformat; fi
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install jupyter nbformat ipyleaflet ipywidgets pandas
+          fi
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          # Cache Quarto installation for faster builds
           tinytex: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -50,53 +55,61 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
-      # Upload rendered site for PRs as a regular artifact (for preview/testing)
+      # Upload PR preview artifact
       - name: Upload PR preview artifact
         if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: pr-preview-${{ github.event.pull_request.number }}
-          path: ./_site
+          path: _site
           retention-days: 7
+          compression-level: 6
 
+      # Configure and upload for GitHub Pages (main branch only)
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
-      # Upload for GitHub Pages deployment (main branch only)
-      - name: Upload build artifact
+      - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
-      # Create a job summary for visibility
+      # Create comprehensive build summary
       - name: Create build summary
         if: always()
         run: |
-          echo "## Quarto Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## 📊 Quarto Build Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Event:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Event | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Branch | ${{ github.ref_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Workflow | [${{ github.workflow }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            echo "✅ **Site rendered successfully for PR #${{ github.event.pull_request.number }}**" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ PR Preview" >> $GITHUB_STEP_SUMMARY
+            echo "Site rendered successfully for PR #${{ github.event.pull_request.number }}" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "The rendered site has been uploaded as an artifact and can be downloaded for preview." >> $GITHUB_STEP_SUMMARY
+            echo "Download the artifact from the [Actions tab](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) to preview the changes." >> $GITHUB_STEP_SUMMARY
           elif [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            echo "✅ **Site rendered and ready for deployment**" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Production Build" >> $GITHUB_STEP_SUMMARY
+            echo "Site rendered successfully and ready for deployment to GitHub Pages." >> $GITHUB_STEP_SUMMARY
           else
-            echo "✅ **Site rendered successfully**" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Build Complete" >> $GITHUB_STEP_SUMMARY
+            echo "Site rendered successfully." >> $GITHUB_STEP_SUMMARY
           fi
 
-  # Deploy job - only runs on main branch push
+  # Deploy job - deploys to GitHub Pages (main branch only)
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: build
     permissions:
       pages: write
@@ -105,3 +118,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Create deployment summary
+        if: success()
+        run: |
+          echo "## 🚀 Deployment Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The site has been successfully deployed to GitHub Pages." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **Site URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
