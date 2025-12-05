@@ -41,15 +41,8 @@ listing:
     type: grid
     fields: [title, href]
   - id: clinical-data
-    contents: 
-      - resource/clinical/*/index.qmd
-      - "!resource/clinical/amr/"
-    type: grid
-    fields: [title, href]
-  - id: amr-surveillance
-    contents: resource/clinical/amr/*/index.qmd
-    type: grid
-    fields: [title, href]
+    contents: resource/clinical/*/index.qmd
+    
 page-layout: full
 jupyter: python3
 ---
@@ -198,6 +191,7 @@ function sanitizeInput(input) {
 function generatePubMedUrl(pathogen, topic, author) {
     const sanitizedPathogen = sanitizeInput(pathogen);
     const sanitizedTopic = topic ? sanitizeInput(topic) : '';
+    const sanitizedAuthor = author ? sanitizeInput(author) : '';
     
     // Build the search term
     let searchTerm = `("${sanitizedPathogen}"[tiab])`;
@@ -358,10 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ::: {#clinical-data}
 :::
 
-#### Antimicrobial Resistance Surveillance
 
-::: {#amr-surveillance}
-:::
 
 ```{=html}
 <div class="page-navigation">
