@@ -1,0 +1,47 @@
+---
+title: National Hospital Ambulatory Medical Care Survey (NHAMCS)
+alias: &ALIAS nhamcs
+href: https://www.cdc.gov/nchs/ahcd/about_ahcd.htm
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Hospital Ambulatory Medical Care Survey (NHAMCS) is designed to collect data on the utilization and provision of ambulatory care services in hospital emergency and outpatient departments. Conducted annually by the CDC's National Center for Health Statistics, NHAMCS provides national estimates for hospital-based ambulatory care.
+
+## Key Features
+
+- **Hospital-Based Care**: Emergency department and outpatient department visits
+- **Annual Survey**: Conducted annually since 1992
+- **National Estimates**: Nationally representative data from non-federal hospitals
+- **Rich Clinical Data**: Diagnoses, procedures, medications, disposition, and visit characteristics
+- **Public Use Files**: De-identified data files for research
+- **Emergency Care Focus**: Detailed data on emergency department utilization
+
+## Use Cases in Research
+
+- Emergency department utilization and trends
+- Hospital outpatient care patterns
+- Medication use in acute care settings
+- Healthcare access via emergency departments
+- Injury and poisoning epidemiology
+- Quality of emergency care
+
+## Getting Started
+
+Visit the [CDC NHAMCS website](https://www.cdc.gov/nchs/ahcd/about_ahcd.htm) to access public use data files and survey documentation.
+
+## Related Publications
+
+:::{#pubs}
+:::

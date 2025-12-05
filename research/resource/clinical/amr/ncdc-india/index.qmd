@@ -1,0 +1,47 @@
+---
+title: NCDC India — AMR Surveillance
+alias: &ALIAS ncdc-india
+href: https://ncdc.gov.in/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Centre for Disease Control (NCDC) India coordinates antimicrobial resistance surveillance as part of India's national public health infrastructure. NCDC works alongside ICMR to monitor AMR trends, investigate outbreaks, and support India's National Action Plan on Antimicrobial Resistance.
+
+## Key Features
+
+- **Public Health Focus**: Integration with disease surveillance systems
+- **Outbreak Response**: Rapid investigation of resistance outbreaks
+- **Laboratory Network**: Coordination of public health laboratories
+- **Capacity Strengthening**: Training and technical support programs
+- **Policy Support**: Evidence for national AMR strategies
+- **One Health Approach**: Integration across human, animal, and environmental sectors
+
+## Use Cases in Research
+
+- AMR surveillance in public health settings
+- Outbreak investigation and response
+- Trends in community-acquired resistant infections
+- Evaluation of public health interventions
+- Healthcare epidemiology research
+- Policy impact assessment
+
+## Getting Started
+
+Visit the [NCDC website](https://ncdc.gov.in/) to access surveillance data and learn about AMR programs.
+
+## Related Publications
+
+:::{#pubs}
+:::

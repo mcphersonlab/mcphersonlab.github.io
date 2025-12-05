@@ -1,0 +1,47 @@
+---
+title: China Antimicrobial Resistance Surveillance System (CARSS)
+alias: &ALIAS carss
+href: http://www.carss.cn/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The China Antimicrobial Resistance Surveillance System (CARSS) is a national surveillance network established to monitor antimicrobial resistance patterns across China. Operating under the National Health Commission of China, CARSS provides comprehensive data on resistance trends to guide antimicrobial stewardship and policy decisions.
+
+## Key Features
+
+- **National Coverage**: Data from sentinel hospitals across all provinces in China
+- **Large Scale**: One of the world's largest AMR surveillance systems
+- **Comprehensive Testing**: Susceptibility data for major bacterial pathogens
+- **Standardized Protocols**: Unified testing methods and quality control
+- **Annual Reports**: Detailed national and regional resistance data
+- **One Health Approach**: Integration with veterinary and environmental surveillance
+
+## Use Cases in Research
+
+- National and regional AMR trends in China
+- Comparative resistance patterns across Chinese provinces
+- Impact of antimicrobial stewardship programs
+- Resistance emergence and spread modeling
+- Healthcare policy evaluation
+- International AMR burden estimation
+
+## Getting Started
+
+Visit the [CARSS website](http://www.carss.cn/) to access surveillance reports and learn about the program.
+
+## Related Publications
+
+:::{#pubs}
+:::

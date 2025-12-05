@@ -1,0 +1,47 @@
+---
+title: JANIS — Japan Nosocomial Infections Surveillance
+alias: &ALIAS janis
+href: https://janis.mhlw.go.jp/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Japan Nosocomial Infections Surveillance (JANIS) is a nationwide surveillance system operated by the Ministry of Health, Labour and Welfare of Japan. JANIS monitors healthcare-associated infections and antimicrobial resistance in Japanese hospitals, providing critical data for infection prevention and control strategies across the country.
+
+## Key Features
+
+- **Nationwide Coverage**: Data from hundreds of participating hospitals across Japan
+- **Multiple Surveillance Components**: ICU, surgical site infections, and antimicrobial resistance surveillance
+- **Standardized Methods**: Consistent data collection protocols across facilities
+- **Real-Time Reporting**: Regular updates from participating institutions
+- **Public Reports**: Annual surveillance reports and summary data
+- **Benchmarking**: Facility-level comparisons to national averages
+
+## Use Cases in Research
+
+- Japanese healthcare-associated infection epidemiology
+- Antimicrobial resistance trends in Japan
+- Infection prevention effectiveness evaluation
+- International comparison of resistance patterns
+- Healthcare policy and guideline development
+- Surgical site infection risk factors
+
+## Getting Started
+
+Visit the [JANIS website](https://janis.mhlw.go.jp/) to access surveillance reports and learn about the program.
+
+## Related Publications
+
+:::{#pubs}
+:::

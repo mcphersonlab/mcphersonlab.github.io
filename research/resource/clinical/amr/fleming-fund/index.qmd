@@ -1,0 +1,47 @@
+---
+title: Fleming Fund
+alias: &ALIAS fleming-fund
+href: https://www.flemingfund.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Fleming Fund is a UK aid program supporting low- and middle-income countries to strengthen their capacity to generate, analyze, and use AMR surveillance data. The Fund helps countries establish and improve antimicrobial resistance surveillance systems, supporting the global fight against AMR through evidence-based interventions.
+
+## Key Features
+
+- **Global Initiative**: Support for AMR surveillance in multiple countries
+- **Capacity Building**: Laboratory strengthening and training programs
+- **One Health Approach**: Integration of human, animal, and environmental surveillance
+- **Data Systems**: Development of national AMR data management platforms
+- **Regional Networks**: Support for regional surveillance collaborations
+- **Evidence Generation**: Production of actionable AMR data for policy
+
+## Use Cases in Research
+
+- Global AMR surveillance capacity assessment
+- Effectiveness of capacity-building interventions
+- Regional AMR trends in low- and middle-income countries
+- One Health surveillance integration
+- Policy impact evaluation
+- International AMR burden estimation
+
+## Getting Started
+
+Visit the [Fleming Fund website](https://www.flemingfund.org/) to learn about supported countries and data access.
+
+## Related Publications
+
+:::{#pubs}
+:::

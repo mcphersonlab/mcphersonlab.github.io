@@ -1,0 +1,47 @@
+---
+title: CHINET (China Hospital Infection Surveillance System)
+alias: &ALIAS chinet
+href: http://www.chinets.com/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+CHINET is a nationwide surveillance network monitoring bacterial resistance in China, coordinated by the Institute of Antibiotics at Huashan Hospital, Fudan University. Established in 1998, CHINET has become one of the longest-running and most comprehensive antimicrobial resistance surveillance systems in China.
+
+## Key Features
+
+- **Long-Term Data**: Over 25 years of continuous surveillance
+- **Extensive Network**: Participation from major teaching hospitals across China
+- **Bacterial Focus**: Emphasis on clinically significant bacterial pathogens
+- **Annual Surveillance**: Regular monitoring and reporting
+- **Quality Assurance**: Rigorous quality control measures
+- **Academic Network**: Strong research and training components
+
+## Use Cases in Research
+
+- Long-term AMR trends in Chinese hospitals
+- Regional variation in resistance patterns
+- Emerging resistance mechanisms
+- Impact of infection control measures
+- Epidemiological studies of resistant pathogens
+- Antimicrobial stewardship research
+
+## Getting Started
+
+Visit the [CHINET website](http://www.chinets.com/) to access surveillance data and learn about network participation.
+
+## Related Publications
+
+:::{#pubs}
+:::

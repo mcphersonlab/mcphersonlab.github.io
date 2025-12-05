@@ -1,0 +1,47 @@
+---
+title: CDC NHSN Antimicrobial Resistance (AR) Option – Public Data
+alias: &ALIAS cdc-nhsn-ar
+href: https://www.cdc.gov/nhsn/acute-care-hospital/aro/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Healthcare Safety Network (NHSN) Antimicrobial Resistance (AR) Option is CDC's system for tracking antimicrobial resistance in healthcare settings across the United States. It provides facility-level and national data on multidrug-resistant organisms and resistance trends, supporting efforts to prevent and control healthcare-associated infections.
+
+## Key Features
+
+- **Healthcare Facility Data**: Resistance data from thousands of U.S. hospitals
+- **Standardized Definitions**: Consistent criteria for resistant organisms
+- **Priority Pathogens**: Focus on MDRO and CDC priority organisms
+- **Benchmarking**: Facility-level comparisons to national data
+- **Public Reporting**: Aggregate data available through CDC portals
+- **Real-Time Surveillance**: Regular updates from participating facilities
+
+## Use Cases in Research
+
+- Healthcare-associated antimicrobial resistance trends
+- Facility-level infection prevention effectiveness
+- Geographic variation in resistance patterns
+- Impact of stewardship and prevention interventions
+- Burden of multidrug-resistant infections
+- Risk factor analysis for resistant infections
+
+## Getting Started
+
+Visit the [NHSN AR Option website](https://www.cdc.gov/nhsn/acute-care-hospital/aro/) to access public data dashboards and learn about data use agreements.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,47 @@
+---
+title: FINRISK / Finnish Gut Microbiome Cohorts
+alias: &ALIAS finrisk
+href: https://thl.fi/en/research-and-development/research-and-projects/finrisk-study
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+FINRISK is a large population-based study monitoring the risk factors of chronic diseases and health behavior in Finland. The gut microbiome component of FINRISK has characterized the intestinal microbiota of thousands of Finnish adults, linking microbiome composition to extensive health, dietary, and genetic data.
+
+## Key Features
+
+- **Population-Based**: Representative sample of Finnish adults
+- **Large Scale**: Thousands of participants with microbiome data
+- **Comprehensive Phenotyping**: Health, diet, lifestyle, and metabolic data
+- **Genetic Data**: Host genomics integrated with microbiome
+- **Long-Term Follow-Up**: Decades of health outcome data
+- **16S and Shotgun Sequencing**: Multiple sequencing approaches
+
+## Use Cases in Research
+
+- Population-level microbiome variation and health associations
+- Diet-microbiome-health interactions
+- Genetic influences on microbiome composition
+- Cardiovascular disease and microbiome
+- Metabolic health and gut bacteria
+- Population microbiome reference data
+
+## Getting Started
+
+Visit the [FINRISK website](https://thl.fi/en/research-and-development/research-and-projects/finrisk-study) to learn about data access and collaboration opportunities.
+
+## Related Publications
+
+:::{#pubs}
+:::

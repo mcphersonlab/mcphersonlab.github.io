@@ -1,0 +1,47 @@
+---
+title: ReSeqTB (Bill & Melinda Gates Foundation)
+alias: &ALIAS reseqtb
+href: https://platform.reseqtb.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Relational Sequencing Tuberculosis (ReSeqTB) Platform is a data-sharing and analysis resource for tuberculosis genomics and drug resistance. Supported by the Bill & Melinda Gates Foundation, ReSeqTB provides a centralized repository of Mycobacterium tuberculosis whole genome sequences linked to detailed phenotypic drug susceptibility testing results.
+
+## Key Features
+
+- **Genomic Repository**: Thousands of M. tuberculosis whole genome sequences
+- **Phenotypic Data**: Comprehensive drug susceptibility testing results
+- **Data Integration**: Links genotypes to phenotypes for resistance prediction
+- **Analysis Tools**: Web-based tools for sequence analysis and variant calling
+- **Global Coverage**: Isolates from diverse geographic regions
+- **Open Access**: Data available to registered researchers
+
+## Use Cases in Research
+
+- Tuberculosis drug resistance genomics
+- Development of molecular diagnostics for TB resistance
+- Discovery of novel resistance mechanisms
+- Epidemiology of drug-resistant TB
+- Machine learning for resistance prediction
+- Clinical decision support tool development
+
+## Getting Started
+
+Visit the [ReSeqTB Platform](https://platform.reseqtb.org/) to register and access genomic and phenotypic data.
+
+## Related Publications
+
+:::{#pubs}
+:::

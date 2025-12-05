@@ -1,0 +1,47 @@
+---
+title: ICMR AMR Surveillance Network
+alias: &ALIAS icmr-amr
+href: https://iamrsn.icmr.org.in/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Indian Council of Medical Research (ICMR) AMR Surveillance Network is India's national surveillance system for monitoring antimicrobial resistance. The network coordinates data collection from laboratories across India to track resistance patterns and inform national action plans to combat AMR.
+
+## Key Features
+
+- **National Network**: Participation from major hospitals and laboratories across India
+- **Standardized Methods**: Uniform testing protocols and quality assurance
+- **Priority Pathogens**: Focus on WHO priority pathogens and Indian clinical needs
+- **Regular Reporting**: Annual surveillance reports and data summaries
+- **Capacity Building**: Training programs for participating laboratories
+- **Policy Integration**: Direct links to national AMR action plans
+
+## Use Cases in Research
+
+- National AMR trends in India
+- Regional variation in resistance patterns
+- Healthcare-associated infection epidemiology
+- Impact of stewardship interventions
+- Resistance mechanism studies
+- Public health policy research
+
+## Getting Started
+
+Visit the [ICMR AMR Network website](https://iamrsn.icmr.org.in/) to access surveillance reports and learn about the network.
+
+## Related Publications
+
+:::{#pubs}
+:::

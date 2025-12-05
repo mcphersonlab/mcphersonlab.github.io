@@ -1,0 +1,47 @@
+---
+title: National Ambulatory Medical Care Survey (NAMCS)
+alias: &ALIAS namcs
+href: https://www.cdc.gov/nchs/ahcd/about_ahcd.htm
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Ambulatory Medical Care Survey (NAMCS) is an annual survey conducted by the CDC's National Center for Health Statistics that collects data on the provision and use of ambulatory medical care services in the United States. The survey provides national estimates of ambulatory care visits to non-federal office-based physician practices.
+
+## Key Features
+
+- **National Representation**: Nationally representative sample of office-based physician visits
+- **Annual Survey**: Conducted annually since 1973 (with some gaps)
+- **Comprehensive Data**: Patient demographics, diagnoses, medications, procedures, and visit characteristics
+- **Public Use Files**: De-identified data files available for research
+- **Trend Analysis**: Decades of data enabling temporal trend analysis
+- **Quality Measures**: Data on preventive care services and chronic disease management
+
+## Use Cases in Research
+
+- Ambulatory care utilization patterns
+- Prescription medication trends in outpatient settings
+- Healthcare access and disparities research
+- Chronic disease management in primary care
+- Preventive care service delivery
+- Healthcare quality assessment
+
+## Getting Started
+
+Visit the [CDC NAMCS website](https://www.cdc.gov/nchs/ahcd/about_ahcd.htm) to access public use data files and documentation.
+
+## Related Publications
+
+:::{#pubs}
+:::
