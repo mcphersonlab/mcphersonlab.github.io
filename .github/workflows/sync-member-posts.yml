@@ -58,9 +58,8 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add publications/
-          git commit -m "chore: sync member publications [skip ci]
-
-          Automated synchronization of member publications at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "chore: sync member publications [skip ci]" \
+                     -m "Automated synchronization at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
 
       - name: Create summary
