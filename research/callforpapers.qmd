@@ -3,8 +3,11 @@ This file contains the call for papers table for the research page.
 To edit call for papers information:
 1. Find the 'call_for_papers' list in the Python code block below
 2. Add, remove, or modify entries following the existing format
-3. Each entry needs: journal, due_date, topic, and website
-4. The table will automatically update based on this data
+3. Each entry needs: journal, impact, due_date, topic, and website
+4. The 'impact' field should contain the Journal Impact Factor (JIF) from JCR/Clarivate
+   - Use empty string ("") if impact factor is unavailable
+   - For multi-journal calls, separate values with " / " (e.g., "19.4 / 87.3")
+5. The table will automatically update based on this data
 
 This file is included in research/index.qmd and renders on the research page.
 -->
