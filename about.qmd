@@ -19,12 +19,13 @@ We believe in:
 
 
 
-## Our [Cloud Computating] Approach to Science
+## Our Workflow
 
 ::: {#fig-project-workflow .center}
 ![](research/flowchart.jpeg){width=70%}
 
 ::: 
+
 
 
 [**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
