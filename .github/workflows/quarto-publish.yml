@@ -43,9 +43,25 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          tinytex: true
+          tinytex: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install TeX Live on Linux (for PDF builds)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -y
+          # Install core TeX packages commonly required by Quarto/Pandoc PDF rendering.
+          sudo apt-get install -y \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-lang-english \
+            cm-super \
+            texlive-bibtex-extra
+        env:
+          DEBIAN_FRONTEND: noninteractive
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
