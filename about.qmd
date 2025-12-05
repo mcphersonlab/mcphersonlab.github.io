@@ -2,12 +2,6 @@
 title: "About"
 ---
 
-## Our Approach
-
-We are a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-areas)) that uses [**cloud computing** and **artificial intelligence**](https://mcphersonlab.github.io/research/#research-areas) for drug discovery, research and development of anti-infective agents for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow.
-
-Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
-
 ## Research Philosophy
 
 We believe in:
@@ -17,6 +11,22 @@ We believe in:
 - **Innovation**: Developing new methods and approaches
 - **Excellence**: Maintaining the highest standards in our research by publishing in [highly reputable journals](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder)
 
+
+## Our Approach
+
+We are a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-areas)) that uses [**cloud computing** and **artificial intelligence**](https://mcphersonlab.github.io/research/#research-areas) for drug discovery, research and development of anti-infective agents for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow.
+
+There is a vast wealth of publicly available, high-quality clinical and biological data - yet, their curation, analysis and visualization are generally lacking. Can the skills of the pharmacologist, specifically that of **Schild regression** of *Receptor Theory*, extend beyond the bench to the bedside and the real-world? We believe - **yes**. 
+
+To this end, our approach is simle: 
+
+1. **More data**
+
+2. **Better analyses**
+
+3. **Artistic visualization**
+
+Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
 
 
 ## Our Workflow
