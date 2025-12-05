@@ -41,7 +41,13 @@ listing:
     type: grid
     fields: [title, href]
   - id: clinical-data
-    contents: resource/clinical/*/index.qmd
+    contents: 
+      - resource/clinical/*/index.qmd
+      - "!resource/clinical/amr/"
+    type: grid
+    fields: [title, href]
+  - id: amr-surveillance
+    contents: resource/clinical/amr/*/index.qmd
     type: grid
     fields: [title, href]
 page-layout: full
@@ -322,6 +328,11 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Clinical Data Sources
 
 ::: {#clinical-data}
+:::
+
+#### Antimicrobial Resistance Surveillance
+
+::: {#amr-surveillance}
 :::
 
 ```{=html}
