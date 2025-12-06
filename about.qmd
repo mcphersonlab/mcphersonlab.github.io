@@ -18,27 +18,41 @@ We are a [**pharmacology**]((https://mcphersonlab.github.io/research/#research-a
 
 There is a vast wealth of publicly available, high-quality clinical and biological data - yet, their curation, analysis and visualization are generally lacking. Can the skills of the pharmacologist, specifically that of **Schild regression** of *Receptor Theory*, extend beyond the bench to the bedside and the real-world? We believe - **yes**. 
 
-To this end, our approach is simle: 
-
 1. **More data**
 
 2. **Better analyses**
 
-3. **Artistic visualization**
-
-Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
-
+3. **Data visualization**
 
 ## Our Workflow
+
+
 
 ::: {#fig-project-workflow .center}
 ![](research/flowchart.jpeg){width=70%}
 
 ::: 
 
+Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
 
+We use tools including but not limited to 
+[Amazon Web Services (AWS)](https://aws.amazon.com/),
+[Ubuntu Linux](https://ubuntu.com/),
+[Docker](https://www.docker.com/),
+[Snakemake](https://snakemake.readthedocs.io/en/stable/),
+[VSCode](https://code.visualstudio.com/),
+[RStudio Cloud](https://rstudio.cloud/),
+[Jupyter Notebooks](https://jupyter.org/),
+[Github](https://github.com), 
+[Git](https://git-scm.com/),
+[Zenodo](https://zenodo.org/), and
+[Overleaf](https://www.overleaf.com/).
 
-[**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
+::: {#fig-project-workflow .center}
+![](images/tacc.jpg){width=70%}
+:::
+
+[**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized from by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
 
 Please reference TACC in any research report, journal or publication that requires citations.
 
