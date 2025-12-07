@@ -695,7 +695,7 @@ call_for_papers = [
     },
     {
         "journal": "mBio",
-        "impact": "",
+        "impact": "4.7",
         "due_date": "Ongoing",
         "topic": "Clinical microbiology",
         "website": "https://journals.asm.org/asm-calls-for-papers",
