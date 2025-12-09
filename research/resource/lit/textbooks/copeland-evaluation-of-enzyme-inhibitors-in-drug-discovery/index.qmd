@@ -1,0 +1,50 @@
+---
+title: Evaluation of Enzyme Inhibitors in Drug Discovery by Richard Copeland
+alias: &ALIAS Copeland
+image: featured.jpg
+href: https://ebookcentral.proquest.com/lib/uh/reader.action?docID=1120975&c=RVBVQg&ppg=1
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Richard Copeland's *Evaluation of Enzyme Inhibitors in Drug Discovery* is a comprehensive resource that delves into the methodologies and strategies for assessing enzyme inhibitors in the context of drug discovery. This book provides insights into the principles of enzyme kinetics, assay development, and the interpretation of data related to enzyme inhibition.
+
+
+## Key Features
+
+- **Comprehensive Coverage**: The book covers a wide range of topics, including enzyme kinetics, assay design, and data analysis techniques.
+- **Practical Applications**: It emphasizes practical approaches to evaluating enzyme inhibitors, making it a valuable resource for researchers in drug discovery.
+- **Case Studies**: The inclusion of real-world case studies helps illustrate the application of theoretical concepts in practical scenarios.
+
+
+## Use Cases in Research
+
+- **Drug Discovery**: Researchers can utilize the methodologies outlined in the book to evaluate potential enzyme inhibitors during the drug discovery process.
+- **Assay Development**: The book provides guidance on developing robust assays for measuring enzyme activity and inhibition.
+- **Data Interpretation**: It offers strategies for interpreting experimental data, which is crucial for making informed decisions in drug development.
+
+## Getting Started
+
+To get started with *Evaluation of Enzyme Inhibitors in Drug Discovery*, consider the following steps:
+1. Familiarize yourself with the fundamental concepts of enzyme kinetics and inhibition.
+2. Explore the assay development techniques discussed in the book.
+3. Apply the data analysis methods to your own research projects involving enzyme inhibitors.
+
+
+## Related Publications
+
+:::{#pubs}
+:::
