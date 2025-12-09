@@ -670,14 +670,6 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "International Journal of STEM Education",
-        "impact": "",
-        "due_date": "2027-01-31",
-        "topic": "Assessment for STEM Education in the AI Era",
-        "website": "https://link.springer.com/collections/chdfcibfje",
-        "projects": []
-    },
-    {
         "journal": "CID",
         "impact": "7.3",
         "due_date": "Ongoing",
