@@ -35,7 +35,7 @@ We use:
 
 ::: 
 
-We use tools including but not limited to 
+We use [**research resources**](https://mcphersonlab.github.io/research/#research-resources) including but not limited to 
 [Amazon Web Services (AWS)](https://aws.amazon.com/),
 [Ubuntu Linux](https://ubuntu.com/),
 [Docker](https://www.docker.com/),
