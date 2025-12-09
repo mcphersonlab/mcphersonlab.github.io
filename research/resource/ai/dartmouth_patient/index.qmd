@@ -1,0 +1,45 @@
+---
+title: dartmouth_patient
+alias: &ALIAS dartmouth_patient
+image: featured.jpg
+href: https://ai-tools.dartmouth.edu/patient-actor
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The [**Dartmouth Patient Actor**](https://ai-tools.dartmouth.edu/patient-actor) ([**Press Release**](https://geiselmed.dartmouth.edu/thesen/patient-actor-app/))) from the Thesen Lab at Dartmouth School of Medicine is an AI-powered virtual patient simulation tool designed to assist medical professionals and students in enhancing their clinical skills. By leveraging advanced natural language processing and machine learning technologies, the Dartmouth Patient Actor provides realistic patient interactions, allowing users to practice diagnostic reasoning, communication skills, and decision-making in a safe and controlled environment.
+
+
+## Key Features
+
+- **Realistic Patient Interactions**: The platform simulates a wide range of patient scenarios, from common ailments to complex medical conditions, providing users with diverse clinical experiences.
+- **AI-Powered Dialogue**: Utilizing cutting-edge AI, the Patient Actor can engage in dynamic conversations, responding to user inquiries and adapting to different communication styles.
+- **Customizable Scenarios**: Users can tailor patient cases to specific learning objectives, enabling targeted practice in areas such as history taking, physical examination, and treatment planning.
+
+## Use Cases in Research
+
+- **Medical Education**: The Dartmouth Patient Actor serves as a valuable tool for medical students and professionals to refine their clinical skills through simulated patient encounters.
+- **Clinical Decision-Making**: Researchers can utilize the platform to study and improve diagnostic reasoning and treatment strategies in a risk-free environment.
+- **AI in Healthcare**: The development and application of the Dartmouth Patient Actor contribute to ongoing research in AI-driven healthcare solutions, exploring the potential of virtual simulations in medical training.
+
+## Getting Started
+
+To explore the Dartmouth Patient Actor and its capabilities, visit the [official website](https://ai-tools.dartmouth.edu/patient-actor). Here, you can find more information about the tool, access tutorials, and start engaging with virtual patient scenarios to enhance your clinical skills.
+
+## Related Publications
+
+:::{#pubs}
+:::
