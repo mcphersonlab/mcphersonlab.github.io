@@ -4,20 +4,7 @@
 
 This repository contains the source code for the McPherson Lab research website, built with [Quarto](https://quarto.org/) and deployed using GitHub Actions.
 
-## Website Structure
-
-- `index.qmd` - Homepage
-- `about.qmd` - About the group
-- `research/index.qmd` - Research areas and projects
-- `publications/` - Publications 
-- `publications/posts/` - Research posts (aggregated from member profiles)
-- `people/index.qmd` - Group members and alumni
-- `members.yml` - Organization member configuration for post synchronization
-- `sync_member_posts.py` - Script for syncing member posts
-- `_quarto.yml` - Quarto configuration
-- `styles.css` - Custom CSS styling
-
-## Local Development
+## Quick Start
 
 To work with this website locally:
 
@@ -27,27 +14,28 @@ To work with this website locally:
 4. Edit the `.qmd` files to update content
 5. Run `quarto render` to build the site
 
+## Repository Structure
+
+- `index.qmd` - Homepage
+- `about.qmd` - About the group
+- `research/` - Research areas and projects
+- `publications/` - Publications and research posts
+- `people/` - Group members and alumni
+- `members.yml` - Organization member configuration for post synchronization
+- `sync_member_posts.py` - Script for syncing member posts
+- `_quarto.yml` - Quarto configuration
+- `styles.css` - Custom CSS styling
+- `misc/` - Documentation and license files
+
+## Documentation
+
+- [Full Documentation](misc/README.md) - Detailed information about the website structure
+- [Member Sync Documentation](misc/MEMBER_SYNC_DOCS.md) - Documentation for the member publication synchronization system
+
 ## Deployment
 
-The website is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch. The workflow is defined in `.github/workflows/quarto-publish.yml`.
-
-### Member Post Synchronization
-
-The website automatically aggregates research posts from organization members' individual GitHub profiles. This is handled by:
-
-- `.github/workflows/sync-member-posts.yml` - Runs daily to sync new posts
-- `sync_member_posts.py` - Python script that performs the synchronization
-- `members.yml` - Configuration defining active members
-
-See [MEMBER_SYNC_DOCS.md](MEMBER_SYNC_DOCS.md) for detailed documentation.
-
-## Customization
-
-- Edit `_quarto.yml` to modify site configuration and navigation
-- Update content in the `.qmd` files
-- Modify `styles.css` for custom styling
-- Add new pages by creating additional `.qmd` files and updating the navigation in `_quarto.yml`
+The website is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [misc/LICENSE](misc/LICENSE) file for details.
