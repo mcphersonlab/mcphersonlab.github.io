@@ -1,0 +1,44 @@
+---
+title: Access Pharmacy
+alias: &ALIAS Access Pharmacy
+image: featured.jpg
+href: https://accesspharmacy-mhmedical-com.ezproxy.lib.uh.edu/books.aspx?view=library
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Access Pharmacy is a comprehensive online resource for pharmacy education and practice. It provides access to a wide range of textbooks, reference materials, and multimedia content tailored for pharmacy students, educators, and professionals. The platform offers tools for learning, research, and clinical decision-making, making it an essential resource in the field of pharmacy.
+
+## Key Features
+
+- **Extensive Collection of Textbooks**: Access Pharmacy offers a vast library of pharmacy textbooks covering various topics, including pharmacology, therapeutics, pharmacy practice, and more.
+- **Multimedia Content**: The platform includes videos, case studies, and interactive learning modules to enhance understanding and engagement.
+- **Clinical Decision Support**: Access Pharmacy provides tools and resources to assist healthcare professionals in making informed clinical decisions.
+- **Search Functionality**: Users can easily search for specific topics, drugs, or conditions within the platform.
+- **Regular Updates**: The content on Access Pharmacy is regularly updated to reflect the latest advancements and research in the field of pharmacy.
+
+
+
+## Getting Started
+
+1. **Access the Platform**: Visit the [Access Pharmacy website](https://accesspharmacy-mhmedical-com.ezproxy.lib.uh.edu/books.aspx?view=library) through your institution's library portal to ensure you have access.
+2. **Create an Account**: If required, create a personal account to save your preferences and access additional features.
+3. **Explore the Library**: Browse through the available textbooks and resources to find materials relevant to your studies or practice.
+
+## Related Publications
+
+:::{#pubs}
+:::
