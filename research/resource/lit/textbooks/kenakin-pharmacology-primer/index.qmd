@@ -1,5 +1,5 @@
 ---
-title: A Pharmacology Primer
+title: Pharmacology Primer
 alias: &ALIAS Kenakin
 image: featured.jpg
 href: https://www-sciencedirect-com.ezproxy.lib.uh.edu/book/monograph/9780323992893/a-pharmacology-primer

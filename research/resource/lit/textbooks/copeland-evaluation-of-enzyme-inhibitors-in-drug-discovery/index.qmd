@@ -1,5 +1,5 @@
 ---
-title: Evaluation of Enzyme Inhibitors in Drug Discovery by Richard Copeland
+title: Enzyme Inhibitors
 alias: &ALIAS Copeland
 image: featured.jpg
 href: https://ebookcentral.proquest.com/lib/uh/reader.action?docID=1120975&c=RVBVQg&ppg=1
