@@ -23,11 +23,43 @@ We enjoy the dissemination of [our works](https://mcphersonlab.github.io/publica
 
 & stay updated on the literature through [publications](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder) & podcasts 🎙️🔉
 
-- [**Infectious Diseases**](https://jacobkmcpherson.com/infectious-diseases) 🦠
 - [**Science**](https://jacobkmcpherson.com/science) 🔬
 - [**Medicine**](https://jacobkmcpherson.com/medicine) ⚕️
 - [**Pharmacy**](https://jacobkmcpherson.com/pharmacy) 💊
+- [**Infectious Diseases**](https://jacobkmcpherson.com/infectious-diseases) 🦠
 
+### Nature
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/show/2MydwKJpiKwiNRdxIzvFIt"
+        width="80%" height="160" frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+</iframe>
+```
+
+### Science
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/show/6S1RCtUXQ7UvKUTB77x7xH"
+        width="80%" height="160" frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+</iframe>
+```
+
+### The Lancet
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/show/7jqm8WKNGpP2N7bjWyKBrt"
+        width="80%" height="160" frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+</iframe>
+```
 
 ### Breakpoints
 ```{=html}

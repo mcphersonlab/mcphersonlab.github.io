@@ -14,9 +14,11 @@ We believe in:
 
 ## Our Approach
 
-We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) that uses [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) for [drug discovery](https://mcphersonlab.github.io/research/area/drug-development/), research and development for the treatment and elimination of [**infectious diseases**](https://mcphersonlab.github.io/research/#research-areas) that benefits the lives of people today and generations tomorrow.
+We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) that uses [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) for [drug discovery and development](https://mcphersonlab.github.io/research/area/drug-development/) and other [areas of research](https://mcphersonlab.github.io/research)
 
-There is a vast wealth of publicly available, high-quality [genomic](https://mcphersonlab.github.io/research/area/genomics/), [clinical](https://mcphersonlab.github.io/research/area/pharmacy/) and biological data - yet, their curation, analysis and visualization are generally lacking. Can the analyses of the pharmacologist, specifically that of **Schild regression** of *Receptor Theory*, extend beyond the bench to the bedside and the real-world? We believe - **yes**. 
+Our ongoing projects and publications can be found at the Lab [**GitHub**](https://github.com/mcphersonlab), [Zenodo](https://zenodo.org/communities/mcphersonlab) and [publications](https://mcphersonlab.github.io/publications/)
+
+We use: 
 
 1. **More data**
 
@@ -29,11 +31,9 @@ There is a vast wealth of publicly available, high-quality [genomic](https://mcp
 ### GitHub-Centered
 
 ::: {#fig-project-workflow .center}
-![](research/flowchart.jpeg){width=70%}
+![A GitHub-centered workflow](research/flowchart.jpeg){width=70%}
 
 ::: 
-
-Ongoing projects can be found at the Lab [**GitHub**](https://github.com/mcphersonlab). 
 
 We use tools including but not limited to 
 [Amazon Web Services (AWS)](https://aws.amazon.com/),
@@ -52,7 +52,7 @@ We use tools including but not limited to
 ### Texas-Powered 
 
 ::: {#fig-project-workflow .center}
-![](images/tacc.jpg){width=70%}
+![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
 :::
 
 [**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized from by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
@@ -70,7 +70,7 @@ and data-access/sharing infrastructure from the [AWS-Docker project](https://sib
 ### Data-Informed
 
 ::: {#fig-project-workflow .center}
-![](images/sib-aws-docker.png){width=70%}
+![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
 
 ## Contact Information
 
