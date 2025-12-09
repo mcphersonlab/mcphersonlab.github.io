@@ -1,5 +1,5 @@
 ---
-title: dartmouth_patient
+title: Dartmouth AI Patient
 alias: &ALIAS dartmouth_patient
 image: featured.jpg
 href: https://ai-tools.dartmouth.edu/patient-actor

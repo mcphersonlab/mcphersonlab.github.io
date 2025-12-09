@@ -1,5 +1,5 @@
 ---
-title: utexas_spark
+title: UT Spark
 alias: &ALIAS utexas_spark
 image: featured.jpg
 href: https://spark.utexas.edu/

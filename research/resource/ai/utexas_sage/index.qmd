@@ -1,5 +1,5 @@
 ---
-title: utexas_sage
+title: UT Sage
 alias: &ALIAS utexas_sage
 image: featured.jpg
 href: https://sage.eta.its.utexas.edu/
