@@ -28,6 +28,11 @@ listing:
     type: grid
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
+  - id: textbooks
+    contents: resource/lit/textbooks/*/index.qmd
+    type: grid
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
   - id: experimentation  
     contents: resource/exp/*/index.qmd
     type: grid
@@ -40,6 +45,11 @@ listing:
     fields: [title, href]
   - id: data-analysis
     contents: resource/data/*/index.qmd
+    type: grid
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
+  - id: ai
+    contents: resource/ai/*/index.qmd
     type: grid
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
@@ -333,9 +343,14 @@ document.addEventListener('DOMContentLoaded', function() {
 ::: {#literature}
 :::
 
-#### Publishing Groups
+#### **Publishing Groups**
 
 ::: {#publishing-groups}
+:::
+
+#### **Textbooks**
+
+::: {#textbooks}
 :::
 
 ### Experimentation
@@ -343,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ::: {#experimentation}
 :::
 
-#### Vendors
+#### **Vendors**
 
 ::: {#vendors}
 :::
@@ -351,6 +366,11 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Data Management & Analysis
 
 ::: {#data-analysis}
+:::
+
+### Artificial Intelligence
+
+::: {#ai}
 :::
 
 ### Clinical Data Sources

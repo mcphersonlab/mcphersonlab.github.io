@@ -1,0 +1,44 @@
+---
+title: utexas_sage
+alias: &ALIAS utexas_sage
+image: featured.jpg
+href: https://sage.eta.its.utexas.edu/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+[**UT SAGE** (Scalable and Adaptive Generalized Estimating Equations)](https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/ut-sage/) is a virtual instructional designer and AI Tutor designed by UT Austin experts to support the responsible use of generative AI in teaching and learning. Instructors can use UT Sage to create Socratic tutor chatbots that enhance student engagement and customize learning experiences.
+
+## Key Features
+
+- **Socratic Tutoring**: UT SAGE employs a Socratic method to encourage critical thinking and deeper understanding through guided questioning.
+- **Customizable Chatbots**: Instructors can tailor chatbots to specific course content and learning objectives.
+- **Responsible AI Use**: UT SAGE is designed with ethical considerations in mind, promoting responsible use of generative AI in education.
+
+## Use Cases in Research
+
+- **Enhanced Student Engagement**: Research shows that Socratic tutoring can significantly improve student engagement and learning outcomes.
+- **Personalized Learning**: UT SAGE allows for the creation of personalized learning experiences, catering to individual student needs and learning styles.
+- **Scalability**: The platform is designed to handle large numbers of students, making it suitable for both small classes and massive open online courses (MOOCs).
+
+## Getting Started
+
+To get started with UT SAGE, visit the [official website](https://sage.eta.its.utexas.edu/) for more information on how to implement the platform in your courses. You can also explore available resources and tutorials to help you set up your own Socratic tutor chatbots.
+
+## Related Publications
+
+:::{#pubs}
+:::

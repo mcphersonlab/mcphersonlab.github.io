@@ -1,0 +1,39 @@
+---
+title: utexas_spark
+alias: &ALIAS utexas_spark
+image: featured.jpg
+href: https://spark.utexas.edu/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+[**UT SPARK** (Scalable and Adaptive Generalized Estimating Equations)](https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark/) is an innovative platform developed by the University of Texas at Austin where students, faculty, and staff can ignite curiosity, learning, and innovation to shape the future.
+
+## Key Features
+
+- **Scalability**: UT SPARK is designed to handle large datasets and complex computations, making it suitable for a wide range of research applications.
+- **Adaptability**: The platform can be customized to meet the specific needs of different research projects, allowing users to tailor their computational environment.
+- **User-Friendly Interface**: UT SPARK offers an intuitive interface that simplifies the process of setting up and managing computational tasks, making it accessible to users with varying levels of technical expertise.
+
+
+## Getting Started
+
+To get started with UT SPARK, visit the [official website](https://spark.utexas.edu/) for more information on how to access the platform. You can also explore available resources and tutorials to help you make the most of UT SPARK's capabilities.
+
+## Related Publications
+
+:::{#pubs}
+:::

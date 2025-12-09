@@ -1,0 +1,51 @@
+---
+title: Deep Learning
+alias: &ALIAS Goodfellow et al. 2016
+image: featured.jpg
+href: https://www.deeplearningbook.org/
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+[*"**Deep Learning**"*](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville is a comprehensive textbook that provides an in-depth introduction to the field of deep learning. It covers a wide range of topics, including the mathematical foundations, algorithms, and practical applications of deep learning techniques. The book is widely regarded as a seminal resource for both students and practitioners in machine learning and artificial intelligence.
+
+## Key Features
+
+- **Comprehensive Coverage**: The book covers fundamental concepts such as neural networks, optimization algorithms, convolutional networks, sequence modeling, and generative models.
+- **Mathematical Foundations**: It provides a solid mathematical foundation for understanding deep learning, including linear algebra, probability theory, and information theory.
+- **Practical Insights**: The authors share practical insights and best practices for implementing deep learning models, making it a valuable resource for practitioners.
+- **Research-Oriented**: The book discusses recent advancements in deep learning research, making it relevant for researchers looking to stay updated with the latest developments in the field.
+
+
+## Use Cases in Research
+
+- **Academic Learning**: Used as a primary textbook in university courses on machine learning and deep learning.
+- **Research Reference**: Serves as a reference for researchers working on deep learning algorithms and applications.
+- **Industry Applications**: Provides insights for industry professionals looking to implement deep learning solutions in various domains such as computer vision, natural language processing, and robotics.
+
+
+## Getting Started
+
+To get started with "Deep Learning" by Goodfellow et al., consider the following steps:
+1. **Read the Book**: Start by reading the chapters sequentially to build a strong foundation in deep learning concepts.
+2. **Implement Examples**: Work through the examples and exercises provided in the book to gain hands-on experience.
+3. **Explore Further Resources**: Utilize additional resources such as online courses, tutorials, and research papers to deepen your understanding of specific topics covered in the book.
+
+
+## Related Publications
+
+:::{#pubs}
+:::

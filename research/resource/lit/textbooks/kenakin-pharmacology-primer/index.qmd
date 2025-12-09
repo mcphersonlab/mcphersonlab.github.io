@@ -1,0 +1,50 @@
+---
+title: A Pharmacology Primer
+alias: &ALIAS Kenakin
+image: featured.jpg
+href: https://www.sciencedirect.com/book/monograph/9780124076631/a-pharmacology-primer
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Terry Kenakin's *A Pharmacology Primer* is an essential resource for understanding the principles of pharmacology. This comprehensive guide covers fundamental concepts, drug-receptor interactions, dose-response relationships, and the mechanisms of drug action. It is designed for students, researchers, and professionals in the biomedical sciences.
+
+## Key Features
+
+- Clear explanations of complex pharmacological concepts
+- Illustrative examples and case studies
+- Detailed coverage of drug-receptor interactions
+- Insights into modern pharmacological techniques
+- Practical applications in drug development and therapeutics
+
+
+## Use Cases in Research
+
+- Educational resource for pharmacology students
+- Reference for researchers in drug discovery and development
+- Guide for clinicians in understanding drug mechanisms and effects
+- Tool for educators in designing pharmacology curricula
+- Resource for regulatory professionals in evaluating drug safety and efficacy
+
+
+## Getting Started
+
+Visit the [ScienceDirect page](https://www.sciencedirect.com/book/monograph/9780124076631/a-pharmacology-primer) to access the book and explore its contents. Consider obtaining a copy for in-depth study and reference in your pharmacological research and practice.
+
+## Related Publications
+
+:::{#pubs}
+:::

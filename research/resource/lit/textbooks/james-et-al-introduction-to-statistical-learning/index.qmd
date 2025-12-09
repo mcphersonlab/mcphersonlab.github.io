@@ -1,0 +1,40 @@
+---
+title: An Introduction to Statistical Learning
+alias: &ALIAS James et al. 2013
+image: featured.jpg
+href: https://www.statlearning.com/
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+[**"*An Introduction to Statistical Learning*"**](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani is a comprehensive textbook that provides an accessible introduction to the field of statistical learning. The book covers a wide range of topics including linear regression, classification, resampling methods, shrinkage approaches, tree-based methods, support vector machines, and unsupervised learning. It is designed for readers with a background in statistics and aims to equip them with the necessary tools to analyze and interpret complex data sets.
+
+## Key Features
+
+- **Comprehensive Coverage**: The book covers fundamental concepts and advanced techniques in statistical learning, making it suitable for both beginners and experienced practitioners.
+- **Practical Examples**: It includes numerous real-world examples and case studies to illustrate the application of statistical learning methods.
+- **Accessible Writing**: The authors present complex topics in a clear and concise manner, making the material accessible to a wide audience.
+- **Exercises and Solutions**: Each chapter includes exercises to reinforce learning, with solutions provided for selected problems.
+
+## Getting Started
+
+To get started with "An Introduction to Statistical Learning," you can visit the official website [**here**](https://www.statlearning.com/) where you can find additional resources, including datasets and R code examples used in the book. The book is available for purchase in both print and digital formats.
+
+
+## Related Publications
+
+:::{#pubs}
+:::
