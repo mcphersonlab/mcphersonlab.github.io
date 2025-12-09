@@ -2,7 +2,7 @@
 title: A Pharmacology Primer
 alias: &ALIAS Kenakin
 image: featured.jpg
-href: https://www.sciencedirect.com/book/monograph/9780124076631/a-pharmacology-primer
+href: https://www-sciencedirect-com.ezproxy.lib.uh.edu/book/monograph/9780323992893/a-pharmacology-primer
 listing:
   id: pubs
   template: ../../../../../_ejs/publications-people.ejs 
@@ -20,7 +20,7 @@ listing:
 
 ## Overview
 
-Terry Kenakin's *A Pharmacology Primer* is an essential resource for understanding the principles of pharmacology. This comprehensive guide covers fundamental concepts, drug-receptor interactions, dose-response relationships, and the mechanisms of drug action. It is designed for students, researchers, and professionals in the biomedical sciences.
+Terry Kenakin's [**"*A Pharmacology Primer*"**](https://www-sciencedirect-com.ezproxy.lib.uh.edu/book/monograph/9780323992893/a-pharmacology-primer) is an essential resource for understanding the principles of pharmacology. This comprehensive guide covers fundamental concepts, drug-receptor interactions, dose-response relationships, and the mechanisms of drug action. It is designed for students, researchers, and professionals in the biomedical sciences.
 
 ## Key Features
 
