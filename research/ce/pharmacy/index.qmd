@@ -1,0 +1,27 @@
+---
+title: Continuing Pharmacy Education | CPE
+alias: &ALIAS cpe
+listing:
+  id: pubs
+  #template: ../../../_ejs/publications-people.ejs 
+  contents: 
+    - "!../../../publications/_template/"
+    - "../../../publications/**/*.qmd"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include: 
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+```{=html}
+<iframe src="advanced_methods_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
+## CPE-Related Publications
+
+
+:::{#pubs}
+:::

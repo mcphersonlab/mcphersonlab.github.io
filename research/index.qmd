@@ -18,6 +18,12 @@ listing:
     type: grid
     fields: [image, title]
     sort: false  # Disable sorting to maintain custom research area order
+  - id: ce
+    contents: 
+      - ce/pharmacy/index.qmd
+    type: grid
+    fields: [title]
+    sort: false
   - id: literature
     contents: resource/lit/*/index.qmd
     type: grid
@@ -64,10 +70,17 @@ jupyter: python3
 
 ## Research Areas
 
-[Projects](projects.qmd)
-
 ::: {#research-areas}
 :::
+
+Find more at our ongoing [Projects](projects.qmd)
+
+## Continuing Education
+
+::: {#ce}
+:::
+
+
 
 <div id="pubmed-url-builder" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 25px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #dee2e6;">
 <h4 style="margin-top: 0; color: #343a40; font-weight: 600; display: flex; align-items: center; gap: 8px;">
