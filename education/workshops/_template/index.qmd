@@ -1,0 +1,22 @@
+---
+title: Workshops
+alias: &ALIAS workshops
+listing:
+  id: pubs
+  #template: ../../../_ejs/publications-people.ejs 
+  contents: 
+    - "!../../../publications/_template/"
+    - "../../../publications/**/*.qmd"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include: 
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Workshop-Related Publications
+
+:::{#pubs}
+:::

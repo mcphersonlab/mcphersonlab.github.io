@@ -3,7 +3,19 @@ title: Education
 listing:
   - id: ce
     contents: 
-      - ce/pharmacy/index.qmd
+      - ce/_template/index.qmd
+    type: grid
+    fields: [title]
+    sort: false
+  - id: courses
+    contents: 
+      - courses/_template/index.qmd
+    type: grid
+    fields: [title]
+    sort: false
+  - id: workshops
+    contents: 
+      - workshops/_template/index.qmd
     type: grid
     fields: [title]
     sort: false
@@ -11,8 +23,14 @@ page-layout: full
 jupyter: python3
 ---
 
-## Continuing Education
+## Education
 
 ::: {#ce}
+:::
+
+::: {#courses}
+:::
+
+::: {#workshops}
 :::
 
