@@ -18,7 +18,8 @@ jupyter: python3
 ::: {#content}
 :::
 
-## Permissions and Licensing for Re-use
+
+#### Permissions and Licensing
 
 [Copyright Clearance Center (CCC) Marketplace](https://marketplace.copyright.com/) at [**Copyright.com**](https://www.copyright.com/) 
 provides permissions and licensing services for a wide range of educational materials. If you wish to use any copyrighted content for educational purposes, please ensure you obtain the necessary permissions through CCC Marketplace to comply with copyright laws.
