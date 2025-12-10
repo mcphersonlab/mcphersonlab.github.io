@@ -1,6 +1,6 @@
 ---
-title: Textbooks
-alias: &ALIAS textbooks
+title: Lectures
+alias: &ALIAS lectures
 #image: featured.png
 listing:
   id: pubs
@@ -17,9 +17,9 @@ listing:
 
 ---
 
-## Books and Textbooks
+## Lecture Materials
 
-Available at [**Amazon**](https://www.amazon.com) via [**Amazon Kindle Direct Publishing (KDP)**](https://kdp.amazon.com/). 
+Available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).
 
 :::{#pubs}
 :::
