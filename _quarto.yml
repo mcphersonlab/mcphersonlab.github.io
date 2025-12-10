@@ -26,10 +26,10 @@ website:
         icon: graph-up
         text: Research
       - href: education/index.qmd
-        icon: person-chalkboard
+        icon: mortarboard
         text: Education
       - href: publications/index.qmd
-        icon: mortarboard
+        icon: vector-pen
         text: Publications
       - href: people/index.qmd
         icon: people
