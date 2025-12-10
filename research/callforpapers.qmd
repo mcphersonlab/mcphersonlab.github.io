@@ -177,7 +177,7 @@ call_for_papers = [
     {
         "journal": "Nature Microbiology/Nature Medicine",
         "impact": "19.4 / 87.3",
-        "due_date": "2026-013-11",
+        "due_date": "2026-03-11",
         "topic": "The clinical microbiome",
         "website": "https://www.nature.com/collections/cajbgagjib",
         "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi", 
