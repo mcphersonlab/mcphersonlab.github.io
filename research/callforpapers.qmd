@@ -36,16 +36,6 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
-        "journal": "Nature Microbiology/Nature Medicine",
-        "impact": "19.4 / 87.3",
-        "due_date": "2025-12-11",
-        "topic": "The clinical microbiome",
-        "website": "https://www.nature.com/collections/cajbgagjib",
-        "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi", 
-                     "https://github.com/mcphersonlab/mgx-abx-healthy", 
-                     "https://github.com/mcphersonlab/mgx-clostridioides-difficile"]
-    },
-    {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
         "due_date": "2025-12-19",
@@ -183,6 +173,16 @@ call_for_papers = [
         "website": "https://link.springer.com/collections/idgcedfhia",
         "projects": ["https://github.com/mcphersonlab/EarthEpi", 
                      "https://github.com/mcphersonlab/StormPath"]
+    },
+    {
+        "journal": "Nature Microbiology/Nature Medicine",
+        "impact": "19.4 / 87.3",
+        "due_date": "2026-013-11",
+        "topic": "The clinical microbiome",
+        "website": "https://www.nature.com/collections/cajbgagjib",
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-abx-cdi", 
+                     "https://github.com/mcphersonlab/mgx-abx-healthy", 
+                     "https://github.com/mcphersonlab/mgx-clostridioides-difficile"]
     },
     {
         "journal": "npj Digital Medicine",
