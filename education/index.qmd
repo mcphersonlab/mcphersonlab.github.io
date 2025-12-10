@@ -6,6 +6,8 @@ listing:
       - ce/index.qmd
       - courses/index.qmd
       - workshops/index.qmd
+      - textbooks/index.qmd
+      - lectures/index.qmd
     type: grid
     fields: [title]
     sort: false
