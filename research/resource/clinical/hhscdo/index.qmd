@@ -1,0 +1,16 @@
+---
+title: HHS Office of the Chief Data Officer (CDO)
+alias: &ALIAS hhscdo
+href: https://cdo.hhs.gov/s/open-data
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---

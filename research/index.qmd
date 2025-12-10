@@ -371,6 +371,12 @@ document.addEventListener('DOMContentLoaded', function() {
 ::: {#vendors}
 :::
 
+### Clinical Data Sources
+
+::: {#clinical-data}
+:::
+
+
 ### Data Management & Analysis
 
 ::: {#data-analysis}
@@ -379,11 +385,6 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Artificial Intelligence
 
 ::: {#ai}
-:::
-
-### Clinical Data Sources
-
-::: {#clinical-data}
 :::
 
 
