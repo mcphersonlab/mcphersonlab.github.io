@@ -25,17 +25,12 @@ website:
       - href: research/index.qmd
         icon: graph-up
         text: Research
-        menu:
-          - href: research/infectiousdiseases.qmd
-            text: "Infectious Diseases"
-          - href: research/humangutmicrobiome.qmd
-            text: "Human Gut Microbiome"
-          - href: research/antimicrobialresistance.qmd
-            text: "Antimicrobial Resistance"
-          - href: research/antimicrobialstewardship.qmd
-            text: "Statistical Modeling & Analysis"
+      - href: education/index.qmd
+        icon: person-chalkboard
+        text: Education
       - href: publications/index.qmd
         icon: mortarboard
+        text: Publications
       - href: people/index.qmd
         icon: people
         text: People

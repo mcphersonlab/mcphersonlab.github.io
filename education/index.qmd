@@ -1,0 +1,27 @@
+---
+title: Research Areas
+listing:
+  - id: ce
+    contents: 
+      - ce/pharmacy/index.qmd
+    type: grid
+    fields: [title]
+    sort: false
+page-layout: full
+jupyter: python3
+---
+
+## Continuing Education
+
+::: {#ce}
+:::
+
+### Courses
+
+::: {#courses}
+:::
+
+### Workshops
+
+::: {#workshops}
+:::
