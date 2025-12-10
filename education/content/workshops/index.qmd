@@ -17,7 +17,7 @@ listing:
 
 ---
 
-## Workshop Content
+## Workshops
 
 :::{#pubs}
 :::

@@ -17,7 +17,7 @@ listing:
 
 ---
 
-## Continuing Education Content
+## Continuing Education
 
 :::{#pubs}
 :::
