@@ -16,12 +16,9 @@ listing:
 
 ---
 
-```{=html}
-<iframe src="advanced_methods_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
-```
-
 ## CPE-Related Publications
 
+*and lecture-slides available for institutional licensure*
 
 :::{#pubs}
 :::
