@@ -1,21 +1,11 @@
 ---
 title: Education
 listing:
-  - id: ce
+  - id: content
     contents: 
-      - ce/_template/index.qmd
-    type: grid
-    fields: [title]
-    sort: false
-  - id: courses
-    contents: 
-      - courses/_template/index.qmd
-    type: grid
-    fields: [title]
-    sort: false
-  - id: workshops
-    contents: 
-      - workshops/_template/index.qmd
+      - ce/index.qmd
+      - courses/index.qmd
+      - workshops/index.qmd
     type: grid
     fields: [title]
     sort: false
@@ -23,14 +13,8 @@ page-layout: full
 jupyter: python3
 ---
 
-## Education
+## Educational Content
 
-::: {#ce}
-:::
-
-::: {#courses}
-:::
-
-::: {#workshops}
+::: {#content}
 :::
 
