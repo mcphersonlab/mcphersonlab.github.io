@@ -1,6 +1,6 @@
 ---
-title: Workshops
-alias: &ALIAS workshops
+title: Textbooks
+alias: &ALIAS textbooks
 #image: featured.png
 listing:
   id: pubs
@@ -17,9 +17,9 @@ listing:
 
 ---
 
-## Workshops
+## Books and Textbooks
 
-Hosted via [**Eventbrite**](https://www.eventbrite.com/), our workshops are designed to provide hands-on learning experiences in various topics. These interactive sessions are led by experienced instructors and aim to enhance participants' skills through practical application and collaboration.
+Available at 
 
 :::{#pubs}
 :::

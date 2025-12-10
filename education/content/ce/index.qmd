@@ -19,5 +19,7 @@ listing:
 
 ## Continuing Education
 
+Available at [**LearningExpress CE**](https://www.learningexpressce.com/), our Continuing Education (CE) courses are designed to help professionals stay updated with the latest knowledge and skills in their respective fields. These courses cover a wide range of topics and are developed by experts to ensure high-quality content.
+
 :::{#pubs}
 :::
