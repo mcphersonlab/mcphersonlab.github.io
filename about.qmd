@@ -14,9 +14,9 @@ We believe in:
 
 ## Our Approach
 
-We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) lab that integrates [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) with laboratory data for [drug discovery and development](https://mcphersonlab.github.io/research/area/drug-development/) and other [areas of research](https://mcphersonlab.github.io/research)
+We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) lab that integrates [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) with laboratory data for [drug discovery and development](https://mcphersonlab.github.io/research/area/drug-development/) and other [areas of research](https://mcphersonlab.github.io/research). [Ongoing projects](https://mcphersonlab.github.io/research/projects) are at the  [**Lab GitHub**](https://github.com/mcphersonlab), [Zenodo](https://zenodo.org/communities/mcphersonlab) or listed under [publications](https://mcphersonlab.github.io/publications/)
 
-Our ongoing projects and publications can be found at the Lab [**GitHub**](https://github.com/mcphersonlab), [Zenodo](https://zenodo.org/communities/mcphersonlab) or [publications](https://mcphersonlab.github.io/publications/)
+Our research is driven by three pillars:
 
 1. **More data**
 
