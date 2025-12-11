@@ -1,0 +1,19 @@
+---
+title: MIT Press
+alias: &ALIAS MITpress
+#image: featured.jpg
+href: https://mitpress.mit.edu/
+listing:
+  id: pubs
+  template: ../../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../../publications/**/*.qmd"
+    - "!../../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
