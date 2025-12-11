@@ -84,18 +84,18 @@ Find more at our ongoing [Projects](projects.qmd)
 </svg>
 PubMed Literature Search Builder
 </h4>
-<p style="color: #6c757d; margin-bottom: 20px; font-size: 14px;">Search across top-tier journals for pathogen and topic research. Enter a pathogen name and optionally a topic to generate a custom PubMed search.</p>
+<p style="color: #6c757d; margin-bottom: 20px; font-size: 14px;">Search across top-tier journals. Enter a topic (required) and optionally a sub-topic to generate a custom PubMed search.</p>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
 <div>
-<label for="pathogen-input" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Pathogen <span style="color: #dc3545;">*</span></label>
+<label for="pathogen-input" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Topic <span style="color: #dc3545;">*</span></label>
 <input type="text" id="pathogen-input" placeholder="e.g., Clostridioides difficile" 
     style="width: 100%; padding: 12px 14px; border: 2px solid #ced4da; border-radius: 8px; font-size: 14px; transition: all 0.2s ease; box-sizing: border-box;"
     onfocus="this.style.borderColor='#dc3545'; this.style.boxShadow='0 0 0 3px rgba(220,53,69,0.15)';"
     onblur="this.style.borderColor='#ced4da'; this.style.boxShadow='none';">
 </div>
 <div>
-<label for="topic-input" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Topic <span style="color: #6c757d; font-weight: normal;">(optional)</span></label>
+<label for="topic-input" style="display: block; margin-bottom: 6px; font-weight: 500; color: #495057;">Sub-Topic <span style="color: #6c757d; font-weight: normal;">(optional)</span></label>
 <input type="text" id="topic-input" placeholder="e.g., Antimicrobial Resistance" 
     style="width: 100%; padding: 12px 14px; border: 2px solid #ced4da; border-radius: 8px; font-size: 14px; transition: all 0.2s ease; box-sizing: border-box;"
     onfocus="this.style.borderColor='#dc3545'; this.style.boxShadow='0 0 0 3px rgba(220,53,69,0.15)';"
@@ -253,7 +253,7 @@ function buildPubMedUrl() {
     const author = document.getElementById('author-select').value;
     
     if (!pathogen) {
-        showFeedback('Please enter a pathogen name.', 'warning');
+        showFeedback('Please enter a topic.', 'warning');
         return null;
     }
     
