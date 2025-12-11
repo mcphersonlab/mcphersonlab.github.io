@@ -36,9 +36,81 @@ from IPython.display import display, HTML
 # Call for papers data
 call_for_papers = [
     {
+        "journal": "Journal of Translational Medicine",
+        "impact": "7.5",
+        "due_date": "2026-01-21",
+        "topic": "Computational Modelling and Network Medicine in Drug Toxicology and Clinical Pharmacovigilance",
+        "website": "https://link.springer.com/collections/eabdigafhj",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Drug Discovery",
+        "impact": "",
+        "due_date": "2026-01-21",
+        "topic": "Drug discovery of ion channels",
+        "website": "https://www.nature.com/npjdrugdiscov/collections",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Drug Discovery",
+        "impact": "",
+        "due_date": "2026-03-11",
+        "topic": "Drug discovery at G Protein-Coupled Receptors",
+        "website": "https://www.nature.com/npjdrugdiscov/collections",
+        "projects": [""]
+    },
+    {
+        "journal": "Scientific Data",
+        "impact": "4.0",
+        "due_date": "2026-04-22",
+        "topic": "Data to support drug discovery",
+        "website": "https://www.nature.com/collections/efidabcffj",
+        "projects": [""]
+    },
+    {
+        "journal": "International Journal of Educational Technology in Higher Education",
+        "impact": "16.7",
+        "due_date": "2026-03-01",
+        "topic": "Credentials in Artificial Intelligence: International Perspectives on Transforming Teaching and Learning in Higher Education",
+        "website": "https://link.springer.com/collections/cgfhfcafai",
+        "projects": [""]
+    },
+    {
+        "journal": "International Journal of Educational Technology in Higher Education",
+        "impact": "16.7",
+        "due_date": "2026-05-31",
+        "topic": "Human Interaction with Gen AI Across Learning and Teaching Processes in Higher Education",
+        "website": "https://link.springer.com/collections/iddjabccja",
+        "projects": [""]
+    },
+    {
+        "journal": "Humanities and Social Sciences Communications",
+        "impact": "3.9",
+        "due_date": "2026-07-09",
+        "topic": "Innovation, AI, and education",
+        "website": "https://www.nature.com/collections/gffbgaahgb",
+        "projects": [""]
+    },
+    {
+        "journal": "Scientific Data",
+        "impact": "4.0",
+        "due_date": "2026-08-19",
+        "topic": "Datasets in Education",
+        "website": "https://www.nature.com/collections/gcgjjfihgg",
+        "projects": [""]
+    },
+    {
+        "journal": "npj Digital Medicine",
+        "impact": "15.1",
+        "due_date": "2026-04-24",
+        "topic": "Transforming Medical Education through Artificial Intelligence",
+        "website": "https://www.nature.com/collections/ehadbhgiji",
+        "projects": [""]
+    },
+    {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
-        "due_date": "2025-12-19",
+        "due_date": "2026-01-28",
         "topic": "Antimicrobials and Resistance in the Food Chain",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
         "projects": ["https://github.com/mcphersonlab/amr-env-food"]
