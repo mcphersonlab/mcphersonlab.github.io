@@ -1,5 +1,5 @@
 ---
-title: All of Us Research Program
+title: All of Us
 alias: &ALIAS allofus
 href: https://allofus.nih.gov/
 listing:
