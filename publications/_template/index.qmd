@@ -16,5 +16,6 @@ issue: issue
 page: page
 year: 9999 # year
 image: ""
-pub_number: 
+pub_number:
+doi: 
 ---
