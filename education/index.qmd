@@ -34,10 +34,10 @@ For more information on obtaining permissions, please visit the [**CCC Marketpla
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../research.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Research</a>
+    <a href="../about.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
   </div>
   <div>
-    <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
+    <a href="../research.html" class="btn btn-outline-primary">Research <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

@@ -22,12 +22,12 @@ website:
       - href: about.qmd
         icon: info-circle
         text: About
-      - href: research/index.qmd
-        icon: graph-up
-        text: Research
       - href: education/index.qmd
         icon: mortarboard
         text: Education
+      - href: research/index.qmd
+        icon: graph-up
+        text: Research
       - href: publications/index.qmd
         icon: vector-pen
         text: Publications

@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../about.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
+    <a href="../education/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
   </div>
   <div>
     <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
