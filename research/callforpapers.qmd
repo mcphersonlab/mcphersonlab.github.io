@@ -54,7 +54,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Genomic Medicine",
-        "impact": "",
+        "impact": "4.8",
         "due_date": "2025-12-28",
         "topic": "The microbiome in precision medicine",
         "website": "https://www.nature.com/collections/iaadjjbbea",
@@ -244,7 +244,7 @@ call_for_papers = [
     },
     {
         "journal": "Journal of Chemical Theory and Computation (JCTC)",
-        "impact": "",
+        "impact": "6.4",
         "due_date": "2026-04-30",
         "topic": "Call For Papers: 100 Years of Quantum Mechanics—All About Molecules",
         "website": "https://axial.acs.org/theoretical-and-computational-chemistry/call-for-papers-100-years-of-quantum-mechanics-all-about-molecules",
@@ -276,7 +276,7 @@ call_for_papers = [
     },
     {
         "journal": "Journal of Bacteriology",
-        "impact": "",
+        "impact": "3.2",
         "due_date": "2026-05-31",
         "topic": "Biofilms",
         "website": "https://journals.asm.org/asm-calls-for-papers",
@@ -308,7 +308,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Medical Research Methodology",
-        "impact": "",
+        "impact": "5.2",
         "due_date": "2026-06-18",
         "topic": "Impact of AI on medical research",
         "website": "https://link.springer.com/collections/cdieieiacj",
@@ -316,7 +316,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Genomic Medicine",
-        "impact": "",
+        "impact": "4.8",
         "due_date": "2026-06-23",
         "topic": "Artificial Intelligence in Genomic Medicine",
         "website": "https://www.nature.com/npjgenmed/calls-for-papers",
@@ -325,7 +325,7 @@ call_for_papers = [
     },
     {
         "journal": "Antimicrobial Resistance & Infection Control",
-        "impact": "",
+        "impact": "5.5",
         "due_date": "2026-06-25",
         "topic": "What is new in the prevention, diagnosis, and treatment of hospital-acquired pneumonia?",
         "website": "https://link.springer.com/collections/bgbhjabeba",
@@ -333,7 +333,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Immunology",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-06-26",
         "topic": "Fungal infections",
         "website": "https://link.springer.com/collections/ddhfibjigd",
@@ -343,7 +343,7 @@ call_for_papers = [
     },
     {
         "journal": "Journal of Epidemiology and Global Health",
-        "impact": "",
+        "impact": "6.1",
         "due_date": "2026-06-26",
         "topic": "Infectious disease outbreak in conflict-driven displacement",
         "website": "https://link.springer.com/collections/dijaajbcjh",
@@ -351,7 +351,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-06-30",
         "topic": "Infectious disease management in infants and children",
         "website": "https://link.springer.com/collections/jibcibadih",
@@ -368,7 +368,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Public Health",
-        "impact": "",
+        "impact": "4.2",
         "due_date": "2026-07-03",
         "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
         "website": "https://link.springer.com/collections/jbeiehebjj",
@@ -376,7 +376,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Pharmacology and Toxicology",
-        "impact": "",
+        "impact": "2.7",
         "due_date": "2026-07-15",
         "topic": "Small molecule therapy",
         "website": "https://link.springer.com/collections/bdbegfifge",
@@ -384,7 +384,7 @@ call_for_papers = [
     },
     {
         "journal": "Human Genomics",
-        "impact": "",
+        "impact": "4.3",
         "due_date": "2026-07-15",
         "topic": "Artificial Intelligence in Omics and Translational Research",
         "website": "https://link.springer.com/collections/dfaifjhcej",
@@ -392,7 +392,7 @@ call_for_papers = [
     },
     {
         "journal": "Cardiovascular Diabetology",
-        "impact": "",
+        "impact": "10.6",
         "due_date": "2026-07-15",
         "topic": "Cardiometabolic and Hepatic Interconnections: From Mechanisms to Clinical Implications",
         "website": "https://link.springer.com/collections/dieeaahafg",
@@ -416,7 +416,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Genomics",
-        "impact": "",
+        "impact": "4.2",
         "due_date": "2026-07-20",
         "topic": "Genomics of human pathogens",
         "website": "https://link.springer.com/collections/iaeiigfdid",
@@ -424,7 +424,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-07-20",
         "topic": "Urinary tract infections in older patients",
         "website": "https://link.springer.com/collections/aiffadagdf",
@@ -432,7 +432,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-07-20",
         "topic": "Hepatitis virus infections and treatment",
         "website": "https://link.springer.com/collections/cidhfidfaf",
@@ -440,7 +440,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-07-20",
         "topic": "Genomics of Infectious Diseases",
         "website": "https://link.springer.com/collections/ffbaaggicb",
@@ -450,7 +450,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-07-20",
         "topic": "Staphylococcal infections",
         "website": "https://link.springer.com/collections/fjheihhice",
@@ -459,7 +459,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Genomics",
-        "impact": "",
+        "impact": "4.2",
         "due_date": "2026-07-24",
         "topic": "Genomics of human pathogens",
         "website": "https://link.springer.com/collections/iaeiigfdid",
@@ -468,7 +468,7 @@ call_for_papers = [
     },
     {
         "journal": "Genes & Nutrition",
-        "impact": "",
+        "impact": "4.6",
         "due_date": "2026-07-24",
         "topic": "Metabolomics, Metabolism, and Nutrition: Experimental Studies, Data Resources, and Computational Methods",
         "website": "https://link.springer.com/collections/bddbciigje",
@@ -484,7 +484,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Urology",
-        "impact": "",
+        "impact": "2.3",
         "due_date": "2026-07-28",
         "topic": "Urinary tract infections: antibiotic resistance and management",
         "website": "https://link.springer.com/collections/igedifhjah",
@@ -500,7 +500,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Methods/Nature Structural & Molecular Biology",
-        "impact": "",
+        "impact": "28.8 / 15.8",
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
@@ -508,7 +508,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Primary Care",
-        "impact": "",
+        "impact": "2.5",
         "due_date": "2026-07-30",
         "topic": "Communication in Primary Care",
         "website": "https://link.springer.com/collections/eebbhjjdda",
@@ -516,7 +516,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Medical Research Methodology",
-        "impact": "",
+        "impact": "5.2",
         "due_date": "2026-07-30",
         "topic": "Causal inference and observational data vol. 2",
         "website": "https://link.springer.com/collections/hgihdahcfj",
@@ -524,7 +524,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Immunology",
-        "impact": "",
+        "impact": "25.6",
         "due_date": "2026-07-30",
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
         "website": "https://www.nature.com/collections/jgggbjghji",
@@ -532,7 +532,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-07-31",
         "topic": "Bacteremia: advances in diagnosis, treatment, and management",
         "website": "https://www.biomedcentral.com/collections/col3461",
@@ -548,7 +548,7 @@ call_for_papers = [
     },
     {
         "journal": "Patterns",
-        "impact": "",
+        "impact": "8.1",
         "due_date": "2026-08-01",
         "topic": "Reanalysis",
         "website": "https://www.cell.com/patterns/special-issues/call-for-papers",
@@ -556,7 +556,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-08-02",
         "topic": "Infectious diseases of livestock",
         "website": "https://link.springer.com/collections/ehacghjgic",
@@ -572,7 +572,7 @@ call_for_papers = [
     },
     {
         "journal": "Malaria Journal",
-        "impact": "",
+        "impact": "3.5",
         "due_date": "2026-08-11",
         "topic": "AI for Malaria Elimination: Data-Driven Innovations in Surveillance and Control",
         "website": "https://link.springer.com/collections/jiiggbechj",
@@ -580,7 +580,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Bioinformatics",
-        "impact": "",
+        "impact": "4.1",
         "due_date": "2026-08-14",
         "topic": "Predictive toxicology and chemical risk assessment",
         "website": "https://www.biomedcentral.com/collections/COL-3110",
@@ -588,7 +588,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Cancer",
-        "impact": "",
+        "impact": "4.7",
         "due_date": "2026-08-14",
         "topic": "Cancer control in low- and middle-income countries – Part II",
         "website": "https://link.springer.com/collections/bcefgdbfdf",
@@ -596,7 +596,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Anesthesiology",
-        "impact": "",
+        "impact": "3.5",
         "due_date": "2026-08-19",
         "topic": "Antimicrobial therapy in the intensive care unit",
         "website": "https://link.springer.com/collections/eibadehcci",
@@ -605,7 +605,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Infectious Diseases",
-        "impact": "",
+        "impact": "3.1",
         "due_date": "2026-08-19",
         "topic": "Systematic reviews on infectious diseases - Part II",
         "website": "https://link.springer.com/collections/egjifidhdf",
@@ -631,7 +631,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Artificial Intelligence",
-        "impact": "",
+        "impact": "4.6",
         "due_date": "2026-12-01",
         "topic": "AI for clinical trial optimization",
         "website": "https://link.springer.com/collections/ahddfdfifi",
@@ -639,7 +639,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Medical Informatics and Decision Making",
-        "impact": "",
+        "impact": "3.5",
         "due_date": "2026-12-01",
         "topic": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
         "website": "https://link.springer.com/collections/jjejdiccch",
@@ -647,7 +647,7 @@ call_for_papers = [
     },
     {
         "journal": "Philosophy & Technology",
-        "impact": "",
+        "impact": "5.1",
         "due_date": "2026-12-01",
         "topic": "The ethics of medical artificial intelligence: Trust and adoption of AI in healthcare",
         "website": "https://link.springer.com/collections/abfhhheefd",
@@ -655,7 +655,7 @@ call_for_papers = [
     },
     {
         "journal": "International Journal for Educational Integrity",
-        "impact": "",
+        "impact": "2.4",
         "due_date": "2026-12-31",
         "topic": "Artificial Intelligence: Ethical Implications for Teaching, Learning, Assessment, Science, and Research",
         "website": "https://link.springer.com/collections/iehehbacdi",
@@ -663,7 +663,7 @@ call_for_papers = [
     },
     {
         "journal": "International Journal of STEM Education",
-        "impact": "",
+        "impact": "4.6",
         "due_date": "2027-01-31",
         "topic": "AI Literacy and STEM Education",
         "website": "https://link.springer.com/collections/chdfcibfje",
@@ -679,7 +679,7 @@ call_for_papers = [
     },
     {
         "journal": "JID",
-        "impact": "",
+        "impact": "5.8",
         "due_date": "Ongoing",
         "topic": "Moving the microbiome from the bench to the bedside",
         "website": "https://academic.oup.com/idsa/pages/calls-for-papers",
