@@ -27,8 +27,9 @@ Hosted via [**AWS-Docker**](https://sib-swiss.github.io/AWS-docker/) and [**Even
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../education.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
+    <a href="/education/" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Education
+    </a>
   </div>
-
 </div>
 ```
