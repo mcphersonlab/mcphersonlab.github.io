@@ -19,7 +19,7 @@ listing:
 
 ## Workshops
 
-Hosted via [**Eventbrite**](https://www.eventbrite.com/), our workshops are designed to provide hands-on learning experiences in various topics. These interactive sessions are led by experienced instructors and aim to enhance participants' skills through practical application and collaboration.
+Hosted via [**AWS-Docker**](https://sib-swiss.github.io/AWS-docker/) and [**Eventbrite**](https://www.eventbrite.com/), our workshops are designed to provide hands-on learning experiences in various topics. These interactive sessions are led by experienced instructors and aim to enhance participants' skills through practical application and collaboration.
 
 :::{#pubs}
 :::
