@@ -59,6 +59,20 @@ conferences = [
         "projects": ["https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
     },
     {
+        "name": "ClostPath Biennial",
+        "location": "Paris, France",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "start_date": "2026-09-01",
+        "end_date": "2026-09-04",
+        "abstract_open": "2025-03-01",
+        "abstract_close": "2025-05-15",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.clostpath2025.conferences-pasteur.org/",
+        "projects": []
+    },
+    {
         "name": "STI Prevention Conference",
         "location": "Atlanta, Georgia, USA",
         "lat": "33.7490",
