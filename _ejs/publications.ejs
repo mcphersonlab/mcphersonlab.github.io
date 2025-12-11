@@ -72,15 +72,6 @@
                 </div>
                     <% } %>
 
-            <% if (item.doi) { %>
-            <div class="listing-pub-badges">
-                <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="<%- item.doi %>"></div>
-            <% if (item.doi) { %>
-            <div class="listing-pub-badges">
-                <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="<%- item.doi %>" aria-label="Altmetric attention score badge"></div>
-                <span class="__dimensions_badge_embed__" data-doi="<%- item.doi %>" data-style="small_rectangle" aria-label="Dimensions citation badge"></span>
-            </div>
-            <% } %>
 
 
 
@@ -90,7 +81,4 @@
     <% } %>
     </div>
 
-<!-- Altmetric and Dimensions badge scripts - SRI hashes added for security. Update hashes if scripts change. -->
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js' integrity="sha384-+Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw==" crossorigin="anonymous"></script>
-<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8" integrity="sha384-+Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr2Rr==" crossorigin="anonymous"></script>
 ```
