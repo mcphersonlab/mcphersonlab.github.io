@@ -1,0 +1,46 @@
+---
+title: Research Rabbit
+alias: &ALIAS researchrabbit
+#image: featured.png
+href: https://www.researchrabbit.ai/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Research Rabbit is an innovative platform designed to help researchers discover, visualize, and manage academic literature. It offers a dynamic way to explore research papers, track citations, and build personalized reading lists. With its intuitive interface and powerful recommendation algorithms, Research Rabbit aims to streamline the research process and foster collaboration among scholars.
+
+## Key Features
+
+- **Literature Discovery**: Research Rabbit provides personalized recommendations based on your research interests and reading history, helping you discover relevant papers and authors.
+- **Visualization Tools**: The platform offers interactive visualizations of citation networks, allowing users to see how papers are connected and identify influential works in their field.
+- **Reading Lists**: Users can create and manage reading lists, making it easy to organize and prioritize papers for review.
+- **Collaboration**: Research Rabbit supports collaboration by allowing users to share reading lists and insights with colleagues.
+- **Integration**: The platform integrates with various academic databases, making it easy to import and export references.
+
+## Use Cases in Research
+
+- **Literature Reviews**: Researchers can efficiently gather and organize relevant literature for comprehensive reviews.
+- **Trend Analysis**: By visualizing citation networks, researchers can identify emerging trends and key contributors in their field.
+
+
+## Getting Started
+
+Visit [Research Rabbit]() to create an account and start building your academic profile. You can import your publications from various databases and customize your profile to reflect your research interests and achievements.
+
+## Related Publications
+
+:::{#pubs}
+:::
