@@ -30,3 +30,13 @@ For more information on obtaining permissions, please visit the [CCC Marketplace
 
 All educational materials provided here are intended for personal use and educational purposes only. Redistribution or commercial use of these materials without proper authorization is prohibited. Please respect the intellectual property rights of content creators and publishers.
 
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="../research.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Research</a>
+  </div>
+  <div>
+    <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```

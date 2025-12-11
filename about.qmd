@@ -42,11 +42,14 @@ We use [**research resources**](https://mcphersonlab.github.io/research/#researc
 [Snakemake](https://snakemake.readthedocs.io/en/stable/),
 [VSCode](https://code.visualstudio.com/),
 [RStudio Cloud](https://rstudio.cloud/),
-[Jupyter Notebooks](https://jupyter.org/),
+[Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
 [Github](https://github.com), 
 [Git](https://git-scm.com/),
+[Anaconda](https://anaconda.org/),
+[R Consortium](https://www.r-consortium.org/),
 [Zenodo](https://zenodo.org/), and
-[Overleaf](https://www.overleaf.com/).
+[LaTeX](https://www.latex-project.org/) via
+[Overleaf](https://www.overleaf.com/)
 
 
 ### Texas-Powered 

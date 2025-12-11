@@ -23,3 +23,12 @@ Available at [**Amazon**](https://www.amazon.com) via [**Amazon Kindle Direct Pu
 
 :::{#pubs}
 :::
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="../education.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
+  </div>
+
+</div>
+```

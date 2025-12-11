@@ -23,3 +23,12 @@ Available at [**LearningExpress CE**](https://www.learningexpressce.com/), our C
 
 :::{#pubs}
 :::
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="../education.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
+  </div>
+
+</div>
+```
