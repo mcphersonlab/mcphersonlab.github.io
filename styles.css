@@ -109,7 +109,7 @@ img {
 .listing-pub-metrics {
   margin-top: 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5rem;
   align-items: flex-start;
 }
