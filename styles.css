@@ -100,15 +100,6 @@ img {
   border-top: 1px solid #dee2e6;
 }
 
-/* Badges styling for altmetrics and dimensions */
-.listing-pub-badges {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  align-items: flex-start;
-}
-
 /* Publication link styling */
 .listing-pub-url a p {
   color: #8250E6;
