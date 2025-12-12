@@ -66,8 +66,8 @@
 
             <% if (item.doi) { %>
             <div class="listing-pub-metrics">
-                <div class="__dimensions_badge_embed__" data-doi="<%= item.doi %>" data-style="small_rectangle"></div>
-                <div data-badge-type="donut" data-doi="<%= item.doi %>" data-condensed="true" class="altmetric-embed"></div>
+                <div class="__dimensions_badge_embed__" data-doi="<%- item.doi %>" data-style="small_rectangle"></div>
+                <div data-badge-type="donut" data-doi="<%- item.doi %>" data-condensed="true" class="altmetric-embed"></div>
             </div>
             <% } %>
         </div>
