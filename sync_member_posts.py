@@ -274,7 +274,6 @@ class MemberPostSync:
                     return {
                         'title': frontmatter.get('title', filename.replace('.qmd', '').title()),
                         'author': author_value,
-                        'date': frontmatter.get('date', datetime.now().isoformat()),
                         'categories': frontmatter.get('categories', []),
                         'content': markdown_content,
                         'filename': filename,
@@ -285,7 +284,6 @@ class MemberPostSync:
             return {
                 'title': filename.replace('.qmd', '').replace('-', ' ').title(),
                 'author': [member['name']],
-                'date': datetime.now().isoformat(),
                 'categories': ['research'],
                 'content': content,
                 'filename': filename,
@@ -352,7 +350,6 @@ class MemberPostSync:
         frontmatter = {
             'title': publication.get('title', 'Untitled Publication'),
             'author': author_value,
-            'date': publication.get('date', datetime.now().isoformat()),
             'categories': publication.get('categories', ['research', 'member-publication'])
         }
         
