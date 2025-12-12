@@ -108,3 +108,17 @@ img {
   gap: 0.5rem;
   align-items: flex-start;
 }
+
+/* Publication link styling */
+.listing-pub-url a p {
+  color: #8250E6;
+}
+
+/* Publication metrics container */
+.listing-pub-metrics {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
