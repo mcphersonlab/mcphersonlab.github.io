@@ -105,11 +105,51 @@ img {
   color: #8250E6;
 }
 
+/* CSS custom properties for publication layout */
+:root {
+  --pub-thumbnail-width: 150px;
+}
+
+/* Publication listing layout - 3 columns: content | badges | thumbnail */
+.quarto-post.image-right {
+  display: grid;
+  grid-template-columns: 1fr auto auto; /* content (flexible) | badges (auto-fit) | thumbnail (auto-fit) */
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.quarto-post.image-right .body {
+  grid-column: 1;
+}
+
+.quarto-post.image-right .metadata {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.quarto-post.image-right .thumbnail {
+  grid-column: 3;
+  width: var(--pub-thumbnail-width);
+  flex-shrink: 0;
+}
+
+.quarto-post.image-right .thumbnail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 /* Publication metrics container */
 .listing-pub-metrics {
   margin-top: 0.5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 0.5rem;
-  align-items: flex-start;
+  align-items: flex-end;
 }
