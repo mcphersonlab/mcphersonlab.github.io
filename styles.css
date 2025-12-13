@@ -105,10 +105,15 @@ img {
   color: #8250E6;
 }
 
-/* Publication listing layout */
+/* CSS custom properties for publication layout */
+:root {
+  --pub-thumbnail-width: 150px;
+}
+
+/* Publication listing layout - 3 columns: content | badges | thumbnail */
 .quarto-post.image-right {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto; /* content (flexible) | badges (auto-fit) | thumbnail (auto-fit) */
   gap: 1.5rem;
   align-items: start;
   margin-bottom: 2rem;
@@ -130,7 +135,7 @@ img {
 
 .quarto-post.image-right .thumbnail {
   grid-column: 3;
-  width: 150px;
+  width: var(--pub-thumbnail-width);
   flex-shrink: 0;
 }
 
