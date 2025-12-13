@@ -4,17 +4,17 @@ alias: &ALIAS infectious-diseases
 image: featured.jpg
 listing:
   id: pubs
-  #template: ../../../_ejs/publications-people.ejs 
+  template: ../../../_ejs/publications-people.ejs 
   contents: 
     - "!../../../publications/_template/"
     - "../../../publications/**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true
-  # filter-ui: true
+  filter-ui: true
   include: 
     categories: *ALIAS
-  fields: [publication, title, categories, image, author]
-
+  fields: [image, categories, pub_number, title, publication, author, url_source, url_preprint, doi, journ, issue, page, year]
+page-layout: full
 ---
 
 ```{=html}
