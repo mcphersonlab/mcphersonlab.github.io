@@ -18,7 +18,7 @@ source:
   member: Jacob K. McPherson
   original_url: https://github.com/JacobKMcPherson/jacobkmcpherson.github.io/blob/main/publications/20250917_test/index.qmd
   username: JacobKMcPherson
-title: **This is a test post**
+title: "**This is a test post**"
 url_preprint: null
 url_source: null
 year: 2025
