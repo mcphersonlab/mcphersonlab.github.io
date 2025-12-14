@@ -49,7 +49,7 @@ call_for_papers = [
         "due_date": "2026-01-21",
         "topic": "Drug discovery of ion channels",
         "website": "https://www.nature.com/npjdrugdiscov/collections",
-        "projects": [""]
+        "projects": []
     },
     {
         "journal": "npj Drug Discovery",
@@ -57,7 +57,7 @@ call_for_papers = [
         "due_date": "2026-03-11",
         "topic": "Drug discovery at G Protein-Coupled Receptors",
         "website": "https://www.nature.com/npjdrugdiscov/collections",
-        "projects": [""]
+        "projects": []
     },
     {
         "journal": "Scientific Data",
@@ -118,7 +118,7 @@ call_for_papers = [
     {
         "journal": "npj Digital Medicine/npj Digital Public Health",
         "impact": "15.1",
-        "due_date": "2025-12-28",
+        "due_date": "2026-05-15",
         "topic": "AI for Population Medicine and Public Health",
         "website": "https://www.nature.com/collections/jaibcfdhef",
         "projects": ["https://github.com/mcphersonlab/ai-forecast-influenza", 
@@ -134,10 +134,10 @@ call_for_papers = [
     },
     {
         "journal": "BMC Medicine",
-        "impact": "10.0",
+        "impact": "9.4",
         "due_date": "2025-12-29",
         "topic": "Diabetes and infectious disease",
-        "website": "https://bmcmedicine.biomedcentral.com/call-for-papers",
+        "website": "https://link.springer.com/collections/feijedifdj",
         "projects": []
     },
     {
@@ -145,7 +145,7 @@ call_for_papers = [
         "impact": "15.7",
         "due_date": "2025-12-31",
         "topic": "Viral hepatitis",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/abidffbfch",
         "projects": []
     },
     {
@@ -153,7 +153,7 @@ call_for_papers = [
         "impact": "15.7",
         "due_date": "2025-12-31",
         "topic": "Infection and cancer",
-        "website": "https://www.nature.com/ncomms/calls-for-papers",
+        "website": "https://www.nature.com/collections/ihdbhcefif",
         "projects": []
     },
     {
@@ -169,7 +169,7 @@ call_for_papers = [
         "impact": "15.1",
         "due_date": "2026-01-10",
         "topic": "Economics of AI in Healthcare",
-        "website": "https://www.nature.com/npjdigitalmed/calls-for-papers",
+        "website": "https://www.nature.com/collections/cbebcjddei",
         "projects": []
     },
     {
@@ -297,14 +297,6 @@ call_for_papers = [
         "topic": "Artificial intelligence for next-generation anti-infective discovery",
         "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery",
         "projects": ["https://github.com/mcphersonlab/ai-amr"]
-    },
-    {
-        "journal": "npj Drug Discovery",
-        "impact": "",
-        "due_date": "2026-04-02",
-        "topic": "Animal toxins for drug discovery",
-        "website": "https://www.nature.com/collections/iahgbddeeg",
-        "projects": []
     },
     {
         "journal": "npj Antimicrobials and Resistance",
@@ -447,14 +439,6 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "BMC Pharmacology and Toxicology",
-        "impact": "2.7",
-        "due_date": "2026-07-15",
-        "topic": "Small molecule therapy",
-        "website": "https://link.springer.com/collections/bdbegfifge",
-        "projects": []
-    },
-    {
         "journal": "Human Genomics",
         "impact": "4.3",
         "due_date": "2026-07-15",
@@ -576,14 +560,6 @@ call_for_papers = [
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
-    },
-    {
-        "journal": "BMC Primary Care",
-        "impact": "2.5",
-        "due_date": "2026-07-30",
-        "topic": "Communication in Primary Care",
-        "website": "https://link.springer.com/collections/eebbhjjdda",
         "projects": []
     },
     {
@@ -723,14 +699,6 @@ call_for_papers = [
         "due_date": "2026-12-01",
         "topic": "The ethics of medical artificial intelligence: Trust and adoption of AI in healthcare",
         "website": "https://link.springer.com/collections/abfhhheefd",
-        "projects": []
-    },
-    {
-        "journal": "International Journal for Educational Integrity",
-        "impact": "2.4",
-        "due_date": "2026-12-31",
-        "topic": "Artificial Intelligence: Ethical Implications for Teaching, Learning, Assessment, Science, and Research",
-        "website": "https://link.springer.com/collections/iehehbacdi",
         "projects": []
     },
     {
