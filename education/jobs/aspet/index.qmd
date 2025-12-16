@@ -1,5 +1,5 @@
 ---
-title: Job Board at ASPET
+title: ASPET | American Society of Pharmacology and Experimental Therapeutics
 alias: &ALIAS jobs-aspet
 href: https://careers.aspet.org/jobs/
 ---

@@ -1,5 +1,5 @@
 ---
-title: Job Board at APhA
+title: APhA | American Pharmacists Association
 alias: &ALIAS jobs-apha-pharmacy
 href: https://apha.healthshifts.ai/job-listing
 ---

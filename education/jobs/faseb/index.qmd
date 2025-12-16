@@ -1,5 +1,5 @@
 ---
-title: Job Board at FASEB
+title: FASEB | Federation of American Societies for Experimental Biology
 alias: &ALIAS jobs-faseb
 href: https://careers.faseb.org/
 ---

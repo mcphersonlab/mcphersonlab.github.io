@@ -1,5 +1,5 @@
 ---
-title: Job Board at ACCP
+title: ACCP | American College of Clinical Pharmacy
 alias: &ALIAS jobs-accp
 href: https://careers.accp.com/
 ---
