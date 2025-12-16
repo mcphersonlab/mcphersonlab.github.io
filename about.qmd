@@ -6,10 +6,11 @@ title: "About"
 
 We believe in:
 
-- **Open Science**: Making our research accessible and reproducible on our [**GitHub**](https://github.com/McPhersonLab) and [**Zenodo**](https://zenodo.org/communities/mcphersonlab)
-- **Collaboration**: Working across disciplines to tackle complex problems: [**OverLeaf**](https://www.overleaf.com/) and [**Zotero**](https://www.zotero.org/groups/6318889/mcphersonlab/library)
-- **Innovation**: Developing new methods and approaches
-- **Excellence**: Maintaining the highest standards in our research by publishing in [highly reputable journals](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder)
+- **Purpose**: The prevention, diagnosis, treatment and eradication of infectious diseases 🦠
+- **Passion**: The joy of sharing new knowledge at science conferences around the world 🌎
+- **Innovation**: Classically trained pharmacologists that are highly enthusiastic about new technologies, such as AI 🤖
+- **Cooperation**: (not competition) is more productive and profitable
+- **Open-Source**: Making our research accessible and reproducible
 
 
 ## Our Approach
