@@ -23,6 +23,7 @@ listing:
       - apha-public-health/index.qmd
       - faseb/index.qmd
     type: grid
+    template: ../_ejs/resource-grid.ejs
     fields: [title, href]
     sort: false
 page-layout: full
