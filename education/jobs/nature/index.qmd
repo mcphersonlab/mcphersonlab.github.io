@@ -1,0 +1,5 @@
+---
+title: Job Board at Nature
+alias: &ALIAS jobs-nature
+href: https://www.nature.com/naturecareers/jobs/united-states/
+---

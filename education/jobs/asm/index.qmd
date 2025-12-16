@@ -1,0 +1,5 @@
+---
+title: Job Board at ASM
+alias: &ALIAS jobs-asm
+href: https://www.asmcareerconnections.org/
+---

@@ -11,6 +11,17 @@ listing:
     type: grid
     fields: [title]
     sort: false
+  - id: jobs
+    contents: 
+      - nature/index.qmd
+      - science/index.qmd
+      - aspet/index.qmd
+      - ashp/index.qmd
+      - apha-pharmacy/index.qmd
+      - accp/index.qmd
+      - asm/index.qmd
+      - apha-public-health/index.qmd
+      - faseb/index.qmd
 page-layout: full
 jupyter: python3
 ---
@@ -18,6 +29,11 @@ jupyter: python3
 ## Educational Content
 
 ::: {#content}
+:::
+
+## Job Boards
+
+::: {#jobs}
 :::
 
 

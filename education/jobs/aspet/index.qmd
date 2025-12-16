@@ -1,0 +1,5 @@
+---
+title: Job Board at ASPET
+alias: &ALIAS jobs-aspet
+href: https://careers.aspet.org/jobs/
+---
