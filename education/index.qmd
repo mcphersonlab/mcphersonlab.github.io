@@ -1,7 +1,7 @@
 ---
 title: Education
 listing:
-  - id: content
+  - id: education
     contents: 
       - ce/index.qmd
       - courses/index.qmd
@@ -32,7 +32,12 @@ jupyter: python3
 
 ## Educational Content
 
-::: {#content}
+::: {#education}
+:::
+
+## Online Training
+
+::: {#training}
 :::
 
 ## Job Boards

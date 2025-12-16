@@ -1,0 +1,6 @@
+---
+title: "Web of Science Academy (Clarivate)"
+alias: &ALIAS wos
+href: https://webofscienceacademy.clarivate.com/learn
+---
+
