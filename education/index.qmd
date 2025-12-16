@@ -22,6 +22,9 @@ listing:
       - asm/index.qmd
       - apha-public-health/index.qmd
       - faseb/index.qmd
+    type: grid
+    fields: [title, href]
+    sort: false
 page-layout: full
 jupyter: python3
 ---

@@ -18,12 +18,6 @@ listing:
     type: grid
     fields: [image, title]
     sort: false  # Disable sorting to maintain custom research area order
-  - id: ce
-    contents: 
-      - ce/pharmacy/index.qmd
-    type: grid
-    fields: [title]
-    sort: false
   - id: literature
     contents: resource/lit/*/index.qmd
     type: grid
