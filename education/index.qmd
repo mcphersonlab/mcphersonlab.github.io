@@ -2,26 +2,18 @@
 title: Education
 listing:
   - id: education
-    contents: 
-      - ce/index.qmd
-      - courses/index.qmd
-      - workshops/index.qmd
-      - textbooks/index.qmd
-      - lectures/index.qmd
+    contents: education/**/index.qmd
     type: grid
     fields: [title]
     sort: false
   - id: jobs
-    contents: 
-      - nature/index.qmd
-      - science/index.qmd
-      - aspet/index.qmd
-      - ashp/index.qmd
-      - apha-pharmacy/index.qmd
-      - accp/index.qmd
-      - asm/index.qmd
-      - apha-public-health/index.qmd
-      - faseb/index.qmd
+    contents: jobs/**/index.qmd
+    type: grid
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
+    sort: false
+  - id: science
+    contents: science/**/index.qmd
     type: grid
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
@@ -35,9 +27,14 @@ jupyter: python3
 ::: {#education}
 :::
 
-## Online Training
+## Science
 
-::: {#training}
+::: {#science}
+:::
+
+## Clinical
+
+::: {#clinical}
 :::
 
 ## Job Boards

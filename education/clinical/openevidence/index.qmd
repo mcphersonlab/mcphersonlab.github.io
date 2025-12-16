@@ -1,0 +1,5 @@
+---
+title: Open Evidence
+alias: &ALIAS uptodate
+href: https://www.uptodate.com/
+---
