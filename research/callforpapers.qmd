@@ -1,3 +1,7 @@
+---
+title: "Calls for Papers"
+---
+
 <!-- 
 This file contains the call for papers table for the research page.
 To edit call for papers information:
