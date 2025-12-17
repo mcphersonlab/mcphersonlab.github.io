@@ -8,7 +8,7 @@ We believe in:
 
 - **Purpose**: The prevention, diagnosis, treatment and eradication of infectious diseases 🦠
 - **Passion**: The joy of sharing new knowledge at science conferences around the world 🌎
-- **Innovation**: Classically trained pharmacologists that are highly enthusiastic about new technologies, such as AI 🤖
+- **Innovation**: Classically trained pharmacologists that are highly enthusiastic about new technologies 🤖
 - **Cooperation**: (not competition) is more productive and profitable
 - **Open-Source**: Making our research accessible and reproducible
 
