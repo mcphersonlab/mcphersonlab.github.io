@@ -15,7 +15,7 @@ categories:
   #- economic-analysis
   #- drug-development
   - genomics
-  - structural-biology
+  #- structural-biology
   #- advanced-methods
   #- infectious-diseases
   - antimicrobial-resistance
@@ -26,7 +26,7 @@ journ: "Nature"
 issue: 622
 page: 180–187
 year: 2023
-image: "inspirations/inspiration_0001/YangCameranesiGowder_Nature_2023_Fig1a.png"
+image: "fig1a.png"
 pub_number: 
 doi: 10.1038/s41586-023-06495-6
 ---
