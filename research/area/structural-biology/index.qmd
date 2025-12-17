@@ -33,8 +33,10 @@ listing:
 
 ## Structural Biology-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

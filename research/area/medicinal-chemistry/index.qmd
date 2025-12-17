@@ -33,8 +33,10 @@ listing:
 
 ## Medicinal Chemistry-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

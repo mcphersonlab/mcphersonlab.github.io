@@ -33,8 +33,10 @@ listing:
 
 ## Infectious Diseases-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

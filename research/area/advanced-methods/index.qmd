@@ -33,8 +33,12 @@ listing:
 
 ## Advanced Methods-Related Publications
 
+
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+
+### Lab Publications
 :::{#pubs}
 :::

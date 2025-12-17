@@ -33,8 +33,10 @@ listing:
 
 ## Genomics-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

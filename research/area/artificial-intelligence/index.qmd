@@ -33,8 +33,10 @@ listing:
 
 ## Artificial Intelligence-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

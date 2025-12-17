@@ -33,8 +33,10 @@ listing:
 
 ## Economic Analysis-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::

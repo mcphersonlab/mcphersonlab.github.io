@@ -33,8 +33,10 @@ listing:
 
 ## Drug Development-Related Publications
 
+### Inspirational (External) Works
 :::{#inspirations}
 :::
 
+### Lab Publications
 :::{#pubs}
 :::
