@@ -21,12 +21,14 @@ We enjoy the dissemination of [our works](https://mcphersonlab.github.io/publica
 <!-- [Department]  -->
 <!-- [Address] -->
 
-& stay updated on the literature through [publications](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder) & podcasts 🎙️🔉
+& stay updated on the literature through [publications](https://mcphersonlab.github.io/research/#pubmed-literature-search-builder) & [podcasts](https://mcphersonlab.github.io/#podcasts) 🎙️🔉
 
 - [**Science**](https://jacobkmcpherson.com/science) 🔬
 - [**Medicine**](https://jacobkmcpherson.com/medicine) ⚕️
 - [**Pharmacy**](https://jacobkmcpherson.com/pharmacy) 💊
 - [**Infectious Diseases**](https://jacobkmcpherson.com/infectious-diseases) 🦠
+
+## Podcasts
 
 ### Nature
 ```{=html}
