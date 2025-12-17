@@ -1,6 +1,3 @@
----
-title: Research Funding Opportunities
----
 
 <!-- 
 This file contains the research funding opportunities table.
