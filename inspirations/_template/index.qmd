@@ -3,7 +3,7 @@ title: ""
 author: ["Names in quotes", "Separate by commas"]
 publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
-#- member-publication
+#- external-publication
 #- pharmacy
 #- pharmacology
 #- medicinal-chemistry

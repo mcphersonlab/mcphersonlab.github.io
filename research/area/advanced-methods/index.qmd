@@ -23,6 +23,8 @@ listing:
 
 ## Advanced Methods-Related Publications
 
+:::{#inspirations}
+:::
 
 :::{#pubs}
 :::
