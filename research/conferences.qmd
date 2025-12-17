@@ -1,5 +1,5 @@
 ---
-title: "Conference Map and Calendar"
+title: Conference Map and Calendar
 ---
 
 <!-- 

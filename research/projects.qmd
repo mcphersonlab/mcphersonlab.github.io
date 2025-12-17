@@ -1,5 +1,5 @@
 ---
-title: "Ongoing Projects"
+title: Ongoing Projects
 page-layout: full
 ---
 
