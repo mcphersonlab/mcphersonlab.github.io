@@ -1,6 +1,9 @@
 ---
 title: ""
 author: ["Names in quotes", "Separate by commas"]
+#["Names in quotes", "Separate by commas"]
+# - author 1
+# - author 2
 publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #- member-publication
