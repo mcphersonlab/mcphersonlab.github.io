@@ -110,10 +110,10 @@ img {
   --pub-thumbnail-width: 150px;
 }
 
-/* Publication listing layout - 3 columns: content | badges | thumbnail */
+/* Publication listing layout - 3 columns: content | thumbnail | badges */
 .quarto-post.image-right {
   display: grid;
-  grid-template-columns: 1fr auto auto; /* content (flexible) | badges (auto-fit) | thumbnail (auto-fit) */
+  grid-template-columns: 1fr auto auto; /* content (flexible) | thumbnail (auto-fit) | badges (auto-fit) */
   gap: 1.5rem;
   align-items: start;
   margin-bottom: 2rem;
@@ -125,18 +125,18 @@ img {
   grid-column: 1;
 }
 
-.quarto-post.image-right .metadata {
+.quarto-post.image-right .thumbnail {
   grid-column: 2;
+  width: var(--pub-thumbnail-width);
+  flex-shrink: 0;
+}
+
+.quarto-post.image-right .metadata {
+  grid-column: 3;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   align-items: flex-end;
-}
-
-.quarto-post.image-right .thumbnail {
-  grid-column: 3;
-  width: var(--pub-thumbnail-width);
-  flex-shrink: 0;
 }
 
 .quarto-post.image-right .thumbnail img {
