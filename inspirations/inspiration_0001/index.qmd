@@ -6,20 +6,20 @@ author:
 - Gowder
 - et al.
 publication: "Nature, **622**, 180–187 (2023)"
-# categories: 
-- external-publication
-#- pharmacy
-#- pharmacology
-#- medicinal-chemistry
-#- artificial-intelligence
-#- economic-analysis
-#- drug-development
-- genomics
-- structural-biology
-#- advanced-methods
-#- infectious-diseases
-- antimicrobial-resistance
-#- human-gut-microbiome
+categories: 
+  - external-publication
+  #- pharmacy
+  #- pharmacology
+  #- medicinal-chemistry
+  #- artificial-intelligence
+  #- economic-analysis
+  #- drug-development
+  - genomics
+  - structural-biology
+  #- advanced-methods
+  #- infectious-diseases
+  - antimicrobial-resistance
+  #- human-gut-microbiome
 url_source: https://doi.org/10.1038/s41586-023-06495-6
 url_preprint: 
 journ: "Nature"

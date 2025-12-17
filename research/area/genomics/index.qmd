@@ -3,18 +3,28 @@ title: Genomics 🧬
 alias: &ALIAS genomics
 image: featured.png
 listing:
-  id: pubs
-  #template: ../../../_ejs/publications-people.ejs 
-  contents: 
-    - "!../../../publications/_template/"
-    - "../../../publications/**/*.qmd"
-  sort: "pub_number desc"
-  # sort-ui: true
-  # filter-ui: true
-  include: 
-    categories: *ALIAS
-  fields: [publication, title, categories, image, author]
-
+  - id: pubs
+    #template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: *ALIAS
+    fields: [publication, title, categories, image, author]
+  - id: inspirations
+    #template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: *ALIAS
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
