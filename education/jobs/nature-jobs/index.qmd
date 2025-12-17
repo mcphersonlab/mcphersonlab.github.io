@@ -1,5 +1,5 @@
 ---
 title: Nature
-alias: &ALIAS jobs-nature
+alias: &ALIAS nature-jobs
 href: https://www.nature.com/naturecareers/jobs/united-states/
 ---

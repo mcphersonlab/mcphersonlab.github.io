@@ -1,6 +1,6 @@
 ---
 title: Science
-alias: &ALIAS science
+alias: &ALIAS science-careers
 href: https://www.science.org/careers
 ---
 
