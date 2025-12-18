@@ -4,7 +4,7 @@ alias: &ALIAS human-gut-microbiome
 image: featured.jpg
 listing:
   - id: pubs
-    #template: ../../../_ejs/publications-people.ejs 
+    template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
@@ -15,7 +15,7 @@ listing:
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
   - id: inspirations
-    #template: ../../../_ejs/publications-people.ejs 
+    template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../inspirations/_template/"
       - "../../../inspirations/**/*.qmd"

@@ -139,7 +139,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .quarto-post.image-right .thumbnail p {
@@ -158,5 +158,5 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: flex-end;
+  align-items: flex-start;
 }
