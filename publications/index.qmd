@@ -14,7 +14,7 @@ listing:
 page-layout: full
 ---
 
-Welcome to the Group publications! Please take a look around. 
+Welcome to the Lab publications! Please take a look around. 
 
 <hr>
 
