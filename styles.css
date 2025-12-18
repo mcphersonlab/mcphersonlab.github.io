@@ -115,7 +115,7 @@ img {
   display: grid;
   grid-template-columns: 1fr auto auto; /* content (flexible) | thumbnail (auto-fit) | badges (auto-fit) */
   gap: 1.5rem;
-  align-items: start;
+  align-items: center;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #dee2e6;
