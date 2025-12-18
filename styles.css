@@ -115,7 +115,7 @@ img {
   display: grid;
   grid-template-columns: 1fr auto auto; /* content (flexible) | thumbnail (auto-fit) | badges (auto-fit) */
   gap: 1.5rem;
-  align-items: center;
+  align-items: start;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #dee2e6;
@@ -137,6 +137,10 @@ img {
   flex-direction: column;
   gap: 0.5rem;
   align-items: flex-end;
+}
+
+.quarto-post.image-right .thumbnail p {
+  margin: 0;
 }
 
 .quarto-post.image-right .thumbnail img {
