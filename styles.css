@@ -20,9 +20,8 @@
   display: none;
 }
 .listing-box-title {
-  font-size: 18px; 
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px; 
+  font: bold;
 }
 .listing-box-subtitle {
   font-size: 11px; 
@@ -104,13 +103,6 @@ img {
 /* Publication link styling */
 .listing-pub-url a p {
   color: #8250E6;
-}
-
-/* Publication title styling */
-.listing-pub-title {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* CSS custom properties for publication layout */

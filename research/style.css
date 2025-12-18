@@ -24,18 +24,3 @@
   justify-content: center;
   text-align: center;
 }
-
-/* Research area grid item titles and all resource titles */
-#research-areas .listing-title,
-#literature .listing-title,
-#publishing-groups .listing-title,
-#textbooks .listing-title,
-#experimentation .listing-title,
-#vendors .listing-title,
-#data-analysis .listing-title,
-#ai .listing-title,
-#clinical-data .listing-title {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
