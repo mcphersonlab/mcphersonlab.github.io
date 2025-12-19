@@ -10,7 +10,16 @@ project:
 website:
   title: "McPherson Lab"
   favicon: images/logo.ico
-  description: "Research Group Website"
+  description: "McPherson Lab - Pharmacology research integrating artificial intelligence with laboratory data for drug discovery, infectious disease research, and biomedical innovation at The University of Texas at Austin"
+  site-url: "https://mcphersonlab.github.io"
+  repo-url: "https://github.com/mcphersonlab/mcphersonlab.github.io"
+  google-analytics: ""
+  open-graph:
+    locale: en_US
+    site-name: "McPherson Lab"
+  twitter-card:
+    creator: "@JacobKMcPherson"
+    site: "@JacobKMcPherson"
   navbar:
     background: primary
     search: true
@@ -77,6 +86,11 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow">
+          <meta name="googlebot" content="index, follow">
+      - file: _structured_data.html
     include-after-body:
       - text: |
           <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

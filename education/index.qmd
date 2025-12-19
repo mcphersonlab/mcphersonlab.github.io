@@ -1,5 +1,7 @@
 ---
 title: Education
+description: "Educational resources, workshops, courses, textbooks, and career opportunities in pharmacology, pharmacy, and biomedical sciences"
+keywords: "education resources, pharmacology courses, pharmacy education, workshops, textbooks, career opportunities"
 listing:
   - id: education
     contents: education/**/index.qmd

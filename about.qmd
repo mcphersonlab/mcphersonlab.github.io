@@ -1,5 +1,7 @@
 ---
 title: "About"
+description: "Learn about McPherson Lab's research philosophy, approach, and workflow in pharmacology, drug discovery, and infectious disease research"
+keywords: "research philosophy, pharmacology lab, drug development, AI research, GitHub workflow, open source science"
 ---
 
 ## Research Philosophy

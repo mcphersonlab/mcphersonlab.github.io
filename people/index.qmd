@@ -1,5 +1,7 @@
 ---
 title: "Meet the Group"
+description: "Meet the team at McPherson Lab - researchers, students, and collaborators working on pharmacology, drug discovery, and infectious disease research"
+keywords: "research team, lab members, pharmacology researchers, drug discovery scientists, graduate students"
 listing:
   # Commented out hierarchical listings - keeping code for reference
   # - id: pi

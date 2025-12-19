@@ -1,5 +1,7 @@
 ---
-title: "join"
+title: "Join the Lab"
+description: "Join McPherson Lab at The University of Texas at Austin - opportunities for researchers, graduate students, and postdocs in pharmacology, drug discovery, and infectious disease research"
+keywords: "join lab, research opportunities, graduate students, postdoc positions, pharmacology careers, drug discovery jobs"
 format: html
 jupyter: python3
 

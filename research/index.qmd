@@ -1,5 +1,7 @@
 ---
 title: Research Areas
+description: "Explore McPherson Lab's research areas including pharmacology, drug development, genomics, artificial intelligence, infectious diseases, antimicrobial resistance, and human gut microbiome"
+keywords: "research areas, pharmacology research, drug development, genomics, AI in medicine, infectious diseases, antimicrobial resistance, microbiome"
 listing:
   - id: research-areas
     contents: 

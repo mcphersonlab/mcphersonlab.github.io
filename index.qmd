@@ -1,5 +1,8 @@
 ---
 title: "Welcome"
+description: "McPherson Lab - A pharmacology research group at The University of Texas at Austin focused on drug discovery, infectious disease research, and AI-driven biomedical innovation"
+keywords: "pharmacology, drug discovery, infectious diseases, artificial intelligence, biomedical research, University of Texas Austin"
+author: "Jacob K. McPherson, PharmD, PhD"
 ---
 
 ```{=html}

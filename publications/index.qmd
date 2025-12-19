@@ -1,5 +1,7 @@
 ---
 title: "Publications"
+description: "Browse scientific publications, research papers, and academic articles from McPherson Lab covering pharmacology, drug discovery, and infectious disease research"
+keywords: "scientific publications, research papers, pharmacology articles, drug discovery research, academic publications"
 listing:
   - id: pubs
     template: ../_ejs/publications.ejs
