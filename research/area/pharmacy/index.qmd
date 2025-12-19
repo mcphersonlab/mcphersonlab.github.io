@@ -31,8 +31,6 @@ listing:
 <iframe src="pharmacy_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
-# Pharmacy-Related Publications
-
 ## Inspirational Works
 :::{#inspirations}
 :::
