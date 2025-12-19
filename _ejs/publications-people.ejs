@@ -4,7 +4,7 @@
     
     <div class="quarto-post image-right" <%= metadataAttrs(item) %> >
         <div class="thumbnail">
-            <!-- <a href="<%- item.path %>"> -->
+            <a href="<%- item.path %>">
 
                 <p>
                     <% if (item.image) { %>
@@ -14,12 +14,12 @@
                 </p>
       
 
-            <!-- </a> -->
+            </a>
         </div>
         <div class="body">
-            <!-- <a href="<%- item.path %>"> -->
+            <a href="<%- item.path %>">
             <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
-            <!-- </a> -->
+            </a>
         </div>
         <div class="metadata">
             <% if (item.url_source) { %>
