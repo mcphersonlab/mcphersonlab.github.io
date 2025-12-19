@@ -31,12 +31,12 @@ listing:
 <iframe src="structural_biology_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
-## Structural Biology-Related Publications
+# Structural Biology-Related Publications
 
-### Inspirational (External) Works
+## Inspirational Works
 :::{#inspirations}
 :::
 
-### Lab Publications
+## Lab Publications
 :::{#pubs}
 :::

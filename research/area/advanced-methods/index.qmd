@@ -31,14 +31,12 @@ listing:
 <iframe src="advanced_methods_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
-## Advanced Methods-Related Publications
+# Advanced Methods-Related Publications
 
-
-### Inspirational (External) Works
+## Inspirational Works
 :::{#inspirations}
 :::
 
-
-### Lab Publications
+## Lab Publications
 :::{#pubs}
 :::
