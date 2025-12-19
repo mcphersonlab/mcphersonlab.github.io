@@ -20,6 +20,17 @@
             <a href="<%- item.path %>">
             <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
             </a>
+            
+            <div class="listing-pub-author listing-author">
+                <%= item.author.replace(/\s+,/g, ',') %><br>
+            </div>
+            
+            <div class="metadata-value listing-pub-journal listing-publication">
+                <% if (item.journ) { %>
+                    <i><%= item.journ %></i><% if (item. issue) { %>, <b><%= item.issue %></b><% } %><% if (item.page) { %>, <%= item.page %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %><br>
+                    
+                    <% } %>
+            </div>
         </div>
         <div class="metadata">
             <% if (item.url_source) { %>
@@ -38,22 +49,11 @@
             </div>
             <% } %>
 
-            <div class="listing-pub-author listing-author">
-                <%= item.author.replace(/\s+,/g, ',') %><br>
-            </div>
-            
-            <div class="metadata-value listing-pub-journal listing-publication">
-                <% if (item.journ) { %>
-                    <i><%= item.journ %></i><% if (item.issue) { %>, <b><%= item.issue %></b><% } %><% if (item.page) { %>, <%= item.page %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %><br>
-                    
-                    <% } %>
-            </div>
-
             <!-- Citation metrics badges (requires external scripts loaded in _quarto.yml) -->
-            <% if (item.doi) { %>
+            <% if (item. doi) { %>
             <div class="listing-pub-metrics">
                 <div class="__dimensions_badge_embed__" data-doi="<%- item.doi %>" data-style="small_rectangle"></div>
-                <div data-badge-type="donut" data-doi="<%- item.doi %>" data-condensed="true" class="altmetric-embed"></div>
+                <div data-badge-type="donut" data-doi="<%- item. doi %>" data-condensed="true" class="altmetric-embed"></div>
             </div>
             <% } %>
         </div>
@@ -61,5 +61,3 @@
     
     <% } %>
     </div>
-
-```
