@@ -39,7 +39,7 @@
             <% } %>
 
             <div class="listing-pub-author listing-author">
-                <%= item.author %><br> 
+                <%= item.author.replace(/\s+,/g, ',') %><br>
             </div>
             
             <div class="metadata-value listing-pub-journal listing-publication">
