@@ -6,11 +6,9 @@ title: "About"
 
 We believe in:
 
-- **Purpose**: The prevention, diagnosis, treatment and eradication of infectious diseases 🦠
-- **Passion**: The joy of sharing new knowledge at science conferences around the world 🌎
+- **Purpose**: The vision of a world without infectious diseases 🦠
+- **Passion**: The thrill of exploring the world through science conferences🌎
 - **Innovation**: Classically trained pharmacologists that are highly enthusiastic about new technologies 🤖
-- **Cooperation**: (not competition) is more productive and profitable
-- **Open-Source**: Making our research accessible and reproducible
 
 
 ## Our Approach
@@ -25,33 +23,32 @@ Our research is driven by three pillars:
 
 3. **Data visualization**
 
-## Our Workflow
-
-### GitHub-Centered
+## Our GitHub-Centered Workflow
 
 ::: {#fig-project-workflow .center}
 ![A GitHub-centered workflow](research/flowchart.jpeg){width=70%}
 
 ::: 
 
-We use [**research resources**](https://mcphersonlab.github.io/research/#research-resources) including but not limited to 
-[Amazon Web Services (AWS)](https://aws.amazon.com/),
-[Ubuntu Linux](https://ubuntu.com/),
-[Docker](https://www.docker.com/),
-[Snakemake](https://snakemake.readthedocs.io/en/stable/),
-[VSCode](https://code.visualstudio.com/),
-[RStudio Cloud](https://rstudio.cloud/),
-[Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
-[Github](https://github.com), 
-[Git](https://git-scm.com/),
-[Anaconda](https://anaconda.org/),
-[R Consortium](https://www.r-consortium.org/),
-[Zenodo](https://zenodo.org/), and
-[LaTeX](https://www.latex-project.org/) via
-[Overleaf](https://www.overleaf.com/)
+We use [**resources**](https://mcphersonlab.github.io/research/#research-resources) 
+and a **github-centered workflow** built around:
+* [Amazon Web Services (AWS)](https://aws.amazon.com/),
+* [Ubuntu Linux](https://ubuntu.com/),
+* [Docker](https://www.docker.com/),
+* [Snakemake](https://snakemake.readthedocs.io/en/stable/),
+* [VSCode](https://code.visualstudio.com/),
+* [RStudio Cloud](https://rstudio.cloud/),
+* [Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
+* [Github](https://github.com), 
+* [Git](https://git-scm.com/),
+* [Anaconda](https://anaconda.org/),
+* [R Consortium](https://www.r-consortium.org/),
+* [Zenodo](https://zenodo.org/), and
+* [LaTeX](https://www.latex-project.org/) via
+* [Overleaf](https://www.overleaf.com/)
 
 
-### Texas-Powered 
+## Texas-Powered Computing Resources
 
 ::: {#fig-project-workflow .center}
 ![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
@@ -69,7 +66,7 @@ Please reference TACC in any research report, journal or publication that requir
 
 and data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics](https://www.sib.swiss/)
 
-### Data-Informed
+## Swiss Institute of Bioinformatics AWS-Docker Infrastructure
 
 ::: {#fig-project-workflow .center}
 ![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
