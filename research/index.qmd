@@ -3,23 +3,18 @@ title: Research Areas
 listing:
   - id: research-areas
     contents: 
-
       - area/pharmacology/index.qmd
       - area/medicinal-chemistry/index.qmd
       - area/drug-development/index.qmd
-     
       - area/genomics/index.qmd
       - area/structural-biology/index.qmd
       - area/advanced-methods/index.qmd
-      
       - area/artificial-intelligence/index.qmd
       - area/economic-analysis/index.qmd
       - area/pharmacy/index.qmd
-
       - area/infectious-diseases/index.qmd
       - area/antimicrobial-resistance/index.qmd
       - area/human-gut-microbiome/index.qmd
-      
     type: grid
     fields: [image, title]
     sort: false  # Disable sorting to maintain custom research area order
