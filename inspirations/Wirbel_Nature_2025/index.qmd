@@ -1,0 +1,22 @@
+---
+title: "Long-read metagenomics reveals phage dynamics in the human gut microbiome"
+author: 
+- Wirbel
+- Hickey
+- Chang
+- et al.
+publication: "Nature (2025)"
+categories: 
+  - external-publication
+  - genomics
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-025-09786-2
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-09786-2
+---

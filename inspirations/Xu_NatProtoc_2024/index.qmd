@@ -1,0 +1,22 @@
+---
+title: "Using clusterProfiler to characterize multiomics data"
+author: 
+- Xu
+- Hu
+- Cai
+- et al.
+publication: "Nat Protoc, **19**, 3292–3320 (2024)"
+categories: 
+  - external-publication
+  - genomics
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41596-024-01020-z
+url_preprint: 
+journ: "Nat Protoc"
+issue: 19
+page: 3292–3320
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41596-024-01020-z
+---

@@ -1,0 +1,22 @@
+---
+title: "Variability of strain engraftment and predictability of microbiome composition after fecal microbiota transplantation across different diseases"
+author: 
+- Ianiro
+- Punčochář
+- Karcher
+- et al.
+publication: "Nat Med, **28**, 1913–1923 (2022)"
+categories: 
+  - external-publication
+  - genomics
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41591-022-01964-3
+url_preprint: 
+journ: "Nat Med"
+issue: 28
+page: 1913–1923
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/s41591-022-01964-3
+---
