@@ -1,0 +1,22 @@
+---
+title: "Structural pharmacology and therapeutic potential of 5-methoxytryptamines"
+author: 
+- Warren
+- Lankri
+- Cunningham
+- et al.
+publication: "Nature, **630**, 237–246 (2024)"
+categories: 
+  - external-publication
+  - structural-biology
+  - pharmacology
+url_source: https://doi.org/10.1038/s41586-024-07403-2
+url_preprint: 
+journ: "Nature"
+issue: 630
+page: 237–246
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-024-07403-2
+---

@@ -1,0 +1,23 @@
+---
+title: "Discovery of a structural class of antibiotics with explainable deep learning"
+author: 
+- Wong
+- Zheng
+- Valeri
+- et al.
+publication: "Nature, **626**, 177–185 (2024)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+  - artificial-intelligence
+  - drug-development
+url_source: https://doi.org/10.1038/s41586-023-06887-8
+url_preprint: 
+journ: "Nature"
+issue: 626
+page: 177–185
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-06887-8
+---

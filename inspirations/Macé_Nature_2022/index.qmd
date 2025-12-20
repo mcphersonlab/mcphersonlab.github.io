@@ -1,0 +1,22 @@
+---
+title: "Cryo-EM structure of a type IV secretion system"
+author: 
+- Macé
+- Vadakkepat
+- Redzej
+- et al.
+publication: "Nature, **607**, 191–196 (2022)"
+categories: 
+  - external-publication
+  - structural-biology
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41586-022-04859-y
+url_preprint: 
+journ: "Nature"
+issue: 607
+page: 191–196
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/s41586-022-04859-y
+---

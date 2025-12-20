@@ -1,0 +1,21 @@
+---
+title: "CryoDRGN-AI: neural ab initio reconstruction of challenging cryo-EM and cryo-ET datasets"
+author: 
+- Levy
+- Raghu
+- Feathers
+- et al.
+publication: "Nat Methods, **22**, 1486–1494 (2025)"
+categories: 
+  - external-publication
+  - structural-biology
+url_source: https://doi.org/10.1038/s41592-025-02720-4
+url_preprint: 
+journ: "Nat Methods"
+issue: 22
+page: 1486–1494
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41592-025-02720-4
+---
