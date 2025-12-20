@@ -1,0 +1,21 @@
+---
+title: "Antibiotic resistance is ancient"
+author: 
+- D'Costa
+- King
+- Kalan
+- et al.
+publication: "Nature, **477**, 457–461 (2011)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/nature10388
+url_preprint: 
+journ: "Nature"
+issue: 477
+page: 457–461
+year: 2011
+image: ""
+pub_number: 
+doi: 10.1038/nature10388
+---

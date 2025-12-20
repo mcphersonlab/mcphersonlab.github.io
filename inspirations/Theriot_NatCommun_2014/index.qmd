@@ -1,0 +1,21 @@
+---
+title: "Antibiotic-induced shifts in the mouse gut microbiome and metabolome increase susceptibility to Clostridium difficile infection"
+author: 
+- Theriot
+- Koenigsknecht
+- Carlson
+- et al.
+publication: "Nat Commun, **5**, 3114 (2014)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/ncomms4114
+url_preprint: 
+journ: "Nat Commun"
+issue: 5
+page: 3114
+year: 2014
+image: ""
+pub_number: 
+doi: 10.1038/ncomms4114
+---

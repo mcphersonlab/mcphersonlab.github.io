@@ -1,0 +1,22 @@
+---
+title: "AlphaFold predictions are valuable hypotheses and accelerate but do not replace experimental structure determination"
+author: 
+- Terwilliger
+- Liebschner
+- Croll
+- et al.
+publication: "Nat Methods, **21**, 110–116 (2024)"
+categories: 
+  - external-publication
+  - structural-biology
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41592-023-02087-4
+url_preprint: 
+journ: "Nat Methods"
+issue: 21
+page: 110–116
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41592-023-02087-4
+---

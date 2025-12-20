@@ -1,0 +1,21 @@
+---
+title: "Profiling the human intestinal environment under physiological conditions"
+author: 
+- Shalon
+- Culver
+- Grembi
+- et al.
+publication: "Nature, **617**, 581–591 (2023)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-023-05989-7
+url_preprint: 
+journ: "Nature"
+issue: 617
+page: 581–591
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-05989-7
+---

@@ -1,0 +1,22 @@
+---
+title: "Structure, function and pharmacology of human itch receptor complexes"
+author: 
+- Yang
+- Guo
+- Li
+- et al.
+publication: "Nature, **600**, 164–169 (2021)"
+categories: 
+  - external-publication
+  - structural-biology
+  - pharmacology
+url_source: https://doi.org/10.1038/s41586-021-04077-y
+url_preprint: 
+journ: "Nature"
+issue: 600
+page: 164–169
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41586-021-04077-y
+---

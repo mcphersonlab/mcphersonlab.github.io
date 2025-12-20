@@ -1,0 +1,21 @@
+---
+title: "Brief antibiotic use drives human gut bacteria towards low-cost resistance"
+author: 
+- Yaffe
+- Dethlefsen
+- Patankar
+- et al.
+publication: "Nature, **641**, 182–191 (2025)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-025-08781-x
+url_preprint: 
+journ: "Nature"
+issue: 641
+page: 182–191
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-08781-x
+---

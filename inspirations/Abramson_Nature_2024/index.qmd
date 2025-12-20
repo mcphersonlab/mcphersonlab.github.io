@@ -1,0 +1,22 @@
+---
+title: "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+author: 
+- Abramson
+- Adler
+- Dunger
+- et al.
+publication: "Nature, **630**, 493–500 (2024)"
+categories: 
+  - external-publication
+  - structural-biology
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-024-07487-w
+url_preprint: 
+journ: "Nature"
+issue: 630
+page: 493–500
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-024-07487-w
+---

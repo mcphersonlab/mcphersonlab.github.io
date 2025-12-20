@@ -1,0 +1,21 @@
+---
+title: "Molecular mechanisms of antibiotic resistance revisited"
+author: 
+- Darby
+- Trampari
+- Siasat
+- et al.
+publication: "Nat Rev Microbiol, **21**, 280–295 (2023)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41579-022-00820-y
+url_preprint: 
+journ: "Nat Rev Microbiol"
+issue: 21
+page: 280–295
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s41579-022-00820-y
+---

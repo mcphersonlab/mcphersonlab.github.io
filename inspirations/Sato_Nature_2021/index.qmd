@@ -1,0 +1,21 @@
+---
+title: "Novel bile acid biosynthetic pathways are enriched in the microbiome of centenarians"
+author: 
+- Sato
+- Atarashi
+- Plichta
+- et al.
+publication: "Nature, **599**, 458–464 (2021)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-021-03832-5
+url_preprint: 
+journ: "Nature"
+issue: 599
+page: 458–464
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41586-021-03832-5
+---

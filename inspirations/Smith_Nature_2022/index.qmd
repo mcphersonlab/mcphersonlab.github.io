@@ -1,0 +1,21 @@
+---
+title: "Enterococci enhance Clostridioides difficile pathogenesis"
+author: 
+- Smith
+- Jenior
+- Keenan
+- et al.
+publication: "Nature, **611**, 780–786 (2022)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-022-05438-x
+url_preprint: 
+journ: "Nature"
+issue: 611
+page: 780–786
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/s41586-022-05438-x
+---

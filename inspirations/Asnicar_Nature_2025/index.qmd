@@ -1,0 +1,21 @@
+---
+title: "Gut micro-organisms associated with health, nutrition and dietary interventions"
+author: 
+- Asnicar
+- Manghi
+- Fackelmann
+- et al.
+publication: "Nature (2025)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-025-09854-7
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-09854-7
+---

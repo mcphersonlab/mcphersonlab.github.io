@@ -1,0 +1,19 @@
+---
+title: "Learning structural heterogeneity from cryo-electron sub-tomograms with tomoDRGN"
+author: 
+- Powell
+- Davis
+publication: "Nat Methods, **21**, 1525–1536 (2024)"
+categories: 
+  - external-publication
+  - structural-biology
+url_source: https://doi.org/10.1038/s41592-024-02210-z
+url_preprint: 
+journ: "Nat Methods"
+issue: 21
+page: 1525–1536
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41592-024-02210-z
+---

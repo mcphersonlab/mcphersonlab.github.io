@@ -1,0 +1,21 @@
+---
+title: "Atomic-resolution protein structure determination by cryo-EM"
+author: 
+- Yip
+- Fischer
+- Paknia
+- et al.
+publication: "Nature, **587**, 157–161 (2020)"
+categories: 
+  - external-publication
+  - structural-biology
+url_source: https://doi.org/10.1038/s41586-020-2833-4
+url_preprint: 
+journ: "Nature"
+issue: 587
+page: 157–161
+year: 2020
+image: ""
+pub_number: 
+doi: 10.1038/s41586-020-2833-4
+---
