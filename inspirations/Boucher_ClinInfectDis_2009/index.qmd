@@ -1,0 +1,21 @@
+---
+title: "Bad bugs, no drugs: no ESKAPE! An update from the Infectious Diseases Society of America"
+author: 
+- Boucher
+- Talbot
+- Bradley
+- et al.
+publication: "Clin Infect Dis, **48**, 1–12 (2009)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1086/595011
+url_preprint: 
+journ: "Clin Infect Dis"
+issue: 48
+page: 1–12
+year: 2009
+image: ""
+pub_number: 
+doi: 10.1086/595011
+---

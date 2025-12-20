@@ -1,0 +1,18 @@
+---
+title: "Global burden of bacterial antimicrobial resistance 1990-2021: a systematic analysis with forecasts to 2050"
+author: 
+- GBD 2021 Antimicrobial Resistance Collaborators
+publication: "Lancet, **404**, 1199–1226 (2024)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1016/S0140-6736(24)01867-1
+url_preprint: 
+journ: "Lancet"
+issue: 404
+page: 1199–1226
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1016/S0140-6736(24)01867-1
+---
