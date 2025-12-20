@@ -1,0 +1,21 @@
+---
+title: "Epidemiological hypothesis testing using a phylogeographic and phylodynamic framework"
+author: 
+- Dellicour
+- Lequime
+- Vrancken
+- et al.
+publication: "Nat Commun, **11**, 5620 (2020)"
+categories: 
+  - external-publication
+  - genomics
+url_source: https://doi.org/10.1038/s41467-020-19122-z
+url_preprint: 
+journ: "Nat Commun"
+issue: 11
+page: 5620
+year: 2020
+image: ""
+pub_number: 
+doi: 10.1038/s41467-020-19122-z
+---

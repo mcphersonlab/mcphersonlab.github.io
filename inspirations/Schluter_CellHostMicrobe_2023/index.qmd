@@ -1,0 +1,22 @@
+---
+title: "The TaxUMAP atlas: Efficient display of large clinical microbiome data reveals ecological competition in protection against bacteremia"
+author: 
+- Schluter
+- Djukovic
+- Taylor
+- et al.
+publication: "Cell Host Microbe, **31**, 1126–1139 (2023)"
+categories: 
+  - external-publication
+  - genomics
+  - human-gut-microbiome
+url_source: https://doi.org/10.1016/j.chom.2023.05.027
+url_preprint: 
+journ: "Cell Host Microbe"
+issue: 31
+page: 1126–1139
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1016/j.chom.2023.05.027
+---

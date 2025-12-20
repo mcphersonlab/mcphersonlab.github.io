@@ -1,0 +1,22 @@
+---
+title: "Strain-level microbial epidemiology and population genomics from shotgun metagenomics"
+author: 
+- Scholz
+- Ward
+- Pasolli
+- et al.
+publication: "Nat Methods, **13**, 435–438 (2016)"
+categories: 
+  - external-publication
+  - genomics
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/nmeth.3802
+url_preprint: 
+journ: "Nat Methods"
+issue: 13
+page: 435–438
+year: 2016
+image: ""
+pub_number: 
+doi: 10.1038/nmeth.3802
+---

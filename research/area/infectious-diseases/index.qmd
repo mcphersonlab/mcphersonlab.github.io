@@ -25,6 +25,127 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+  - id: genomics
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: genomics
+    fields: [publication, title, categories, image, author]
+  - id: human-gut-microbiome
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: human-gut-microbiome
+    fields: [publication, title, categories, image, author]
+  - id: antimicrobial-resistance
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: antimicrobial-resistance
+    fields: [publication, title, categories, image, author]
+  - id: artificial-intelligence
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: artificial-intelligence
+    fields: [publication, title, categories, image, author]
+  - id: structural-biology
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: structural-biology
+    fields: [publication, title, categories, image, author]
+  - id: classical-methods
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: classical-methods
+    fields: [publication, title, categories, image, author]
+  - id: pharmacology
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: pharmacology
+    fields: [publication, title, categories, image, author]
+  - id: medicinal-chemistry
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: medicinal-chemistry
+    fields: [publication, title, categories, image, author]
+  - id: drug-development
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: drug-development
+    fields: [publication, title, categories, image, author]
+  - id: economic-analysis
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: economic-analysis
+    fields: [publication, title, categories, image, author]
+  - id: pharmacy
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: pharmacy
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
@@ -37,4 +158,54 @@ listing:
 
 ## Lab Publications
 :::{#pubs}
+:::
+
+---
+
+## Indications by Research Category
+
+This section provides a comprehensive view of publications and inspirational works organized by research category. Each section combines both lab publications and external inspirations to provide context and insight into various research domains.
+
+### Genomics 🧬
+:::{#genomics}
+:::
+
+### Human Gut Microbiome 🦠
+:::{#human-gut-microbiome}
+:::
+
+### Antimicrobial Resistance 🛡️
+:::{#antimicrobial-resistance}
+:::
+
+### Artificial Intelligence 🤖
+:::{#artificial-intelligence}
+:::
+
+### Structural Biology 🧪
+:::{#structural-biology}
+:::
+
+### Classical Methods ⚗️
+:::{#classical-methods}
+:::
+
+### Pharmacology 💊
+:::{#pharmacology}
+:::
+
+### Medicinal Chemistry ⚛️
+:::{#medicinal-chemistry}
+:::
+
+### Drug Development 💉
+:::{#drug-development}
+:::
+
+### Economic Analysis 📊
+:::{#economic-analysis}
+:::
+
+### Pharmacy 🏥
+:::{#pharmacy}
 :::
