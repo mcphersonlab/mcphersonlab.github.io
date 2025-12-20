@@ -14,7 +14,7 @@ publication: "Journal, **issue**, _page_ (2024)"
 #- drug-development
 #- genomics
 #- structural-biology
-#- advanced-methods
+#- classical-methods
 #- infectious-diseases
 #- antimicrobial-resistance
 #- human-gut-microbiome
