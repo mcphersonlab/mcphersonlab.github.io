@@ -1,0 +1,18 @@
+---
+title: "Structure, function and diversity of the healthy human microbiome"
+author: 
+- The Human Microbiome Project Consortium
+publication: "Nature, **486**, 207–214 (2012)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/nature11234
+url_preprint: 
+journ: "Nature"
+issue: 486
+page: 207–214
+year: 2012
+image: ""
+pub_number: 
+doi: 10.1038/nature11234
+---

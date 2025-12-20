@@ -1,0 +1,21 @@
+---
+title: "Non-antibiotics disrupt colonization resistance against enteropathogens"
+author: 
+- Grießhammer
+- de la Cuesta-Zuluaga
+- Müller
+- et al.
+publication: "Nature, **644**, 497–505 (2025)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-025-09217-2
+url_preprint: 
+journ: "Nature"
+issue: 644
+page: 497–505
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-09217-2
+---

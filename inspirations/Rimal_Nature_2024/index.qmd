@@ -1,0 +1,21 @@
+---
+title: "Bile salt hydrolase catalyses formation of amine-conjugated bile acids"
+author: 
+- Rimal
+- Collins
+- Tanes
+- et al.
+publication: "Nature, **626**, 859–863 (2024)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-023-06990-w
+url_preprint: 
+journ: "Nature"
+issue: 626
+page: 859–863
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-06990-w
+---

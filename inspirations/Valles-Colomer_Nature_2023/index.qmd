@@ -1,0 +1,21 @@
+---
+title: "The person-to-person transmission landscape of the gut and oral microbiomes"
+author: 
+- Valles-Colomer
+- Blanco-Míguez
+- Manghi
+- et al.
+publication: "Nature, **614**, 125–135 (2023)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-022-05620-1
+url_preprint: 
+journ: "Nature"
+issue: 614
+page: 125–135
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s41586-022-05620-1
+---

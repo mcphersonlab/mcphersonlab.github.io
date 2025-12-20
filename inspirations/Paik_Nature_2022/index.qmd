@@ -1,0 +1,21 @@
+---
+title: "Human gut bacteria produce ΤΗ17-modulating bile acid metabolites"
+author: 
+- Paik
+- Yao
+- Zhang
+- et al.
+publication: "Nature, **603**, 907–912 (2022)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41586-022-04480-z
+url_preprint: 
+journ: "Nature"
+issue: 603
+page: 907–912
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/s41586-022-04480-z
+---
