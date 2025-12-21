@@ -146,6 +146,39 @@ listing:
     include: 
       categories: pharmacy
     fields: [publication, title, categories, image, author]
+  - id: clostridioides-difficile-infection
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: clostridioides-difficile-infection
+    fields: [publication, title, categories, image, author]
+  - id: community-acquired-pneumonia
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: community-acquired-pneumonia
+    fields: [publication, title, categories, image, author]
+  - id: staph-bacteremia
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: staph-bacteremia
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
@@ -162,50 +195,18 @@ listing:
 
 ---
 
-## Indications by Research Category
+## Indications
 
-This section provides a comprehensive view of publications and inspirational works organized by research category. Each section combines both lab publications and external inspirations to provide context and insight into various research domains.
+This section provides a comprehensive view of publications and inspirational works organized by specific infectious disease indications.
 
-### Genomics 🧬
-:::{#genomics}
+### Clostridioides difficile Infection 🦠
+:::{#clostridioides-difficile-infection}
 :::
 
-### Human Gut Microbiome 🦠
-:::{#human-gut-microbiome}
+### Community-Acquired Pneumonia 🫁
+:::{#community-acquired-pneumonia}
 :::
 
-### Antimicrobial Resistance 🛡️
-:::{#antimicrobial-resistance}
-:::
-
-### Artificial Intelligence 🤖
-:::{#artificial-intelligence}
-:::
-
-### Structural Biology 🧪
-:::{#structural-biology}
-:::
-
-### Classical Methods ⚗️
-:::{#classical-methods}
-:::
-
-### Pharmacology 💊
-:::{#pharmacology}
-:::
-
-### Medicinal Chemistry ⚛️
-:::{#medicinal-chemistry}
-:::
-
-### Drug Development 💉
-:::{#drug-development}
-:::
-
-### Economic Analysis 📊
-:::{#economic-analysis}
-:::
-
-### Pharmacy 🏥
-:::{#pharmacy}
+### Staph Bacteremia 🩸
+:::{#staph-bacteremia}
 :::
