@@ -4,11 +4,11 @@ alias: &ALIAS ce
 #image: featured.png
 listing:
   id: pubs
-  template: ../../../_ejs/publications.ejs 
+  template: ../../_ejs/publications.ejs 
   contents: 
     - "!../_template/"
-    - "!../../../publications/_template/"
-    - "../../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+    - "../../publications/**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true
   # filter-ui: true
