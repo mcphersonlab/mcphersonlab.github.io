@@ -4,16 +4,16 @@ alias: &ALIAS ce
 #image: featured.png
 listing:
   id: pubs
-  #template: ../../../_ejs/publications-people.ejs 
+  template: ../../_ejs/publications.ejs 
   contents: 
-    - "!../../../publications/_template/"
-    - "../../../publications/**/*.qmd"
+    - "!../_template/"
+    - "./**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true
   # filter-ui: true
   include: 
     categories: *ALIAS
-  fields: [publication, title, categories, image, date, author]
+  fields: [image, categories, pub_number, title, publication, author, url_source, url_preprint, doi, journ, issue, page, year]
 
 ---
 
