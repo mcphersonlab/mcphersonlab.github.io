@@ -7,8 +7,7 @@ listing:
   template: ../../_ejs/publications.ejs 
   contents: 
     - "!../_template/"
-    - "!../../publications/_template/"
-    - "../../publications/**/*.qmd"
+    - "./**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true
   # filter-ui: true
