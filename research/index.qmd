@@ -60,11 +60,11 @@ listing:
     fields: [title, href]
   - id: education
     contents:
-      - ../education/ce/index.qmd
-      - ../education/lectures/index.qmd
-      - ../education/workshops/index.qmd
-      - ../education/textbooks/index.qmd
-      - ../education/courses/index.qmd
+      - ../education/education/ce/index.qmd
+      - ../education/education/lectures/index.qmd
+      - ../education/education/workshops/index.qmd
+      - ../education/education/textbooks/index.qmd
+      - ../education/education/courses/index.qmd
     type: grid
     fields: [title]
     sort: false
