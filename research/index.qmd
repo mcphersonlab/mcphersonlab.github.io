@@ -58,6 +58,16 @@ listing:
     type: grid
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
+  - id: education
+    contents:
+      - ../education/ce/index.qmd
+      - ../education/lectures/index.qmd
+      - ../education/workshops/index.qmd
+      - ../education/textbooks/index.qmd
+      - ../education/courses/index.qmd
+    type: grid
+    fields: [title]
+    sort: false
 page-layout: full
 jupyter: python3
 ---
@@ -387,6 +397,12 @@ document.addEventListener('DOMContentLoaded', function() {
 ::: {#ai}
 :::
 
+
+
+## Educational Content
+
+::: {#education}
+:::
 
 
 ```{=html}
