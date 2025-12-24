@@ -34,9 +34,11 @@ website:
 
     right:
       - icon: people
+        text: "​"
         href: people/index.qmd
         aria-label: People
       - icon: person-plus
+        text: "​"
         href: people/join.qmd
         aria-label: Join
       - icon: vector-pen
