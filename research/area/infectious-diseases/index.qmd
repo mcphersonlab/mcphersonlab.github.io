@@ -126,15 +126,15 @@ listing:
 <iframe src="infectious_diseases_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
-## Inspirational Works
+## Infectious Diseases-related Inspirational Works
 :::{#inspirations}
 :::
 
+## Infectious Diseases Lab Publications
+:::{#pubs}
+:::
 
-
-## Indications
-
-This section provides a comprehensive view of publications and inspirational works organized by specific infectious disease indications.
+## Indications in Infectious Diseases
 
 ### Clostridioides difficile Infection 🦠
 :::{#cdi}
@@ -166,9 +166,5 @@ This section provides a comprehensive view of publications and inspirational wor
 
 ### Osteomyelitis 🦴
 :::{#osteomyelitis}
-:::
-
-## Lab Publications
-:::{#pubs}
 :::
 
