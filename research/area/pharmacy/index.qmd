@@ -90,15 +90,15 @@ listing:
 
 ## Antimicrobial Stewardship
 
-### IV to PO
+### IV to PO 💊
 :::{#iv-po}
 :::
 
-### Duration of Therapy
+### Duration of Therapy ⌛
 :::{#duration-therapy}
 :::
 
-### Allergy Delabeling
+### Allergy Delabeling 💊
 :::{#allergy}
 :::
 
