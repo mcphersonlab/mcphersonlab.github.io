@@ -30,30 +30,32 @@ listing:
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
-      - "!../../../inspirations/_template/"
-      - "../../../inspirations/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
       categories: clostridioides-difficile-infection
     fields: [publication, title, categories, image, author]
+    
   - id: community-acquired-pneumonia
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
-      - "!../../../inspirations/_template/"
-      - "../../../inspirations/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
       categories: community-acquired-pneumonia
     fields: [publication, title, categories, image, author]
+    
   - id: staph-bacteremia
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
-      - "!../../../inspirations/_template/"
-      - "../../../inspirations/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
       categories: staph-bacteremia
@@ -67,12 +69,6 @@ listing:
 ## Inspirational Works
 :::{#inspirations}
 :::
-
-## Lab Publications
-:::{#pubs}
-:::
-
----
 
 ## Indications
 
@@ -89,3 +85,14 @@ This section provides a comprehensive view of publications and inspirational wor
 ### Staph Bacteremia 🩸
 :::{#staph-bacteremia}
 :::
+
+### Invasive Candidiasis 🍄
+:::{#invasive-candidiasis}
+:::
+
+## Lab Publications
+:::{#pubs}
+:::
+
+---
+

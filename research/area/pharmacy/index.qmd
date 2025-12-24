@@ -25,6 +25,54 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+    
+  - id: duration-therapy
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: duration-therapy
+    fields: [publication, title, categories, image, author]
+
+  - id: iv-po
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: iv-po
+    fields: [publication, title, categories, image, author]
+
+  - id: allergy
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: allergy
+    fields: [publication, title, categories, image, author]
+    
+  - id: pk-pd
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: pk-pd
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
@@ -35,6 +83,22 @@ listing:
 :::{#inspirations}
 :::
 
+
 ## Lab Publications
 :::{#pubs}
 :::
+
+## Antimicrobial Stewardship
+
+### IV to PO
+:::{#iv-po}
+:::
+
+### Duration of Therapy
+:::{#duration-therapy}
+:::
+
+### Allergy Delabeling
+:::{#allergy}
+:::
+
