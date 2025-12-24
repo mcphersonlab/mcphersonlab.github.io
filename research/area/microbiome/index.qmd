@@ -25,6 +25,55 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+    
+  - id: cdi
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: cdi
+    fields: [publication, title, categories, image, author]
+    
+  - id: ici
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: ici
+    fields: [publication, title, categories, image, author]
+    
+  - id: crc
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: crc
+    fields: [publication, title, categories, image, author]
+    
+  - id: ibd
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: ibd
+    fields: [publication, title, categories, image, author]
+
 ---
 
 ```{=html}
@@ -38,19 +87,22 @@ listing:
 ## Indications
 
 
-### 
+### Clostridioides difficile infection (CDI)
+:::{#cdi}
+:::
 
+### Immunotherapy Checkpoint Inhibition (ICI) Response
+:::{ici}
+:::
 
-###
+### Colorectal Cancer (CRC)
+:::{#crc}
+:::
 
-
-###
-
-
-
+### Inflammatory Bowel Disease (IBD)
+:::{#ibd}
+:::
 
 ## Lab Publications
 :::{#pubs}
 :::
-
-
