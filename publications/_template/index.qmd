@@ -7,6 +7,7 @@ author: ["Names in quotes", "Separate by commas"]
 publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #- member-publication
+#- external-publication
 #- pharmacy
 #- pharmacology
 #- medicinal-chemistry
@@ -18,7 +19,30 @@ publication: "Journal, **issue**, _page_ (2024)"
 #- classical-methods
 #- infectious-diseases
 #- antimicrobial-resistance
-#- human-gut-microbiome
+
+# categories of infectious-diseases
+#- staph-bacteremia
+#- pneumonia
+#- cdi
+#- uti
+#- ifi
+#- meningitis
+#- osteomyelitis
+#- endocarditis
+
+# categories of microbiome
+#- cdi
+#- crc
+#- ibd
+#- iv-po
+#- duration-therapy
+#- allergy
+
+# categories of antimicrobial-resistance 
+#- amr-target-modification
+#- amr-agent-inactivation
+#- amr-agent-influx-efflux
+#- amr-target-bypass
 url_source: 
 url_preprint: 
 journ: "Journal"
@@ -29,3 +53,12 @@ image: ""
 pub_number: 
 doi: 
 ---
+
+<!-- 
+Title: 
+Authors:
+Publication: Journal, **issue**, _page_ (2024)
+Associated Conference Poster/Presentation (if applicable):
+
+Add your publication details above and write an abstract/summary below.
+-->

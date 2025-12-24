@@ -25,6 +25,7 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+
   - id: cdi
     template: ../../../_ejs/publications-people.ejs 
     contents: 
@@ -37,7 +38,7 @@ listing:
       categories: cdi
     fields: [publication, title, categories, image, author]
     
-  - id: cap
+  - id: pneumonia
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -46,7 +47,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: cap
+      categories: pneumonia
     fields: [publication, title, categories, image, author]
     
   - id: staph-bacteremia
@@ -61,7 +62,7 @@ listing:
       categories: staph-bacteremia
     fields: [publication, title, categories, image, author]
     
-  - id: invasive-candidiasis
+  - id: ifi
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -70,7 +71,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: invasive-candidiasis
+      categories: ifi
     fields: [publication, title, categories, image, author]
     
   - id: uti
@@ -141,7 +142,7 @@ listing:
 :::
 
 ### Community-Acquired Pneumonia 🫁
-:::{#cap}
+:::{#pneumonia}
 :::
 
 ### Staph Bacteremia 🩸
@@ -149,7 +150,7 @@ listing:
 :::
 
 ### Invasive Fungal Infection 🍄
-:::{#invasive-fungal}
+:::{#ifi}
 :::
 
 ### Urinary Tract Infections 🚽
