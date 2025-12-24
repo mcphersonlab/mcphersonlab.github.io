@@ -14,6 +14,7 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+    
   - id: inspirations
     template: ../../../_ejs/publications-people.ejs 
     contents: 
@@ -25,16 +26,97 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+  
+  - id: amr-target-modification
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: amr-target-modification
+    fields: [publication, title, categories, image, author]
+    
+  - id: amr-agent-inactivation
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: amr-agent-inactivation
+    fields: [publication, title, categories, image, author]
+    
+  - id: amr-agent-influx-efflux
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: amr-agent-influx-efflux
+    fields: [publication, title, categories, image, author]
+    
+  - id: amr-agent-influx-efflux
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: *ALIAS
+    fields: [publication, title, categories, image, author]
+    
+  - id: amr-target-bypass
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: amr-target-bypass
+    fields: [publication, title, categories, image, author]
+
+
 ---
 
 ```{=html}
 <iframe src="amr_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
-## Inspirational Works
+## AMR-related Inspirational Works
 :::{#inspirations}
 :::
 
-## Lab Publications
+## AMR-related Lab Publications
 :::{#pubs}
 :::
+
+## AMR-related Publications by Mechanism
+
+### Target Modification
+:::{#amr-target-modification}
+:::
+
+### Agent Inactivation
+:::{#amr-agent-inactivation}
+:::
+
+### Agent Influx/Efflux
+:::{#amr-agent-influx-efflux}
+:::
+
+### Target Bypass
+:::{#amr-target-bypass}
+:::
+
