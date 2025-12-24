@@ -1,5 +1,5 @@
 ---
-title: Lectures
+title: Lectures 🎓
 alias: &ALIAS lectures
 #image: featured.png
 listing:

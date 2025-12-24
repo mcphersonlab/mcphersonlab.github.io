@@ -1,5 +1,5 @@
 ---
-title: Continuing Education 🎓
+title: Continuing Education 🩺
 alias: &ALIAS ce
 #image: featured.png
 listing:

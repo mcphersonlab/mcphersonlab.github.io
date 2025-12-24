@@ -1,5 +1,5 @@
 ---
-title: APHA | American Public Health Association 😷
+title: APHA | American Public Health Association 🦠
 alias: &ALIAS jobs-apha-public-health
 href: https://careers.apha.org/jobs/
 ---
