@@ -11,7 +11,7 @@ We believe in:
 - **Innovation**: Classically trained pharmacologists that are highly enthusiastic about new technologies 🤖
 
 
-## Our Approach
+## Research Approach
 
 We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) lab that integrates [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) with laboratory data for [drug discovery and development](https://mcphersonlab.github.io/research/area/drug-development/) and other [areas of research](https://mcphersonlab.github.io/research). [Ongoing projects](https://mcphersonlab.github.io/research/projects) are at the  [**Lab GitHub**](https://github.com/mcphersonlab), [Zenodo](https://zenodo.org/communities/mcphersonlab) or listed under [publications](https://mcphersonlab.github.io/publications/)
 
@@ -21,10 +21,10 @@ Our research is driven by three pillars:
 2. **Better analyses**
 3. **Better visualization**
 
-## Our GitHub-Centered Workflow
+## Research Workflow
 
 ::: {#fig-project-workflow .center}
-![A GitHub-centered workflow](research/flowchart.jpeg){width=70%}
+![A GitHub-Centered Workflow](research/flowchart.jpeg){width=70%}
 <!--- left align -->
 :::{.text-left}
 
