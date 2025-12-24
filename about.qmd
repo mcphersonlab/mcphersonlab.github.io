@@ -25,9 +25,11 @@ Our research is driven by three pillars:
 
 ::: {#fig-project-workflow .center}
 ![A GitHub-Centered Workflow](research/flowchart.jpeg){width=70%}
+:::
+
+
 <!--- left align -->
 :::{.text-left}
-
 We use [**resources**](https://mcphersonlab.github.io/research/#research-resources) 
 and a **github-centered workflow** built around:
 
@@ -44,12 +46,17 @@ and a **github-centered workflow** built around:
 - [R Consortium](https://www.r-consortium.org/),
 - [Zenodo](https://zenodo.org/), and
 - [LaTeX](https://www.latex-project.org/) via [Overleaf](https://www.overleaf.com/)
+:::
 
-
+<!--- left align -->
+:::{.text-left}
 ## Texas-Powered Computing Resources
+:::
 
+<!--- center align -->
 ::: {#fig-project-workflow .center}
 ![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
+:::
 
 <!--- left align -->
 :::{.text-left}
@@ -62,19 +69,23 @@ Please reference TACC in any research report, journal or publication that requir
 
 **Minimum Citation**: 
 *Texas Advanced Computing Center (TACC) The University of Texas at Austin*
-
-
-## Swiss Infrastructure
-
-Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics (SIB)](https://www.sib.swiss/)
-
-::: {#fig-project-workflow .center}
-![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
+:::
 
 
 <!--- left align -->
 :::{.text-left}
+## Swiss Infrastructure
 
+Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics (SIB)](https://www.sib.swiss/)
+:::
+
+<!--- center align -->
+::: {#fig-project-workflow .center}
+![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
+:::
+
+<!--- left align -->
+:::{.text-left}
 ## Contact Information
 
 **Principal Investigator**: [Jacob K. McPherson](https://jacobkmcpherson.github.io)
@@ -82,6 +93,7 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 **Contact**: [jacobkmcpherson.com](https://www.jacobkmcpherson.com/contact)
 
 For joining the group, please use the above link [join](people/join.qmd)
+:::
 
 ```{=html}
 <div class="page-navigation">
