@@ -1,5 +1,5 @@
 ---
-title: ASPET | American Society of Pharmacology and Experimental Therapeutics
+title: ASPET | American Society of Pharmacology and Experimental Therapeutics 🔬
 alias: &ALIAS jobs-aspet
 href: https://careers.aspet.org/jobs/
 ---

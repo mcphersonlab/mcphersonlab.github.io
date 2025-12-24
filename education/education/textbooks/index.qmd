@@ -1,5 +1,5 @@
 ---
-title: Textbooks
+title: Textbooks 📚
 alias: &ALIAS textbooks
 #image: featured.png
 listing:

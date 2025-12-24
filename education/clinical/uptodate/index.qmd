@@ -1,5 +1,5 @@
 ---
-title: UpToDate
+title: UpToDate 🩺
 alias: &ALIAS uptodate
 href: https://www.uptodate.com/
 ---

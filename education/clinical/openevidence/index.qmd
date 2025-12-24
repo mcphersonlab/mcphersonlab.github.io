@@ -1,5 +1,5 @@
 ---
-title: Open Evidence
+title: Open Evidence 🩺
 alias: &ALIAS openevidence
 href: https://www.openevidence.com/
 ---

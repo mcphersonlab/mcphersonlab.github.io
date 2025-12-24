@@ -1,5 +1,5 @@
 ---
-title: ASM | American Society for Microbiology
+title: ASM | American Society for Microbiology 🦠
 alias: &ALIAS jobs-asm
 href: https://www.asmcareerconnections.org/
 ---

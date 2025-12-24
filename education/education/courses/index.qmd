@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Courses 🎓
 alias: &ALIAS courses
 #image: featured.png
 listing:
