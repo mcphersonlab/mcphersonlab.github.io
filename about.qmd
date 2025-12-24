@@ -18,32 +18,32 @@ We are a [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmac
 Our research is driven by three pillars:
 
 1. **More data**
-
 2. **Better analyses**
-
 3. **Better visualization**
 
 ## Our GitHub-Centered Workflow
 
 ::: {#fig-project-workflow .center}
 ![A GitHub-centered workflow](research/flowchart.jpeg){width=70%}
+<!--- left align -->
+:::{.text-left}
 
 We use [**resources**](https://mcphersonlab.github.io/research/#research-resources) 
 and a **github-centered workflow** built around:
-* [Amazon Web Services (AWS)](https://aws.amazon.com/),
-* [Ubuntu Linux](https://ubuntu.com/),
-* [Docker](https://www.docker.com/),
-* [Snakemake](https://snakemake.readthedocs.io/en/stable/),
-* [VSCode](https://code.visualstudio.com/),
-* [RStudio Cloud](https://rstudio.cloud/),
-* [Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
-* [Github](https://github.com), 
-* [Git](https://git-scm.com/),
-* [Anaconda](https://anaconda.org/),
-* [R Consortium](https://www.r-consortium.org/),
-* [Zenodo](https://zenodo.org/), and
-* [LaTeX](https://www.latex-project.org/) via
-* [Overleaf](https://www.overleaf.com/)
+
+- [Amazon Web Services (AWS)](https://aws.amazon.com/),
+- [Ubuntu Linux](https://ubuntu.com/),
+- [Docker](https://www.docker.com/),
+- [Snakemake](https://snakemake.readthedocs.io/en/stable/),
+- [VSCode](https://code.visualstudio.com/),
+- [RStudio Cloud](https://rstudio.cloud/),
+- [Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
+- [Github](https://github.com), 
+- [Git](https://git-scm.com/),
+- [Anaconda](https://anaconda.org/),
+- [R Consortium](https://www.r-consortium.org/),
+- [Zenodo](https://zenodo.org/), and
+- [LaTeX](https://www.latex-project.org/) via [Overleaf](https://www.overleaf.com/)
 
 
 ## Texas-Powered Computing Resources
@@ -51,6 +51,8 @@ and a **github-centered workflow** built around:
 ::: {#fig-project-workflow .center}
 ![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
 
+<!--- left align -->
+:::{.text-left}
 [**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized from by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
 
 Please reference TACC in any research report, journal or publication that requires citations.
@@ -68,6 +70,10 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 
 ::: {#fig-project-workflow .center}
 ![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
+
+
+<!--- left align -->
+:::{.text-left}
 
 ## Contact Information
 
