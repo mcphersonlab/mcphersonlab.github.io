@@ -21,14 +21,12 @@ Our research is driven by three pillars:
 
 2. **Better analyses**
 
-3. **Data visualization**
+3. **Better visualization**
 
 ## Our GitHub-Centered Workflow
 
 ::: {#fig-project-workflow .center}
 ![A GitHub-centered workflow](research/flowchart.jpeg){width=70%}
-
-::: 
 
 We use [**resources**](https://mcphersonlab.github.io/research/#research-resources) 
 and a **github-centered workflow** built around:
@@ -52,7 +50,6 @@ and a **github-centered workflow** built around:
 
 ::: {#fig-project-workflow .center}
 ![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
-:::
 
 [**Texas Advanced Computing Center (TACC)**](https://tacc.utexas.edu/): Computing resources utilized from by the TACC **high-performance computing (HPC) center** designed for *massive, compute-intensive workloads, large-scale data, and scientific workflows* that exceed what a laptop or small server can do.
 
@@ -64,9 +61,10 @@ Please reference TACC in any research report, journal or publication that requir
 **Minimum Citation**: 
 *Texas Advanced Computing Center (TACC) The University of Texas at Austin*
 
-and data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics](https://www.sib.swiss/)
 
-## Swiss Institute of Bioinformatics AWS-Docker Infrastructure
+## Swiss Infrastructure
+
+Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics (SIB)](https://www.sib.swiss/)
 
 ::: {#fig-project-workflow .center}
 ![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
