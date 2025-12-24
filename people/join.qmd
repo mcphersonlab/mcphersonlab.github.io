@@ -1,5 +1,6 @@
 ---
-title: "join"
+title: ""
+pagetitle: "Join"
 format: html
 jupyter: python3
 
