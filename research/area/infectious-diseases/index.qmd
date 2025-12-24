@@ -25,7 +25,7 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
-  - id: clostridioides-difficile-infection
+  - id: cdi
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -34,10 +34,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: clostridioides-difficile-infection
+      categories: cdi
     fields: [publication, title, categories, image, author]
     
-  - id: community-acquired-pneumonia
+  - id: cap
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -46,7 +46,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: community-acquired-pneumonia
+      categories: cap
     fields: [publication, title, categories, image, author]
     
   - id: staph-bacteremia
@@ -137,11 +137,11 @@ listing:
 This section provides a comprehensive view of publications and inspirational works organized by specific infectious disease indications.
 
 ### Clostridioides difficile Infection 🦠
-:::{#clostridioides-difficile-infection}
+:::{#cdi}
 :::
 
 ### Community-Acquired Pneumonia 🫁
-:::{#community-acquired-pneumonia}
+:::{#cap}
 :::
 
 ### Staph Bacteremia 🩸
