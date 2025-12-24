@@ -60,6 +60,66 @@ listing:
     include: 
       categories: staph-bacteremia
     fields: [publication, title, categories, image, author]
+    
+  - id: invasive-candidiasis
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: invasive-candidiasis
+    fields: [publication, title, categories, image, author]
+    
+  - id: uti
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: uti
+    fields: [publication, title, categories, image, author]
+    
+  - id: osteomyelitis
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: osteomyelitis
+    fields: [publication, title, categories, image, author]
+
+  - id: endocarditis
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: endocarditis
+    fields: [publication, title, categories, image, author]
+    
+  - id: meningitis
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: meningitis
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
@@ -69,6 +129,8 @@ listing:
 ## Inspirational Works
 :::{#inspirations}
 :::
+
+
 
 ## Indications
 
@@ -86,13 +148,27 @@ This section provides a comprehensive view of publications and inspirational wor
 :::{#staph-bacteremia}
 :::
 
-### Invasive Candidiasis 🍄
-:::{#invasive-candidiasis}
+### Invasive Fungal Infection 🍄
+:::{#invasive-fungal}
+:::
+
+### Urinary Tract Infections 🚽
+:::{#uti}
+:::
+
+### Meningitis 🧠
+:::{#meningitis}
+:::
+
+### Endocarditis 🫀
+:::{#endocarditis}
+:::
+
+### Osteomyelitis 🦴
+:::{#osteomyelitis}
 :::
 
 ## Lab Publications
 :::{#pubs}
 :::
-
----
 
