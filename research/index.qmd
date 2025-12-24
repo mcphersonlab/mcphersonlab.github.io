@@ -5,7 +5,7 @@ listing:
     contents: 
       - area/infectious-diseases/index.qmd
       - area/antimicrobial-resistance/index.qmd
-      - area/human-gut-microbiome/index.qmd
+      - area/microbiome/index.qmd
       - area/pharmacology/index.qmd
       - area/medicinal-chemistry/index.qmd
       - area/drug-development/index.qmd

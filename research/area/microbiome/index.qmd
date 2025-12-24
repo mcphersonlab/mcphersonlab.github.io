@@ -1,6 +1,6 @@
 ---
 title: Human Microbiome 🦠
-alias: &ALIAS human-gut-microbiome
+alias: &ALIAS microbiome
 image: featured.jpg
 listing:
   - id: pubs
@@ -35,6 +35,22 @@ listing:
 :::{#inspirations}
 :::
 
+## Indications
+
+
+### 
+
+
+###
+
+
+###
+
+
+
+
 ## Lab Publications
 :::{#pubs}
 :::
+
+

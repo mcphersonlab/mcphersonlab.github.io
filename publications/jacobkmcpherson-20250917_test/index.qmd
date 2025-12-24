@@ -4,7 +4,7 @@ author:
 categories:
 - infectious-diseases
 - antimicrobial-resistance
-- human-gut-microbiome
+- microbiome
 - member-publication
 doi: 10.1038/nature12373
 image: featured.jpg
