@@ -31,14 +31,14 @@ website:
       - href: publications/index.qmd
         icon: vector-pen
         text: Publications
-      - href: people/index.qmd
-        icon: people
-        text: People
-      - href: people/join.qmd
-        icon: person-plus
-        text: Join
-        aria-label: Join
+
     right:
+      - icon: people
+        href: people/index.qmd
+        aria-label: People
+      - icon: person-plus
+        href: people/join.qmd
+        aria-label: Join
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
