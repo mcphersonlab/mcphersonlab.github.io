@@ -1,5 +1,5 @@
 ---
-title: "Meet the Lab"
+#title: "Meet the Lab"
 listing:
   # Commented out hierarchical listings - keeping code for reference
   # - id: pi
