@@ -1,5 +1,5 @@
 ---
-title: ASHP | American Society of Health-System Pharmacists 💊
+title: ASHP | American Society of Health-System Pharmacists
 alias: &ALIAS jobs-ashp
 href: https://careers.ashp.org/jobs
 ---
