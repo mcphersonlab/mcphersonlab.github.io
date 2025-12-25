@@ -27,9 +27,11 @@ Available at [**LearningExpress CE**](https://www.learningexpressce.com/), our C
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/" class="btn btn-outline-primary">
-      <i class="bi bi-arrow-left"></i> Education
-    </a>
+    <a href="/education/education/workshops" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Workshops</a>
+  </div>
+  <div>
+    <a href="/education/education/courses" class="btn btn-outline-primary">Courses <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

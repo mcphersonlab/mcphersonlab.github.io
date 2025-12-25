@@ -27,9 +27,12 @@ Available at [**Coursera**](https://www.coursera.org/), our courses are designed
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/" class="btn btn-outline-primary">
-      <i class="bi bi-arrow-left"></i> Education
+    <a href="/education/education/ce" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Continuing Education
     </a>
+  </div>
+  <div>
+    <a href="/education/education/lectures" class="btn btn-outline-primary">Lectures <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

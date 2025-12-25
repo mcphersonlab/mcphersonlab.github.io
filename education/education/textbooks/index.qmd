@@ -27,9 +27,12 @@ Available at [**Amazon**](https://www.amazon.com) via [**Amazon Kindle Direct Pu
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/" class="btn btn-outline-primary">
-      <i class="bi bi-arrow-left"></i> Education
+    <a href="/education/education/lectures" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Lectures
     </a>
+  </div>
+    <div>
+    <a href="/education/education/workshops" class="btn btn-outline-primary">Workshops <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
