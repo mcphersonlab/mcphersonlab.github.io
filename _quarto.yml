@@ -33,12 +33,14 @@ website:
         text: Publications
 
     right:
-      - icon: people
-        href: people/index.qmd
-        aria-label: People
       - icon: person-plus
+        text: "​"
         href: people/join.qmd
         aria-label: Join
+      - icon: people
+        text: "​"
+        href: people/index.qmd
+        aria-label: People
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
