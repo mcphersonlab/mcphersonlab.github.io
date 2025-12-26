@@ -1,0 +1,19 @@
+---
+title: "Example Textbook - Principles of Pharmacology"
+author: ["Dr. Jane Smith", "Dr. John Doe"]
+publication: "Academic Press, **978-0-12-345678-9**, _3rd Edition_ (2024)"
+categories: 
+  - textbooks
+  - pharmacy
+  - pharmacology
+url_source: "https://example.com/textbook"
+journ: "Academic Press"
+issue: "978-0-12-345678-9"
+page: "3rd Edition"
+year: 2024
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is an example textbook demonstrating the template structure.

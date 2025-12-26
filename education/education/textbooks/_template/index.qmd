@@ -1,0 +1,36 @@
+---
+title: ""
+author: ["Names in quotes", "Separate by commas"]
+#["Names in quotes", "Separate by commas"]
+# - author 1
+# - author 2
+publication: "Publisher, **ISBN**, _Edition_ (2024)"
+categories: 
+  - textbooks
+#- courses
+#- lectures
+#- ce
+#- workshops
+#- member-publication
+#- pharmacy
+#- pharmacology
+#- medicinal-chemistry
+#- artificial-intelligence
+#- economic-analysis
+#- drug-development
+#- genomics
+#- structural-biology
+#- classical-methods
+#- infectious-diseases
+#- antimicrobial-resistance
+#- human-gut-microbiome
+url_source: 
+url_preprint: 
+journ: "Publisher Name"
+issue: "ISBN"
+page: "Edition"
+year: 9999 # year
+image: ""
+pub_number: 
+doi: 
+---
