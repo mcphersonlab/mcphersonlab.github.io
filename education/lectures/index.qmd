@@ -4,7 +4,7 @@ alias: &ALIAS lectures
 #image: featured.png
 listing:
   id: pubs
-  template: ../../../_ejs/education.ejs 
+  template: ../../_ejs/education.ejs 
   contents: 
     - "!../_template/"
     - "./**/*.qmd"
@@ -27,12 +27,12 @@ Available at Open Education Resources Commons ([**OER Commons**](https://www.oer
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/education/courses" class="btn btn-outline-primary">
+    <a href="/education/courses" class="btn btn-outline-primary">
       <i class="bi bi-arrow-left"></i> Courses
     </a>
   </div>
     <div>
-    <a href="/education/education/textbooks" class="btn btn-outline-primary">Textbooks <i class="bi bi-arrow-right"></i></a>
+    <a href="/education/textbooks" class="btn btn-outline-primary">Textbooks <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

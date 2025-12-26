@@ -4,7 +4,7 @@ alias: &ALIAS ce
 #image: featured.png
 listing:
   id: pubs
-  template: ../../../_ejs/education.ejs 
+  template: ../../_ejs/education.ejs 
   contents: 
     - "!../_template/"
     - "./**/*.qmd"
@@ -27,11 +27,11 @@ Available at [**LearningExpress CE**](https://www.learningexpressce.com/), our C
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/education/workshops" class="btn btn-outline-primary">
+    <a href="/education/workshops" class="btn btn-outline-primary">
       <i class="bi bi-arrow-left"></i> Workshops</a>
   </div>
   <div>
-    <a href="/education/education/courses" class="btn btn-outline-primary">Courses <i class="bi bi-arrow-right"></i></a>
+    <a href="/education/courses" class="btn btn-outline-primary">Courses <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

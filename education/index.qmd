@@ -2,7 +2,12 @@
 title: Education
 listing:
   - id: education
-    contents: education/**/index.qmd
+    contents: 
+      - ce/index.qmd
+      - courses/index.qmd
+      - lectures/index.qmd
+      - textbooks/index.qmd
+      - workshops/index.qmd
     type: grid
     fields: [title]
     sort: false

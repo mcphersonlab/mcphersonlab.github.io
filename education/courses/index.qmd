@@ -4,7 +4,7 @@ alias: &ALIAS courses
 #image: featured.png
 listing:
   id: pubs
-  template: ../../../_ejs/education.ejs 
+  template: ../../_ejs/education.ejs 
   contents: 
     - "!../_template/"
     - "./**/*.qmd"
@@ -27,12 +27,12 @@ Available at [**Coursera**](https://www.coursera.org/), our courses are designed
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/education/ce" class="btn btn-outline-primary">
+    <a href="/education/ce" class="btn btn-outline-primary">
       <i class="bi bi-arrow-left"></i> Continuing Education
     </a>
   </div>
   <div>
-    <a href="/education/education/lectures" class="btn btn-outline-primary">Lectures <i class="bi bi-arrow-right"></i></a>
+    <a href="/education/lectures" class="btn btn-outline-primary">Lectures <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
