@@ -4,7 +4,7 @@ alias: &ALIAS ce
 #image: featured.png
 listing:
   id: pubs
-  template: ../../../_ejs/publications.ejs 
+  template: ../../../_ejs/education.ejs 
   contents: 
     - "!../_template/"
     - "./**/*.qmd"
