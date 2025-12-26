@@ -1,0 +1,19 @@
+---
+title: "Example CE Course - Pharmacology Updates"
+author: ["Dr. Jane Smith", "Dr. John Doe"]
+publication: "Provider Name, **5.0 CE Credits**, _8 hours_ (2024)"
+categories: 
+  - ce
+  - pharmacy
+  - pharmacology
+url_source: "https://example.com/ce-course"
+journ: "Professional Learning Institute"
+issue: "5.0 CE Credits"
+page: "8 hours"
+year: 2024
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is an example CE course demonstrating the template structure.

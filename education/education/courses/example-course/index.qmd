@@ -1,0 +1,19 @@
+---
+title: "Example Course - Introduction to Pharmacology"
+author: ["Dr. Jane Smith"]
+publication: "Coursera, **PHARM-101**, _10 weeks_ (2024)"
+categories: 
+  - courses
+  - pharmacy
+  - pharmacology
+url_source: "https://www.coursera.org/example"
+journ: "Coursera"
+issue: "PHARM-101"
+page: "10 weeks"
+year: 2024
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is an example course demonstrating the template structure.

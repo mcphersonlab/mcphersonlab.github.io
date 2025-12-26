@@ -1,0 +1,19 @@
+---
+title: "Example Workshop - Advanced Laboratory Techniques"
+author: ["Dr. Jane Smith"]
+publication: "Professional Development Center, **Advanced Lab Methods**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - classical-methods
+  - pharmacology
+url_source: "https://example.com/workshop"
+journ: "Professional Development Center"
+issue: "Advanced Lab Methods"
+page: "2 days"
+year: 2024
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is an example workshop demonstrating the template structure.

@@ -1,0 +1,19 @@
+---
+title: "Example Lecture - Drug Discovery Fundamentals"
+author: ["Dr. John Doe"]
+publication: "OER Commons, **Drug Discovery**, _Video Series_ (2024)"
+categories: 
+  - lectures
+  - drug-development
+  - pharmacology
+url_source: "https://www.oercommons.org/example"
+journ: "OER Commons"
+issue: "Drug Discovery"
+page: "Video Series"
+year: 2024
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is an example lecture demonstrating the template structure.
