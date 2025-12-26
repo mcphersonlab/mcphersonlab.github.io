@@ -1,0 +1,36 @@
+---
+title: ""
+author: ["Names in quotes", "Separate by commas"]
+#["Names in quotes", "Separate by commas"]
+# - author 1
+# - author 2
+publication: "Provider, **CE Credits**, _Duration_ (2024)"
+categories: 
+  - ce
+#- courses
+#- lectures
+#- textbooks
+#- workshops
+#- member-publication
+#- pharmacy
+#- pharmacology
+#- medicinal-chemistry
+#- artificial-intelligence
+#- economic-analysis
+#- drug-development
+#- genomics
+#- structural-biology
+#- classical-methods
+#- infectious-diseases
+#- antimicrobial-resistance
+#- human-gut-microbiome
+url_source: 
+url_preprint: 
+journ: "Provider Name"
+issue: "CE Credits"
+page: "Duration"
+year: 9999 # year
+image: ""
+pub_number: 
+doi: 
+---
