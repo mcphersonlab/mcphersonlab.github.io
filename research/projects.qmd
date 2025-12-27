@@ -9,7 +9,7 @@ This page provides a comprehensive index of ongoing research projects in the McP
 
 ### Quick Overview
 
-We maintain **35+ active research projects** across multiple domains including:
+We maintain **50+ active research projects** across multiple domains including:
 
 - **Antimicrobial Resistance (AMR)**: Genomic and clinical investigations of drug-resistant pathogens
 - **Gut Microbiome**: Metagenomic and metabolomic analyses of human gut microbiota
@@ -55,6 +55,7 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | Metagenomic analysis of C. difficile | Houston *C diff* & Microbiome Conference | Microbiome | Gut Microbes |
 | [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | C. difficile and VRE co-colonization | Houston *C diff* & Microbiome Conference; TMC AMR; 9th International *C. difficile* Symposium (ICDS) | Nature Microbiology | Gut Microbes |
 | [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | Antimicrobial resistance in *C. difficile* | Anaerobe Biennial; 9th International *C. difficile* Symposium (ICDS) | npj Antimicrobials and Resistance | Anaerobe |
+| [clostridioides_atlas](https://github.com/mcphersonlab/clostridioides_atlas) | Atlas of *C. difficile* phylogeography, AMR, and host-microbe interactions | Houston *C diff* & Microbiome Conference; 9th International *C. difficile* Symposium (ICDS) | Nature Microbiology | Microbiome |
 | [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | MRSA resistance mechanisms | IDSA IDWeek; ESCMID Annual | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
 | [amr-klebsiella-pneumoniae](https://github.com/mcphersonlab/amr-klebsiella-pneumoniae) | Carbapenem-resistant *K. pneumoniae* | IDSA IDWeek; ESCMID Annual | Antimicrobial Agents and Chemotherapy | npj Antimicrobials and Resistance |
 | [amr-enterococcus-faecium](https://github.com/mcphersonlab/amr-enterococcus-faecium) | VRE genomics and resistance | TMC AMR | Journal of Antimicrobial Chemotherapy | mBio |
@@ -66,27 +67,42 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | HIV drug resistance | CROI Annual; ASV Annual; ESCV Annual | The Lancet HIV | Nature Microbiology |
 | [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | MDR-TB genomics | Global TB Summit (Qiagen) | The Lancet Infectious Diseases | npj Antimicrobials and Resistance |
 | [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | Multidrug-resistant *P. aeruginosa* | North American Cystic Fibrosis (CF) Conference | Clinical Infectious Diseases | npj Antimicrobials and Resistance |
+| [amr-env-food](https://github.com/mcphersonlab/amr-env-food) | Antimicrobial resistance in the food chain | CSIRO AMR Summit | Nature Microbiology | Environmental Microbiology |
+| [amr-env-water](https://github.com/mcphersonlab/amr-env-water) | Antimicrobial resistance in wastewater surveillance | CSIRO AMR Summit | Environmental Science & Technology | Water Research |
 | [tx-cap](https://github.com/mcphersonlab/tx-cap) | Treatment of community-acquired pneumonia | IDSA IDWeek | Clinical Infectious Diseases | The Lancet Infectious Diseases |
 | [tx-uuti](https://github.com/mcphersonlab/tx-uuti) | Treatment of uncomplicated urinary tract infections | IDSA IDWeek | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
 | [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | Treatment of *Staphylococcal bacteremia* | ASHP Midyear | Clinical Infectious Diseases | Journal of Antimicrobial Chemotherapy |
 | [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of *C. difficile* infection | 9th International *C. difficile* Symposium (ICDS) | Clinical Infectious Diseases | Gut Microbes |
 | [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | Gut virome characterization | ASV Annual; ESCV Annual | Nature Microbiology | Cell Host & Microbe |
+| [mgx-cap](https://github.com/mcphersonlab/mgx-cap) | Pulmonary metagenomics of community-acquired pneumonia | IDSA IDWeek | Clinical Infectious Diseases | The Lancet Infectious Diseases |
 | [mgx-mbx-abx-cdi](https://github.com/mcphersonlab/mgx-mbx-abx-cdi) | Metagenomic and metabolomic determinants of CDI | Houston *C diff* & Microbiome Conference | Gut Microbes | npj Biofilms and Microbiomes |
 | [mgx-abx-healthy](https://github.com/mcphersonlab/mgx-abx-healthy) | Antibiotic effects on healthy gut microbiome | BSAC and GARDP Antimicrobial Chemotherapy Conference | Microbiome | Nature Communications |
 | [mgx-immunol-regulatory-t-cells](https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells) | Microbiome-immune regulatory T cell interactions | AAAS Annual | Nature Immunology | Nature Communications |
 | [mgx-mbx-colorectal-cancer](https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer) | Microbiome and metabolome in colorectal cancer | AAAS Annual | Nature Medicine | Cell Host & Microbe |
 | [mgx-mbx-glp-1](https://github.com/mcphersonlab/mgx-mbx-glp-1) | GLP-1 agonists and gut microbiome interactions | AAAS Annual | Nature Medicine | Gut |
+| [MicrobiomeHUES](https://github.com/mcphersonlab/MicrobiomeHUES) | Hierarchical Unified Ecological Spectrum of the human microbiome | ASM Microbe | Microbiome | Nature Microbiology |
 | [ai-amr](https://github.com/mcphersonlab/ai-amr) | AI methods for antimicrobial resistance prediction | IMARI Annual | npj Antimicrobials and Resistance | Nature Machine Intelligence |
 | [ai-forecast-influenza](https://github.com/mcphersonlab/ai-forecast-influenza) | AI forecasting of influenza dynamics | ASV Annual | The Lancet Infectious Diseases | Nature Communications |
 | [ai-forecast-pharmacology](https://github.com/mcphersonlab/ai-forecast-pharmacology) | AI-driven pharmacological predictions | IUPHAR Annual | Nature Reviews Drug Discovery | Nature Machine Intelligence |
 | [ai-microbiome-transmission](https://github.com/mcphersonlab/ai-microbiome-transmission) | AI modeling of microbiome transmission | ASM Microbe | Nature Microbiology | Nature Communications |
+| [ai-structural-biology](https://github.com/mcphersonlab/ai-structural-biology) | Artificial intelligence methodology in structural biology | Biophysical Society Annual | Nature Methods | Nature Machine Intelligence |
+| [MicroSCOPE](https://github.com/mcphersonlab/MicroSCOPE) | Microbial speciation from colony observation and prediction | ASM Microbe | mBio | npj Biofilms and Microbiomes |
 | [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | Biophysical analysis of protein machinery | Biophysical Society Annual | Nature Structural & Molecular Biology | Biophysical Journal |
+| [phys-hiv-lenacapavir](https://github.com/mcphersonlab/phys-hiv-lenacapavir) | Structure and physical properties of HIV-1 capsid hyperstabilization by lenacapavir | CROI Annual | Nature Structural & Molecular Biology | Journal of Virology |
 | [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | Structure-function relationships in pharmacology | IUPHAR Annual | Nature Reviews Drug Discovery | Molecular Pharmacology |
+| [SpaceTime](https://github.com/mcphersonlab/SpaceTime) | Spatiotemporal model of receptors, enzymes, and pharmacology | IUPHAR Annual | Molecular Pharmacology | Nature Reviews Drug Discovery |
+| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | Pharmacology of RNAP-targeting rifamycins on biofilms | IDSA IDWeek | Antimicrobial Agents and Chemotherapy | mBio |
+| [pcol-vcddmde-hbv](https://github.com/mcphersonlab/pcol-vcddmde-hbv) | Pharmacology of DdmDE degradation of HBV cccDNA | AASLD Annual | Hepatology | Journal of Virology |
 | [cost-amr](https://github.com/mcphersonlab/cost-amr) | Economic burden of antimicrobial resistance | Global AMR Innovators' Conference (GAMRIC) | The Lancet Infectious Diseases | Clinical Infectious Diseases |
 | [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | Return on investment analysis for CDI interventions | 9th International *C. difficile* Symposium (ICDS) | Clinical Infectious Diseases | Value in Health |
 | [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | ROI analysis for antimicrobial drug development | ISPOR Annual | Value in Health | Pharmacoeconomics |
 | [EarthEpi](https://github.com/mcphersonlab/EarthEpi) | Environmental epidemiology and climate-health relationships | AAAS Annual | BMC Medicine | Nature Microbiology |
 | [StormPath](https://github.com/mcphersonlab/StormPath) | Storm and weather impacts on infectious disease dynamics | AAAS Annual | Clinical Infectious Diseases | BMC Medicine |
+| [epi-hbv](https://github.com/mcphersonlab/epi-hbv) | Requirements of HBV elimination in the United States | AASLD Annual | Hepatology | The Lancet Infectious Diseases |
+| [DigitalTwin-Society-Health](https://github.com/mcphersonlab/DigitalTwin-Society-Health) | Digital twin of society's health for implementation science | AAAS Annual | Nature Medicine | Implementation Science |
+| [DOOR-STEP](https://github.com/mcphersonlab/DOOR-STEP) | Desirability of Outcome Ranking with Stratified Treatment Effect Profiling | IDSA IDWeek | Clinical Infectious Diseases | Statistics in Medicine |
+| [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | National trends in pharmacy education outcomes | AACP Annual | American Journal of Pharmaceutical Education | Academic Medicine |
+| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | Interactive AI module for pharmacy student communication training | AACP Annual | American Journal of Pharmaceutical Education | Nature Medicine |
 
 
 ### Contributing to Projects
