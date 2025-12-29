@@ -26,7 +26,7 @@ listing:
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
     
-  - id: stem-cell-biology
+  - id: organoid-cardiac
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -35,10 +35,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: stem-cell-biology
+      categories: organoid-cardiac
     fields: [publication, title, categories, image, author]
 
-  - id: tissue-engineering
+  - id: organoid-renal
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -47,10 +47,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: tissue-engineering
+      categories: organoid-renal
     fields: [publication, title, categories, image, author]
 
-  - id: disease-modeling
+  - id: organoid-hepatic
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -59,10 +59,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: disease-modeling
+      categories: organoid-hepatic
     fields: [publication, title, categories, image, author]
     
-  - id: drug-screening
+  - id: organoid-pulmonary
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -71,7 +71,19 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: drug-screening
+      categories: organoid-pulmonary
+    fields: [publication, title, categories, image, author]
+
+  - id: organoid-intestinal
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-intestinal
     fields: [publication, title, categories, image, author]
 ---
 
@@ -90,19 +102,23 @@ listing:
 
 ## Organoid Research Areas
 
-### Stem Cell Biology 🧬
-:::{#stem-cell-biology}
+### Cardiac Organoids ❤️
+:::{#organoid-cardiac}
 :::
 
-### Tissue Engineering 🔬
-:::{#tissue-engineering}
+### Renal Organoids 🫘
+:::{#organoid-renal}
 :::
 
-### Disease Modeling 🧫
-:::{#disease-modeling}
+### Hepatic Organoids 🫀
+:::{#organoid-hepatic}
 :::
 
-### Drug Screening 💊
-:::{#drug-screening}
+### Pulmonary Organoids 🫁
+:::{#organoid-pulmonary}
+:::
+
+### Intestinal Organoids 🦠
+:::{#organoid-intestinal}
 :::
 
