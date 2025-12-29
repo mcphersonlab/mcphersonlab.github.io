@@ -1,5 +1,5 @@
 ---
-title: Organoids 🧬
+title: Organoids 🧫
 alias: &ALIAS organoids
 image: featured.png
 listing:
