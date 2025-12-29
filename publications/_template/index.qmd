@@ -8,7 +8,7 @@ publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #- member-publication
 #- external-publication
-#- pharmacy
+#- organoids
 #- pharmacology
 #- medicinal-chemistry
 #- artificial-intelligence
