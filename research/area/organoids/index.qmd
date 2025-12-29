@@ -26,7 +26,7 @@ listing:
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
     
-  - id: duration-therapy
+  - id: stem-cell-biology
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -35,10 +35,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: duration-therapy
+      categories: stem-cell-biology
     fields: [publication, title, categories, image, author]
 
-  - id: iv-po
+  - id: tissue-engineering
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -47,10 +47,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: iv-po
+      categories: tissue-engineering
     fields: [publication, title, categories, image, author]
 
-  - id: allergy
+  - id: disease-modeling
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -59,10 +59,10 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: allergy
+      categories: disease-modeling
     fields: [publication, title, categories, image, author]
     
-  - id: pk-pd
+  - id: drug-screening
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
@@ -71,7 +71,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: pk-pd
+      categories: drug-screening
     fields: [publication, title, categories, image, author]
 ---
 
@@ -88,17 +88,21 @@ listing:
 :::{#pubs}
 :::
 
-## Antimicrobial Stewardship
+## Organoid Research Areas
 
-### IV to PO 💊
-:::{#iv-po}
+### Stem Cell Biology 🧬
+:::{#stem-cell-biology}
 :::
 
-### Duration of Therapy ⌛
-:::{#duration-therapy}
+### Tissue Engineering 🔬
+:::{#tissue-engineering}
 :::
 
-### Allergy Delabeling 💊
-:::{#allergy}
+### Disease Modeling 🧫
+:::{#disease-modeling}
+:::
+
+### Drug Screening 💊
+:::{#drug-screening}
 :::
 
