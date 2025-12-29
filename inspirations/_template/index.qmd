@@ -6,7 +6,7 @@ author: #["Names in quotes", "Separate by commas"]
 publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #- external-publication
-#- pharmacy
+#- organoids
 #- pharmacology
 #- medicinal-chemistry
 #- artificial-intelligence

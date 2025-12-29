@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharmacy Research Banner</title>
+    <title>Organoids Research Banner</title>
     <style>
         * {
             margin: 0;
@@ -32,32 +32,45 @@
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
         }
         
-        .pills-container {
+        .cells-container {
             position: absolute;
             width: 100%;
             height: 100%;
             overflow: hidden;
         }
         
-        .pill {
+        .cell {
             position: absolute;
-            opacity: 0.5;
+            opacity: 0.4;
             animation: float 7s infinite ease-in-out;
         }
         
-        .capsule {
-            width: 60px;
-            height: 25px;
-            border-radius: 15px;
-            background: linear-gradient(90deg, #ff6b6b 0%, #ff6b6b 50%, #ffd93d 50%, #ffd93d 100%);
+        .organoid {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, #7fdb9e, #4a9960);
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
         }
         
-        .tablet {
-            width: 40px;
-            height: 40px;
+        .organoid::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
             border-radius: 50%;
-            background: radial-gradient(circle at 30% 30%, #4dabf7, #1971c2);
+            background: radial-gradient(circle at 30% 30%, #5fb878, #3a7a4d);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .cell-cluster {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, #a3e4c1, #66b584);
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
         
@@ -70,37 +83,37 @@
             }
         }
         
-        .pill:nth-child(1) {
+        .cell:nth-child(1) {
             top: 15%;
             left: 12%;
             animation-delay: 0s;
         }
         
-        .pill:nth-child(2) {
+        .cell:nth-child(2) {
             top: 55%;
             left: 18%;
             animation-delay: 1.2s;
         }
         
-        .pill:nth-child(3) {
+        .cell:nth-child(3) {
             top: 35%;
             left: 8%;
             animation-delay: 2.4s;
         }
         
-        .pill:nth-child(4) {
+        .cell:nth-child(4) {
             top: 25%;
             right: 15%;
             animation-delay: 1.6s;
         }
         
-        .pill:nth-child(5) {
+        .cell:nth-child(5) {
             top: 65%;
             right: 22%;
             animation-delay: 0.8s;
         }
         
-        .pill:nth-child(6) {
+        .cell:nth-child(6) {
             top: 45%;
             right: 10%;
             animation-delay: 2s;
@@ -139,7 +152,7 @@
             font-weight: 600;
         }
         
-        .pharmacy-icon {
+        .organoid-icon {
             position: absolute;
             top: 50%;
             right: 10%;
@@ -151,32 +164,32 @@
 </head>
 <body>
     <div class="banner">
-        <div class="pills-container">
-            <div class="pill">
-                <div class="capsule"></div>
+        <div class="cells-container">
+            <div class="cell">
+                <div class="organoid"></div>
             </div>
-            <div class="pill">
-                <div class="tablet"></div>
+            <div class="cell">
+                <div class="cell-cluster"></div>
             </div>
-            <div class="pill">
-                <div class="capsule"></div>
+            <div class="cell">
+                <div class="organoid"></div>
             </div>
-            <div class="pill">
-                <div class="tablet"></div>
+            <div class="cell">
+                <div class="cell-cluster"></div>
             </div>
-            <div class="pill">
-                <div class="capsule"></div>
+            <div class="cell">
+                <div class="organoid"></div>
             </div>
-            <div class="pill">
-                <div class="tablet"></div>
+            <div class="cell">
+                <div class="cell-cluster"></div>
             </div>
         </div>
         
-        <div class="pharmacy-icon">⚕️</div>
+        <div class="organoid-icon">🧬</div>
         
         <div class="content">
-            <h1 class="title">Pharmacy</h1>
-            <p class="subtitle">Advancing <span class="highlight">pharmaceutical care</span> and medication safety through evidence-based practice and research</p>
+            <h1 class="title">Organoids</h1>
+            <p class="subtitle">Advancing <span class="highlight">3D cell culture models</span> and regenerative medicine through innovative organoid research</p>
         </div>
     </div>
 </body>

@@ -8,7 +8,7 @@ publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #- member-publication
 #- external-publication
-#- pharmacy
+#- organoids
 #- pharmacology
 #- medicinal-chemistry
 #- artificial-intelligence
@@ -43,6 +43,13 @@ publication: "Journal, **issue**, _page_ (2024)"
 #- amr-agent-inactivation
 #- amr-agent-influx-efflux
 #- amr-target-bypass
+
+# categories of organoids
+#- organoid-cardiac
+#- organoid-renal
+#- organoid-hepatic
+#- organoid-pulmonary
+#- organoid-intestinal
 url_source: 
 url_preprint: 
 journ: "Journal"
