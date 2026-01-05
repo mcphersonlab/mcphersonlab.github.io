@@ -68,8 +68,7 @@ jupyter: python3
 ::: {#research-areas}
 :::
 
-Find more at our [Projects](projects.qmd) and [Indications](area/infectious-diseases.qmd) pages.
-
+Find more at our [Projects](projects.qmd) and target [Indications](area/infectious-diseases/index.qmd) pages.
 
 
 <div id="pubmed-url-builder" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 25px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #dee2e6;">

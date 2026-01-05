@@ -6,7 +6,7 @@ title: "Welcome"
 <iframe src="hero_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;" title="McPherson Research Lab Hero Banner"></iframe>
 ```
 
-## A Science-First Culture
+## A Culture of Biomedical Science
 
 We share [**our works**](https://mcphersonlab.github.io/publications/) at [**conferences**](https://mcphersonlab.github.io/research/#conference-map-and-calendar) 📃
 <!-- - [**Gallery**](https://jacobkmcpherson.com/gallery) 🎥📸 -->

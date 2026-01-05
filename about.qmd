@@ -30,22 +30,21 @@ Our research is driven by three pillars:
 
 <!--- left align -->
 :::{.text-left}
-We use [**resources**](https://mcphersonlab.github.io/research/#research-resources) 
-and a **github-centered workflow** built around:
+We use a **github-centered workflow** that utilizes:
 
-- [Amazon Web Services (AWS)](https://aws.amazon.com/),
-- [Ubuntu Linux](https://ubuntu.com/),
-- [Docker](https://www.docker.com/),
-- [Snakemake](https://snakemake.readthedocs.io/en/stable/),
-- [VSCode](https://code.visualstudio.com/),
-- [RStudio Cloud](https://rstudio.cloud/),
-- [Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/),
-- [Github](https://github.com), 
-- [Git](https://git-scm.com/),
-- [Anaconda](https://anaconda.org/),
-- [R Consortium](https://www.r-consortium.org/),
-- [Zenodo](https://zenodo.org/), and
-- [LaTeX](https://www.latex-project.org/) via [Overleaf](https://www.overleaf.com/)
+- [Amazon Web Services (AWS)](https://aws.amazon.com/) (Cloud Computing)
+- [Ubuntu Linux](https://ubuntu.com/) (Linux Operating System)
+- [Docker](https://www.docker.com/) (Containerization)
+- [Snakemake](https://snakemake.readthedocs.io/en/stable/) (Workflow Management)
+- [VSCode](https://code.visualstudio.com/) (Code Editor)
+- [RStudio Cloud](https://rstudio.cloud/) (Code Editor)
+- [Jupyter Notebooks](https://jupyter.org/) on [Google Colab](https://colab.research.google.com/) (Code Editor)
+- [Github](https://github.com) (Version Control)
+- [Git](https://git-scm.com/) (Version Control)
+- [Anaconda](https://anaconda.org/) (Package Management)
+- [R Consortium](https://www.r-consortium.org/) (R Language Support)
+- [Zenodo](https://zenodo.org/) (Data and Code Sharing)
+- [LaTeX](https://www.latex-project.org/)and [Overleaf](https://www.overleaf.com/) (Publication Writing)
 :::
 
 <!--- left align -->
@@ -74,7 +73,7 @@ Please reference TACC in any research report, journal or publication that requir
 
 <!--- left align -->
 :::{.text-left}
-## Swiss Infrastructure
+## Swiss Data Infrastructure
 
 Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swiss.github.io/AWS-docker/) by the [Swiss Institute of Bioinformatics (SIB)](https://www.sib.swiss/)
 :::

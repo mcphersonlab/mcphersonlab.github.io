@@ -32,6 +32,8 @@ listing:
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     # sort-ui: true
     # filter-ui: true
@@ -44,6 +46,8 @@ listing:
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     # sort-ui: true
     # filter-ui: true
@@ -56,6 +60,8 @@ listing:
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     # sort-ui: true
     # filter-ui: true
@@ -63,31 +69,20 @@ listing:
       categories: amr-agent-influx-efflux
     fields: [publication, title, categories, image, author]
     
-  - id: amr-agent-influx-efflux
-    template: ../../../_ejs/publications-people.ejs 
-    contents: 
-      - "!../../../publications/_template/"
-      - "../../../publications/**/*.qmd"
-    sort: "pub_number desc"
-    # sort-ui: true
-    # filter-ui: true
-    include: 
-      categories: *ALIAS
-    fields: [publication, title, categories, image, author]
-    
   - id: amr-target-bypass
     template: ../../../_ejs/publications-people.ejs 
     contents: 
       - "!../../../publications/_template/"
       - "../../../publications/**/*.qmd"
+      #- "!../../../inspirations/_template/"
+      #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     # sort-ui: true
     # filter-ui: true
     include: 
       categories: amr-target-bypass
     fields: [publication, title, categories, image, author]
-
-
+    
 ---
 
 ```{=html}
