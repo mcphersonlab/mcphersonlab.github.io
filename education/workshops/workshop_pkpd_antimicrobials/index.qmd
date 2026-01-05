@@ -1,0 +1,20 @@
+---
+title: "Pharmacokinetic/Pharmacodynamics of Antimicrobials and Novel Agents"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Advanced Lab Methods**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - infectious-diseases
+  - pharmacology
+  - drug-development
+url_source: "https://jacobkmcpherson.github.io/workshop_pkpd_antimicrobials/"
+journ: "Professional Development Center" # name of the platform hosting the workshop
+issue: "Advanced Lab Methods" # name of the workshop series
+page: "2 days" # duration of the workshop
+year: 2024 
+image: ""
+pub_number: 1
+doi: ""
+---
+
+This is a workshop on pharmacokinetic/pharmacodynamics (PK/PD) of antimicrobials and novel agents, designed for healthcare professionals and researchers interested in optimizing antimicrobial therapy and understanding the principles of drug development.

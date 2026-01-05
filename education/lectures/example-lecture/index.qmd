@@ -1,11 +1,9 @@
 ---
-title: "Example Lecture - Drug Discovery Fundamentals"
-author: ["Dr. John Doe"]
+title: "Your Lecture Title"
+author: ["Your Name"]
 publication: "OER Commons, **Drug Discovery**, _Video Series_ (2024)"
 categories: 
   - lectures
-  - drug-development
-  - pharmacology
 url_source: "https://www.oercommons.org/example"
 journ: "OER Commons"
 issue: "Drug Discovery"
@@ -16,4 +14,4 @@ pub_number: 1
 doi: ""
 ---
 
-This is an example lecture demonstrating the template structure.
+This is an example LaTeX-to-PDF lecture demonstrating the template structure.
