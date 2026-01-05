@@ -41,6 +41,9 @@ website:
         text: "​"
         href: people/index.qmd
         aria-label: People
+      - icon: github
+        href: https://github.com/McPhersonLab
+        aria-label: GitHub
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
@@ -56,9 +59,6 @@ website:
       - icon: building
         href: https://jacobkmcpherson.com/
         aria-label: Business
-      - icon: github
-        href: https://github.com/McPhersonLab
-        aria-label: GitHub
       - icon: bluesky
         href: https://bsky.app/profile/jacobkmcpherson.bsky.social
         aria-label: BlueSky
