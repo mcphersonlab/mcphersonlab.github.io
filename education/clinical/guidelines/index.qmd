@@ -1,0 +1,5 @@
+---
+title: Guidelines 🩺
+alias: &ALIAS guidelines
+href: https://www.guidelinecentral.com/
+---
