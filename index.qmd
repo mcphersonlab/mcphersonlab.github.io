@@ -8,7 +8,7 @@ title: "Welcome"
 
 ## A Culture of Biomedical Science
 
-We are a [**cloud native lab on GitHub**](https://mcphersonlab.github.io/) exploring infectious diseases and drug development using open-science principles 🧬🌍
+We are a [**cloud native lab on GitHub**](https://github.com/McPhersonLab) exploring infectious diseases and drug development using open-science principles 🧬🌍
 
 We share [**our works**](https://mcphersonlab.github.io/publications/) at [**conferences**](https://mcphersonlab.github.io/research/#conference-map-and-calendar) 📃
 <!-- - [**Gallery**](https://jacobkmcpherson.com/gallery) 🎥📸 -->
