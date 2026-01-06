@@ -4,7 +4,6 @@ author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Statistical Methods Series**, _2 days_ (2024)"
 categories: 
   - workshops
-  - artificial-intelligence
 url_source: ""
 journ: "Professional Development Center"
 issue: "Statistical Methods Series"
