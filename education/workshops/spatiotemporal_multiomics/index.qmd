@@ -1,0 +1,19 @@
+---
+title: "Spatiotemporal Multi-Omics"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Multi-Omics Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - genomics
+  - artificial-intelligence
+url_source: ""
+journ: "Professional Development Center"
+issue: "Multi-Omics Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 17
+doi: ""
+---
+
+This workshop covers spatiotemporal multi-omics approaches, including integration of spatial and temporal data across genomics, transcriptomics, proteomics, and metabolomics platforms for comprehensive biological analysis.

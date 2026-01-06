@@ -1,0 +1,20 @@
+---
+title: "Live Biotherapeutic Products (LBPs) in the Pipeline"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - human-gut-microbiome
+  - drug-development
+  - pharmacy
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 2
+doi: ""
+---
+
+This continuing education course covers live biotherapeutic products in development, including pipeline candidates, regulatory considerations, clinical applications, microbiome modulation, and emerging therapies for various disease states.

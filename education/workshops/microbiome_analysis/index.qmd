@@ -1,0 +1,19 @@
+---
+title: "Microbiome Analysis & Visualization"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Microbiome Research Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - human-gut-microbiome
+  - genomics
+url_source: ""
+journ: "Professional Development Center"
+issue: "Microbiome Research Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 4
+doi: ""
+---
+
+This workshop covers modern approaches to microbiome data analysis and visualization, including sequencing data processing, diversity analysis, and interpretation of microbial community structures.

@@ -1,0 +1,18 @@
+---
+title: "Structural Biology"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **STRUC-601**, _12 weeks_ (2024)"
+categories: 
+  - courses
+  - structural-biology
+url_source: ""
+journ: "Professional Development Center"
+issue: "STRUC-601"
+page: "12 weeks"
+year: 2024
+image: ""
+pub_number: 3
+doi: ""
+---
+
+This course covers the principles of structural biology, including protein structure determination, X-ray crystallography, NMR spectroscopy, and cryo-electron microscopy techniques.

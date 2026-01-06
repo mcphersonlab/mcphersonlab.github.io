@@ -1,0 +1,19 @@
+---
+title: "Bioinformatics"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **BIO-501**, _12 weeks_ (2024)"
+categories: 
+  - courses
+  - genomics
+  - artificial-intelligence
+url_source: ""
+journ: "Professional Development Center"
+issue: "BIO-501"
+page: "12 weeks"
+year: 2024
+image: ""
+pub_number: 2
+doi: ""
+---
+
+This course provides a comprehensive introduction to bioinformatics, covering computational methods for analyzing biological data, sequence analysis, and genomic data interpretation.

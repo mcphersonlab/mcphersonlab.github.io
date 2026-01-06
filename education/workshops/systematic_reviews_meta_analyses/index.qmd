@@ -1,0 +1,17 @@
+---
+title: "Systematic Reviews and Meta-Analyses for the Busy Clinician"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Evidence-Based Practice Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+url_source: ""
+journ: "Professional Development Center"
+issue: "Evidence-Based Practice Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 16
+doi: ""
+---
+
+This workshop provides busy clinicians with practical skills to conduct and interpret systematic reviews and meta-analyses, covering efficient search strategies, critical appraisal, and evidence synthesis for clinical decision-making.

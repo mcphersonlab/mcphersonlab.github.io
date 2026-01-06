@@ -1,0 +1,19 @@
+---
+title: "Introduction to Microbial Ecology & Evolution"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Microbiology Series**, _Video Series_ (2024)"
+categories: 
+  - lectures
+  - infectious-diseases
+  - human-gut-microbiome
+url_source: ""
+journ: "Professional Development Center"
+issue: "Microbiology Series"
+page: "Video Series"
+year: 2024 
+image: ""
+pub_number: 11
+doi: ""
+---
+
+This lecture introduces the principles of microbial ecology and evolution, covering microbial communities, ecological interactions, evolutionary processes, and their applications in understanding infectious diseases and microbiome dynamics.
