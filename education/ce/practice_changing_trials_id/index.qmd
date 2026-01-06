@@ -1,0 +1,19 @@
+---
+title: "Practice Changing Clinical Trials in Infectious Diseases"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - infectious-diseases
+  - pharmacy
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 5
+doi: ""
+---
+
+This continuing education course reviews landmark clinical trials in infectious diseases that have changed clinical practice, including study design, key findings, and implications for patient care and treatment guidelines.
