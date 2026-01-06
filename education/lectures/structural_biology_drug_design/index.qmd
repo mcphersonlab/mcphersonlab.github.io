@@ -1,0 +1,20 @@
+---
+title: "Introduction to structural biology for drug design"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Drug Development Series**, _Video Series_ (2024)"
+categories: 
+  - lectures
+  - structural-biology
+  - drug-development
+  - medicinal-chemistry
+url_source: ""
+journ: "Professional Development Center"
+issue: "Drug Development Series"
+page: "Video Series"
+year: 2024 
+image: ""
+pub_number: 7
+doi: ""
+---
+
+This lecture introduces the fundamental principles of structural biology as applied to drug design, covering protein structure determination, molecular docking, and structure-based drug discovery.
