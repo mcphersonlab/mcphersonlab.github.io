@@ -1,0 +1,17 @@
+---
+title: "How to Transform Trainees into Independent Researchers with Scoping Reviews"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Research Methods Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+url_source: ""
+journ: "Professional Development Center"
+issue: "Research Methods Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 15
+doi: ""
+---
+
+This workshop teaches educators and mentors how to use scoping reviews as a pedagogical tool to develop research skills in trainees, covering methodology, mentoring strategies, and transforming learners into independent researchers.
