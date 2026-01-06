@@ -16,4 +16,10 @@ pub_number: 6
 doi: ""
 ---
 
+<!-- Textbooks (not authored by Dr. McPherson):
+Microbe, Swanson et al (2022)
+Principles of Virology, Racaniello et al (2020)
+Despommier's Parasitic Diseases (2025)
+-->
+
 This course covers medical microbiology, including bacterial, viral, fungal, and parasitic pathogens, their pathogenesis, diagnostic methods, and antimicrobial therapies.

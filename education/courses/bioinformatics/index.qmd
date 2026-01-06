@@ -16,4 +16,8 @@ pub_number: 2
 doi: ""
 ---
 
+<!-- Textbooks (not authored by Dr. McPherson):
+Bioinformatics by Baxevanis (2017)
+-->
+
 This course provides a comprehensive introduction to bioinformatics, covering computational methods for analyzing biological data, sequence analysis, and genomic data interpretation.
