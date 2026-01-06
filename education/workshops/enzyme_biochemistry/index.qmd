@@ -1,0 +1,19 @@
+---
+title: "Introduction to Enzyme Biochemistry"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Biochemistry Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - pharmacy
+  - medicinal-chemistry
+url_source: ""
+journ: "Professional Development Center"
+issue: "Biochemistry Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 9
+doi: ""
+---
+
+This workshop provides an introduction to enzyme biochemistry, covering enzyme kinetics, mechanisms of catalysis, inhibition, and applications in drug development.

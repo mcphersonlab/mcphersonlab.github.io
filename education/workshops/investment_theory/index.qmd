@@ -1,0 +1,18 @@
+---
+title: "Introduction to Investment Theory"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Economic Analysis Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - economic-analysis
+url_source: ""
+journ: "Professional Development Center"
+issue: "Economic Analysis Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 10
+doi: ""
+---
+
+This workshop provides an introduction to investment theory, covering portfolio optimization, risk management, and fundamental principles of financial decision-making.

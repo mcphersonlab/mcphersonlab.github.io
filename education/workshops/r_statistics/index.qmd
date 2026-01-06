@@ -1,0 +1,18 @@
+---
+title: "Introduction to R for Statistics"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Statistical Methods Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - artificial-intelligence
+url_source: ""
+journ: "Professional Development Center"
+issue: "Statistical Methods Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 3
+doi: ""
+---
+
+This workshop introduces R programming for statistical analysis, covering data manipulation, visualization, and statistical testing techniques commonly used in research.
