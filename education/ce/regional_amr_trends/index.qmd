@@ -1,5 +1,5 @@
 ---
-title: "Updates in Clostridioides difficile Infection"
+title: "Regional Trends in Antimicrobial Resistance"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
 categories: 
@@ -13,8 +13,8 @@ issue: "2.0 CE Credits"
 page: "4 hours"
 year: 2024
 image: ""
-pub_number: 2
+pub_number: 4
 doi: ""
 ---
 
-This continuing education course provides updates on Clostridioides difficile infection, covering epidemiology, diagnosis, treatment strategies, and emerging therapeutic approaches including fecal microbiota transplantation.
+This continuing education course examines regional variations in antimicrobial resistance patterns, including geographic trends, surveillance data, local resistance mechanisms, and implications for empiric therapy selection.
