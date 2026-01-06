@@ -9,7 +9,6 @@ categories:
 url_source: ""
 journ: "Academic Press"
 issue: "978-0-12-345678-9"
-issn: ""
 page: "1st Edition"
 year: 2024
 image: ""
