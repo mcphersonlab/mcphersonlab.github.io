@@ -1,5 +1,5 @@
 ---
-title: "Introduction to structural biology for drug design"
+title: "Introduction to Structural Biology for Drug Design"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Drug Development Series**, _Video Series_ (2024)"
 categories: 

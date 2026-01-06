@@ -1,0 +1,20 @@
+---
+title: "Computational Toxicology"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Computational Methods Series**, _2 days_ (2024)"
+categories: 
+  - workshops
+  - pharmacy
+  - medicinal-chemistry
+  - artificial-intelligence
+url_source: ""
+journ: "Professional Development Center"
+issue: "Computational Methods Series"
+page: "2 days"
+year: 2024 
+image: ""
+pub_number: 13
+doi: ""
+---
+
+This workshop covers computational approaches to toxicology, including in silico toxicity prediction, QSAR modeling, and computational assessment of chemical safety.

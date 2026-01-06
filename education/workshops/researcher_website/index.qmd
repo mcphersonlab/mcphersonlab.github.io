@@ -1,5 +1,5 @@
 ---
-title: "Building a free researcher website"
+title: "Building a Free Researcher Website"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Academic Publishing Series**, _1 day_ (2024)"
 categories: 

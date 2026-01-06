@@ -1,5 +1,5 @@
 ---
-title: "Modeling protein evolutionary fitness and conformational dynamics landscapes"
+title: "Modeling Protein Evolutionary Fitness and Conformational Dynamics Landscapes"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Structural Biology Series**, _3 days_ (2024)"
 categories: 

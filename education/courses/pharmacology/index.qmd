@@ -1,0 +1,19 @@
+---
+title: "Pharmacology"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **PHARM-501**, _12 weeks_ (2024)"
+categories: 
+  - courses
+  - pharmacology
+  - pharmacy
+url_source: ""
+journ: "Professional Development Center"
+issue: "PHARM-501"
+page: "12 weeks"
+year: 2024
+image: ""
+pub_number: 4
+doi: ""
+---
+
+This course provides a comprehensive overview of pharmacology, covering drug mechanisms, pharmacokinetics, pharmacodynamics, and therapeutic applications.

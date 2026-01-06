@@ -12,7 +12,7 @@ issue: "978-0-12-345678-9"
 page: "1st Edition"
 year: 2024
 image: ""
-pub_number: 13
+pub_number: 15
 doi: ""
 ---
 

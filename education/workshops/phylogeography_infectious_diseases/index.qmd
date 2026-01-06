@@ -1,5 +1,5 @@
 ---
-title: "Global phylogeography of infectious diseases"
+title: "Global Phylogeography of Infectious Diseases"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Infectious Disease Series**, _2 days_ (2024)"
 categories: 

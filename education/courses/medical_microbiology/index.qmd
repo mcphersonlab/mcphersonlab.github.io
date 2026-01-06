@@ -1,0 +1,19 @@
+---
+title: "Medical Microbiology"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **MICRO-501**, _12 weeks_ (2024)"
+categories: 
+  - courses
+  - infectious-diseases
+  - antimicrobial-resistance
+url_source: ""
+journ: "Professional Development Center"
+issue: "MICRO-501"
+page: "12 weeks"
+year: 2024
+image: ""
+pub_number: 6
+doi: ""
+---
+
+This course covers medical microbiology, including bacterial, viral, fungal, and parasitic pathogens, their pathogenesis, diagnostic methods, and antimicrobial therapies.

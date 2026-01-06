@@ -1,5 +1,5 @@
 ---
-title: "Microbiome analysis & visualization"
+title: "Microbiome Analysis & Visualization"
 author: ["Dr. Jacob K. McPherson"]
 publication: "Professional Development Center, **Microbiome Research Series**, _2 days_ (2024)"
 categories: 
