@@ -29,6 +29,12 @@ listing:
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
     sort: false
+  - id: ai-notebooklms
+    contents: ai-notebooklms/**/index.qmd
+    type: grid
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
+    sort: false
 page-layout: full
 jupyter: python3
 ---
@@ -51,6 +57,11 @@ jupyter: python3
 ## Clinical
 
 ::: {#clinical}
+:::
+
+## AI NotebookLMs
+
+::: {#ai-notebooklms}
 :::
 
 

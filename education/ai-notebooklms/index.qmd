@@ -1,0 +1,17 @@
+---
+title: AI NotebookLMs 📓
+listing:
+  id: ai-notebooklms
+  contents: ./**/index.qmd
+  type: grid
+  template: ../../_ejs/resource-grid.ejs
+  fields: [title, href]
+  sort: false
+---
+
+## AI NotebookLMs
+
+Google NotebookLM is an AI-powered research and note-taking tool that helps you understand and synthesize information from your sources. It uses advanced language models to help you explore your documents, generate summaries, and answer questions based on your uploaded content.
+
+:::{#ai-notebooklms}
+:::
