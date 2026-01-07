@@ -1,5 +1,0 @@
----
-title: Practice 🩺
-alias: &ALIAS practice
-href: https://mcphersonlab.github.io/practice
----
