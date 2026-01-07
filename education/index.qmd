@@ -44,14 +44,11 @@ jupyter: python3
 ::: {#education}
 :::
 
-## Job Boards
+### Interactive AI Notebooks 📓
 
-::: {#jobs}
-:::
+AI-powered research and note-taking tools like Google NotebookLM that help you understand and synthesize information from your sources.
 
-## Science
-
-::: {#science}
+::: {#ai-notebooklms}
 :::
 
 ## Clinical
@@ -59,11 +56,14 @@ jupyter: python3
 ::: {#clinical}
 :::
 
-## AI NotebookLMs 📓
+## Science
 
-AI-powered research and note-taking tools like Google NotebookLM that help you understand and synthesize information from your sources.
+::: {#science}
+:::
 
-::: {#ai-notebooklms}
+## Job Boards
+
+::: {#jobs}
 :::
 
 
