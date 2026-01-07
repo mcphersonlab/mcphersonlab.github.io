@@ -59,7 +59,9 @@ jupyter: python3
 ::: {#clinical}
 :::
 
-## AI NotebookLMs
+## AI NotebookLMs 📓
+
+AI-powered research and note-taking tools like Google NotebookLM that help you understand and synthesize information from your sources.
 
 ::: {#ai-notebooklms}
 :::
