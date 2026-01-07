@@ -1,5 +1,5 @@
 ---
-title: Guidelines 🩺
+title: Guideline Central 🩺
 alias: &ALIAS guidelines
 href: https://www.guidelinecentral.com/
 ---
