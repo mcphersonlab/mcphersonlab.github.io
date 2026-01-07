@@ -19,7 +19,7 @@ listing:
 
 ## Lecture Materials
 
-Available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).
+These lectures include YouTube video and learning materials available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).
 
 :::{#pubs}
 :::

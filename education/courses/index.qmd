@@ -19,7 +19,7 @@ listing:
 
 ## Courses
 
-Available at [**Coursera**](https://www.coursera.org/), our courses are designed to provide learners with comprehensive knowledge and practical skills in various subjects. These courses are created by industry experts and academic professionals to ensure a high standard of education.
+These courses are freely available YouTube playlists that provide structured learning and track your progress. The bundled learning materials are available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).
 
 :::{#pubs}
 :::
