@@ -1,0 +1,17 @@
+---
+title: "Introduction to Copyright & Licensing"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Intellectual Property Series**, _Video Series_ (2024)"
+categories: 
+  - lectures
+url_source: ""
+journ: "Professional Development Center"
+issue: "Intellectual Property Series"
+page: "Video Series"
+year: 2024
+image: ""
+pub_number: 13
+doi: ""
+---
+
+This lecture provides an introduction to copyright and licensing, covering copyright law basics, licensing models, and the implications for academic and commercial use.

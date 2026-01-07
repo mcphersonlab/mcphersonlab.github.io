@@ -16,4 +16,12 @@ pub_number: 4
 doi: ""
 ---
 
+<!-- Textbooks (not authored by Dr. McPherson):
+Goodman and Gilman's Pharmacological Basis of Therapeutics (2022)
+Enzymes: A Practical Introduction to Structure, Mechanism, and Data by Copeland (2023)
+A Pharmacology Primer: Techniques for More Effective and Strategic Drug Discovery by Kenakin (2022)
+Molecular Biology of the Cell by Alberts (2022)
+Foye's Principles of Medicinal Chemistry (2019)
+-->
+
 This course provides a comprehensive overview of pharmacology, covering drug mechanisms, pharmacokinetics, pharmacodynamics, and therapeutic applications.

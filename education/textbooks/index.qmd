@@ -19,7 +19,7 @@ listing:
 
 ## Books and Textbooks
 
-Available at [**Amazon**](https://www.amazon.com) via [**Amazon Kindle Direct Publishing (KDP)**](https://kdp.amazon.com/). 
+Available at [**OpenStax**](https://openstax.org/) and [**Kindle Direct Publishing (KDP)**](https://kdp.amazon.com/). 
 
 :::{#pubs}
 :::
