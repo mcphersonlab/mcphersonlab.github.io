@@ -1,0 +1,100 @@
+---
+title: Technology & Intellectual Property
+listing:
+  - id: technologies
+    contents: "**/index.qmd"
+    type: grid
+    fields: [title, description]
+    sort: false
+    exclude:
+      - "index.qmd"
+      - "legal.qmd"
+page-layout: full
+---
+
+## Overview
+
+The McPherson Lab is committed to translating our research discoveries into practical applications that can benefit patients and advance public health. This page provides information about our intellectual property portfolio and technologies in development.
+
+## Technology Portfolio
+
+::: {#technologies}
+:::
+
+## Intellectual Property Overview
+
+Our laboratory has developed and is developing innovative technologies in the following areas:
+
+### Drugs in Development
+
+Our current pipeline includes several promising therapeutic candidates targeting infectious diseases and antimicrobial resistance:
+
+#### 🧬 Novel Antimicrobial Compounds
+- **Target**: Clostridioides difficile and other enteric pathogens
+- **Status**: Preclinical development
+- **Description**: Next-generation antimicrobial agents designed to target specific bacterial vulnerabilities while preserving the beneficial microbiome
+- **Key Features**: Enhanced selectivity, reduced resistance development, microbiome-sparing properties
+
+#### 🔬 Microbiome-Modulating Therapeutics
+- **Target**: Restoration of healthy gut microbiota
+- **Status**: Early-stage development
+- **Description**: Innovative approaches to selectively promote beneficial bacteria and inhibit pathogens
+- **Key Features**: Precision targeting, minimal disruption to commensal flora
+
+#### 💊 Drug Repurposing Candidates
+- **Target**: Multiple infectious disease indications
+- **Status**: Discovery/validation phase
+- **Description**: Identification of existing FDA-approved compounds with novel antimicrobial activities
+- **Key Features**: Accelerated development timeline, established safety profiles
+
+## Licensing Opportunities
+
+We are interested in partnering with pharmaceutical companies, biotechnology firms, and other organizations to advance our technologies toward clinical application.
+
+### Available for Licensing
+
+The following intellectual property may be available for licensing or collaborative development:
+
+- **Novel antimicrobial compounds and derivatives**
+- **Methods for microbiome-targeted therapy**
+- **Diagnostic and screening technologies**
+- **Computational drug discovery platforms**
+
+### Partnership Models
+
+We offer flexible partnership structures including:
+
+- **Exclusive licensing** for specific indications or territories
+- **Non-exclusive licensing** for research and development
+- **Collaborative research agreements**
+- **Sponsored research programs**
+- **Material transfer agreements**
+
+## Contact for Licensing Inquiries
+
+For information about licensing opportunities or to discuss potential collaborations:
+
+**Principal Investigator**  
+Dr. Jacob K. McPherson, PharmD, PhD  
+[Email: jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
+
+## Legal Information
+
+For comprehensive information about intellectual property rights, licensing terms, and legal considerations, please see our [Legal Documentation](legal.html) page.
+
+---
+
+## Disclaimer
+
+*The information provided on this page is for general informational purposes only. Specific terms, conditions, and availability of intellectual property may vary. All licensing agreements are subject to review and approval by the appropriate technology transfer offices and legal departments. The therapeutic candidates described are in various stages of development and have not been approved for clinical use.*
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="../research/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Research</a>
+  </div>
+  <div>
+    <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```

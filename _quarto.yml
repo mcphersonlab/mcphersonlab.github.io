@@ -28,6 +28,9 @@ website:
       - href: research/index.qmd
         icon: graph-up
         text: Research
+      - href: technology/index.qmd
+        icon: lightbulb
+        text: Technology
       - href: publications/index.qmd
         icon: vector-pen
         text: Publications
