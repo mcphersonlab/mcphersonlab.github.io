@@ -392,10 +392,10 @@ document.addEventListener('DOMContentLoaded', function() {
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../technology/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Technology</a>
+    <a href="../education/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
   </div>
   <div>
-    <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
+    <a href="../technology/index.html" class="btn btn-outline-primary">Technology <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```

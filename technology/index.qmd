@@ -60,11 +60,6 @@ We offer flexible partnership structures including:
 
 For information about licensing opportunities or to discuss potential collaborations:
 
-**Technology Transfer Office**  
-The University of Texas at Austin  
-[Email: otc@austin.utexas.edu](mailto:otc@austin.utexas.edu)  
-[Website: research.utexas.edu/otc](https://research.utexas.edu/otc/)
-
 **Principal Investigator**  
 Dr. Jacob K. McPherson, PharmD, PhD  
 [Email: jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
@@ -82,10 +77,10 @@ For comprehensive information about intellectual property rights, licensing term
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../education/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Education</a>
+    <a href="../research/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Research</a>
   </div>
   <div>
-    <a href="../research/index.html" class="btn btn-outline-primary">Research <i class="bi bi-arrow-right"></i></a>
+    <a href="../publications/index.html" class="btn btn-outline-primary">Publications <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
