@@ -21,32 +21,6 @@ The McPherson Lab is committed to translating our research discoveries into prac
 ::: {#technologies}
 :::
 
-## Intellectual Property Overview
-
-Our laboratory has developed and is developing innovative technologies in the following areas:
-
-### Drugs in Development
-
-Our current pipeline includes several promising therapeutic candidates targeting infectious diseases and antimicrobial resistance:
-
-#### 🧬 Novel Antimicrobial Compounds
-- **Target**: Clostridioides difficile and other enteric pathogens
-- **Status**: Preclinical development
-- **Description**: Next-generation antimicrobial agents designed to target specific bacterial vulnerabilities while preserving the beneficial microbiome
-- **Key Features**: Enhanced selectivity, reduced resistance development, microbiome-sparing properties
-
-#### 🔬 Microbiome-Modulating Therapeutics
-- **Target**: Restoration of healthy gut microbiota
-- **Status**: Early-stage development
-- **Description**: Innovative approaches to selectively promote beneficial bacteria and inhibit pathogens
-- **Key Features**: Precision targeting, minimal disruption to commensal flora
-
-#### 💊 Drug Repurposing Candidates
-- **Target**: Multiple infectious disease indications
-- **Status**: Discovery/validation phase
-- **Description**: Identification of existing FDA-approved compounds with novel antimicrobial activities
-- **Key Features**: Accelerated development timeline, established safety profiles
-
 ## Licensing Opportunities
 
 We are interested in partnering with pharmaceutical companies, biotechnology firms, and other organizations to advance our technologies toward clinical application.
