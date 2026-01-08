@@ -27,8 +27,8 @@ Available at [**LearningExpress CE**](https://www.learningexpressce.com/), our C
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="/education/workshops" class="btn btn-outline-primary">
-      <i class="bi bi-arrow-left"></i> Workshops</a>
+    <a href="/education/ai-notebooklms" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Interactive AI Notebooks</a>
   </div>
   <div>
     <a href="/education/courses" class="btn btn-outline-primary">Courses <i class="bi bi-arrow-right"></i></a>

@@ -8,6 +8,7 @@ listing:
       - lectures/index.qmd
       - textbooks/index.qmd
       - workshops/index.qmd
+      - ai-notebooklms/index.qmd
     type: grid
     fields: [title]
     sort: false
@@ -29,12 +30,6 @@ listing:
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
     sort: false
-  - id: ai-notebooklms
-    contents: ai-notebooklms/**/index.qmd
-    type: grid
-    template: ../_ejs/resource-grid.ejs
-    fields: [title, href]
-    sort: false
 page-layout: full
 jupyter: python3
 ---
@@ -42,13 +37,6 @@ jupyter: python3
 ## Educational Content
 
 ::: {#education}
-:::
-
-### Interactive AI Notebooks 📓
-
-AI-powered research and note-taking tools like Google NotebookLM that help you understand and synthesize information from your sources.
-
-::: {#ai-notebooklms}
 :::
 
 ## Clinical

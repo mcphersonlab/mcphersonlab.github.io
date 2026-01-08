@@ -1,0 +1,37 @@
+---
+title: Interactive AI Notebooks 📓
+alias: &ALIAS ai-notebooklms
+#image: featured.png
+listing:
+  id: pubs
+  template: ../../_ejs/education.ejs 
+  contents: 
+    - "!../_template/"
+    - "./**/*.qmd"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include: 
+    categories: *ALIAS
+  fields: [image, categories, pub_number, title, publication, author, url_source, url_preprint, doi, journ, issue, page, year]
+
+---
+
+## Interactive AI Notebooks
+
+AI-powered research and note-taking tools that help you understand and synthesize information from your sources.
+
+:::{#pubs}
+:::
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="/education/workshops" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left"></i> Workshops</a>
+  </div>
+  <div>
+    <a href="/education/ce" class="btn btn-outline-primary">Continuing Education <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```
