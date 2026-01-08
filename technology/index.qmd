@@ -7,8 +7,8 @@ listing:
     fields: [title, description]
     sort: false
     exclude:
-      - "index.qmd"
-      - "legal.qmd"
+      - path: "index.qmd"
+      - path: "legal.qmd"
 page-layout: full
 ---
 
