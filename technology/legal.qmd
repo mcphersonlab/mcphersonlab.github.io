@@ -1,0 +1,419 @@
+---
+title: Legal Documentation - Intellectual Property Rights
+page-layout: full
+---
+
+## Intellectual Property Holder Rights
+
+This page provides comprehensive documentation regarding the intellectual property (IP) rights associated with technologies and discoveries developed by the McPherson Lab at The University of Texas at Austin.
+
+---
+
+## 1. Ownership of Intellectual Property
+
+### 1.1 University Ownership
+
+All intellectual property developed using University resources, facilities, or during the course of employment or study at The University of Texas at Austin is owned by the University in accordance with applicable policies and regulations, including:
+
+- University of Texas System Policy on Intellectual Property (UTS 104)
+- Federal regulations governing sponsored research (e.g., Bayh-Dole Act, 35 U.S.C. § 200 et seq.)
+- Agreements with research sponsors and collaborators
+
+### 1.2 Inventor Rights
+
+While the University retains ownership of intellectual property, inventors have certain rights including:
+
+- The right to be named as inventors on patents and other IP registrations
+- The right to share in royalties and other financial benefits according to University policy
+- The right to participate in commercialization decisions where appropriate
+- The right to use the technology for academic research and teaching purposes, subject to licensing agreements
+
+### 1.3 Third-Party Rights
+
+Some intellectual property may be subject to rights of third parties, including:
+
+- Sponsoring agencies (federal, state, or private)
+- Collaborating institutions
+- Material providers under Material Transfer Agreements (MTAs)
+- Licensing partners with pre-existing agreements
+
+---
+
+## 2. Patents and Patent Applications
+
+### 2.1 Patent Filing and Prosecution
+
+The University of Texas Office of Technology Commercialization (OTC) is responsible for:
+
+- Evaluating the patentability and commercial potential of inventions
+- Filing and prosecuting patent applications in the United States and internationally
+- Maintaining issued patents
+- Managing patent portfolios in collaboration with inventors
+
+### 2.2 Patent Rights
+
+Patents provide the owner with the exclusive right to:
+
+- Make, use, sell, offer for sale, and import the patented invention
+- License these rights to third parties
+- Prevent others from using the patented technology without authorization
+- Take legal action against infringers
+
+### 2.3 Geographic Scope
+
+Patent protection is territorial and must be obtained in each country or region where protection is desired. Our portfolio may include:
+
+- United States patents and applications
+- International (PCT) patent applications
+- Patents and applications in key international markets (EU, Japan, China, etc.)
+
+---
+
+## 3. Copyrights and Publications
+
+### 3.1 Copyright Ownership
+
+Copyright in works created by University employees typically belongs to:
+
+- The University, for works created within the scope of employment
+- The creator, for certain academic and scholarly works as defined by University policy
+- Publishers, to the extent assigned through publication agreements
+
+### 3.2 Research Publications
+
+Published research articles may be subject to:
+
+- Publisher copyright agreements
+- Open access requirements from funding agencies
+- Institutional repository policies
+- Embargo periods before public dissemination
+
+### 3.3 Software and Data
+
+Computer software, databases, and datasets developed in the lab may be protected by:
+
+- Copyright
+- License agreements (e.g., open source, proprietary)
+- Database rights
+- Trade secret protection
+
+---
+
+## 4. Trade Secrets and Confidential Information
+
+### 4.1 Definition
+
+Trade secrets include confidential business and technical information that:
+
+- Derives economic value from not being generally known
+- Is subject to reasonable efforts to maintain secrecy
+- Provides a competitive advantage
+
+### 4.2 Protection Measures
+
+The lab maintains trade secret protection through:
+
+- Confidentiality agreements with personnel and collaborators
+- Limited access to sensitive information
+- Proper marking and handling of confidential materials
+- Electronic and physical security measures
+
+### 4.3 Disclosure Restrictions
+
+Confidential information must not be disclosed without:
+
+- Appropriate confidentiality agreements in place
+- Clearance from the Principal Investigator and OTC
+- Review of potential impact on patent rights
+- Approval from sponsoring agencies where applicable
+
+---
+
+## 5. Licensing and Technology Transfer
+
+### 5.1 Types of Licenses
+
+The University may grant various types of licenses including:
+
+**Exclusive Licenses**
+- Grant rights to one licensee
+- Typically for specific fields of use or territories
+- Usually include significant commercialization obligations
+
+**Non-Exclusive Licenses**
+- Grant rights to multiple licensees
+- May be limited by field of use, territory, or time
+- Often used for research tools and platform technologies
+
+**Option Agreements**
+- Provide time to evaluate technology before licensing
+- Include specified option fees and timeframes
+- Convert to licenses upon exercise
+
+### 5.2 License Terms
+
+License agreements typically include:
+
+- Grant of rights (scope, field of use, territory, exclusivity)
+- Financial terms (upfront fees, royalties, milestones, equity)
+- Diligence obligations and development milestones
+- Reporting and audit rights
+- Sublicensing provisions
+- Termination and reversion rights
+- Indemnification and liability provisions
+- Dispute resolution mechanisms
+
+### 5.3 Revenue Sharing
+
+Revenue from licensing and commercialization is distributed according to University policy:
+
+- Inventors receive a share of net proceeds
+- The lab/department receives a portion
+- The remaining funds support university research and innovation
+
+---
+
+## 6. Material Transfer Agreements (MTAs)
+
+### 6.1 Outgoing MTAs
+
+When providing materials to others, MTAs specify:
+
+- Description of materials being transferred
+- Permitted uses (research use only, no commercial use, etc.)
+- Ownership of materials and derivatives
+- Publication rights and obligations
+- Intellectual property rights in discoveries
+- Liability and warranty disclaimers
+
+### 6.2 Incoming MTAs
+
+When receiving materials from others, we must:
+
+- Review and agree to terms before using materials
+- Comply with use restrictions
+- Acknowledge sources in publications
+- Respect IP rights of providers
+- Track and properly store materials
+
+---
+
+## 7. Compliance and Ethical Considerations
+
+### 7.1 Export Control
+
+Certain technologies may be subject to export control regulations:
+
+- International Traffic in Arms Regulations (ITAR)
+- Export Administration Regulations (EAR)
+- Office of Foreign Assets Control (OFAC) sanctions
+
+Appropriate authorization must be obtained before:
+
+- Sharing controlled technology with foreign nationals
+- Publishing certain technical data
+- Exporting materials or equipment
+
+### 7.2 Research Integrity
+
+All intellectual property activities must comply with:
+
+- University research integrity policies
+- Federal regulations on research misconduct
+- Ethical guidelines for human and animal subjects
+- Data management and retention requirements
+- Conflict of interest policies
+
+### 7.3 Conflict of Interest
+
+Inventors and researchers must disclose:
+
+- Financial interests in companies related to their research
+- Consulting relationships with potential licensees
+- Equity ownership in licensee companies
+- Any other circumstances that may create conflicts
+
+---
+
+## 8. Rights and Obligations of Licensees
+
+### 8.1 Licensee Rights
+
+Licensees typically receive:
+
+- The right to practice licensed technology within the scope of the agreement
+- Access to technical information and know-how
+- Limited warranties regarding title and ownership
+- Support from inventors as specified in agreements
+
+### 8.2 Licensee Obligations
+
+Licensees must:
+
+- Pay all required fees and royalties
+- Meet development and commercialization milestones
+- Submit required reports and documentation
+- Maintain insurance and indemnify the University
+- Comply with all applicable laws and regulations
+- Use commercially reasonable efforts to develop and market products
+
+### 8.3 Performance Monitoring
+
+The University monitors licensee performance through:
+
+- Regular progress reports
+- Financial reporting and audits
+- Milestone tracking
+- Product sales monitoring
+- Patent maintenance coordination
+
+---
+
+## 9. Dispute Resolution
+
+### 9.1 Internal Resolution
+
+Disputes regarding intellectual property should first be addressed through:
+
+- Discussion with the Principal Investigator
+- Consultation with the Office of Technology Commercialization
+- Mediation through University administrative channels
+- Review by appropriate University committees
+
+### 9.2 Formal Dispute Resolution
+
+If internal resolution is unsuccessful, disputes may be resolved through:
+
+- Binding arbitration as specified in agreements
+- Litigation in appropriate courts
+- Alternative dispute resolution mechanisms
+- Involvement of external counsel
+
+---
+
+## 10. Updates and Modifications
+
+### 10.1 Policy Changes
+
+This documentation reflects current policies and practices, which may change:
+
+- University policies are subject to periodic review and revision
+- Legal and regulatory requirements may evolve
+- Technology transfer practices adapt to changing markets
+
+### 10.2 Agreement Amendments
+
+License agreements and other IP contracts may be modified:
+
+- By mutual written agreement of the parties
+- To comply with new legal requirements
+- To address changed circumstances
+- Following formal amendment procedures
+
+---
+
+## 11. Contact Information
+
+### Office of Technology Commercialization
+The University of Texas at Austin  
+**Address**: 2901 Speedway, Stop C2200, Austin, TX 78712  
+**Phone**: (512) 475-6550  
+**Email**: otc@austin.utexas.edu  
+**Website**: [research.utexas.edu/otc](https://research.utexas.edu/otc/)
+
+### McPherson Lab
+**Principal Investigator**: Dr. Jacob K. McPherson, PharmD, PhD  
+**Email**: jacobmcpherson@utexas.edu  
+**Lab Website**: [mcphersonlab.github.io](https://mcphersonlab.github.io)
+
+### Office of General Counsel
+The University of Texas at Austin  
+**Website**: [ogc.utexas.edu](https://ogc.utexas.edu/)
+
+---
+
+## 12. Legal Notices and Disclaimers
+
+### 12.1 General Disclaimer
+
+This documentation is provided for informational purposes only and does not constitute legal advice. Specific intellectual property rights and obligations are governed by:
+
+- Formal written agreements and contracts
+- Applicable federal, state, and local laws
+- University policies and procedures
+- Court decisions and regulatory guidance
+
+### 12.2 No Warranty
+
+Technologies described on this website are provided "AS IS" without warranty of any kind, either express or implied, including but not limited to:
+
+- Warranties of merchantability
+- Fitness for a particular purpose
+- Non-infringement of third-party rights
+- Accuracy or completeness of information
+
+### 12.3 Limitation of Liability
+
+To the fullest extent permitted by law, The University of Texas at Austin and its employees:
+
+- Shall not be liable for any damages arising from use of technologies
+- Disclaim liability for any errors or omissions in information provided
+- Make no representations regarding third-party IP rights
+- Are not responsible for licensee activities or products
+
+### 12.4 Indemnification
+
+Licensees and users of University technologies typically agree to:
+
+- Indemnify the University against third-party claims
+- Defend the University in litigation arising from use of technology
+- Maintain adequate insurance coverage
+- Hold the University harmless from liability
+
+### 12.5 Government Rights
+
+Technologies developed with federal funding may be subject to:
+
+- Government march-in rights under certain circumstances
+- Preference for U.S. manufacturing
+- Reporting requirements to federal agencies
+- Public access requirements for publications and data
+
+---
+
+## 13. Additional Resources
+
+### University Policies
+- [University of Texas System Intellectual Property Policy](https://www.utsystem.edu/board-of-regents/policy-library/policies/uts-104-intellectual-property)
+- [UT Austin Intellectual Property Handbook](https://research.utexas.edu/otc/resources/)
+
+### Federal Regulations
+- [Bayh-Dole Act (35 U.S.C. § 200-212)](https://www.govinfo.gov/content/pkg/USCODE-2011-title35/html/USCODE-2011-title35-partII-chap18.htm)
+- [Federal Demonstration Partnership](https://thefdp.org/)
+
+### Professional Organizations
+- [Association of University Technology Managers (AUTM)](https://autm.net/)
+- [Licensing Executives Society (LES)](https://www.les.org/)
+
+---
+
+## Version Information
+
+**Last Updated**: January 2026  
+**Version**: 1.0  
+**Next Review Date**: January 2027
+
+For questions or clarifications regarding this documentation, please contact the Office of Technology Commercialization or the Principal Investigator.
+
+---
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Back to Technology</a>
+  </div>
+  <div>
+    <a href="../research/index.html" class="btn btn-outline-primary">Research <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```

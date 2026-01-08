@@ -25,6 +25,9 @@ website:
       - href: education/index.qmd
         icon: mortarboard
         text: Education
+      - href: technology/index.qmd
+        icon: lightbulb
+        text: Technology
       - href: research/index.qmd
         icon: graph-up
         text: Research
