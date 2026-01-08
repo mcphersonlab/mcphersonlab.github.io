@@ -71,7 +71,7 @@ Dr. Jacob K. McPherson, PharmD, PhD
 
 ## Legal Information
 
-For comprehensive information about intellectual property rights, licensing terms, and legal considerations, please see our [Legal Documentation](legal.qmd) page.
+For comprehensive information about intellectual property rights, licensing terms, and legal considerations, please see our [Legal Documentation](legal.html) page.
 
 ---
 
