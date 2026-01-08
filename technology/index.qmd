@@ -1,5 +1,14 @@
 ---
 title: Technology & Intellectual Property
+listing:
+  - id: technologies
+    contents: "**/index.qmd"
+    type: grid
+    fields: [title, description]
+    sort: false
+    exclude:
+      - "index.qmd"
+      - "legal.qmd"
 page-layout: full
 ---
 
@@ -7,7 +16,12 @@ page-layout: full
 
 The McPherson Lab is committed to translating our research discoveries into practical applications that can benefit patients and advance public health. This page provides information about our intellectual property portfolio and technologies in development.
 
-## Intellectual Property Portfolio
+## Technology Portfolio
+
+::: {#technologies}
+:::
+
+## Intellectual Property Overview
 
 Our laboratory has developed and is developing innovative technologies in the following areas:
 
