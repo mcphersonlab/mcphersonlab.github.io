@@ -6,12 +6,6 @@ listing:
     type: grid
     fields: [title, description]
     sort: false
-  - id: pubs
-    template: ../_ejs/publications-people.ejs 
-    contents: "commentary/**/index.qmd"
-    type: grid
-    fields: [publication, title, image, author, journal, year]
-    sort: true
 page-layout: full
 ---
 
@@ -22,11 +16,6 @@ The McPherson Lab is committed to translating our research discoveries into prac
 ## Technology Portfolio
 
 ::: {#technologies}
-:::
-
-## Literature on Health Technology Development
-
-::: {#pubs}
 :::
 
 ## Licensing Opportunities
