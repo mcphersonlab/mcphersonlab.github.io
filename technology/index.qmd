@@ -6,14 +6,12 @@ listing:
     type: grid
     fields: [title, description]
     sort: false
-    filter: true
   - id: pubs
     template: ../_ejs/publications-people.ejs 
     contents: "commentary/**/index.qmd"
     type: grid
     fields: [publication, title, image, author, journal, year]
     sort: true
-    filter: true
 page-layout: full
 ---
 
