@@ -2,13 +2,18 @@
 title: Technology & Intellectual Property
 listing:
   - id: technologies
-    contents: "**/index.qmd"
+    contents: "patent/**/index.qmd"
     type: grid
     fields: [title, description]
     sort: false
-    exclude:
-      - path: "index.qmd"
-      - path: "legal.qmd"
+    filter: true
+  - id: pubs
+    template: ../_ejs/publications-people.ejs 
+    contents: "commentary/**/index.qmd"
+    type: grid
+    fields: [publication, title, image, author, journal, year]
+    sort: true
+    filter: true
 page-layout: full
 ---
 
@@ -21,18 +26,14 @@ The McPherson Lab is committed to translating our research discoveries into prac
 ::: {#technologies}
 :::
 
+## Literature on Health Technology Development
+
+::: {#pubs}
+:::
+
 ## Licensing Opportunities
 
 We are interested in partnering with pharmaceutical companies, biotechnology firms, and other organizations to advance our technologies toward clinical application.
-
-### Available for Licensing
-
-The following intellectual property may be available for licensing or collaborative development:
-
-- **Novel antimicrobial compounds and derivatives**
-- **Methods for microbiome-targeted therapy**
-- **Diagnostic and screening technologies**
-- **Computational drug discovery platforms**
 
 ### Partnership Models
 
