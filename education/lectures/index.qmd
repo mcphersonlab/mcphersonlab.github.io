@@ -1,7 +1,7 @@
 ---
 title: Lectures 🎓
 alias: &ALIAS lectures
-#image: featured.png
+image: featured.png
 listing:
   id: pubs
   template: ../../_ejs/education.ejs 
@@ -16,6 +16,10 @@ listing:
   fields: [image, categories, pub_number, title, publication, author, url_source, url_preprint, doi, journ, issue, page, year]
 
 ---
+
+```{=html}
+<iframe src="lectures_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
 
 ## Lecture Materials
 
