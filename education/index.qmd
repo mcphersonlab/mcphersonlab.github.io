@@ -34,7 +34,7 @@ page-layout: full
 jupyter: python3
 ---
 
-## Educational Content
+## Educational
 
 ::: {#education}
 :::
@@ -44,7 +44,7 @@ jupyter: python3
 ::: {#clinical}
 :::
 
-## Science
+## Scientific
 
 ::: {#science}
 :::
