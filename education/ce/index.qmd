@@ -1,7 +1,7 @@
 ---
 title: Continuing Education 🩺
 alias: &ALIAS ce
-#image: featured.png
+image: featured.png
 listing:
   id: pubs
   template: ../../_ejs/education.ejs 
