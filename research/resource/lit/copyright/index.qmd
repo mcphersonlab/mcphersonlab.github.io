@@ -1,0 +1,39 @@
+---
+title: Copyright.com
+alias: &ALIAS copyright.com
+#image: featured.png
+href: https://copyright.com
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Copyright.com is a comprehensive platform dedicated to helping individuals and organizations navigate the complexities of copyright law. It provides resources, tools, and services to facilitate the licensing, management, and protection of copyrighted works across various media, including literature, music, film, and digital content.
+
+## Key Features
+
+- **Comprehensive Database**: Access to a vast repository of copyrighted works across various media.
+- **Licensing Solutions**: Tools and services to help users obtain the necessary permissions for using copyrighted materials.
+- **Rights Management**: Solutions for managing and tracking copyright ownership and usage rights.
+- **Educational Resources**: Information and guidance on copyright laws and best practices.
+
+## Getting Started
+
+To get started with Copyright.com, visit their [website](https://copyright.com) and explore the available resources and services. Whether you're an artist looking to protect your work or a business seeking to license content, Copyright.com offers tailored solutions to meet your needs.
+
+## Related Publications
+
+:::{#pubs}
+:::
