@@ -10,7 +10,7 @@ listing:
       - workshops/index.qmd
       - ai-notebooklms/index.qmd
     type: grid
-    fields: [title]
+    fields: [image, title]
     sort: false
   - id: jobs
     contents: jobs/**/index.qmd

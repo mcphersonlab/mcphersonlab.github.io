@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive AI Notebooks Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #003366 0%, #004080 50%, #003366 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .ai-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .ai-element {
+            position: absolute;
+            opacity: 0.5;
+            animation: ai-pulse 5s infinite ease-in-out;
+        }
+        
+        @keyframes ai-pulse {
+            0%, 100% {
+                transform: scale(1) translateY(0);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.15) translateY(-8px);
+                opacity: 0.75;
+            }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .ai-element {
+                animation: none !important;
+            }
+        }
+        
+        .ai-element:nth-child(1) {
+            top: 20%;
+            left: 11%;
+            font-size: 80px;
+            animation-delay: 0s;
+        }
+        
+        .ai-element:nth-child(2) {
+            top: 58%;
+            left: 15%;
+            font-size: 75px;
+            animation-delay: 1.4s;
+        }
+        
+        .ai-element:nth-child(3) {
+            top: 28%;
+            right: 17%;
+            font-size: 85px;
+            animation-delay: 2.2s;
+        }
+        
+        .ai-element:nth-child(4) {
+            top: 67%;
+            right: 13%;
+            font-size: 70px;
+            animation-delay: 0.9s;
+        }
+        
+        .ai-icon {
+            position: absolute;
+            top: 50%;
+            right: 8%;
+            transform: translateY(-50%);
+            font-size: 150px;
+            opacity: 0.15;
+        }
+        
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: rgba(138, 43, 226, 0.7);
+            border-radius: 50%;
+            animation: ai-flow 10s infinite;
+            box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+        }
+        
+        .particle:nth-child(1) { left: 25%; animation-delay: 0s; }
+        .particle:nth-child(2) { left: 45%; animation-delay: 2s; }
+        .particle:nth-child(3) { left: 65%; animation-delay: 4s; }
+        .particle:nth-child(4) { left: 35%; animation-delay: 1.5s; }
+        .particle:nth-child(5) { left: 55%; animation-delay: 3s; }
+        .particle:nth-child(6) { left: 75%; animation-delay: 5s; }
+        
+        @keyframes ai-flow {
+            0% {
+                top: 100%;
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.9;
+            }
+            90% {
+                opacity: 0.9;
+            }
+            100% {
+                top: -5%;
+                opacity: 0;
+            }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            font-weight: 300;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            max-width: 650px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #ba68c8;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .banner {
+                height: 350px;
+            }
+            
+            .content {
+                padding: 40px;
+            }
+            
+            .title {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .ai-icon {
+                font-size: 100px;
+            }
+            
+            .ai-element {
+                font-size: 50px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="ai-container">
+            <div class="ai-element">🤖</div>
+            <div class="ai-element">💡</div>
+            <div class="ai-element">🧠</div>
+            <div class="ai-element">✨</div>
+        </div>
+        
+        <div class="ai-icon">📓</div>
+        
+        <div class="content">
+            <h1 class="title">Interactive AI Notebooks</h1>
+            <p class="subtitle"><span class="highlight">AI-powered research</span> and note-taking tools that help you understand and <span class="highlight">synthesize information</span> from your sources</p>
+        </div>
+    </div>
+</body>
+</html>

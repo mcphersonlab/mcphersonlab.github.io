@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #003366 0%, #004080 50%, #003366 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .lecture-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .lecture-element {
+            position: absolute;
+            opacity: 0.45;
+            animation: sway-lecture 8s infinite ease-in-out;
+        }
+        
+        @keyframes sway-lecture {
+            0%, 100% {
+                transform: translateX(0) translateY(0) rotate(-3deg);
+                opacity: 0.45;
+            }
+            50% {
+                transform: translateX(10px) translateY(-12px) rotate(3deg);
+                opacity: 0.65;
+            }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .lecture-element {
+                animation: none !important;
+            }
+        }
+        
+        .lecture-element:nth-child(1) {
+            top: 18%;
+            left: 14%;
+            font-size: 75px;
+            animation-delay: 0s;
+        }
+        
+        .lecture-element:nth-child(2) {
+            top: 58%;
+            left: 10%;
+            font-size: 80px;
+            animation-delay: 1.8s;
+        }
+        
+        .lecture-element:nth-child(3) {
+            top: 28%;
+            right: 16%;
+            font-size: 70px;
+            animation-delay: 2.5s;
+        }
+        
+        .lecture-element:nth-child(4) {
+            top: 68%;
+            right: 14%;
+            font-size: 65px;
+            animation-delay: 1s;
+        }
+        
+        .lectures-icon {
+            position: absolute;
+            top: 50%;
+            right: 8%;
+            transform: translateY(-50%);
+            font-size: 150px;
+            opacity: 0.15;
+        }
+        
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: rgba(74, 171, 247, 0.6);
+            border-radius: 50%;
+            animation: particleRise 9s infinite;
+        }
+        
+        .particle:nth-child(1) { left: 30%; animation-delay: 0s; }
+        .particle:nth-child(2) { left: 50%; animation-delay: 2s; }
+        .particle:nth-child(3) { left: 70%; animation-delay: 4s; }
+        .particle:nth-child(4) { left: 40%; animation-delay: 1.5s; }
+        .particle:nth-child(5) { left: 60%; animation-delay: 3s; }
+        
+        @keyframes particleRise {
+            0% {
+                top: 100%;
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.8;
+            }
+            90% {
+                opacity: 0.8;
+            }
+            100% {
+                top: -5%;
+                opacity: 0;
+            }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            font-weight: 300;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            max-width: 650px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #4dabf7;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .banner {
+                height: 350px;
+            }
+            
+            .content {
+                padding: 40px;
+            }
+            
+            .title {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .lectures-icon {
+                font-size: 100px;
+            }
+            
+            .lecture-element {
+                font-size: 50px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="lecture-container">
+            <div class="lecture-element">🎥</div>
+            <div class="lecture-element">🎬</div>
+            <div class="lecture-element">📹</div>
+            <div class="lecture-element">🎞️</div>
+        </div>
+        
+        <div class="lectures-icon">🎓</div>
+        
+        <div class="content">
+            <h1 class="title">Lectures</h1>
+            <p class="subtitle">Watch <span class="highlight">YouTube videos</span> with accompanying learning materials available on <span class="highlight">OER Commons</span></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuing Education Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #003366 0%, #004080 50%, #003366 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .medical-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .medical-element {
+            position: absolute;
+            opacity: 0.5;
+            animation: pulse-medical 6s infinite ease-in-out;
+        }
+        
+        @keyframes pulse-medical {
+            0%, 100% {
+                transform: scale(1) translateY(0);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.1) translateY(-10px);
+                opacity: 0.7;
+            }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .medical-element {
+                animation: none !important;
+            }
+        }
+        
+        .medical-element:nth-child(1) {
+            top: 20%;
+            left: 12%;
+            font-size: 80px;
+            animation-delay: 0s;
+        }
+        
+        .medical-element:nth-child(2) {
+            top: 55%;
+            left: 15%;
+            font-size: 70px;
+            animation-delay: 1.2s;
+        }
+        
+        .medical-element:nth-child(3) {
+            top: 30%;
+            right: 18%;
+            font-size: 75px;
+            animation-delay: 2s;
+        }
+        
+        .medical-element:nth-child(4) {
+            top: 65%;
+            right: 15%;
+            font-size: 65px;
+            animation-delay: 0.8s;
+        }
+        
+        .ce-icon {
+            position: absolute;
+            top: 50%;
+            right: 8%;
+            transform: translateY(-50%);
+            font-size: 150px;
+            opacity: 0.15;
+        }
+        
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(168, 218, 220, 0.5);
+            border-radius: 50%;
+            animation: particleFloat 8s infinite;
+        }
+        
+        .particle:nth-child(1) { left: 25%; animation-delay: 0s; }
+        .particle:nth-child(2) { left: 45%; animation-delay: 1.5s; }
+        .particle:nth-child(3) { left: 65%; animation-delay: 3s; }
+        .particle:nth-child(4) { left: 35%; animation-delay: 2s; }
+        .particle:nth-child(5) { left: 55%; animation-delay: 1s; }
+        
+        @keyframes particleFloat {
+            0% {
+                top: 100%;
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.7;
+            }
+            90% {
+                opacity: 0.7;
+            }
+            100% {
+                top: -5%;
+                opacity: 0;
+            }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a8dadc;
+            font-weight: 300;
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            max-width: 650px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #4dabf7;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .banner {
+                height: 350px;
+            }
+            
+            .content {
+                padding: 40px;
+            }
+            
+            .title {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .ce-icon {
+                font-size: 100px;
+            }
+            
+            .medical-element {
+                font-size: 50px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="medical-container">
+            <div class="medical-element">💊</div>
+            <div class="medical-element">🩺</div>
+            <div class="medical-element">⚕️</div>
+            <div class="medical-element">💉</div>
+        </div>
+        
+        <div class="ce-icon">🎓</div>
+        
+        <div class="content">
+            <h1 class="title">Continuing Education</h1>
+            <p class="subtitle">Stay updated with the latest <span class="highlight">knowledge and skills</span> through expert-developed courses designed for <span class="highlight">healthcare professionals</span></p>
+        </div>
+    </div>
+</body>
+</html>
