@@ -4,8 +4,6 @@ author: ["Your Name"]
 publication: "Academic Press, **978-0-12-345678-9**, _3rd Edition_ (2024)"
 categories: 
   - textbooks
-  - pharmacy
-  - pharmacology
 url_source: "https://jacobkmcpherson.github.io/template_quarto_book_minimal/"
 journ: "Academic Press"
 issue: "978-0-12-345678-9"
@@ -17,9 +15,10 @@ pub_number: 1
 doi: ""
 ---
 
-This is an example book template. You can use this template to create your own textbook or academic book using [Quarto](https://quarto.org/). 
+# Welcome to Your Book Title
 
-To get started, you can fork your own Github repository from the  [https://github.com/JacobKMcPherson/template_quarto_book_minimal](book Github repository) and then clone it to your local machine.
+This is the index page to an example book template:  [https://github.com/JacobKMcPherson/template_quarto_book_minimal](https://github.com/JacobKMcPherson/template_quarto_book_minimal). You can use this template to create your own textbook or academic book using [Quarto](https://quarto.org/). 
+
 
 You can add chapters and sections by creating additional `.qmd` files in the same directory or subdirectories. Each chapter can be structured with headings, text, images, code blocks, and other elements supported by Quarto.
 
