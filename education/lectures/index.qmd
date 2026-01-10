@@ -17,6 +17,10 @@ listing:
 
 ---
 
+```{=html}
+<iframe src="lectures_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
 ## Lecture Materials
 
 These lectures include YouTube video and learning materials available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).

@@ -17,6 +17,10 @@ listing:
 
 ---
 
+```{=html}
+<iframe src="textbooks_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
 ## Books and Textbooks
 
 Available at [**OpenStax**](https://openstax.org/) and [**Kindle Direct Publishing (KDP)**](https://kdp.amazon.com/). 

@@ -17,6 +17,10 @@ listing:
 
 ---
 
+```{=html}
+<iframe src="workshops_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
 ## Workshops
 
 Hosted via [**AWS-Docker**](https://sib-swiss.github.io/AWS-docker/) and [**Eventbrite**](https://www.eventbrite.com/), our workshops are designed to provide hands-on learning experiences in various topics. These interactive sessions are led by experienced instructors and aim to enhance participants' skills through practical application and collaboration.

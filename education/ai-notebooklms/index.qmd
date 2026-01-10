@@ -17,6 +17,10 @@ listing:
 
 ---
 
+```{=html}
+<iframe src="ai_notebooklms_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
 ## Interactive AI Notebooks
 
 AI-powered research and note-taking tools that help you understand and synthesize information from your sources.

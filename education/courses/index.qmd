@@ -17,6 +17,10 @@ listing:
 
 ---
 
+```{=html}
+<iframe src="courses_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
 ## Courses
 
 These courses are freely available YouTube playlists that provide structured learning and track your progress. The bundled learning materials are available at Open Education Resources Commons ([**OER Commons**](https://www.oercommons.org/)) by the Institute for the Study of Knowledge Management ([**ISKME**](https://www.iskme.org/)).
