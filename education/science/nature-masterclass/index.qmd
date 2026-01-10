@@ -1,5 +1,5 @@
 ---
-title: Nature
+title: Nature Masterclass
 alias: &ALIAS nature-masterclass
 href: https://masterclasses.nature.com/
 ---

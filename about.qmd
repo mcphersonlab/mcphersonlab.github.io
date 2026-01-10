@@ -13,8 +13,8 @@ We believe in:
 Our research is driven by three pillars:
 
 1. **More data** 📈
-2. **Better analyses** 💡
-3. **Better visualization** 📊
+2. **Reproducible analyses** 💡
+3. **Clear data visualization** 📊
 
 ## Research Approach
 

@@ -1,5 +1,5 @@
 ---
-title: Science
+title: Science Careers
 alias: &ALIAS science-careers
 href: https://www.science.org/careers
 ---
