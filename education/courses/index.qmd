@@ -6,7 +6,7 @@ listing:
   id: pubs
   template: ../../_ejs/education.ejs 
   contents: 
-    - "!../_template/"
+    #- "!../_template/"
     - "./**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true

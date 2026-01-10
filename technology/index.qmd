@@ -13,6 +13,7 @@ page-layout: full
 
 The McPherson Lab is committed to translating our research discoveries into practical applications that can benefit patients and advance public health. This page provides information about our intellectual property portfolio and technologies in development.
 
+
 ## Technology Portfolio
 
 ::: {#technologies}
@@ -31,6 +32,10 @@ We offer flexible partnership structures including:
 - **Collaborative research agreements**
 - **Sponsored research programs**
 - **Material transfer agreements**
+
+Our preferred academic partner is the University of Texas at Austin, with a vibrant technology ecosystem: 
+- [Discovery to Impact](https://discoverytoimpact.utexas.edu/)
+- [Texas Innovation Center](https://texasinnovationcenter.utexas.edu/), which facilitate technology transfer and commercialization.
 
 ## Contact for Licensing Inquiries
 
