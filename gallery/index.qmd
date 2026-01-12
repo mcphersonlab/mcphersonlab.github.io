@@ -1,0 +1,30 @@
+---
+title: Gallery 🎥📸
+listing:
+  id: gallery-entries
+  contents: 
+    - "!_template/"
+    - "./**/*.qmd"
+  type: grid
+  fields: [image, title]
+  sort: false
+page-layout: full
+---
+
+## Media Gallery
+
+Explore our collection of videos, presentations, and visual content showcasing our research, educational activities, and lab events.
+
+:::{#gallery-entries}
+:::
+
+```{=html}
+<div class="page-navigation">
+  <div>
+    <a href="../about.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
+  </div>
+  <div>
+    <a href="../education/index.html" class="btn btn-outline-primary">Education <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```

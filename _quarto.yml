@@ -22,6 +22,9 @@ website:
       - href: about.qmd
         icon: info-circle
         text: About
+      - href: gallery/index.qmd
+        icon: camera
+        text: Gallery
       - href: education/index.qmd
         icon: mortarboard
         text: Education
