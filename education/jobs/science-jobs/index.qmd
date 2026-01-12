@@ -1,5 +1,5 @@
 ---
-title: Science
+title: Science Careers
 alias: &ALIAS science-jobs
 href: https://jobs.sciencecareers.org/jobs/united-states/
 ---

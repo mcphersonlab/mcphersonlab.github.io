@@ -1,0 +1,5 @@
+---
+title: ASM Committee on Postgraduate Education and Practice (CPEP) Fellowships
+alias: &ALIAS jobs-asm-cpep-fellowships
+href: https://asm.org/fellowships/cpep
+---
