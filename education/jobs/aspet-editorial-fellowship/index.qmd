@@ -1,0 +1,5 @@
+---
+title: ASPET Editorial Fellowship
+alias: &ALIAS jobs-aspet-editorial-fellowship
+href: https://www.aspet.org/aspet/journals/aspet-editorial-fellowship-program
+---
