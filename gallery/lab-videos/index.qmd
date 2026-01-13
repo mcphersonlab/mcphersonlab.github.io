@@ -1,0 +1,27 @@
+---
+title: "McPherson Lab Videos"
+image: ""
+categories:
+  - gallery
+---
+
+## Lab YouTube Playlist
+
+Watch our collection of lab presentations, research talks, and educational content.
+
+```{=html}
+<iframe 
+  width="100%" 
+  height="600" 
+  src="https://www.youtube.com/embed/videoseries?list=PLPaY3vQLR3iSJHl_-VoaqoxWBU2GOsw2F" 
+  title="McPherson Lab YouTube Playlist" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style="border-radius: 12px;">
+</iframe>
+```
+
+### About This Playlist
+
+This playlist contains videos related to our research activities, educational materials, conference presentations, and other multimedia content from the McPherson Lab.
