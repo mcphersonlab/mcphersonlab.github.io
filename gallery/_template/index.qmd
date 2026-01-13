@@ -1,20 +1,20 @@
 ---
-title: "McPherson Lab Videos"
-image: ""
+title: "[Template Title - Replace This]"
+image: "featured.png"
 categories:
   - gallery
 ---
 
-## Lab YouTube Playlist
+## [Your Gallery Entry Title]
 
-Watch our collection of lab presentations, research talks, and educational content.
+[Add your description here]
 
 ```{=html}
 <iframe 
   width="100%" 
   height="600" 
-  src="https://www.youtube.com/embed/videoseries?list=PLPaY3vQLR3iSJHl_-VoaqoxWBU2GOsw2F" 
-  title="McPherson Lab YouTube Playlist" 
+  src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID_HERE" 
+  title="YouTube Playlist" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen
@@ -22,6 +22,6 @@ Watch our collection of lab presentations, research talks, and educational conte
 </iframe>
 ```
 
-### About This Playlist
+### About This Entry
 
-This playlist contains videos related to our research activities, educational materials, conference presentations, and other multimedia content from the McPherson Lab.
+[Add information about this gallery entry, such as the content description, date, or context]

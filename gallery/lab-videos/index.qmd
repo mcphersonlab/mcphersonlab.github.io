@@ -1,6 +1,6 @@
 ---
 title: "McPherson Lab Videos"
-image: ""
+image: "featured.png"
 categories:
   - gallery
 ---
