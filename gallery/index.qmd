@@ -21,10 +21,10 @@ Explore our collection of videos, presentations, and visual content showcasing o
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../about.qmd" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
+    <a href="/about" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
   </div>
   <div>
-    <a href="../education/index.qmd" class="btn btn-outline-primary">Education <i class="bi bi-arrow-right"></i></a>
+    <a href="/education" class="btn btn-outline-primary">Education <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
