@@ -82,6 +82,15 @@ img {
   height: auto;
 }
 
+/* Fix featured image display consistency in grid listings */
+.quarto-grid-item .card-img,
+.quarto-grid-item .card-img-top,
+.quarto-grid-item img.thumbnail-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
 /* Footer styling */
 .footer {
   margin-top: 3rem;
