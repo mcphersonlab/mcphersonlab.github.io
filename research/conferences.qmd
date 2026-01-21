@@ -33,10 +33,10 @@ conferences = [
         "location": "Houston, TX",
         "lat": 29.7191,
         "lon": -95.3881,
-        "start_date": "2025-05-16",
-        "end_date": "2025-05-16",
-        "abstract_open": "2025-02-22",
-        "abstract_close": "2025-04-22",
+        "start_date": "2026-04-30",
+        "end_date": "2026-04-30",
+        "abstract_open": "",
+        "abstract_close": "",
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/",
@@ -74,31 +74,17 @@ conferences = [
     },
     {
         "name": "STI Prevention Conference",
-        "location": "Atlanta, Georgia, USA",
+        "location": "TBD",
         "lat": "33.7490",
         "lon": "-84.3880",
-        "start_date": "2024-09-16",
-        "end_date": "2024-09-19",
+        "start_date": "2026-09-01",
+        "end_date": "2026-09-01",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "",
+        "abstract_note": "2026 dates and location to be announced",
         "type": "Conference",
         "url": "https://stipreventionconference.org/",
         "projects": ["https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"]
-    },
-    {
-        "name": "IDSA IDWeek",
-        "location": "Atlanta, GA and online",
-        "lat": 33.749,
-        "lon": -84.388,
-        "start_date": "2025-10-19",
-        "end_date": "2025-10-22",
-        "abstract_open": "2025-02-18",
-        "abstract_close": "2025-05-01",
-        "type": "Conference",
-        "url": "https://www.idweek.org/",
-        "projects": ["https://github.com/mcphersonlab/tx-cap", 
-                     "https://github.com/mcphersonlab/tx-uuti"]
     },
     {
         "name": "GitHub Universe",
@@ -155,20 +141,6 @@ conferences = [
         "type": "Conference",
         "url": "https://reinvent.awsevents.com/",
         "projects": []
-    },
-    {
-        "name": "ASHP Midyear",
-        "location": "Las Vegas, NV",
-        "lat": 36.0865,
-        "lon": -115.1734,
-        "start_date": "2025-12-07",
-        "end_date": "2025-12-10",
-        "abstract_open": "2025-06-15",
-        "abstract_close": "2025-10-01",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition",
-        "projects": ["https://github.com/mcphersonlab/tx-staph-bacteremia"]
     },
     {
         "name": "BPS Annual",
@@ -562,6 +534,35 @@ conferences = [
         "url": "https://tbsummit.qiagen.com/",
         "projects": ["https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis"]
     }, 
+    {
+        "name": "IDSA IDWeek",
+        "location": "Washington, DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "start_date": "2026-10-21",
+        "end_date": "2026-10-24",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.idweek.org/",
+        "projects": ["https://github.com/mcphersonlab/tx-cap", 
+                     "https://github.com/mcphersonlab/tx-uuti"]
+    },
+    {
+        "name": "ASHP Midyear",
+        "location": "Orlando, FL",
+        "lat": 28.4158,
+        "lon": -81.2989,
+        "start_date": "2026-12-06",
+        "end_date": "2026-12-09",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "",
+        "type": "Conference",
+        "url": "https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition",
+        "projects": ["https://github.com/mcphersonlab/tx-staph-bacteremia"]
+    },
 ]
 
 # Get current date once for all comparisons

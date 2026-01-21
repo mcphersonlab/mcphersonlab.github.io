@@ -69,3 +69,5 @@ __pycache__/
 **/*.quarto_ipynb
 **/*.ipynb
 _screenshots/
+venv/
+tmp/
