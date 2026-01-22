@@ -16,9 +16,6 @@ website:
     search: true
     logo: images/logo.svg
     left:
-      - href: index.qmd
-        icon: house
-        text: Home
       - href: about.qmd
         icon: info-circle
         text: About
@@ -34,16 +31,15 @@ website:
       - href: publications/index.qmd
         icon: vector-pen
         text: Publications
+      - icon: people
+        text: People
+        href: people/index.qmd
 
     right:
       - icon: person-plus
         text: "​"
         href: people/join.qmd
         aria-label: Join
-      - icon: people
-        text: "​"
-        href: people/index.qmd
-        aria-label: People
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
