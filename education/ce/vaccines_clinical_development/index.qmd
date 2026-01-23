@@ -1,0 +1,20 @@
+---
+title: "Vaccines in Clinical Development"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - infectious-diseases
+  - drug-development
+  - pharmacy
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 11
+doi: ""
+---
+
+This continuing education course provides an overview of vaccines currently in clinical development, including novel platforms, target diseases, clinical trial data, and implications for pharmacy practice.

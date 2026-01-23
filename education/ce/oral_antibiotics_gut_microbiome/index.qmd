@@ -1,0 +1,21 @@
+---
+title: "Impacts of Oral Antibiotics on the Human Gut Microbiome"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - human-gut-microbiome
+  - infectious-diseases
+  - antimicrobial-resistance
+  - pharmacy
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 9
+doi: ""
+---
+
+This continuing education course covers the impact of oral antibiotics on the human gut microbiome, including dysbiosis, long-term consequences, microbiome recovery, and clinical management strategies.

@@ -1,0 +1,19 @@
+---
+title: "Ongoing Questions in Host-Microbe Interactions"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - human-gut-microbiome
+  - infectious-diseases
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 10
+doi: ""
+---
+
+This continuing education course explores current research questions and emerging topics in host-microbe interactions, including immune system modulation, metabolic pathways, and therapeutic applications.
