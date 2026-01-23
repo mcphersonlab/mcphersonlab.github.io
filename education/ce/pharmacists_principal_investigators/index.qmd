@@ -1,0 +1,18 @@
+---
+title: "How Pharmacists can be Principal Investigators in Randomized Clinical Trials"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (2024)"
+categories: 
+  - ce
+  - pharmacy
+url_source: ""
+journ: "Professional Learning Institute"
+issue: "2.0 CE Credits"
+page: "4 hours"
+year: 2024
+image: ""
+pub_number: 7
+doi: ""
+---
+
+This continuing education course covers how pharmacists can serve as principal investigators in randomized clinical trials, including regulatory requirements, protocol development, study management, and leadership skills needed for clinical research.
