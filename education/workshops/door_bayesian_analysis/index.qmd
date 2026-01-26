@@ -1,0 +1,17 @@
+---
+title: "Desirability of Outcome Ranking (DOOR) and Bayesian Posterior Probability using Real World Evidence"
+author: ["Dr. Jacob K. McPherson"]
+publication: "Professional Development Center, **Clinical Research Methods**, _1 day_ (2024)"
+categories: 
+  - workshops
+url_source: ""
+journ: "Professional Development Center"
+issue: "Clinical Research Methods"
+page: "1 day"
+year: 2024 
+image: ""
+pub_number: 19
+doi: ""
+---
+
+This workshop introduces Desirability of Outcome Ranking (DOOR) methodology and Bayesian posterior probability analysis using real world evidence in clinical research settings.
