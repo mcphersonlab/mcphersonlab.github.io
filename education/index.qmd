@@ -49,6 +49,16 @@ jupyter: python3
 ::: {#science}
 :::
 
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://www.youtube.com/embed/videoseries?list=PLPaY3vQLR3iSJHl_-VoaqoxWBU2GOsw2F" 
+        width="80%" height="400" frameborder="0" 
+        allowfullscreen=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        loading="lazy">
+</iframe>
+```
+
 ## Job Boards
 
 ::: {#jobs}
