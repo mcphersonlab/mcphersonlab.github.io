@@ -1,0 +1,18 @@
+---
+title: "How to network with the brightest minds in science"
+author: 
+- Nature Editorial
+publication: "Nature (2024)"
+categories: 
+  - mentorship
+  - careers
+url_source: https://www.nature.com/articles/d41586-024-02086-1
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/d41586-024-02086-1
+---

@@ -1,0 +1,18 @@
+---
+title: "How mixing academia and industry opens doors in graduate school and beyond"
+author: 
+- Nature Editorial
+publication: "Nature (2023)"
+categories: 
+  - mentorship
+  - careers
+url_source: https://www.nature.com/articles/d41586-023-01710-w
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/d41586-023-01710-w
+---

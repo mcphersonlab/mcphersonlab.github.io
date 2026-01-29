@@ -1,0 +1,18 @@
+---
+title: "The PhD student's dilemma"
+author: 
+- Nature Editorial
+publication: "Nature (2019)"
+categories: 
+  - mentorship
+  - careers
+url_source: https://www.nature.com/articles/d41586-019-03881-x
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2019
+image: ""
+pub_number: 
+doi: 10.1038/d41586-019-03881-x
+---
