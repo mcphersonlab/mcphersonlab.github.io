@@ -1,0 +1,18 @@
+---
+title: "Insights from four female scientists caught at the early-career crossroads"
+author: 
+- Nature Editorial
+publication: "Nature (2024)"
+categories: 
+  - mentorship
+  - careers
+href: https://www.nature.com/articles/d41586-024-00110-y
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/d41586-024-00110-y
+---

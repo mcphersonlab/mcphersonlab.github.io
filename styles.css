@@ -83,13 +83,14 @@ img {
 }
 
 /* Fix featured image display consistency in grid listings */
-/* Remove forced aspect ratio to allow natural image dimensions */
+/* Ensure consistent sizing across all grid items */
 .quarto-grid-item .card-img,
 .quarto-grid-item .card-img-top,
 .quarto-grid-item img.thumbnail-image {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 150px !important;
+  object-position: center;
 }
 
 /* Footer styling */

@@ -1,0 +1,18 @@
+---
+title: "You're only human: a six-step strategy to surviving your PhD"
+author: 
+- Nature Editorial
+publication: "Nature (2025)"
+categories: 
+  - mentorship
+  - careers
+href: https://www.nature.com/articles/d41586-025-00967-7
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/d41586-025-00967-7
+---

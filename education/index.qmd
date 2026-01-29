@@ -12,6 +12,12 @@ listing:
     type: grid
     fields: [image, title]
     sort: false
+  - id: mentorship
+    contents: ../mentorship/**/index.qmd
+    type: grid
+    template: ../_ejs/resource-grid.ejs
+    fields: [title, href]
+    sort: false
   - id: jobs
     contents: jobs/**/index.qmd
     type: grid
@@ -58,6 +64,13 @@ jupyter: python3
         loading="lazy">
 </iframe>
 ```
+
+## Careers and Mentorship
+
+Resources and guidance on academic careers and mentorship:
+
+::: {#mentorship}
+:::
 
 ## Job Boards
 

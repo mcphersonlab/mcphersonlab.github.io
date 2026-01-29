@@ -1,0 +1,18 @@
+---
+title: "How a peer network made my worst day as a grad student bearable"
+author: 
+- Nature Editorial
+publication: "Nature (2024)"
+categories: 
+  - mentorship
+  - careers
+href: https://www.nature.com/articles/d41586-024-00048-1
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/d41586-024-00048-1
+---
