@@ -85,6 +85,80 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 
 <!--- left align -->
 :::{.text-left}
+## Careers and Mentorship
+
+Resources and guidance on academic careers and mentorship:
+:::
+
+<div id="mentorship-listing"></div>
+
+```{=html}
+<style>
+#mentorship-listing .quarto-post {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+#mentorship-listing .listing-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+</style>
+```
+
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+from pathlib import Path
+
+mentorship_dir = Path("mentorship")
+
+if mentorship_dir.exists():
+    entries = []
+    for entry_dir in sorted(mentorship_dir.iterdir()):
+        if entry_dir.is_dir() and not entry_dir.name.startswith("_"):
+            index_file = entry_dir / "index.qmd"
+            if index_file.exists():
+                # Read the frontmatter
+                with open(index_file, 'r') as f:
+                    content = f.read()
+                    
+                # Extract key fields from frontmatter
+                import re
+                title_match = re.search(r'^title:\s*"([^"]+)"', content, re.MULTILINE)
+                url_match = re.search(r'^url_source:\s*(.+)$', content, re.MULTILINE)
+                pub_match = re.search(r'^publication:\s*"([^"]+)"', content, re.MULTILINE)
+                
+                if title_match and url_match:
+                    title = title_match.group(1)
+                    url = url_match.group(1).strip()
+                    publication = pub_match.group(1) if pub_match else ""
+                    
+                    entry_html = f'''
+<div class="quarto-post">
+  <h5 class="listing-title">
+    <a href="{url}" target="_blank">{title}</a>
+  </h5>
+  <p class="listing-publication">{publication}</p>
+</div>
+'''
+                    entries.append(entry_html)
+    
+    if entries:
+        print('<div id="mentorship-listing">')
+        for entry in entries:
+            print(entry)
+        print('</div>')
+    else:
+        print('<p>No mentorship resources available yet.</p>')
+else:
+    print('<p>No mentorship resources available yet.</p>')
+```
+
+<!--- left align -->
+:::{.text-left}
 ## Contact Information
 
 **Principal Investigator**: [Jacob K. McPherson](https://jacobkmcpherson.github.io)
