@@ -90,8 +90,6 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 Resources and guidance on academic careers and mentorship:
 :::
 
-<div id="mentorship-listing"></div>
-
 ```{=html}
 <style>
 #mentorship-listing .quarto-post {
@@ -110,8 +108,9 @@ Resources and guidance on academic careers and mentorship:
 #| echo: false
 #| output: asis
 
-import os
 from pathlib import Path
+import re
+import html
 
 mentorship_dir = Path("mentorship")
 
@@ -121,30 +120,42 @@ if mentorship_dir.exists():
         if entry_dir.is_dir() and not entry_dir.name.startswith("_"):
             index_file = entry_dir / "index.qmd"
             if index_file.exists():
-                # Read the frontmatter
-                with open(index_file, 'r') as f:
-                    content = f.read()
+                try:
+                    # Read the frontmatter
+                    with open(index_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        
+                    # Extract key fields from frontmatter
+                    title_match = re.search(r'^title:\s*["\'](.+?)["\']', content, re.MULTILINE)
+                    url_match = re.search(r'^url_source:\s*(.+)$', content, re.MULTILINE)
+                    pub_match = re.search(r'^publication:\s*["\'](.+?)["\']', content, re.MULTILINE)
                     
-                # Extract key fields from frontmatter
-                import re
-                title_match = re.search(r'^title:\s*"([^"]+)"', content, re.MULTILINE)
-                url_match = re.search(r'^url_source:\s*(.+)$', content, re.MULTILINE)
-                pub_match = re.search(r'^publication:\s*"([^"]+)"', content, re.MULTILINE)
-                
-                if title_match and url_match:
-                    title = title_match.group(1)
-                    url = url_match.group(1).strip()
-                    publication = pub_match.group(1) if pub_match else ""
-                    
-                    entry_html = f'''
+                    if title_match and url_match:
+                        # Escape HTML to prevent XSS
+                        title = html.escape(title_match.group(1))
+                        url = url_match.group(1).strip()
+                        
+                        # Validate URL uses safe protocol
+                        if not (url.startswith('https://') or url.startswith('http://')):
+                            continue
+                            
+                        publication = html.escape(pub_match.group(1)) if pub_match else ""
+                        
+                        entry_html = f'''
 <div class="quarto-post">
   <h5 class="listing-title">
-    <a href="{url}" target="_blank">{title}</a>
+    <a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{title}</a>
   </h5>
   <p class="listing-publication">{publication}</p>
 </div>
 '''
-                    entries.append(entry_html)
+                        entries.append(entry_html)
+                except (IOError, OSError) as e:
+                    # Skip entries that cannot be read
+                    continue
+                except Exception as e:
+                    # Skip entries with other parsing errors
+                    continue
     
     if entries:
         print('<div id="mentorship-listing">')
