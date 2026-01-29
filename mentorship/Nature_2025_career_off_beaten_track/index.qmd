@@ -6,7 +6,7 @@ publication: "Nature (2025)"
 categories: 
   - mentorship
   - careers
-url_source: https://www.nature.com/articles/d41586-025-00569-3
+href: https://www.nature.com/articles/d41586-025-00569-3
 url_preprint: 
 journ: "Nature"
 issue: 

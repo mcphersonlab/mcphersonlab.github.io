@@ -6,7 +6,7 @@ publication: "Nature (2024)"
 categories: 
   - mentorship
   - careers
-url_source: https://www.nature.com/articles/d41586-024-00048-1
+href: https://www.nature.com/articles/d41586-024-00048-1
 url_preprint: 
 journ: "Nature"
 issue: 

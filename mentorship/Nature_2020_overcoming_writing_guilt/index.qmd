@@ -6,7 +6,7 @@ publication: "Nature (2020)"
 categories: 
   - mentorship
   - careers
-url_source: https://www.nature.com/articles/d41586-020-02219-2
+href: https://www.nature.com/articles/d41586-020-02219-2
 url_preprint: 
 journ: "Nature"
 issue: 
