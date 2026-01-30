@@ -59,34 +59,6 @@ conferences = [
         "projects": []
     },
     {
-        "name": "GitHub Universe",
-        "location": "San Francisco, CA",
-        "lat": 37.807,
-        "lon": -122.4311,
-        "start_date": "2025-10-28",
-        "end_date": "2025-10-29",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://githubuniverse.com/",
-        "projects": []
-    },
-    {
-        "name": "MS Ignite",
-        "location": "San Francisco, CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "start_date": "2025-11-18",
-        "end_date": "2025-11-21",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://ignite.microsoft.com/",
-        "projects": []
-    },
-    {
         "name": "Peggy Lillis Foundation Scientific Symposium",
         "location": "Online",
         "lat": 29.7191,
@@ -98,20 +70,6 @@ conferences = [
         "abstract_note": "",
         "type": "Symposium",
         "url": "https://cdiff.org/",
-        "projects": []
-    },
-    {
-        "name": "AWS re:Invent",
-        "location": "Las Vegas, NV",
-        "lat": 36.1219,
-        "lon": -115.16623,
-        "start_date": "2025-12-01",
-        "end_date": "2025-12-05",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://reinvent.awsevents.com/",
         "projects": []
     },
     {
@@ -302,20 +260,6 @@ conferences = [
         "projects": [
             "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"
         ]
-    },
-    {
-        "name": "Google Cloud Next",
-        "location": "Las Vegas, NV",
-        "lat": 36.0924,
-        "lon": -115.1761,
-        "start_date": "2026-04-22",
-        "end_date": "2026-04-24",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://cloud.withgoogle.com/next",
-        "projects": []
     },
     {
         "name": "Houston C diff & Microbiome Conference",
