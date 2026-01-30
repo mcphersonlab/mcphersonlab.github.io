@@ -232,20 +232,6 @@ conferences = [
         "projects": []
     },
     {
-        "name": "NVIDIA GTC",
-        "location": "San Jose, CA",
-        "lat": 37.3297,
-        "lon": -121.89,
-        "start_date": "2026-03-16",
-        "end_date": "2026-03-19",
-        "abstract_open": "",
-        "abstract_close": "",
-        "abstract_note": "",
-        "type": "Conference",
-        "url": "https://www.nvidia.com/gtc/",
-        "projects": []
-    },
-    {
         "name": "ESCMID Annual",
         "location": "Munich, Germany",
         "lat": 48.1371,
