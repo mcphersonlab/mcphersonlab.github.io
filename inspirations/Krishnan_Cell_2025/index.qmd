@@ -1,0 +1,21 @@
+---
+title: "A generative deep learning approach to de novo antibiotic design"
+author: 
+- Krishnan
+- Anahtar
+- Valeri
+- et al.
+publication: "Cell, **188**, 5962–5979.e22 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1016/j.cell.2025.07.033
+url_preprint: 
+journ: "Cell"
+issue: 188
+page: 5962–5979.e22
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1016/j.cell.2025.07.033
+---

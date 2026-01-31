@@ -1,0 +1,21 @@
+---
+title: "An explainable deep learning platform for molecular discovery"
+author: 
+- Wong
+- Omori
+- Li
+- et al.
+publication: "Nat Protoc, **20**, 1020–1056 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41596-024-01084-x
+url_preprint: 
+journ: "Nat Protoc"
+issue: 20
+page: 1020–1056
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41596-024-01084-x
+---
