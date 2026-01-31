@@ -1,0 +1,21 @@
+---
+title: "Definitions and guidelines for research on antibiotic persistence"
+author: 
+- Balaban
+- Helaine
+- Lewis
+- et al.
+publication: "Nat Rev Microbiol, **17**, 441–448 (2019)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41579-019-0196-3
+url_preprint: 
+journ: "Nat Rev Microbiol"
+issue: 17
+page: 441–448
+year: 2019
+image: ""
+pub_number: 
+doi: 10.1038/s41579-019-0196-3
+---

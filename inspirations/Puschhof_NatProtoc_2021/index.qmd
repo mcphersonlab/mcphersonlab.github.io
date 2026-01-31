@@ -1,0 +1,21 @@
+---
+title: "Intestinal organoid cocultures with microbes"
+author: 
+- Puschhof
+- Pleguezuelos-Manzano
+- Martinez-Silgado
+- et al.
+publication: "Nat Protoc, **16**, 4633–4649 (2021)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41596-021-00589-z
+url_preprint: 
+journ: "Nat Protoc"
+issue: 16
+page: 4633–4649
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41596-021-00589-z
+---

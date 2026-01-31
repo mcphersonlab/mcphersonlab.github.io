@@ -1,0 +1,19 @@
+---
+title: "Computational approaches streamlining drug discovery"
+author: 
+- Sadybekov
+- Katritch
+publication: "Nature, **616**, 673–685 (2023)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41586-023-05905-z
+url_preprint: 
+journ: "Nature"
+issue: 616
+page: 673–685
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-05905-z
+---

@@ -1,0 +1,21 @@
+---
+title: "Web-based multi-omics integration using the Analyst software suite"
+author: 
+- Ewald
+- Zhou
+- Lu
+- et al.
+publication: "Nat Protoc, **19**, 1467–1497 (2024)"
+categories: 
+  - external-publication
+  - genomics
+url_source: https://doi.org/10.1038/s41596-023-00950-4
+url_preprint: 
+journ: "Nat Protoc"
+issue: 19
+page: 1467–1497
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41596-023-00950-4
+---
