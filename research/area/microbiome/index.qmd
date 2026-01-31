@@ -80,6 +80,8 @@ listing:
 <iframe src="microbiome_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
 ```
 
+<https://humanmicrobiome.substack.com/>
+
 ## Microbiome-related Inspirational Works
 :::{#inspirations}
 :::
