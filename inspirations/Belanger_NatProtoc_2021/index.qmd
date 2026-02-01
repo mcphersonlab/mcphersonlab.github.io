@@ -1,0 +1,19 @@
+---
+title: "Testing physiologically relevant conditions in minimal inhibitory concentration assays"
+author: 
+- Belanger
+- Hancock
+publication: "Nat Protoc, **16**, 3761–3774 (2021)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41596-021-00572-8
+url_preprint: 
+journ: "Nat Protoc"
+issue: 16
+page: 3761–3774
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41596-021-00572-8
+---

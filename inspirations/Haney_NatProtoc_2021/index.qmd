@@ -1,0 +1,20 @@
+---
+title: "Microtiter plate assays to assess antibiofilm activity against bacteria"
+author: 
+- Haney
+- Trimble
+- Hancock
+publication: "Nat Protoc, **16**, 2615–2632 (2021)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41596-021-00515-3
+url_preprint: 
+journ: "Nat Protoc"
+issue: 16
+page: 2615–2632
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41596-021-00515-3
+---

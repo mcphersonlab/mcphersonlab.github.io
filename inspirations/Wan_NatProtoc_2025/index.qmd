@@ -1,0 +1,21 @@
+---
+title: "Tutorial: guidelines for the use of machine learning methods to mine genomes and proteomes for antibiotic discovery"
+author: 
+- Wan
+- Torres
+- Guan
+- de la Fuente-Nunez
+publication: "Nat Protoc, **20**, 2685–2697 (2025)"
+categories: 
+  - external-publication
+  - genomics
+url_source: https://doi.org/10.1038/s41596-025-01144-w
+url_preprint: 
+journ: "Nat Protoc"
+issue: 20
+page: 2685–2697
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41596-025-01144-w
+---

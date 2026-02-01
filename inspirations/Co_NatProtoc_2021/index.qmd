@@ -1,0 +1,21 @@
+---
+title: "Controlling the polarity of human gastrointestinal organoids to investigate epithelial biology and infectious diseases"
+author: 
+- Co
+- Margalef-Català
+- Monack
+- Amieva
+publication: "Nat Protoc, **16**, 5171–5192 (2021)"
+categories: 
+  - external-publication
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41596-021-00607-0
+url_preprint: 
+journ: "Nat Protoc"
+issue: 16
+page: 5171–5192
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41596-021-00607-0
+---

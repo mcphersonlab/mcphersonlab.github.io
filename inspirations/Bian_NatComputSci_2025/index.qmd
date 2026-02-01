@@ -1,0 +1,22 @@
+---
+title: "A formally exact method for high-throughput absolute binding-free-energy calculations"
+author: 
+- Bian
+- Shao
+- Chipot
+- Cai
+- Fu
+publication: "Nat Comput Sci, **5**, 621–626 (2025)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s43588-025-00821-w
+url_preprint: 
+journ: "Nat Comput Sci"
+issue: 5
+page: 621–626
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s43588-025-00821-w
+---

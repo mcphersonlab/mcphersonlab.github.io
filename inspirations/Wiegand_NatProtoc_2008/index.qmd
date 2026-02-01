@@ -1,0 +1,20 @@
+---
+title: "Agar and broth dilution methods to determine the minimal inhibitory concentration (MIC) of antimicrobial substances"
+author: 
+- Wiegand
+- Hilpert
+- Hancock
+publication: "Nat Protoc, **3**, 163–75 (2008)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/nprot.2007.521
+url_preprint: 
+journ: "Nat Protoc"
+issue: 3
+page: 163–75
+year: 2008
+image: ""
+pub_number: 
+doi: 10.1038/nprot.2007.521
+---
