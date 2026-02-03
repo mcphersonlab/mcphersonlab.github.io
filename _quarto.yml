@@ -31,27 +31,26 @@ website:
       - href: publications/index.qmd
         icon: vector-pen
         text: Publications
-
+      - icon: people
+        text: People
+        href: people/index.qmd
 
     right:
-      - icon: people
-        text: ""
-        href: people/index.qmd
       - icon: person-plus
         text: "​"
         href: people/join.qmd
         aria-label: Join
-      - icon: github
-        href: https://github.com/McPhersonLab
-        aria-label: GitHub
-      - icon: cloud-arrow-up-fill
+      - icon: cloud-arrow-up
         text: ""
         href: https://figshare.com/authors/Jacob_McPherson/23126380
         aria-label: FigShare
-      - icon: cloud-check
+      - icon: cloud-check-fill
         text: ""
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
+      - icon: github
+        href: https://github.com/McPhersonLab
+        aria-label: GitHub
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
