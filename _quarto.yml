@@ -37,7 +37,6 @@ website:
 
     right:
       - icon: person-plus
-        text: ""
         href: people/join.qmd
         aria-label: Join
       - icon: github
@@ -46,7 +45,7 @@ website:
       - icon: clouds-fill
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
-      - icon: clouds-check
+      - icon: cloud-check
         href: https://figshare.com/authors/Jacob_McPherson/23126380
         aria-label: FigShare
       - icon: vector-pen
