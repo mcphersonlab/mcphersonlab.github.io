@@ -93,7 +93,7 @@ For more information on obtaining permissions, please visit the [**CCC Marketpla
 ```{=html}
 <div class="page-navigation">
   <div>
-    <a href="../about.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
+    <a href="../about/index.html" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> About</a>
   </div>
   <div>
     <a href="../research/index.html" class="btn btn-outline-primary">Research <i class="bi bi-arrow-right"></i></a>

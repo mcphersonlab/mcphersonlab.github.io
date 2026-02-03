@@ -24,7 +24,8 @@ Check out a few of our publicly visible [**Ongoing projects**](https://mcpherson
 ## Research Workflow
 
 ::: {#fig-project-workflow .center}
-![A GitHub-Centered Workflow](research/flowchart.jpeg){width=70%}
+
+![A GitHub-Centered Workflow](../research/flowchart.jpeg){width=70%}
 :::
 
 
@@ -54,7 +55,7 @@ We use a **github-centered workflow** that utilizes:
 
 <!--- center align -->
 ::: {#fig-project-workflow .center}
-![Texas Advanced Computing Center](images/tacc.jpg){width=70%}
+![Texas Advanced Computing Center](../images/tacc.jpg){width=70%}
 :::
 
 <!--- left align -->
@@ -80,7 +81,7 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 
 <!--- center align -->
 ::: {#fig-project-workflow .center}
-![AWS-Docker (SIB) Data Infrastructure](images/sib-aws-docker.png){width=70%}
+![AWS-Docker (SIB) Data Infrastructure](../images/sib-aws-docker.png){width=70%}
 :::
 
 <!--- left align -->
@@ -91,7 +92,7 @@ Data-access/sharing infrastructure from the [AWS-Docker project](https://sib-swi
 
 **Contact**: [jacobkmcpherson.com](https://www.jacobkmcpherson.com/contact)
 
-For joining the group, please use the above link [join](people/join.qmd)
+For joining the group, please use the above link [join](../people/join.qmd)
 :::
 
 ```{=html}

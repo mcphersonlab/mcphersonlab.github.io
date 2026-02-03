@@ -37,17 +37,17 @@ website:
 
     right:
       - icon: person-plus
-        text: "​"
+        text: ""
         href: people/join.qmd
         aria-label: Join
       - icon: cloud-arrow-up
         text: ""
-        href: https://figshare.com/authors/Jacob_McPherson/23126380
-        aria-label: FigShare
-      - icon: cloud-check-fill
-        text: ""
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
+      - icon: cloud-check-fill
+        text: ""
+        href: https://figshare.com/authors/Jacob_McPherson/23126380
+        aria-label: FigShare
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub

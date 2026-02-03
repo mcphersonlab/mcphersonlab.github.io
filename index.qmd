@@ -243,7 +243,7 @@ We share [**our works**](https://mcphersonlab.github.io/publications/) at [**con
 <div class="page-navigation">
   <div></div>
   <div>
-    <a href="about.html" class="btn btn-outline-primary">About <i class="bi bi-arrow-right"></i></a>
+    <a href="about/index.html" class="btn btn-outline-primary">About <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
