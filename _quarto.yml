@@ -40,17 +40,18 @@ website:
         text: ""
         href: people/join.qmd
         aria-label: Join
-      - icon: cloud-arrow-up
-        text: ""
-        href: https://zenodo.org/communities/mcphersonlab/
-        aria-label: Zenodo
-      - icon: cloud-check-fill
-        text: ""
-        href: https://figshare.com/authors/Jacob_McPherson/23126380
-        aria-label: FigShare
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
+      - icon: clouds-fill
+        text: ""
+        href: https://zenodo.org/communities/mcphersonlab/
+        aria-label: Zenodo
+      - icon: clouds-check-fill
+        text: ""
+        href: https://figshare.com/authors/Jacob_McPherson/23126380
+        aria-label: FigShare
+
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
