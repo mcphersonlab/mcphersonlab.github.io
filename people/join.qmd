@@ -6,8 +6,6 @@ jupyter: python3
 
 ---
 
-# Welcome!
-
 ## Getting Started:
 
 Create a *free* account in 
@@ -18,7 +16,7 @@ Create a *free* account in
 
 3. [**GitHub**](https://github.com) (Microsoft); use to sign-in to [**RStudio Cloud**](https://posit.cloud) (Posit), [Posit Cloud Connect](https://connect.posit.cloud/) (for publishing websites) and [**VS Code**](https://vscode.dev); integrates with [**OverLeaf**](https://www.overleaf.com/)
 
-4. [**Zenodo**](https://zenodo.org/) (EU scientific resource) and join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/)
+4. [**Zenodo**](https://zenodo.org/) (EU scientific resource) and join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/); Optional: [**FigShare**](https://figshare.com/) (Springer Nature) 
 
 5. [**Zotero**](https://www.zotero.org/), a citation manager that integrates with Chrome, Word, Overleaf
 

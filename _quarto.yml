@@ -16,7 +16,7 @@ website:
     search: true
     logo: images/logo.svg
     left:
-      - href: about.qmd
+      - href: about/index.qmd
         icon: info-circle
         text: About
       - href: education/index.qmd
@@ -44,14 +44,11 @@ website:
         href: https://github.com/McPhersonLab
         aria-label: GitHub
       - icon: clouds-fill
-        text: ""
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
-      - icon: clouds-check-fill
-        text: ""
+      - icon: clouds-check
         href: https://figshare.com/authors/Jacob_McPherson/23126380
         aria-label: FigShare
-
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
