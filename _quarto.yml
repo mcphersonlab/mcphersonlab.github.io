@@ -34,11 +34,11 @@ website:
       - icon: people
         text: People
         href: people/index.qmd
-
-    right:
       - icon: person-plus
         href: people/join.qmd
-        aria-label: Join
+        text: Join
+
+    right:
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
