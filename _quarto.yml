@@ -42,18 +42,21 @@ website:
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
-      - icon: clouds-fill
+      - icon: clouds
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
-      - icon: cloud-check
-        href: https://figshare.com/authors/Jacob_McPherson/23126380
-        aria-label: FigShare
       - icon: vector-pen
         href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
         aria-label: SCOPUS
       - icon: book
+        href: https://www.webofscience.com/wos/author/record/OZF-0932-2025
+        aria-label: WOS
+      - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=MsZPCoIAAAAJ&hl=en
         aria-label: Google Scholar
+      - icon: cloud-check-fill
+        href: https://figshare.com/authors/Jacob_McPherson/23126380
+        aria-label: FigShare
       - icon: envelope
         href: mailto:jacobmcpherson@utexas.edu
         aria-label: Email
