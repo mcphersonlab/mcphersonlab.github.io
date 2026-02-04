@@ -42,6 +42,15 @@ website:
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
+      - icon: hourglass-top
+        href: https://www.grants.gov/
+        aria-label: Grants
+      - icon: hourglass-split
+        href: https://www.era.nih.gov/
+        aria-label: eRA
+      - icon: hourglass-bottom
+        href: https://public.era.nih.gov/assist/
+        aria-label: Assist
       - icon: clouds
         href: https://zenodo.org/communities/mcphersonlab/
         aria-label: Zenodo
