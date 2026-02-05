@@ -1,0 +1,95 @@
+---
+title: "Gallery"
+---
+
+```{=html}
+<div id="password-container" style="display: block; text-align: center; padding: 50px;">
+  <h2>Password Protected Gallery</h2>
+  <p>Please enter the password to access the gallery:</p>
+  <input type="password" id="password-input" placeholder="Enter password" style="padding: 10px; font-size: 16px; margin: 10px;">
+  <br>
+  <button onclick="checkPassword()" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; margin-top: 10px;">Submit</button>
+  <p id="error-message" style="color: red; margin-top: 10px;"></p>
+</div>
+
+<div id="gallery-content" style="display: none;">
+  <h2>Welcome to the Gallery</h2>
+  
+  <p>This is a password-protected gallery page for the McPherson Lab.</p>
+  
+  <div style="margin-top: 30px;">
+    <h3>Gallery Content</h3>
+    <p>Add your gallery images, videos, and other content here.</p>
+    
+    <!-- Example placeholder content -->
+    <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+      <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+        <h4>Gallery Item 1</h4>
+        <p>Description of gallery item 1</p>
+      </div>
+      <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+        <h4>Gallery Item 2</h4>
+        <p>Description of gallery item 2</p>
+      </div>
+      <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+        <h4>Gallery Item 3</h4>
+        <p>Description of gallery item 3</p>
+      </div>
+    </div>
+  </div>
+  
+  <button onclick="logout()" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #dc3545; color: white; border: none; border-radius: 5px; margin-top: 30px;">Logout</button>
+</div>
+
+<script>
+  // Password will be injected during GitHub Actions build
+  const GALLERY_PASSWORD = '{{GALLERY_PW}}';
+  
+  // Check if user is already authenticated
+  function checkAuth() {
+    const isAuthenticated = sessionStorage.getItem('galleryAuth') === 'true';
+    if (isAuthenticated) {
+      showGallery();
+    }
+  }
+  
+  // Verify password
+  function checkPassword() {
+    const input = document.getElementById('password-input');
+    const errorMsg = document.getElementById('error-message');
+    
+    if (input.value === GALLERY_PASSWORD) {
+      sessionStorage.setItem('galleryAuth', 'true');
+      showGallery();
+      errorMsg.textContent = '';
+    } else {
+      errorMsg.textContent = 'Incorrect password. Please try again.';
+      input.value = '';
+    }
+  }
+  
+  // Show gallery content
+  function showGallery() {
+    document.getElementById('password-container').style.display = 'none';
+    document.getElementById('gallery-content').style.display = 'block';
+  }
+  
+  // Logout function
+  function logout() {
+    sessionStorage.removeItem('galleryAuth');
+    document.getElementById('password-container').style.display = 'block';
+    document.getElementById('gallery-content').style.display = 'none';
+    document.getElementById('password-input').value = '';
+  }
+  
+  // Allow Enter key to submit
+  document.getElementById('password-input')?.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+      checkPassword();
+    }
+  });
+  
+  // Check authentication on page load
+  checkAuth();
+</script>
+```

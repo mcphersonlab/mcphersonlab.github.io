@@ -37,6 +37,9 @@ website:
       - icon: person-plus
         href: people/join.qmd
         text: Join
+      - href: gallery/index.qmd
+        icon: images
+        text: Gallery
 
     right:
       - icon: github

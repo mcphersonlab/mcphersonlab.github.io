@@ -48,6 +48,23 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
+      # Inject gallery password into the rendered page
+      - name: Inject Gallery Password
+        env:
+          GALLERY_PW: ${{ secrets.GALLERY_PW }}
+        run: |
+          # Set default password if secret is not set
+          GALLERY_PASSWORD="${GALLERY_PW:-temp}"
+          echo "Injecting gallery password into rendered site..."
+          
+          # Find and replace the password placeholder in the gallery page
+          if [ -f "_site/gallery/index.html" ]; then
+            sed -i "s/{{GALLERY_PW}}/${GALLERY_PASSWORD}/g" _site/gallery/index.html
+            echo "Gallery password injected successfully"
+          else
+            echo "Warning: Gallery page not found at _site/gallery/index.html"
+          fi
+
       # Upload PR preview artifact
       - name: Upload PR preview artifact
         if: github.event_name == 'pull_request'
