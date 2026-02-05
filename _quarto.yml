@@ -43,7 +43,7 @@ website:
         href: https://github.com/McPhersonLab
         aria-label: GitHub
       - icon: hourglass-top
-        href: https://www.grants.gov/
+        href: https://simpler.grants.gov/
         aria-label: Grants
       - icon: hourglass-split
         href: https://www.era.nih.gov/
