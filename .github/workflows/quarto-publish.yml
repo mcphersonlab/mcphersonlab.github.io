@@ -48,39 +48,6 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
-      # Inject gallery password into the rendered page
-      - name: Inject Gallery Password
-        env:
-          GALLERY_PW: ${{ secrets.GALLERY_PW }}
-        run: |
-          # Set default password if secret is not set
-          GALLERY_PASSWORD="${GALLERY_PW:-temp}"
-          
-          # Check if gallery source exists
-          if [ ! -f "gallery/index.qmd" ]; then
-            echo "Gallery source not found, skipping password injection"
-            exit 0
-          fi
-          
-          # Find and replace the password placeholder in the gallery page
-          if [ -f "_site/gallery/index.html" ]; then
-            # Use Python with JSON encoding for proper JavaScript escaping
-            python3 -c "
-import sys, json
-with open('_site/gallery/index.html', 'r') as f:
-    content = f.read()
-# JSON encode the password to properly escape quotes, backslashes, etc.
-escaped_password = json.dumps(sys.argv[1])
-content = content.replace('{{GALLERY_PW}}', escaped_password)
-with open('_site/gallery/index.html', 'w') as f:
-    f.write(content)
-" "${GALLERY_PASSWORD}"
-            echo "Gallery content processed"
-          else
-            echo "Error: Gallery page expected but not found in build output"
-            exit 1
-          fi
-
       # Upload PR preview artifact
       - name: Upload PR preview artifact
         if: github.event_name == 'pull_request'
