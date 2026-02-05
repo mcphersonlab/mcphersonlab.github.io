@@ -60,10 +60,11 @@ jobs:
           if [ -f "_site/gallery/index.html" ]; then
             # Use Python for safer string replacement that handles special characters
             python3 -c "
-import sys
+import sys, json
 with open('_site/gallery/index.html', 'r') as f:
     content = f.read()
-content = content.replace('{{GALLERY_PW}}', sys.argv[1])
+escaped_pw = json.dumps(sys.argv[1])
+content = content.replace('{{GALLERY_PW}}', escaped_pw)
 with open('_site/gallery/index.html', 'w') as f:
     f.write(content)
 " "${GALLERY_PASSWORD}"
