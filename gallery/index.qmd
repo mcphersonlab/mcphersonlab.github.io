@@ -108,8 +108,8 @@ title: "Gallery"
 </div>
 
 <script>
-  // Password will be injected during GitHub Actions build
-  const GALLERY_PASSWORD = '{{GALLERY_PW}}';
+  // Password will be injected during GitHub Actions build as a JSON-encoded string
+  const GALLERY_PASSWORD = JSON.parse('{{GALLERY_PW_JSON}}');
   
   // Check if user is already authenticated
   function checkAuth() {
