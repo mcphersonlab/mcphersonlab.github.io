@@ -55,14 +55,21 @@ jobs:
         run: |
           # Set default password if secret is not set
           GALLERY_PASSWORD="${GALLERY_PW:-temp}"
-          echo "Injecting gallery password into rendered site..."
           
           # Find and replace the password placeholder in the gallery page
           if [ -f "_site/gallery/index.html" ]; then
-            sed -i "s/{{GALLERY_PW}}/${GALLERY_PASSWORD}/g" _site/gallery/index.html
-            echo "Gallery password injected successfully"
+            # Use Python for safer string replacement that handles special characters
+            python3 -c "
+import sys
+with open('_site/gallery/index.html', 'r') as f:
+    content = f.read()
+content = content.replace('{{GALLERY_PW}}', sys.argv[1])
+with open('_site/gallery/index.html', 'w') as f:
+    f.write(content)
+" "${GALLERY_PASSWORD}"
+            echo "Gallery content processed"
           else
-            echo "Warning: Gallery page not found at _site/gallery/index.html"
+            echo "Warning: Gallery page not found"
           fi
 
       # Upload PR preview artifact

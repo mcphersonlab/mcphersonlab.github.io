@@ -1,5 +1,9 @@
 ---
 title: "Gallery"
+# Note: This page uses client-side password protection, which provides only basic
+# content obscurity. The password is visible in the page source, and anyone with
+# technical knowledge can bypass this protection. This is suitable for light content
+# protection only. For stronger security, consider implementing server-side authentication.
 ---
 
 ```{=html}
