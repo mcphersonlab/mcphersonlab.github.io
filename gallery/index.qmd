@@ -72,6 +72,7 @@ title: "Gallery"
 <div id="password-container" class="password-container">
   <h2>Password Protected Gallery</h2>
   <p>Please enter the password to access the gallery:</p>
+  <label for="password-input" style="display: block; margin-top: 10px;">Password</label>
   <input type="password" id="password-input" placeholder="Enter password" class="password-input">
   <br>
   <button onclick="checkPassword()" class="primary-button">Submit</button>
