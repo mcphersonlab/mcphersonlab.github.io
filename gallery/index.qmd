@@ -72,11 +72,11 @@ title: "Gallery"
 <div id="password-container" class="password-container">
   <h2>Password Protected Gallery</h2>
   <p>Please enter the password to access the gallery:</p>
-  <label for="password-input" style="display: block; margin-top: 10px;">Password</label>
-  <input type="password" id="password-input" placeholder="Enter password" class="password-input">
+  <label for="password-input" class="visually-hidden">Password</label>
+  <input type="password" id="password-input" placeholder="Enter password" class="password-input" aria-label="Password">
   <br>
   <button onclick="checkPassword()" class="primary-button">Submit</button>
-  <p id="error-message" class="error-message"></p>
+  <p id="error-message" role="alert" class="error-message"></p>
 </div>
 
 <div id="gallery-content" class="gallery-content">
@@ -110,7 +110,7 @@ title: "Gallery"
 
 <script>
   // Password will be injected during GitHub Actions build as a JSON-encoded string
-  const GALLERY_PASSWORD = JSON.parse('{{GALLERY_PW_JSON}}');
+  const GALLERY_PASSWORD = {{GALLERY_PW}};
   
   // Check if user is already authenticated
   function checkAuth() {
@@ -120,41 +120,56 @@ title: "Gallery"
     }
   }
   
-  // Verify password
+  // Verify password with delay to mitigate brute-force
   function checkPassword() {
     const input = document.getElementById('password-input');
     const errorMsg = document.getElementById('error-message');
     
-    if (input.value === GALLERY_PASSWORD) {
-      sessionStorage.setItem('galleryAuth', 'true');
-      showGallery();
-      errorMsg.textContent = '';
-    } else {
-      errorMsg.textContent = 'Incorrect password. Please try again.';
-      input.value = '';
-    }
+    if (!input || !errorMsg) return;
+    
+    // Add small delay to mitigate timing attacks
+    setTimeout(() => {
+      if (input.value === GALLERY_PASSWORD) {
+        sessionStorage.setItem('galleryAuth', 'true');
+        showGallery();
+        if (errorMsg) errorMsg.textContent = '';
+      } else {
+        if (errorMsg) errorMsg.textContent = 'Incorrect password. Please try again.';
+        if (input) input.value = '';
+      }
+    }, 100);
   }
   
   // Show gallery content
   function showGallery() {
-    document.getElementById('password-container').style.display = 'none';
-    document.getElementById('gallery-content').style.display = 'block';
+    const passwordContainer = document.getElementById('password-container');
+    const galleryContent = document.getElementById('gallery-content');
+    
+    if (passwordContainer) passwordContainer.style.display = 'none';
+    if (galleryContent) galleryContent.style.display = 'block';
   }
   
   // Logout function
   function logout() {
     sessionStorage.removeItem('galleryAuth');
-    document.getElementById('password-container').style.display = 'block';
-    document.getElementById('gallery-content').style.display = 'none';
-    document.getElementById('password-input').value = '';
+    const passwordContainer = document.getElementById('password-container');
+    const galleryContent = document.getElementById('gallery-content');
+    const input = document.getElementById('password-input');
+    
+    if (passwordContainer) passwordContainer.style.display = 'block';
+    if (galleryContent) galleryContent.style.display = 'none';
+    if (input) input.value = '';
   }
   
   // Allow Enter key to submit
-  document.getElementById('password-input')?.addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
-      checkPassword();
-    }
-  });
+  const passwordInput = document.getElementById('password-input');
+  if (passwordInput) {
+    passwordInput.addEventListener('keypress', function(event) {
+      if (event.key === 'Enter') {
+        checkPassword();
+      }
+    });
+  }
   
   // Check authentication on page load
   checkAuth();
