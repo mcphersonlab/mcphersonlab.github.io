@@ -1,0 +1,23 @@
+---
+title: "Population-health impact of new drugs recommended by the National Institute for Health and Care Excellence in England during 2000-20: a retrospective analysis"
+author: 
+- Naci H
+- Murphy P
+- Woods B
+- Lomas J
+- Wei J
+- Papanicolas I
+publication: "Lancet, **405**, 50–60 (2025)"
+categories: 
+  - external-publication
+  - economic-analysis
+url_source: https://doi.org/10.1016/S0140-6736(24)02352-3
+url_preprint: 
+journ: "Lancet"
+issue: 405
+page: 50–60
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1016/S0140-6736(24)02352-3
+---

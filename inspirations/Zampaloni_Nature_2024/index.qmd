@@ -1,0 +1,57 @@
+---
+title: "A novel antibiotic class targeting the lipopolysaccharide transporter"
+author: 
+- Zampaloni C
+- Mattei P
+- Bleicher K
+- Winther L
+- Thäte C
+- Bucher C
+- Adam JM
+- Alanine A
+- Amrein KE
+- Baidin V
+- Bieniossek C
+- Bissantz C
+- Boess F
+- Cantrill C
+- Clairfeuille T
+- Dey F
+- Di Giorgio P
+- du Castel P
+- Dylus D
+- Dzygiel P
+- Felici A
+- García-Alcalde F
+- Haldimann A
+- Leipner M
+- Leyn S
+- Louvel S
+- Misson P
+- Osterman A
+- Pahil K
+- Rigo S
+- Schäublin A
+- Scharf S
+- Schmitz P
+- Stoll T
+- Trauner A
+- Zoffmann S
+- Kahne D
+- Young JAT
+- Lobritz MA
+- Bradley KA
+publication: "Nature, **625**, 566–571 (2024)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41586-023-06873-0
+url_preprint: 
+journ: "Nature"
+issue: 625
+page: 566–571
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-06873-0
+---
