@@ -1,0 +1,52 @@
+---
+title: "Cloxacillin plus fosfomycin versus cloxacillin alone for methicillin-susceptible Staphylococcus aureus bacteremia: a randomized trial"
+author: 
+- Grillo S
+- Pujol M
+- Miró JM
+- López-Contreras J
+- Euba G
+- Gasch O
+- Boix-Palop L
+- Garcia-País MJ
+- Pérez-Rodríguez MT
+- Gomez-Zorrilla S
+- Oriol I
+- López-Cortés LE
+- Pedro-Botet ML
+- San-Juan R
+- Aguado JM
+- Gioia F
+- Iftimie S
+- Morata L
+- Jover-Sáenz A
+- García-Pardo G
+- Loeches B
+- Izquierdo-Cárdenas Á
+- Goikoetxea AJ
+- Gomila-Grange A
+- Dietl B
+- Berbel D
+- Videla S
+- Hereu P
+- Padullés A
+- Pallarès N
+- Tebé C
+- Cuervo G
+- Carratalà J
+- SAFO study group
+publication: "Nat Med, **29**, 2518–2525 (2023)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41591-023-02569-0
+url_preprint: 
+journ: "Nat Med"
+issue: 29
+page: 2518–2525
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s41591-023-02569-0
+---

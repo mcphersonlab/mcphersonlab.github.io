@@ -1,0 +1,56 @@
+---
+title: "Early Oral Antibiotic Switch in Staphylococcus aureus Bacteraemia: The Staphylococcus aureus Network Adaptive Platform (SNAP) Trial Early Oral Switch Protocol"
+author: 
+- de Kretser D
+- Mora J
+- Bloomfield M
+- Campbell A
+- Cheng MP
+- Guy S
+- Hensgens M
+- Kalimuddin S
+- Lee TC
+- Legg A
+- Mahar RK
+- Marks M
+- Marsh J
+- McGlothin A
+- Morpeth SC
+- Sud A
+- Ten Oever J
+- Yahav D
+- Bonten M
+- Bowen AC
+- Daneman N
+- van Hal SJ
+- Heriot GS
+- Lewis RJ
+- Lye DC
+- McQuilten Z
+- Paterson DL
+- Owen Robinson J
+- Roberts JA
+- Scarborough M
+- Webb SA
+- Whiteway L
+- Tong SYC
+- Davis JS
+- Walls G
+- Goodman AL
+- SNAP Early Oral Switch Domain-Specific Working Group and SNAP Global Trial Steering Committee
+- SNAP Trial Group
+publication: "Clin Infect Dis, **79**, 871–887 (2024)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1093/cid/ciad666
+url_preprint: 
+journ: "Clin Infect Dis"
+issue: 79
+page: 871–887
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1093/cid/ciad666
+---

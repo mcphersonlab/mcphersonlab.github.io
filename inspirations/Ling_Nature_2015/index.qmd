@@ -1,0 +1,20 @@
+---
+title: "A new antibiotic kills pathogens without detectable resistance"
+author: 
+- Ling L
+- Schneider T
+- Peoples A
+publication: "Nature, **517**, 455–459 (2015)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/nature14098
+url_preprint: 
+journ: "Nature"
+issue: 517
+page: 455–459
+year: 2015
+image: ""
+pub_number: 
+doi: 10.1038/nature14098
+---

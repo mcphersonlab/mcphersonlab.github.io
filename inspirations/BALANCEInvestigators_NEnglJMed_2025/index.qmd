@@ -1,0 +1,114 @@
+---
+title: "Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections"
+author: 
+- BALANCE Investigators
+- Canadian Critical Care Trials Group
+- Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network
+- Australian and New Zealand Intensive Care Society Clinical Trials Group
+- Australasian Society for Infectious Diseases Clinical Research Network
+- Daneman N
+- Rishu A
+- Pinto R
+- Rogers BA
+- Shehabi Y
+- Parke R
+- Cook D
+- Arabi Y
+- Muscedere J
+- Reynolds S
+- Hall R
+- Dwivedi DB
+- McArthur C
+- McGuinness S
+- Yahav D
+- Coburn B
+- Geagea A
+- Das P
+- Shin P
+- Detsky M
+- Morris A
+- Fralick M
+- Powis JE
+- Kandel C
+- Sligl W
+- Bagshaw SM
+- Singhal N
+- Belley-Cote E
+- Whitlock R
+- Khwaja K
+- Morpeth S
+- Kazemi A
+- Williams A
+- MacFadden DR
+- McIntyre L
+- Tsang J
+- Lamontagne F
+- Carignan A
+- Marshall J
+- Friedrich JO
+- Cirone R
+- Downing M
+- Graham C
+- Davis J
+- Duan E
+- Neary J
+- Evans G
+- Alraddadi B
+- Al Johani S
+- Martin C
+- Elsayed S
+- Ball I
+- Lauzier F
+- Turgeon A
+- Stelfox HT
+- Conly J
+- McDonald EG
+- Lee TC
+- Sullivan R
+- Grant J
+- Kagan I
+- Young P
+- Lawrence C
+- O'Callaghan K
+- Eustace M
+- Choong K
+- Aslanian P
+- Buehner U
+- Havey T
+- Binnie A
+- Prazak J
+- Reeve B
+- Litton E
+- Lother S
+- Kumar A
+- Zarychanski R
+- Hoffman T
+- Paterson D
+- Daley P
+- Commons RJ
+- Charbonney E
+- Naud JF
+- Roberts S
+- Tiruvoipati R
+- Gupta S
+- Wood G
+- Shum O
+- Miyakis S
+- Dodek P
+- Kwok C
+- Fowler RA
+publication: "N Engl J Med, **392**, 1065–1078 (2025)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1056/NEJMoa2404991
+url_preprint: 
+journ: "N Engl J Med"
+issue: 392
+page: 1065–1078
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1056/NEJMoa2404991
+---

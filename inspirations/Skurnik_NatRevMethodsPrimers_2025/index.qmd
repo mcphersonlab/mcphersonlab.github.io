@@ -1,0 +1,20 @@
+---
+title: "Phage therapy"
+author: 
+- Skurnik M
+- Alkalay-Oren S
+- Boon M
+publication: "Nat Rev Methods Primers, **5**, 9 (2025)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s43586-024-00377-5
+url_preprint: 
+journ: "Nat Rev Methods Primers"
+issue: 5
+page: 9
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s43586-024-00377-5
+---
