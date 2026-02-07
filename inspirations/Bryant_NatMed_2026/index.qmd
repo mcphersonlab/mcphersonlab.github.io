@@ -1,0 +1,41 @@
+---
+title: "The impact of an oral purified microbiome therapeutic on the gastrointestinal microbiome"
+author: 
+- Bryant JA
+- Vulić M
+- Walsh EA
+- Allen EG Jr
+- Beauchemin NJ
+- Chafee ME
+- Diao L
+- Fenn K
+- Ford KA
+- Hasson BR
+- Litcofsky KD
+- Lombardo MJ
+- Martinez A
+- O'Brien EJ
+- Straub TJ
+- Sykes SM
+- Marshall LF
+- Winkler JA
+- McGovern BH
+- Ford CB
+- Wortman JR
+- Henn MR
+publication: "Nat Med, **32**, 186–196 (2026)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41591-025-04076-w
+url_preprint: 
+journ: "Nat Med"
+issue: 32
+page: 186–196
+year: 2026
+image: ""
+pub_number: 
+doi: 10.1038/s41591-025-04076-w
+---

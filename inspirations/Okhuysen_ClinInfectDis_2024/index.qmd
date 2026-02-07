@@ -1,0 +1,38 @@
+---
+title: "A Randomized, Double-Blind, Phase 3 Safety and Efficacy Study of Ridinilazole Versus Vancomycin for Treatment of Clostridioides difficile Infection: Clinical Outcomes With Microbiome and Metabolome Correlates of Response"
+author: 
+- Okhuysen PC
+- Ramesh MS
+- Louie T
+- Kiknadze N
+- Torre-Cisneros J
+- de Oliveira CM
+- Van Steenkiste C
+- Stychneuskaya A
+- Garey KW
+- Garcia-Diaz J
+- Li J
+- Duperchy E
+- Chang BY
+- Sukbuntherng J
+- Montoya JG
+- Styles L
+- Clow F
+- James D
+- Dubberke ER
+- Wilcox M
+publication: "Clin Infect Dis, **78**, 1462–1472 (2024)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1093/cid/ciad792
+url_preprint: 
+journ: "Clin Infect Dis"
+issue: 78
+page: 1462–1472
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1093/cid/ciad792
+---
