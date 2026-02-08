@@ -104,6 +104,22 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | National trends in pharmacy education outcomes | AACP Annual | American Journal of Pharmaceutical Education | Academic Medicine |
 | [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | Interactive AI module for pharmacy student communication training | AACP Annual | Nature Medicine | npj Digital Medicine |
 
+### Grants
+
+| Title (Mechanism) | Agency | Funding Opportunity Number | Close Date |
+|:------------------|:-------|:---------------------------|:-----------|
+| A Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO) | National Science Foundation (NSF) and National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | 23-569 | Feb 9, 2026 |
+| Large Research Projects for Combating Antibiotic-Resistant Bacteria (CARB) (R01) | Agency for Healthcare Research and Quality (AHRQ) | PA-22-047 | Oct 30, 2026 |
+| AHRQ Mentored Clinical Scientist Research Career Development Award (K08) | Agency for Healthcare Research and Quality (AHRQ) | PA-22-232 | Feb 13, 2027 |
+| Medical Scientist Training Program (MSTP) (T32) | National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | PAR-24-128 | Jan 25, 2027 |
+| NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens | Food and Drug Administration (FDA) | PAR-25-014 | Apr 1, 2027 |
+| NIDCR Small Research Grants for Analyses of Existing Genomics Data (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | PAR-25-166 | Oct 16, 2025 |
+| Investigator Initiated Innovation in Computational Genomics and Data Science (R01 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) and National Library of Medicine (NLM) | PAR-25-228 | Sep 8, 2027 |
+| NEI Research Grant for Vision-Related Secondary Data Analysis (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Eye Institute (NEI) | PAR-25-357 | Oct 16, 2027 |
+| Accelerating Research Translation (ART) | National Science Foundation (NSF) | 25-548 | Jan 15, 2026 |
+| Enhancing Reuse of NHGRI Data Assets (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) | RFA-HG-25-005 | Feb 15, 2026 |
+| Accelerating the Pace of Substance Use Research Using Existing Data (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | RFA-DA-26-056 | Dec 3, 2027 |
+| Using Archived Data and Specimen Collections to Advance Maternal and Pediatric HIV/AIDS Research | National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) | FOR-HD-25-023 | Jan 2, 2026 |
 
 ### Contributing to Projects
 
