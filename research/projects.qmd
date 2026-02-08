@@ -120,6 +120,8 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | Enhancing Reuse of NHGRI Data Assets (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) | RFA-HG-25-005 | Feb 15, 2026 |
 | Accelerating the Pace of Substance Use Research Using Existing Data (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | RFA-DA-26-056 | Dec 3, 2027 |
 | Using Archived Data and Specimen Collections to Advance Maternal and Pediatric HIV/AIDS Research | National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) | FOR-HD-25-023 | Jan 2, 2026 |
+| Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial Optional) | National Institutes of Health (NIH) | PAR-26-040 | Feb 4, 2026 |
+| Economic and Modeling Analyses to Support Immunization Policy and Programs | Centers for Disease Control and Prevention (CDC) | RFA-IP-26-032 | TBD |
 
 ### Contributing to Projects
 
