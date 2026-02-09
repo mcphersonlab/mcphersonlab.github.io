@@ -106,6 +106,8 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 
 ### Grants
 
+For more information about NIH funding opportunities, visit [NIH Funding Opportunities](https://grants.nih.gov/funding/explore-nih-opportunities).
+
 | Title (Mechanism) | Agency | Funding Opportunity Number | Close Date |
 |:------------------|:-------|:---------------------------|:-----------|
 | A Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO) | National Science Foundation (NSF) and National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | 23-569 | Feb 9, 2026 |
@@ -113,15 +115,22 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | AHRQ Mentored Clinical Scientist Research Career Development Award (K08) | Agency for Healthcare Research and Quality (AHRQ) | PA-22-232 | Feb 13, 2027 |
 | Medical Scientist Training Program (MSTP) (T32) | National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | PAR-24-128 | Jan 25, 2027 |
 | NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens | Food and Drug Administration (FDA) | PAR-25-014 | Apr 1, 2027 |
+| [NIH Small Research Grant Program (Parent R03 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/357805) | National Institutes of Health (NIH) | PA-25-302 | Jan 8, 2028 |
+| Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed) | National Institutes of Health (NIH), National Cancer Institute (NCI) | PAR-25-096 | Feb 16, 2026 |
+| NIDCR Research Grants for Analyses of Existing Genomics Data (R01 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | PAR-25-164 | Feb 5, 2026 |
 | NIDCR Small Research Grants for Analyses of Existing Genomics Data (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | PAR-25-166 | Oct 16, 2025 |
 | Investigator Initiated Innovation in Computational Genomics and Data Science (R01 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) and National Library of Medicine (NLM) | PAR-25-228 | Sep 8, 2027 |
 | NEI Research Grant for Vision-Related Secondary Data Analysis (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Eye Institute (NEI) | PAR-25-357 | Oct 16, 2027 |
 | Accelerating Research Translation (ART) | National Science Foundation (NSF) | 25-548 | Jan 15, 2026 |
 | Enhancing Reuse of NHGRI Data Assets (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) | RFA-HG-25-005 | Feb 15, 2026 |
+| [BRAIN Initiative: Theories, Models and Methods for Analysis of Complex Data from the Brain (R01 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/359068) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | RFA-DA-27-004 | Oct 28, 2025 |
 | Accelerating the Pace of Substance Use Research Using Existing Data (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | RFA-DA-26-056 | Dec 3, 2027 |
+| NIDCR Small Research Grants for Dental, Oral, and Craniofacial Health-related Data Analyses and Statistical or Computational Methodology Development (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | NOT-DE-26-008 | Dec 12, 2025 |
 | Using Archived Data and Specimen Collections to Advance Maternal and Pediatric HIV/AIDS Research | National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) | FOR-HD-25-023 | Jan 2, 2026 |
 | Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial Optional) | National Institutes of Health (NIH) | PAR-26-040 | Feb 4, 2026 |
 | Economic and Modeling Analyses to Support Immunization Policy and Programs | Centers for Disease Control and Prevention (CDC) | RFA-IP-26-032 | TBD |
+| Building Sustainable Software Tools for Open Science (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH) | RFA-OD-26-034 | May 23, 2025 |
+| Summer Institute for Research Education in Biostatistics and Data Science | National Institutes of Health (NIH), National Heart, Lung, and Blood Institute (NHLBI) | RFA-HL-27-006 | Jul 1, 2026 |
 
 ### Contributing to Projects
 
