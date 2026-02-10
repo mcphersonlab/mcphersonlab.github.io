@@ -8,13 +8,13 @@ author:
 - Zou
 - Ng
 - Chen
-publication: "Nejm Ai, **2**(9), AIdbp2500144 (2025)"
+publication: "NEJM AI, **2**(9), AIdbp2500144 (2025)"
 categories: 
   - external-publication
   - artificial-intelligence
 url_source: https://doi.org/10.1056/AIdbp2500144
 url_preprint: 
-journ: "Nejm Ai"
+journ: "NEJM AI"
 issue: 2
 page: AIdbp2500144
 year: 2025
