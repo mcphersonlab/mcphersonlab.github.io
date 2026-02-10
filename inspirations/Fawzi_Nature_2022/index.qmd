@@ -1,0 +1,30 @@
+---
+title: "Discovering faster matrix multiplication algorithms with reinforcement learning"
+author: 
+- Fawzi
+- Balog
+- Huang
+- Hubert
+- Romera-Paredes
+- Barekatain
+- Novikov
+- R Ruiz
+- Schrittwieser
+- Swirszcz
+- Silver
+- Hassabis
+- Kohli
+publication: "Nature, **610**(7930), 47-53 (2022)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-022-05172-4
+url_preprint: 
+journ: "Nature"
+issue: 610
+page: 47-53
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/s41586-022-05172-4
+---

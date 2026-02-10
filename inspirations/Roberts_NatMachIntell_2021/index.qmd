@@ -1,0 +1,21 @@
+---
+title: "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans"
+author: 
+- Roberts
+- Driggs
+- Thorpe
+- et al.
+publication: "Nat Mach Intell, **3**, 199–217 (2021)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s42256-021-00307-0
+url_preprint: 
+journ: "Nat Mach Intell"
+issue: 3
+page: 199–217
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s42256-021-00307-0
+---

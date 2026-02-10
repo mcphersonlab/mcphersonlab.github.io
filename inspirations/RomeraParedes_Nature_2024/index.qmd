@@ -1,0 +1,29 @@
+---
+title: "Mathematical discoveries from program search with large language models"
+author: 
+- Romera-Paredes
+- Barekatain
+- Novikov
+- Balog
+- Kumar
+- Dupont
+- Ruiz
+- Ellenberg
+- Wang
+- Fawzi
+- Kohli
+- Fawzi
+publication: "Nature, **625**(7995), 468-475 (2024)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-023-06924-6
+url_preprint: 
+journ: "Nature"
+issue: 625
+page: 468-475
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-023-06924-6
+---

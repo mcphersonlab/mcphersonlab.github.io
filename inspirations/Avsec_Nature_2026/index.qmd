@@ -1,0 +1,45 @@
+---
+title: "Advancing regulatory variant effect prediction with AlphaGenome"
+author: 
+- Avsec
+- Latysheva
+- Cheng
+- Novati
+- Taylor
+- Ward
+- Bycroft
+- Nicolaisen
+- Arvaniti
+- Pan
+- Thomas
+- Dutordoir
+- Perino
+- De
+- Karollus
+- Gayoso
+- Sargeant
+- Mottram
+- Wong
+- Drotár
+- Kosiorek
+- Senior
+- Tanburn
+- Applebaum
+- Basu
+- Hassabis
+- Kohli
+publication: "Nature, **649**(8099), 1206-1218 (2026)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+  - genomics
+url_source: https://doi.org/10.1038/s41586-025-10014-0
+url_preprint: 
+journ: "Nature"
+issue: 649
+page: 1206-1218
+year: 2026
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-10014-0
+---
