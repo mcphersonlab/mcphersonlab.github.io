@@ -1,0 +1,28 @@
+---
+title: "CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields"
+author: 
+- Vanommeslaeghe
+- Hatcher
+- Acharya
+- Kundu
+- Zhong
+- Shim
+- Darian
+- Guvench
+- Lopes
+- Vorobyov
+- Mackerell
+publication: "J Comput Chem, **31**(4), 671-90 (2010)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1002/jcc.21367
+url_preprint: 
+journ: "J Comput Chem"
+issue: 31
+page: 671-90
+year: 2010
+image: ""
+pub_number: 
+doi: 10.1002/jcc.21367
+---

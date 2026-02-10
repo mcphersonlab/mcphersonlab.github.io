@@ -1,0 +1,19 @@
+---
+title: "Density functionals with broad applicability in chemistry"
+author: 
+- Zhao
+- Truhlar
+publication: "Acc Chem Res, **41**(2), 157-67 (2008)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1021/ar700111a
+url_preprint: 
+journ: "Acc Chem Res"
+issue: 41
+page: 157-67
+year: 2008
+image: ""
+pub_number: 
+doi: 10.1021/ar700111a
+---

@@ -1,0 +1,21 @@
+---
+title: "g_mmpbsa--a GROMACS tool for high-throughput MM-PBSA calculations"
+author: 
+- Kumari
+- Kumar
+- Open Source Drug Discovery Consortium
+- Lynn
+publication: "J Chem Inf Model, **54**(7), 1951-62 (2014)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1021/ci500020m
+url_preprint: 
+journ: "J Chem Inf Model"
+issue: 54
+page: 1951-62
+year: 2014
+image: ""
+pub_number: 
+doi: 10.1021/ci500020m
+---

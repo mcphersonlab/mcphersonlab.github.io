@@ -1,0 +1,22 @@
+---
+title: "High-throughput prediction of protein conformational distributions with subsampled AlphaFold2"
+author: 
+- Monteiro da Silva
+- Cui
+- Dalgarno
+- Lisi
+- Rubenstein
+publication: "Nat Commun, **15**(1), 2464 (2024)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41467-024-46715-9
+url_preprint: 
+journ: "Nat Commun"
+issue: 15
+page: 2464
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41467-024-46715-9
+---

@@ -1,0 +1,23 @@
+---
+title: "Augmenting large language models with chemistry tools"
+author: 
+- M Bran
+- Cox
+- Schilter
+- Baldassari
+- White
+- Schwaller
+publication: "Nat Mach Intell, **6**(5), 525-535 (2024)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s42256-024-00832-8
+url_preprint: 
+journ: "Nat Mach Intell"
+issue: 6
+page: 525-535
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s42256-024-00832-8
+---

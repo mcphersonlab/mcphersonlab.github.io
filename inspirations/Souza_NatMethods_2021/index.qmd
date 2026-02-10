@@ -1,0 +1,21 @@
+---
+title: "Martini 3: a general purpose force field for coarse-grained molecular dynamics"
+author: 
+- Souza
+- Alessandri
+- Barnoud
+- et al.
+publication: "Nat Methods, **18**, 382–388 (2021)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41592-021-01098-3
+url_preprint: 
+journ: "Nat Methods"
+issue: 18
+page: 382–388
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41592-021-01098-3
+---

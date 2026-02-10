@@ -1,0 +1,20 @@
+---
+title: "SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules"
+author: 
+- Daina
+- Michielin
+- Zoete
+publication: "Sci Rep, **7**, 42717 (2017)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/srep42717
+url_preprint: 
+journ: "Sci Rep"
+issue: 7
+page: 42717
+year: 2017
+image: ""
+pub_number: 
+doi: 10.1038/srep42717
+---

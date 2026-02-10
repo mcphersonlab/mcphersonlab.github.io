@@ -1,0 +1,21 @@
+---
+title: "MISATO: machine learning dataset of protein–ligand complexes for structure-based drug discovery"
+author: 
+- Siebenmorgen
+- Menezes
+- Benassou
+- et al.
+publication: "Nat Comput Sci, **4**, 367–378 (2024)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s43588-024-00627-2
+url_preprint: 
+journ: "Nat Comput Sci"
+issue: 4
+page: 367–378
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s43588-024-00627-2
+---

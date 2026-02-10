@@ -1,0 +1,34 @@
+---
+title: "CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field"
+author: 
+- Lee
+- Cheng
+- Swails
+- Yeom
+- Eastman
+- Lemkul
+- Wei
+- Buckner
+- Jeong
+- Qi
+- Jo
+- Pande
+- Case
+- Brooks
+- MacKerell
+- Klauda
+- Im
+publication: "J Chem Theory Comput, **12**(1), 405-13 (2016)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1021/acs.jctc.5b00935
+url_preprint: 
+journ: "J Chem Theory Comput"
+issue: 12
+page: 405-13
+year: 2016
+image: ""
+pub_number: 
+doi: 10.1021/acs.jctc.5b00935
+---

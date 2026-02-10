@@ -1,0 +1,24 @@
+---
+title: "BindingDB in 2024: a FAIR knowledgebase of protein-small molecule binding data"
+author: 
+- Liu
+- Hwang
+- Burley
+- Nitsche
+- Southan
+- Walters
+- Gilson
+publication: "Nucleic Acids Res, **53**(D1), D1633-D1644 (2025)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1093/nar/gkae1075
+url_preprint: 
+journ: "Nucleic Acids Res"
+issue: 53
+page: D1633-D1644
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1093/nar/gkae1075
+---

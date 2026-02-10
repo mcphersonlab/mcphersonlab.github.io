@@ -1,0 +1,21 @@
+---
+title: "CHARMM36m: an improved force field for folded and intrinsically disordered proteins"
+author: 
+- Huang
+- Rauscher
+- Nawrocki
+- et al.
+publication: "Nat Methods, **14**, 71–73 (2017)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/nmeth.4067
+url_preprint: 
+journ: "Nat Methods"
+issue: 14
+page: 71–73
+year: 2017
+image: ""
+pub_number: 
+doi: 10.1038/nmeth.4067
+---
