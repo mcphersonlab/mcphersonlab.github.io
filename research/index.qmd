@@ -12,7 +12,7 @@ listing:
       - area/genomics/index.qmd
       - area/structural-biology/index.qmd
       - area/classical-methods/index.qmd
-      - area/organoids/index.qmd
+      - area/advanced-methods/index.qmd
       - area/artificial-intelligence/index.qmd
       - area/economic-analysis/index.qmd
     type: grid

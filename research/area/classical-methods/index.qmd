@@ -25,6 +25,56 @@ listing:
     include: 
       categories: *ALIAS
     fields: [publication, title, categories, image, author]
+    
+  - id: organoid-cardiac
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-cardiac
+    fields: [publication, title, categories, image, author]
+
+  - id: organoid-renal
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-renal
+    fields: [publication, title, categories, image, author]
+
+  - id: organoid-hepatic
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-hepatic
+    fields: [publication, title, categories, image, author]
+    
+  - id: organoid-pulmonary
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-pulmonary
+    fields: [publication, title, categories, image, author]
+
+  - id: organoid-intestinal
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    include: 
+      categories: organoid-intestinal
+    fields: [publication, title, categories, image, author]
 ---
 
 ```{=html}
@@ -37,6 +87,28 @@ listing:
 
 ## Lab Publications
 :::{#pubs}
+:::
+
+## Organoid Research Areas
+
+### Cardiac Organoids ❤️
+:::{#organoid-cardiac}
+:::
+
+### Renal Organoids 🫘
+:::{#organoid-renal}
+:::
+
+### Hepatic Organoids 🫀
+:::{#organoid-hepatic}
+:::
+
+### Pulmonary Organoids 🫁
+:::{#organoid-pulmonary}
+:::
+
+### Intestinal Organoids 🦠
+:::{#organoid-intestinal}
 :::
 
 ## Discussion
