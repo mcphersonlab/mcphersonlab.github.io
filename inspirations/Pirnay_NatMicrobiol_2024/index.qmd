@@ -1,0 +1,20 @@
+---
+title: "Personalized bacteriophage therapy outcomes for 100 consecutive cases: a multicentre, multinational, retrospective observational study"
+author: 
+- Pirnay JP
+- Djebara S
+- Steurs G
+publication: "Nat Microbiol, **9**, 1434–1453 (2024)"
+categories: 
+  - external-publication
+  - antimicrobial-resistance
+url_source: https://doi.org/10.1038/s41564-024-01705-x
+url_preprint: 
+journ: "Nat Microbiol"
+issue: 9
+page: 1434–1453
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41564-024-01705-x
+---

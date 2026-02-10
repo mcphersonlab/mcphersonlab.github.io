@@ -104,6 +104,33 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | National trends in pharmacy education outcomes | AACP Annual | American Journal of Pharmaceutical Education | Academic Medicine |
 | [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | Interactive AI module for pharmacy student communication training | AACP Annual | Nature Medicine | npj Digital Medicine |
 
+### Grants
+
+For more information about NIH funding opportunities, visit [NIH Funding Opportunities](https://grants.nih.gov/funding/explore-nih-opportunities).
+
+| Title (Mechanism) | Agency | Funding Opportunity Number | Close Date |
+|:------------------|:-------|:---------------------------|:-----------|
+| A Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO) | National Science Foundation (NSF) and National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | [23-569](https://www.grants.gov/search-results-detail/356246) | Feb 9, 2026 |
+| Large Research Projects for Combating Antibiotic-Resistant Bacteria (CARB) (R01) | Agency for Healthcare Research and Quality (AHRQ) | [PA-22-047](https://simpler.grants.gov/opportunity/334655) | Oct 30, 2026 |
+| AHRQ Mentored Clinical Scientist Research Career Development Award (K08) | Agency for Healthcare Research and Quality (AHRQ) | [PA-22-232](https://simpler.grants.gov/opportunity/ef9627c9-6dd2-4dc8-a415-ab06d29093ca) | Feb 12, 2027 |
+| Medical Scientist Training Program (MSTP) (T32) | National Institutes of Health (NIH), National Institute of General Medical Sciences (NIGMS) | [PAR-24-128](https://simpler.grants.gov/opportunity/15a7a4eb-9a7e-4737-a6e1-7c3a45194e3d) | Jan 25, 2027 |
+| NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens | Food and Drug Administration (FDA) | [PAR-25-014](https://simpler.grants.gov/opportunity/14c2b96f-e210-4856-8901-f8278996198a) | Apr 1, 2027 |
+| [NIH Small Research Grant Program (Parent R03 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/357805) | National Institutes of Health (NIH) | [PA-25-302](https://simpler.grants.gov/opportunity/357805) | Jan 8, 2028 |
+| Secondary Analysis and Integration of Existing Data to Elucidate Cancer Risk and Related Outcomes (R21 Clinical Trials Not Allowed) | National Institutes of Health (NIH), National Cancer Institute (NCI) | [PAR-25-096](https://simpler.grants.gov/opportunity/357205) | Feb 16, 2026 |
+| NIDCR Research Grants for Analyses of Existing Genomics Data (R01 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | [PAR-25-164](https://simpler.grants.gov/opportunity/8901ffb6-363f-475c-a8e5-899c2d1fbdf1) | Jun 5, 2025 |
+| NIDCR Small Research Grants for Analyses of Existing Genomics Data (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | [PAR-25-166](https://simpler.grants.gov/opportunity/a518002e-a4c4-4bbd-9b62-aeb05f8288f7) | Jun 16, 2025 |
+| Investigator Initiated Innovation in Computational Genomics and Data Science (R01 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) and National Library of Medicine (NLM) | [PAR-25-228](https://simpler.grants.gov/opportunity/357194) | Sep 8, 2027 |
+| NEI Research Grant for Vision-Related Secondary Data Analysis (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Eye Institute (NEI) | [PAR-25-357](https://simpler.grants.gov/opportunity/4767321c-d902-4914-b62d-48bd9453cbd1) | Oct 16, 2027 |
+| Accelerating Research Translation (ART) | National Science Foundation (NSF) | [25-548](https://www.grants.gov/search-results-detail/361044) | Jan 15, 2026 |
+| Enhancing Reuse of NHGRI Data Assets (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Human Genome Research Institute (NHGRI) | [RFA-HG-25-005](https://simpler.grants.gov/opportunity/357170) | Feb 15, 2026 |
+| [BRAIN Initiative: Theories, Models and Methods for Analysis of Complex Data from the Brain (R01 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/359068) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | [RFA-DA-27-004](https://simpler.grants.gov/opportunity/359068) | Oct 28, 2025 |
+| Accelerating the Pace of Substance Use Research Using Existing Data (R21 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute on Drug Abuse (NIDA) | [RFA-DA-26-056](https://simpler.grants.gov/opportunity/357545) | Dec 3, 2027 |
+| NIDCR Small Research Grants for Dental, Oral, and Craniofacial Health-related Data Analyses and Statistical or Computational Methodology Development (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH), National Institute of Dental and Craniofacial Research (NIDCR) | [NOT-DE-26-008](https://simpler.grants.gov/opportunity/359129) | Dec 12, 2025 |
+| Using Archived Data and Specimen Collections to Advance Maternal and Pediatric HIV/AIDS Research | National Institutes of Health (NIH), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) | [FOR-HD-25-023](https://simpler.grants.gov/opportunity/358627) | Jan 2, 2026 |
+| Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial Optional) | National Institutes of Health (NIH) | [PAR-26-040](https://simpler.grants.gov/opportunity/ca108e77-69f6-4d3a-9723-a1353076a4ad) | Feb 4, 2026 |
+| Economic and Modeling Analyses to Support Immunization Policy and Programs | Centers for Disease Control and Prevention (CDC) | [RFA-IP-26-032](https://simpler.grants.gov/opportunity/5f66747e-3c8a-4920-a9f4-0f398a5c91ce) | TBD |
+| Building Sustainable Software Tools for Open Science (R03 Clinical Trial Not Allowed) | National Institutes of Health (NIH) | [RFA-OD-26-034](https://simpler.grants.gov/opportunity/67d97081-2134-43c3-8257-14a67f20222c) | May 23, 2025 |
+| Summer Institute for Research Education in Biostatistics and Data Science | National Institutes of Health (NIH), National Heart, Lung, and Blood Institute (NHLBI) | [RFA-HL-27-006](https://simpler.grants.gov/opportunity/bfc61fde-b048-4f6f-8a14-15e6d2abdc30) | Jul 1, 2026 |
 
 ### Contributing to Projects
 

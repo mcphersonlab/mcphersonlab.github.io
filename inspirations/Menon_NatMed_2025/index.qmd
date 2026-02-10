@@ -1,0 +1,28 @@
+---
+title: "Multi-omic profiling a defined bacterial consortium for treatment of recurrent Clostridioides difficile infection"
+author: 
+- Menon R
+- Bhattarai SK
+- Crossette E
+- Prince AL
+- Olle B
+- Silber JL
+- Bucci V
+- Faith J
+- Norman JM
+publication: "Nat Med, **31**, 223–234 (2025)"
+categories: 
+  - external-publication
+  - infectious-diseases
+  - antimicrobial-resistance
+  - human-gut-microbiome
+url_source: https://doi.org/10.1038/s41591-024-03337-4
+url_preprint: 
+journ: "Nat Med"
+issue: 31
+page: 223–234
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41591-024-03337-4
+---
