@@ -1,0 +1,21 @@
+---
+title: "Tutorial: guidelines for the computational analysis of single-cell RNA sequencing data"
+author: 
+- Andrews
+- Kiselev
+- McCarthy
+- et al.
+publication: "Nat Protoc, **16**, 1–9 (2021)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1038/s41596-020-00409-w
+url_preprint: 
+journ: "Nat Protoc"
+issue: 16
+page: 1–9
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41596-020-00409-w
+---

@@ -1,0 +1,21 @@
+---
+title: "Mapping the topography of spatial gene expression with interpretable deep learning"
+author: 
+- Chitra
+- Arnold
+- Sarkar
+- et al.
+publication: "Nat Methods, **22**, 298–309 (2025)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1038/s41592-024-02503-3
+url_preprint: 
+journ: "Nat Methods"
+issue: 22
+page: 298–309
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41592-024-02503-3
+---

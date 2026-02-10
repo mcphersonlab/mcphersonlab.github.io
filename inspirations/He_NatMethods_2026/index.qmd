@@ -1,0 +1,21 @@
+---
+title: "Squidiff: predicting cellular development and responses to perturbations using a diffusion model"
+author: 
+- He
+- Zhu
+- Tavakol
+- et al.
+publication: "Nat Methods, **23**, 65–77 (2026)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41592-025-02877-y
+url_preprint: 
+journ: "Nat Methods"
+issue: 23
+page: 65–77
+year: 2026
+image: ""
+pub_number: 
+doi: 10.1038/s41592-025-02877-y
+---

@@ -1,0 +1,21 @@
+---
+title: "Spatially resolved mapping of cells associated with human complex traits"
+author: 
+- Song
+- Chen
+- Hou
+- et al.
+publication: "Nature, **641**, 932–941 (2025)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1038/s41586-025-08757-x
+url_preprint: 
+journ: "Nature"
+issue: 641
+page: 932–941
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-08757-x
+---

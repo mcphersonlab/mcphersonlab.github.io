@@ -1,0 +1,21 @@
+---
+title: "A multimodal sleep foundation model for disease prediction"
+author: 
+- Thapa
+- Kjaer
+- He
+- et al.
+publication: "Nat Med (2026)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41591-025-04133-4
+url_preprint: 
+journ: "Nat Med"
+issue: 
+page: 
+year: 2026
+image: ""
+pub_number: 
+doi: 10.1038/s41591-025-04133-4
+---
