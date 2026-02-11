@@ -1,0 +1,21 @@
+---
+title: "Is regulatory science ready for artificial intelligence?"
+author: 
+- Hartung
+- Whelan
+- Tong
+- et al.
+publication: "npj Digit. Med., **8**, 200 (2025)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1038/s41746-025-01596-0
+url_preprint: 
+journ: "npj Digit. Med."
+issue: 8
+page: 200
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41746-025-01596-0
+---

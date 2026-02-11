@@ -1,0 +1,21 @@
+---
+title: "Costs of Drug Development and Research and Development Intensity in the US, 2000-2018"
+author: 
+- Sertkaya
+- Beleche
+- Jessup
+- Sommers
+publication: "JAMA Netw Open, **7**(6), e2415445 (2024)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1001/jamanetworkopen.2024.15445
+url_preprint: 
+journ: "JAMA Netw Open"
+issue: 7
+page: e2415445
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1001/jamanetworkopen.2024.15445
+---

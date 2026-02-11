@@ -1,0 +1,21 @@
+---
+title: "Artificial intelligence in drug development"
+author: 
+- Zhang
+- Yang
+- Wang
+- et al.
+publication: "Nat Med, **31**, 45–59 (2025)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1038/s41591-024-03434-4
+url_preprint: 
+journ: "Nat Med"
+issue: 31
+page: 45–59
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41591-024-03434-4
+---

@@ -1,0 +1,25 @@
+---
+title: "Bacterial droplet-based single-cell RNA-seq reveals antibiotic-associated heterogeneous cellular states"
+author: 
+- Ma
+- Amemiya
+- He
+- Gandhi
+- Nicol
+- Bhattacharyya
+- Smillie
+- Hung
+publication: "Cell, **186**(4), 877-891.e14 (2023)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1016/j.cell.2023.01.002
+url_preprint: 
+journ: "Cell"
+issue: 186
+page: 877-891.e14
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1016/j.cell.2023.01.002
+---

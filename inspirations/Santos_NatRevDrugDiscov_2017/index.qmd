@@ -1,0 +1,21 @@
+---
+title: "A comprehensive map of molecular drug targets"
+author: 
+- Santos
+- Ursu
+- Gaulton
+- et al.
+publication: "Nat Rev Drug Discov, **16**, 19–34 (2017)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1038/nrd.2016.230
+url_preprint: 
+journ: "Nat Rev Drug Discov"
+issue: 16
+page: 19–34
+year: 2017
+image: ""
+pub_number: 
+doi: 10.1038/nrd.2016.230
+---

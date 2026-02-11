@@ -1,0 +1,20 @@
+---
+title: "Human disease models in drug development"
+author: 
+- Loewa
+- Feng
+- Hedtrich
+publication: "Nat Rev Bioeng, **1**, 545–559 (2023)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1038/s44222-023-00063-3
+url_preprint: 
+journ: "Nat Rev Bioeng"
+issue: 1
+page: 545–559
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/s44222-023-00063-3
+---

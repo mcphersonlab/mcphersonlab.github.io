@@ -1,0 +1,19 @@
+---
+title: "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective"
+author: 
+- Zaidan
+- Ibrahim
+publication: "Humanit Soc Sci Commun, **11**, 1121 (2024)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1057/s41599-024-03560-x
+url_preprint: 
+journ: "Humanit Soc Sci Commun"
+issue: 11
+page: 1121
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1057/s41599-024-03560-x
+---

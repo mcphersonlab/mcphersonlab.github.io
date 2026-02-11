@@ -1,0 +1,21 @@
+---
+title: "High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer"
+author: 
+- Oliveira
+- Romero
+- Chung
+- et al.
+publication: "Nat Genet, **57**, 1512–1523 (2025)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1038/s41588-025-02193-3
+url_preprint: 
+journ: "Nat Genet"
+issue: 57
+page: 1512–1523
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41588-025-02193-3
+---
