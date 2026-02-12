@@ -1,0 +1,36 @@
+---
+title: "Human-level control through deep reinforcement learning"
+author: 
+- Mnih
+- Kavukcuoglu
+- Silver
+- Rusu
+- Veness
+- Bellemare
+- Graves
+- Riedmiller
+- Fidjeland
+- Ostrovski
+- Petersen
+- Beattie
+- Sadik
+- Antonoglou
+- King
+- Kumaran
+- Wierstra
+- Legg
+- Hassabis
+publication: "Nature, **518**(7540), 529-33 (2015)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/nature14236
+url_preprint: 
+journ: "Nature"
+issue: 518
+page: 529-33
+year: 2015
+image: ""
+pub_number: 
+doi: 10.1038/nature14236
+---

@@ -1,0 +1,23 @@
+---
+title: "Avogadro: an advanced semantic chemical editor, visualization, and analysis platform"
+author: 
+- Hanwell
+- Curtis
+- Lonie
+- Vandermeersch
+- Zurek
+- Hutchison
+publication: "J Cheminform, **4**(1), 17 (2012)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1186/1758-2946-4-17
+url_preprint: 
+journ: "J Cheminform"
+issue: 4
+page: 17
+year: 2012
+image: ""
+pub_number: 
+doi: 10.1186/1758-2946-4-17
+---

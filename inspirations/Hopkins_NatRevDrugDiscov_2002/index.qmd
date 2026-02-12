@@ -1,0 +1,19 @@
+---
+title: "The druggable genome"
+author: 
+- Hopkins
+- Groom
+publication: "Nat Rev Drug Discov, **1**, 727–730 (2002)"
+categories: 
+  - external-publication
+  - drug-development
+url_source: https://doi.org/10.1038/nrd892
+url_preprint: 
+journ: "Nat Rev Drug Discov"
+issue: 1
+page: 727–730
+year: 2002
+image: ""
+pub_number: 
+doi: 10.1038/nrd892
+---

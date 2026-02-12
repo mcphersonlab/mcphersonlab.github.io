@@ -1,0 +1,23 @@
+---
+title: "Computational modeling of realistic cell membranes"
+author: 
+- Marrink
+- Corradi
+- Souza
+- Ingolfsson
+- Tieleman
+- Sansom
+publication: "Chemical reviews, **119**(9), 6184-6226 (2019)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1021/acs.chemrev.8b00460
+url_preprint: 
+journ: "Chemical reviews"
+issue: 119
+page: 6184-6226
+year: 2019
+image: ""
+pub_number: 
+doi: 10.1021/acs.chemrev.8b00460
+---

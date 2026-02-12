@@ -1,0 +1,21 @@
+---
+title: "Navigating protein landscapes with a machine-learned transferable coarse-grained model"
+author: 
+- Charron
+- Bonneau
+- Pasos-Trejo
+- et al.
+publication: "Nat. Chem., **17**, 1284–1292 (2025)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41557-025-01874-0
+url_preprint: 
+journ: "Nat. Chem."
+issue: 17
+page: 1284–1292
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41557-025-01874-0
+---

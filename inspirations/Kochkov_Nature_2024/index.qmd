@@ -1,0 +1,33 @@
+---
+title: "Neural general circulation models for weather and climate"
+author: 
+- Kochkov
+- Yuval
+- Langmore
+- Norgaard
+- Smith
+- Mooers
+- Klöwer
+- Lottes
+- Rasp
+- Düben
+- Hatfield
+- Battaglia
+- Sanchez-Gonzalez
+- Willson
+- Brenner
+- Hoyer
+publication: "Nature, **632**(8027), 1060-1066 (2024)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-024-07744-y
+url_preprint: 
+journ: "Nature"
+issue: 632
+page: 1060-1066
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-024-07744-y
+---

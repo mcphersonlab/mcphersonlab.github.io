@@ -1,0 +1,29 @@
+---
+title: "Probabilistic weather forecasting with machine learning"
+author: 
+- Price
+- Sanchez-Gonzalez
+- Alet
+- Andersson
+- El-Kadi
+- Masters
+- Ewalds
+- Stott
+- Mohamed
+- Battaglia
+- Lam
+- Willson
+publication: "Nature, **637**(8044), 84-90 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-024-08252-9
+url_preprint: 
+journ: "Nature"
+issue: 637
+page: 84-90
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-024-08252-9
+---

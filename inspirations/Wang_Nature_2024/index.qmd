@@ -1,0 +1,32 @@
+---
+title: "Ab initio characterization of protein molecular dynamics with AI2BMD"
+author: 
+- Wang
+- He
+- Li
+- Li
+- Bi
+- Wang
+- Cheng
+- Shen
+- Meng
+- Zhang
+- Liu
+- Wang
+- Li
+- Shao
+- Liu
+publication: "Nature, **635**(8040), 1019-1027 (2024)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41586-024-08127-z
+url_preprint: 
+journ: "Nature"
+issue: 635
+page: 1019-1027
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s41586-024-08127-z
+---

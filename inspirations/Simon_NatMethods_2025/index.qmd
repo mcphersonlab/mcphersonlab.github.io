@@ -1,0 +1,19 @@
+---
+title: "InterPLM: discovering interpretable features in protein language models via sparse autoencoders"
+author: 
+- Simon
+- Zou
+publication: "Nat Methods, **22**, 2107–2117 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41592-025-02836-7
+url_preprint: 
+journ: "Nat Methods"
+issue: 22
+page: 2107–2117
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41592-025-02836-7
+---

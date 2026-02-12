@@ -1,0 +1,21 @@
+---
+title: "An open source machine learning framework for efficient and transparent systematic reviews"
+author: 
+- van de Schoot
+- de Bruin
+- Schram
+- et al.
+publication: "Nat Mach Intell, **3**, 125–133 (2021)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s42256-020-00287-7
+url_preprint: 
+journ: "Nat Mach Intell"
+issue: 3
+page: 125–133
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s42256-020-00287-7
+---

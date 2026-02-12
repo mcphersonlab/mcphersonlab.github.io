@@ -1,0 +1,24 @@
+---
+title: "SwissDock 2024: major enhancements for small-molecule docking with Attracting Cavities and AutoDock Vina"
+author: 
+- Bugnon
+- Röhrig
+- Goullieux
+- Perez
+- Daina
+- Michielin
+- Zoete
+publication: "Nucleic Acids Res, **52**(W1), W324-W332 (2024)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1093/nar/gkae300
+url_preprint: 
+journ: "Nucleic Acids Res"
+issue: 52
+page: W324-W332
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1093/nar/gkae300
+---

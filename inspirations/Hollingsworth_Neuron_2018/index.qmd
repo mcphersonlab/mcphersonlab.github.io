@@ -1,0 +1,19 @@
+---
+title: "Molecular Dynamics Simulation for All"
+author: 
+- Hollingsworth
+- Dror
+publication: "Neuron, **99**(6), 1129-1143 (2018)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1016/j.neuron.2018.08.011
+url_preprint: 
+journ: "Neuron"
+issue: 99
+page: 1129-1143
+year: 2018
+image: ""
+pub_number: 
+doi: 10.1016/j.neuron.2018.08.011
+---

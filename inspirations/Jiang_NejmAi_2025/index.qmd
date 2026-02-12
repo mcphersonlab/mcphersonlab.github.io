@@ -1,0 +1,24 @@
+---
+title: "MedAgentBench: a virtual EHR environment to benchmark medical LLM agents"
+author: 
+- Jiang
+- Black
+- Geng
+- Park
+- Zou
+- Ng
+- Chen
+publication: "NEJM AI, **2**(9), AIdbp2500144 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1056/AIdbp2500144
+url_preprint: 
+journ: "NEJM AI"
+issue: 2
+page: AIdbp2500144
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1056/AIdbp2500144
+---

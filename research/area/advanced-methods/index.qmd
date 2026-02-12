@@ -1,0 +1,58 @@
+---
+title: Advanced Methods 🔬
+alias: &ALIAS advanced-methods
+image: featured.png
+listing:
+  - id: pubs
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../publications/_template/"
+      - "../../../publications/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: *ALIAS
+    fields: [publication, title, categories, image, author]
+  - id: inspirations
+    template: ../../../_ejs/publications-people.ejs 
+    contents: 
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
+    sort: "pub_number desc"
+    # sort-ui: true
+    # filter-ui: true
+    include: 
+      categories: *ALIAS
+    fields: [publication, title, categories, image, author]
+---
+
+```{=html}
+<iframe src="advanced_methods_research_banner.html" width="100%" height="450px" frameborder="0" style="border-radius: 20px; margin-bottom: 2rem;"></iframe>
+```
+
+## Inspirational Works
+:::{#inspirations}
+:::
+
+## Lab Publications
+:::{#pubs}
+:::
+
+## Discussion
+
+<script src="https://giscus.app/client.js"
+        data-repo="mcphersonlab/mcphersonlab.github.io"
+        data-repo-id="R_kgDONbxl1w"
+        data-category="General"
+        data-category-id="DIC_kwDONbxl184Clk75"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

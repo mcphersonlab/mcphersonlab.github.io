@@ -1,0 +1,18 @@
+---
+title: "Method of the Year: spatially resolved transcriptomics"
+author: 
+- Marx
+publication: "Nat Methods, **18**, 9–14 (2021)"
+categories: 
+  - external-publication
+  - advanced-methods
+url_source: https://doi.org/10.1038/s41592-020-01033-y
+url_preprint: 
+journ: "Nat Methods"
+issue: 18
+page: 9–14
+year: 2021
+image: ""
+pub_number: 
+doi: 10.1038/s41592-020-01033-y
+---

@@ -1,0 +1,22 @@
+---
+title: "Modeling protein conformational ensembles by guiding AlphaFold2 with Double Electron Electron Resonance (DEER) distance distributions"
+author: 
+- Wu
+- Stein
+- Kao
+- Brown
+- Mchaourab
+publication: "Nat Commun, **16**(1), 7107 (2025)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s41467-025-62582-4
+url_preprint: 
+journ: "Nat Commun"
+issue: 16
+page: 7107
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41467-025-62582-4
+---

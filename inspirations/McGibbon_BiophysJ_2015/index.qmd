@@ -1,0 +1,27 @@
+---
+title: "MDTraj: A Modern Open Library for the Analysis of Molecular Dynamics Trajectories"
+author: 
+- McGibbon
+- Beauchamp
+- Harrigan
+- Klein
+- Swails
+- Hernández
+- Schwantes
+- Wang
+- Lane
+- Pande
+publication: "Biophys J, **109**(8), 1528-32 (2015)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1016/j.bpj.2015.08.015
+url_preprint: 
+journ: "Biophys J"
+issue: 109
+page: 1528-32
+year: 2015
+image: ""
+pub_number: 
+doi: 10.1016/j.bpj.2015.08.015
+---

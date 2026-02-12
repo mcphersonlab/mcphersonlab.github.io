@@ -1,0 +1,20 @@
+---
+title: "pkCSM: Predicting Small-Molecule Pharmacokinetic and Toxicity Properties Using Graph-Based Signatures"
+author: 
+- Pires
+- Blundell
+- Ascher
+publication: "J Med Chem, **58**(9), 4066-72 (2015)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1021/acs.jmedchem.5b00104
+url_preprint: 
+journ: "J Med Chem"
+issue: 58
+page: 4066-72
+year: 2015
+image: ""
+pub_number: 
+doi: 10.1021/acs.jmedchem.5b00104
+---

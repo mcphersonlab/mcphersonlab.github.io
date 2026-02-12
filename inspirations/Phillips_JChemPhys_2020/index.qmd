@@ -1,0 +1,40 @@
+---
+title: "Scalable molecular dynamics on CPU and GPU architectures with NAMD"
+author: 
+- Phillips
+- Hardy
+- Maia
+- Stone
+- Ribeiro
+- Bernardi
+- Buch
+- Fiorin
+- Hénin
+- Jiang
+- McGreevy
+- Melo
+- Radak
+- Skeel
+- Singharoy
+- Wang
+- Roux
+- Aksimentiev
+- Luthey-Schulten
+- Kalé
+- Schulten
+- Chipot
+- Tajkhorshid
+publication: "J Chem Phys, **153**(4), 044130 (2020)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1063/5.0014475
+url_preprint: 
+journ: "J Chem Phys"
+issue: 153
+page: 044130
+year: 2020
+image: ""
+pub_number: 
+doi: 10.1063/5.0014475
+---

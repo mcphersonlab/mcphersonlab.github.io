@@ -1,0 +1,37 @@
+---
+title: "Mastering the game of Go with deep neural networks and tree search"
+author: 
+- Silver
+- Huang
+- Maddison
+- Guez
+- Sifre
+- van den Driessche
+- Schrittwieser
+- Antonoglou
+- Panneershelvam
+- Lanctot
+- Dieleman
+- Grewe
+- Nham
+- Kalchbrenner
+- Sutskever
+- Lillicrap
+- Leach
+- Kavukcuoglu
+- Graepel
+- Hassabis
+publication: "Nature, **529**(7587), 484-9 (2016)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/nature16961
+url_preprint: 
+journ: "Nature"
+issue: 529
+page: 484-9
+year: 2016
+image: ""
+pub_number: 
+doi: 10.1038/nature16961
+---

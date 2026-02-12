@@ -1,0 +1,19 @@
+---
+title: "The MM/PBSA and MM/GBSA methods to estimate ligand-binding affinities"
+author: 
+- Genheden
+- Ryde
+publication: "Expert Opin Drug Discov, **10**(5), 449-61 (2015)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1517/17460441.2015.1032936
+url_preprint: 
+journ: "Expert Opin Drug Discov"
+issue: 10
+page: 449-61
+year: 2015
+image: ""
+pub_number: 
+doi: 10.1517/17460441.2015.1032936
+---
