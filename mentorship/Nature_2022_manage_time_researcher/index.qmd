@@ -1,0 +1,18 @@
+---
+title: "How to manage your time as a researcher"
+author: 
+- Nature Editorial
+publication: "Nature (2022)"
+categories: 
+  - mentorship
+  - careers
+href: https://www.nature.com/articles/d41586-022-04364-2
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2022
+image: ""
+pub_number: 
+doi: 10.1038/d41586-022-04364-2
+---
