@@ -84,13 +84,22 @@ img {
 
 /* Fix featured image display consistency in grid listings */
 /* Ensure consistent sizing across all grid items */
+/* Use object-fit: contain to show full image without cropping/squishing */
+/* Images with 2:1 aspect ratio (1200x600) will display properly */
 .quarto-grid-item .card-img,
 .quarto-grid-item .card-img-top,
-.quarto-grid-item img.thumbnail-image {
-  object-fit: cover;
+.quarto-grid-item img.thumbnail-image,
+.quarto-grid-item img.thumbnail-image.card-img {
+  object-fit: contain;
   width: 100%;
   height: 150px !important;
   object-position: center;
+}
+
+/* Specific styling for people/alumni page profile images */
+/* Use object-fit: cover for profile photos to fill the container */
+.quarto-grid-item img.listing-box-image {
+  object-fit: cover !important;
 }
 
 /* Footer styling */
