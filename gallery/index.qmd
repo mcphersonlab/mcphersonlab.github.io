@@ -1,0 +1,46 @@
+---
+title: "Gallery"
+page-layout: full
+---
+
+## Images
+
+![Texas Advanced Computing Center facilities](images/tacc.jpg){fig-alt="Texas Advanced Computing Center facilities"}
+
+## Video
+
+### Nature Video
+
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://www.youtube.com/embed/videoseries?list=UU7c8mE90qCtu11z47U0KErg"
+        width="80%" height="400" frameborder="0"
+        allowfullscreen=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        loading="lazy">
+</iframe>
+```
+
+### Science Magazine
+
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://www.youtube.com/embed/videoseries?list=UUv0aU2eKry3kdSTnFa8QAWA"
+        width="80%" height="400" frameborder="0"
+        allowfullscreen=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        loading="lazy">
+</iframe>
+```
+
+### JAMA
+
+```{=html}
+<iframe style="border-radius:12px"
+        src="https://www.youtube.com/embed/videoseries?list=UU4p6bEngiRCN7TyTxZVJ3OQ"
+        width="80%" height="400" frameborder="0"
+        allowfullscreen=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        loading="lazy">
+</iframe>
+```

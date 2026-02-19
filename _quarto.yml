@@ -39,6 +39,9 @@ website:
         text: Join
 
     right:
+      - icon: images
+        href: gallery/index.qmd
+        aria-label: Gallery
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
