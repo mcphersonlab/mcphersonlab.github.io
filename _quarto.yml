@@ -42,6 +42,7 @@ website:
       - icon: images
         href: gallery/index.qmd
         aria-label: Gallery
+        text: ""
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
@@ -66,7 +67,7 @@ website:
       - icon: book
         href: https://www.webofscience.com/wos/author/record/OZF-0932-2025
         aria-label: WOS
-      - icon: mortarboard-fill
+      - icon: mortarboard
         href: https://scholar.google.com/citations?user=MsZPCoIAAAAJ&hl=en
         aria-label: Google Scholar
       - icon: envelope
