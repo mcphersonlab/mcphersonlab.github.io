@@ -96,6 +96,12 @@ img {
   object-position: center;
 }
 
+/* Specific styling for people/alumni page profile images */
+/* Use object-fit: cover for profile photos to fill the container */
+.quarto-grid-item img.listing-box-image {
+  object-fit: cover !important;
+}
+
 /* Footer styling */
 .footer {
   margin-top: 3rem;
