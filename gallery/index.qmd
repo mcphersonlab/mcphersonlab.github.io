@@ -12,9 +12,9 @@ page-layout: full
 ### Nature Video
 
 ```{=html}
-<iframe style="border-radius:12px"
+<iframe style="border-radius:12px; border: none;"
         src="https://www.youtube.com/embed/videoseries?list=UU7c8mE90qCtu11z47U0KErg"
-        width="80%" height="400" frameborder="0"
+        width="80%" height="400"
         title="Nature Video YouTube playlist"
         allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,9 +25,9 @@ page-layout: full
 ### Science Magazine
 
 ```{=html}
-<iframe style="border-radius:12px"
+<iframe style="border-radius:12px; border: none;"
         src="https://www.youtube.com/embed/videoseries?list=UUv0aU2eKry3kdSTnFa8QAWA"
-        width="80%" height="400" frameborder="0"
+        width="80%" height="400"
         title="Science Magazine YouTube playlist"
         allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -38,9 +38,9 @@ page-layout: full
 ### JAMA
 
 ```{=html}
-<iframe style="border-radius:12px"
+<iframe style="border-radius:12px; border: none;"
         src="https://www.youtube.com/embed/videoseries?list=UU4p6bEngiRCN7TyTxZVJ3OQ"
-        width="80%" height="400" frameborder="0"
+        width="80%" height="400"
         title="JAMA YouTube playlist"
         allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
