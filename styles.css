@@ -100,6 +100,17 @@ img {
 /* Use object-fit: cover for profile photos to fill the container */
 .quarto-grid-item img.listing-box-image {
   object-fit: cover !important;
+  height: 200px !important;
+}
+
+/* Increase height of profile picture container in people listing */
+.quarto-grid-item .card-img-top:has(.listing-box-image) {
+  height: 200px !important;
+}
+
+/* Hide Gallery text label from right navbar - icon-only display */
+.navbar-nav .nav-link .bi-images ~ .menu-text {
+  display: none;
 }
 
 /* Footer styling */
