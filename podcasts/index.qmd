@@ -1,5 +1,6 @@
 ---
 title: "Podcasts"
+page-layout: full
 ---
 
 ### Nature
