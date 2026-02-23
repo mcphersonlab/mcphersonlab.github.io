@@ -43,7 +43,7 @@ website:
         href: gallery/index.qmd
         aria-label: Gallery
       - icon: mic
-        href: podcasts/index.qmd
+        href: podcasts/
         aria-label: Podcasts
       - icon: github
         href: https://github.com/McPhersonLab
