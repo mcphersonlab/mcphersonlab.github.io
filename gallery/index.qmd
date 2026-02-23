@@ -9,41 +9,84 @@ page-layout: full
 
 ## Video
 
-### Nature Video
-
 ```{=html}
-<iframe style="border-radius:12px; border: none;"
-        src="https://www.youtube.com/embed/videoseries?list=UU7c8mE90qCtu11z47U0KErg"
-        width="80%" height="400"
-        title="Nature Video YouTube playlist"
-        allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        loading="lazy">
-</iframe>
-```
-
-### Science Magazine
-
-```{=html}
-<iframe style="border-radius:12px; border: none;"
-        src="https://www.youtube.com/embed/videoseries?list=UUv0aU2eKry3kdSTnFa8QAWA"
-        width="80%" height="400"
-        title="Science Magazine YouTube playlist"
-        allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        loading="lazy">
-</iframe>
-```
-
-### JAMA
-
-```{=html}
-<iframe style="border-radius:12px; border: none;"
-        src="https://www.youtube.com/embed/videoseries?list=UU4p6bEngiRCN7TyTxZVJ3OQ"
-        width="80%" height="400"
-        title="JAMA YouTube playlist"
-        allowfullscreen
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        loading="lazy">
-</iframe>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+  <div>
+    <h3>Nature</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UU7c8mE90qCtu11z47U0KErg"
+            width="100%" height="400"
+            title="Nature YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>Science</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UUv0aU2eKry3kdSTnFa8QAWA"
+            width="100%" height="400"
+            title="Science YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>Scientific American</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UU_xYMXx_-mAzheKyEtwtCAQ"
+            width="100%" height="400"
+            title="Scientific American YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>JAMA</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UU4p6bEngiRCN7TyTxZVJ3OQ"
+            width="100%" height="400"
+            title="JAMA YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>Cell</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UUlSV2Tk7x-wBBXP6-VCNbNw"
+            width="100%" height="400"
+            title="Cell YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>The Lancet</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UU0-vwPmp-nmu_Huza_nq0AA"
+            width="100%" height="400"
+            title="The Lancet YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>NEJM</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UUqO3GxVYutcugyknCWdAcUA"
+            width="100%" height="400"
+            title="NEJM YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+</div>
 ```
