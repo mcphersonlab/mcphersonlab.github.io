@@ -55,6 +55,8 @@ jupyter: python3
 ::: {#science}
 :::
 
+### YouTube Playlists
+
 ```{=html}
 <iframe style="border-radius:12px"
         src="https://www.youtube.com/embed/videoseries?list=PLPaY3vQLR3iSJHl_-VoaqoxWBU2GOsw2F" 
