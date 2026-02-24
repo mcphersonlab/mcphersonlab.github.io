@@ -9,6 +9,8 @@ page-layout: full
 
 ## Video
 
+### Channels
+
 ```{=html}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
   <div>
@@ -83,6 +85,46 @@ page-layout: full
             src="https://www.youtube.com/embed/videoseries?list=UUqO3GxVYutcugyknCWdAcUA"
             width="100%" height="400"
             title="NEJM YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>ASM</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://www.youtube.com/embed/videoseries?list=UCBxWzf49gVHz0Ksgw_N8brw"
+            width="100%" height="400"
+            title="ASM YouTube playlist"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+</div>
+```
+
+### Seminar Series
+
+```{=html}
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+  <div>
+    <h3>J of Virology</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://youtube.com/playlist?list=PL1DFmJFZvefhMUGos9ZS60bxaSwt20AzT"
+            width="100%" height="400"
+            title="J Virology Seminar Series"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            loading="lazy">
+    </iframe>
+  </div>
+  <div>
+    <h3>HSPH Epidemiology</h3>
+    <iframe style="border-radius:12px; border: none;"
+            src="https://youtube.com/playlist?list=PLkt0Sm-85E-JnWdnXQnExMoLHEnyoJ7aF"
+            width="100%" height="400"
+            title="Harvard School of Public Health Dept of Epidemiology Seminar Series"
             allowfullscreen
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             loading="lazy">
