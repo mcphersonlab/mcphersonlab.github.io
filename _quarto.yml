@@ -34,10 +34,6 @@ website:
       - icon: people
         text: People
         href: people/index.qmd
-      - icon: person-plus
-        href: people/join.qmd
-        text: Join
-
     right:
       - icon: images
         href: gallery/index.qmd
@@ -45,6 +41,9 @@ website:
       - icon: mic
         href: podcasts/
         aria-label: Podcasts
+      - icon: person-plus
+        href: people/join.qmd
+        aria-label: Join
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
