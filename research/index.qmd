@@ -6,6 +6,11 @@ listing:
       - area/infectious-diseases/index.qmd
       - area/antimicrobial-resistance/index.qmd
       - area/microbiome/index.qmd
+    type: grid
+    fields: [image, title]
+    sort: false  # Disable sorting to maintain custom research area order
+  - id: research-approaches
+    contents: 
       - area/pharmacology/index.qmd
       - area/medicinal-chemistry/index.qmd
       - area/drug-development/index.qmd
@@ -63,9 +68,14 @@ page-layout: full
 jupyter: python3
 ---
 
-## Research Areas
+## Interests
 
 ::: {#research-areas}
+:::
+
+## Approaches
+
+::: {#research-approaches}
 :::
 
 Find more at our [Projects](projects.qmd) and target [Indications](area/infectious-diseases/index.qmd) pages.
