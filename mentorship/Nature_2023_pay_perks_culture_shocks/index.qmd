@@ -1,0 +1,18 @@
+---
+title: "Pay, perks and culture shocks: a toolkit for scientists moving to industry"
+author: 
+- Nature Editorial
+publication: "Nature (2023)"
+categories: 
+  - mentorship
+  - careers
+href: https://www.nature.com/articles/d41586-023-01971-5
+url_preprint: 
+journ: "Nature"
+issue: 
+page: 
+year: 2023
+image: ""
+pub_number: 
+doi: 10.1038/d41586-023-01971-5
+---
