@@ -1,0 +1,18 @@
+---
+title: "[Masterclass] Getting an Academic Research Position"
+author: 
+- Nature Masterclasses
+publication: "Nature Masterclasses"
+categories: 
+  - mentorship
+  - careers
+href: https://masterclasses.nature.com/online-course-getting-an-academic-research-position/24079034
+url_preprint: 
+journ: "Nature Masterclasses"
+issue: 
+page: 
+year: 
+image: ""
+pub_number: 
+doi: 
+---
