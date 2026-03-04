@@ -40,7 +40,7 @@ page-layout: full
 jupyter: python3
 ---
 
-## Educational
+## Learning Materials
 
 ::: {#education}
 :::
