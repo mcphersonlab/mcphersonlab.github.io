@@ -26,9 +26,7 @@ author:
 publication: "Nat Med, **32**, 186–196 (2026)"
 categories: 
   - external-publication
-  - infectious-diseases
-  - antimicrobial-resistance
-  - human-gut-microbiome
+  - microbiome-cdi
 url_source: https://doi.org/10.1038/s41591-025-04076-w
 url_preprint: 
 journ: "Nat Med"

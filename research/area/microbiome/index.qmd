@@ -35,7 +35,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: cdi
+      categories: microbiome-cdi
     fields: [publication, title, categories, image, author]
     
   - id: ici
@@ -47,7 +47,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: ici
+      categories: microbiome-ici
     fields: [publication, title, categories, image, author]
     
   - id: crc
@@ -59,7 +59,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: crc
+      categories: microbiome-crc
     fields: [publication, title, categories, image, author]
     
   - id: ibd
@@ -71,7 +71,7 @@ listing:
       #- "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
-      categories: ibd
+      categories: microbiome-ibd
     fields: [publication, title, categories, image, author]
 
 ---
@@ -86,28 +86,25 @@ listing:
 :::{#inspirations}
 :::
 
-## Microbiome-related Lab Publications
-:::{#pubs}
-:::
-
-## Microbiome-related Indications
-
 ### Clostridioides difficile infection (CDI)
-:::{#cdi}
+:::{#microbiome-cdi}
 :::
 
 ### Immunotherapy Checkpoint Inhibition (ICI) Response
-:::{ici}
+:::{#microbiome-ici}
 :::
 
 ### Colorectal Cancer (CRC)
-:::{#crc}
+:::{#microbiome-crc}
 :::
 
 ### Inflammatory Bowel Disease (IBD)
-:::{#ibd}
+:::{#microbiome-ibd}
 :::
 
+## Microbiome-related Lab Publications
+:::{#pubs}
+:::
 
 ## Discussion
 

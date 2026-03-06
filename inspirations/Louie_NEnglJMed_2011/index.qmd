@@ -14,8 +14,7 @@ author:
 publication: "N Engl J Med, **364**, 422–431 (2011)"
 categories: 
   - external-publication
-  - infectious-diseases
-  - antimicrobial-resistance
+  - microbiome-cdi
 url_source: https://doi.org/10.1056/NEJMoa0910812
 url_preprint: 
 journ: "N Engl J Med"

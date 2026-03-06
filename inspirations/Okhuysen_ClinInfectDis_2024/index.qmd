@@ -24,8 +24,7 @@ author:
 publication: "Clin Infect Dis, **78**, 1462–1472 (2024)"
 categories: 
   - external-publication
-  - infectious-diseases
-  - antimicrobial-resistance
+  - microbiome-cdi
 url_source: https://doi.org/10.1093/cid/ciad792
 url_preprint: 
 journ: "Clin Infect Dis"
