@@ -12,14 +12,24 @@ Create a *free* account in the following platforms:
 
 | Platform | Description |
 |---|---|
-| [**Google Scholar**](https://scholar.google.com), [**Scopus**](https://scopus.com) (Elsevier), [**ORCID**](https://orcid.org) | Use ORCID to sign-in to: [**Clarivate/Web of Science/EndNote**](https://clarivate.com/), [**OverLeaf**](https://www.overleaf.com/) and [**My NCBI**](https://account.ncbi.nlm.nih.gov/) |
-| [**Springer Nature Research Communities**](https://communities.springernature.com/) | Create account using your ORCID |
-| [**GitHub**](https://github.com) (Microsoft) | Use to sign-in to [**RStudio Cloud**](https://posit.cloud) (Posit), [Posit Cloud Connect](https://connect.posit.cloud/) (for publishing websites) and [**VS Code**](https://vscode.dev); integrates with [**OverLeaf**](https://www.overleaf.com/) |
-| [**Zenodo**](https://zenodo.org/) (EU scientific resource) | Join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/); Optional: [**FigShare**](https://figshare.com/) (Springer Nature) |
-| [**Zotero**](https://www.zotero.org/) | A citation manager that integrates with Chrome, Word, Overleaf |
-| GitHub Pages Profile | Create a quarto-rendered github-pages profile at repo named '*CHANGETOYOURUSERNAME.github.io*', similar to [mine](https://github.com/JacobKMcPherson/jacobkmcpherson.github.io). Let me know when this is done so I may add you to [**People**](https://mcphersonlab.github.io/people/) |
-| [**Interfolio**](https://www.interfolio.com/) (Elsevier) | For your dossier, letters and applications |
-| [Login.gov](https://login.gov/) | 'The public’s one account for government' — used to sign into research grant application workspaces, including [eRA Commons](https://public.era.nih.gov/commons), [Assist](https://public.era.nih.gov/assist/) and [Grants.gov](https://grants.gov/) |
+
+
+| Platform | Purpose / Notes |
+|---|---|
+| 🆔 [**ORCID**](https://orcid.org) | Create a persistent researcher identifier. Use **ORCID** for single sign-on across many academic platforms. |
+| 🏛️ [**Login.gov**](https://login.gov/) | U.S. federal single sign-on used for research funding portals including [**eRA Commons**](https://public.era.nih.gov/commons), [**NIH ASSIST**](https://public.era.nih.gov/assist/), and [**Grants.gov**](https://grants.gov/). |
+| 🧬 [**My NCBI**](https://account.ncbi.nlm.nih.gov/) | Manage PubMed bibliographies, link publications to NIH grants, and maintain compliance with NIH reporting requirements. |
+| 📊 [**Google Scholar**](https://scholar.google.com) | Maintain your public citation profile and track publications and citation metrics. |
+| 📈 [**Scopus**](https://scopus.com) | Maintain your Scopus author profile and ensure publications are correctly attributed. |
+| 📚 [**Clarivate / Web of Science**](https://clarivate.com/) | Citation indexing platform used for author profiles, citation tracking, and integration with EndNote. |
+| 🗂️ [**EndNote**](https://endnote.com/) | Reference management software integrated with Web of Science and Microsoft Word. |
+| 📖 [**Zotero**](https://www.zotero.org/) | Citation manager with integrations for Chrome, Microsoft Word, and Overleaf. |
+| 📝 [**Overleaf**](https://www.overleaf.com/) | Collaborative LaTeX writing platform for manuscripts, grants, and presentations. |
+| 🌐 [**Springer Nature Research Communities**](https://communities.springernature.com/) | Create an account using your **ORCID** credentials to participate in scientific discussion communities. |
+| 💻 [**GitHub**](https://github.com) | Version control and collaboration platform. Used for authentication with [**Posit Cloud**](https://posit.cloud), [**Posit Connect Cloud**](https://connect.posit.cloud/), and [**VS Code (Web)**](https://vscode.dev). Integrates with Overleaf. <br>• **GitHub Pages Profile:** Create a Quarto-rendered GitHub Pages profile in a repository named `YOURUSERNAME.github.io`, similar to [this example](https://github.com/JacobKMcPherson/jacobkmcpherson.github.io). Notify me once complete so you can be added to the [**McPherson Lab People page**](https://mcphersonlab.github.io/people/). |
+| 🧾 [**Zenodo**](https://zenodo.org/) | Open science repository for datasets, software, and preprints. Join the [**McPhersonLab community**](https://zenodo.org/communities/mcphersonlab/). |
+| 📂 [**Figshare**](https://figshare.com/) | Repository for datasets, figures, and research outputs (Springer Nature). |
+| 🎓 [**Interfolio**](https://www.interfolio.com/) | Platform for academic dossiers, recommendation letters, and faculty applications. |
 
 
 Future endeavors: Science via [**Emerald Cloud Labs (ECL)**](https://www.emeraldcloudlab.com/), [**CLC Genomics (Qiagen)**](https://digitalinsights.qiagen.com/) and [**AWS**](https://aws.amazon.com/), which I maintain access via the SIB's [**AWS-Docker**](https://sib-swiss.github.io/AWS-docker/)
