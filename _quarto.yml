@@ -35,15 +35,15 @@ website:
         text: People
         href: people/index.qmd
     right:
+      - icon: person-plus
+        href: people/join/
+        aria-label: Join
       - icon: images
         href: gallery/
         aria-label: Gallery
       - icon: mic
         href: podcasts/
         aria-label: Podcasts
-      - icon: person-plus
-        href: people/join/
-        aria-label: Join
       - icon: github
         href: https://github.com/McPhersonLab
         aria-label: GitHub
