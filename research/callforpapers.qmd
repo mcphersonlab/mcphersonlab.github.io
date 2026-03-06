@@ -151,7 +151,7 @@ call_for_papers = [
     {
         "journal": "Nature Communications",
         "impact": "15.7",
-        "due_date": "2025-12-31",
+        "due_date": "2026-03-31",
         "topic": "Infection and cancer",
         "website": "https://www.nature.com/collections/ihdbhcefif",
         "projects": []
@@ -207,7 +207,7 @@ call_for_papers = [
     {
         "journal": "Nature Communications",
         "impact": "15.7",
-        "due_date": "2026-02-27",
+        "due_date": "2026-05-31",
         "topic": "Therapies for cystic fibrosis",
         "website": "https://www.nature.com/collections/jhbbbdafac",
         "projects": ["https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa"]
@@ -215,7 +215,7 @@ call_for_papers = [
     {
         "journal": "Nature Communications/Nature Structural & Molecular Biology",
         "impact": "15.7",
-        "due_date": "2026-02-28",
+        "due_date": "2026-05-31",
         "topic": "Artificial Intelligence Methodology in Structural Biology",
         "website": "https://www.nature.com/collections/jbdjhghacg",
         "projects": ["https://github.com/mcphersonlab/ai-structural-biology"]
@@ -231,7 +231,7 @@ call_for_papers = [
     {
         "journal": "Nature Microbiology/Nature Health",
         "impact": "19.4",
-        "due_date": "2026-03-01",
+        "due_date": "2026-06-01",
         "topic": "Climate change and infectious diseases",
         "website": "https://www.nature.com/collections/bagaffbjja",
         "projects": ["https://github.com/mcphersonlab/EarthEpi", 
