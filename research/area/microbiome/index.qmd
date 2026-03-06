@@ -29,10 +29,8 @@ listing:
   - id: cdi
     template: ../../../_ejs/publications-people.ejs 
     contents: 
-      - "!../../../publications/_template/"
-      - "../../../publications/**/*.qmd"
-      #- "!../../../inspirations/_template/"
-      #- "../../../inspirations/**/*.qmd"
+      - "!../../../inspirations/_template/"
+      - "../../../inspirations/**/*.qmd"
     sort: "pub_number desc"
     include: 
       categories: microbiome-cdi
