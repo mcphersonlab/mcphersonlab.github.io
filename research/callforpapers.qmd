@@ -41,7 +41,7 @@ call_for_papers = [
         "due_date": "2026-01-21",
         "topic": "Computational Modelling and Network Medicine in Drug Toxicology and Clinical Pharmacovigilance",
         "website": "https://link.springer.com/collections/eabdigafhj",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
     },
     {
         "journal": "npj Drug Discovery",
@@ -65,7 +65,7 @@ call_for_papers = [
         "due_date": "2026-04-22",
         "topic": "Data to support drug discovery",
         "website": "https://www.nature.com/collections/efidabcffj",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/ai-structural-biology"]
     },
     {
         "journal": "International Journal of Educational Technology in Higher Education",
@@ -73,7 +73,7 @@ call_for_papers = [
         "due_date": "2026-03-01",
         "topic": "Credentials in Artificial Intelligence: International Perspectives on Transforming Teaching and Learning in Higher Education",
         "website": "https://link.springer.com/collections/cgfhfcafai",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/pharm-comm-ai"]
     },
     {
         "journal": "International Journal of Educational Technology in Higher Education",
@@ -81,7 +81,7 @@ call_for_papers = [
         "due_date": "2026-05-31",
         "topic": "Human Interaction with Gen AI Across Learning and Teaching Processes in Higher Education",
         "website": "https://link.springer.com/collections/iddjabccja",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/pharm-comm-ai"]
     },
     {
         "journal": "Humanities and Social Sciences Communications",
@@ -89,7 +89,7 @@ call_for_papers = [
         "due_date": "2026-07-09",
         "topic": "Innovation, AI, and education",
         "website": "https://www.nature.com/collections/gffbgaahgb",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/pharm-comm-ai"]
     },
     {
         "journal": "Scientific Data",
@@ -97,7 +97,7 @@ call_for_papers = [
         "due_date": "2026-08-19",
         "topic": "Datasets in Education",
         "website": "https://www.nature.com/collections/gcgjjfihgg",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/PharmacyEducation"]
     },
     {
         "journal": "npj Digital Medicine",
@@ -105,7 +105,7 @@ call_for_papers = [
         "due_date": "2026-04-24",
         "topic": "Transforming Medical Education through Artificial Intelligence",
         "website": "https://www.nature.com/collections/ehadbhgiji",
-        "projects": [""]
+        "projects": ["https://github.com/mcphersonlab/pharm-comm-ai"]
     },
     {
         "journal": "npj Antimicrobials and Resistance",
@@ -130,7 +130,7 @@ call_for_papers = [
         "due_date": "2025-12-28",
         "topic": "The microbiome in precision medicine",
         "website": "https://www.nature.com/collections/iaadjjbbea",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/ai-microbiome-transmission"]
     },
     {
         "journal": "BMC Medicine",
@@ -154,7 +154,7 @@ call_for_papers = [
         "due_date": "2026-03-31",
         "topic": "Infection and cancer",
         "website": "https://www.nature.com/collections/ihdbhcefif",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer"]
     },
     {
         "journal": "BMC Microbiology",
@@ -320,7 +320,7 @@ call_for_papers = [
         "due_date": "2026-04-30",
         "topic": "Pharmaceutical Innovation and Global Health: Breakthroughs and Future",
         "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-pharmaceutical-innovation-and-global-health-breakthroughs-and-future",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/structure-function-pharmacology"]
     },
     {
         "journal": "British Journal of Pharmacology",
@@ -428,7 +428,8 @@ call_for_papers = [
         "topic": "Artificial Intelligence and Computational Tools in Drug Development",
         "website": "https://link.springer.com/collections/ifeeeaadce",
         "projects": ["https://github.com/mcphersonlab/ai-amr", 
-                     "https://github.com/mcphersonlab/ai-forecast-pharmacology"]
+                     "https://github.com/mcphersonlab/ai-forecast-pharmacology",
+                     "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"]
     },
     {
         "journal": "BMC Public Health",
@@ -560,7 +561,7 @@ call_for_papers = [
         "due_date": "2026-07-28",
         "topic": "Methods development in Cryo-ET and in situ structural determination",
         "website": "https://www.nature.com/ncomms/calls-for-papers",
-        "projects": []
+        "projects": ["https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"]
     },
     {
         "journal": "BMC Medical Research Methodology",
@@ -691,7 +692,8 @@ call_for_papers = [
         "due_date": "2026-12-01",
         "topic": "Decision tools to manage and prevent antimicrobial resistance and healthcare-associated infections",
         "website": "https://link.springer.com/collections/jjejdiccch",
-        "projects": ["https://github.com/mcphersonlab/ai-amr"]
+        "projects": ["https://github.com/mcphersonlab/ai-amr",
+                     "https://github.com/mcphersonlab/cost-amr"]
     },
     {
         "journal": "Philosophy & Technology",
@@ -787,6 +789,16 @@ def create_callforpapers_html(papers_data):
         .callforpapers-table tbody tr.upcoming-deadline:hover {
             background-color: #ffe69c;
         }
+        .callforpapers-table tbody tr.past-deadline {
+            background-color: #f8f9fa;
+            color: #9aa0a6;
+        }
+        .callforpapers-table tbody tr.past-deadline:nth-of-type(even) {
+            background-color: #f1f3f5;
+        }
+        .callforpapers-table tbody tr.past-deadline:hover {
+            background-color: #f1f3f5;
+        }
     </style>
     <table class="callforpapers-table">
         <thead>
@@ -804,12 +816,15 @@ def create_callforpapers_html(papers_data):
     current_date = datetime.now()
     
     for paper in sorted_papers:
-        # Highlight upcoming deadlines (within 60 days)
-        row_class = ""
+        # Highlight upcoming deadlines (within 60 days) and dim past deadlines
+        row_classes = []
         if paper['due_date'] != 'Ongoing':
             days_until = (paper['sort_date'] - current_date).days
-            if 0 <= days_until <= 60:
-                row_class = ' class="upcoming-deadline"'
+            if days_until < 0:
+                row_classes.append("past-deadline")
+            elif days_until <= 60:
+                row_classes.append("upcoming-deadline")
+        row_class = f' class="{" ".join(row_classes)}"' if row_classes else ""
         
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
         # Format Journal column with journal name and website link below
