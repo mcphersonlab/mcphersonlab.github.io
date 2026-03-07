@@ -345,6 +345,179 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+## Upcoming Deadlines & Events Calendar
+
+```{python}
+#| echo: false
+#| warning: false
+
+from _conferences_data import conferences
+from _callforpapers_data import call_for_papers
+from datetime import datetime
+from IPython.display import display, HTML
+
+_ONGOING_SORT_DATE = datetime(9999, 12, 31)
+
+def create_merged_calendar_html(conferences, call_for_papers):
+    current_date = datetime.now()
+    events = []
+
+    # Add conference events
+    for conf in conferences:
+        start_dt = datetime.strptime(conf["start_date"], "%Y-%m-%d")
+        end_dt = datetime.strptime(conf["end_date"], "%Y-%m-%d")
+        events.append({
+            "sort_date": start_dt,
+            "date_display": (
+                start_dt.strftime("%b %d") + " – " + end_dt.strftime("%b %d, %Y")
+                if start_dt.strftime("%Y-%m") == end_dt.strftime("%Y-%m")
+                else start_dt.strftime("%b %d, %Y") + " – " + end_dt.strftime("%b %d, %Y")
+            ),
+            "type": conf.get("type", "Conference"),
+            "event": conf["name"],
+            "detail": conf.get("location", ""),
+            "url": conf.get("url", ""),
+            "projects": conf.get("projects", []),
+            "is_past": end_dt < current_date,
+            "row_type": "conference",
+        })
+        # Add abstract/submission deadline
+        if conf.get("abstract_close"):
+            close_dt = datetime.strptime(conf["abstract_close"], "%Y-%m-%d")
+            open_dt = datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None
+            if open_dt:
+                deadline_display = open_dt.strftime("%b %d") + " – " + close_dt.strftime("%b %d, %Y")
+            else:
+                deadline_display = close_dt.strftime("%b %d, %Y")
+            note = conf.get("abstract_note", "")
+            events.append({
+                "sort_date": close_dt,
+                "date_display": deadline_display + (f" <span style='font-size:11px;color:#666;font-style:italic'><br>{note}</span>" if note else ""),
+                "type": "Abstract Deadline",
+                "event": conf["name"],
+                "detail": conf.get("location", ""),
+                "url": conf.get("url", ""),
+                "projects": conf.get("projects", []),
+                "is_past": close_dt < current_date,
+                "row_type": "abstract",
+            })
+
+    # Add call for papers events
+    for paper in call_for_papers:
+        if paper["due_date"] == "Ongoing":
+            sort_dt = _ONGOING_SORT_DATE
+            date_display = "Ongoing"
+            is_past = False
+        else:
+            sort_dt = datetime.strptime(paper["due_date"], "%Y-%m-%d")
+            date_display = sort_dt.strftime("%b %d, %Y")
+            is_past = sort_dt < current_date
+        events.append({
+            "sort_date": sort_dt,
+            "date_display": date_display,
+            "type": "Paper Deadline",
+            "event": paper["journal"],
+            "detail": paper.get("topic", ""),
+            "url": paper.get("website", ""),
+            "projects": paper.get("projects", []),
+            "is_past": is_past,
+            "row_type": "paper",
+        })
+
+    # Sort by date
+    events.sort(key=lambda x: x["sort_date"])
+
+    # Type badge styles
+    type_badge = {
+        "Conference":   ("background:#0d6efd;color:white;", "📅"),
+        "Symposium":    ("background:#6f42c1;color:white;", "🎤"),
+        "Abstract Deadline": ("background:#198754;color:white;", "✏️"),
+        "Paper Deadline":    ("background:#dc3545;color:white;", "📝"),
+    }
+
+    html = """
+    <style>
+        .merged-cal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 13px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .merged-cal-table thead tr {
+            background-color: #343a40;
+            color: white;
+            font-weight: bold;
+        }
+        .merged-cal-table th, .merged-cal-table td {
+            padding: 9px 12px;
+            border: 1px solid #dee2e6;
+            vertical-align: top;
+        }
+        .merged-cal-table tbody tr:nth-of-type(even) { background-color: #f8f9fa; }
+        .merged-cal-table tbody tr:hover { background-color: #e9f3ff; cursor: pointer; }
+        .merged-cal-table tbody tr.past-event { opacity: 0.45; }
+        .merged-cal-table tbody tr.row-conference td:first-child { border-left: 4px solid #0d6efd; }
+        .merged-cal-table tbody tr.row-abstract  td:first-child { border-left: 4px solid #198754; }
+        .merged-cal-table tbody tr.row-paper     td:first-child { border-left: 4px solid #dc3545; }
+        .type-badge {
+            display: inline-block;
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+    </style>
+    <table class="merged-cal-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Event / Journal</th>
+                <th>Detail</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
+
+    for ev in events:
+        past_cls = " past-event" if ev["is_past"] else ""
+        row_cls = f"row-{ev['row_type']}{past_cls}"
+        badge_style, icon = type_badge.get(ev["type"], ("background:#6c757d;color:white;", "•"))
+        badge = f'<span class="type-badge" style="{badge_style}">{icon} {ev["type"]}</span>'
+
+        url = ev.get("url", "")
+        link_cell = f'<a href="{url}" target="_blank" style="color:#007bff;">↗</a>' if url else ""
+
+        # Projects
+        projects = [p for p in ev.get("projects", []) if p]
+        if projects:
+            proj_links = " ".join(
+                f'<a href="{p}" target="_blank" style="color:#007bff;font-size:11px;">proj</a>'
+                for p in projects
+            )
+            link_cell = (link_cell + "<br>" + proj_links) if link_cell else proj_links
+
+        detail = ev["detail"]
+
+        html += f"""
+            <tr class="{row_cls}">
+                <td style="white-space:nowrap;">{ev['date_display']}</td>
+                <td>{badge}</td>
+                <td><strong>{ev['event']}</strong></td>
+                <td>{detail}</td>
+                <td>{link_cell}</td>
+            </tr>
+        """
+
+    html += "</tbody></table>"
+    return html
+
+display(HTML(create_merged_calendar_html(conferences, call_for_papers)))
+```
+
 {{< include conferences.qmd >}}
 
 {{< include callforpapers.qmd >}}
