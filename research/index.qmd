@@ -386,7 +386,7 @@ def create_merged_calendar_html(conferences, call_for_papers):
             close_dt = datetime.strptime(conf["abstract_close"], "%Y-%m-%d")
             open_dt = datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None
             if open_dt:
-                deadline_display = open_dt.strftime("%b %d") + " – " + close_dt.strftime("%b %d, %Y")
+                deadline_display = open_dt.strftime("%b %d, %Y") + " – " + close_dt.strftime("%b %d, %Y")
             else:
                 deadline_display = close_dt.strftime("%b %d, %Y")
             note = conf.get("abstract_note", "")
