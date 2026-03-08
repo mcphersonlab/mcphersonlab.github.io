@@ -464,12 +464,20 @@ def create_fullcalendar_html(conferences, call_for_papers):
             display: inline-block; width: 12px; height: 12px;
             border-radius: 3px; flex-shrink: 0;
         }}
+        #fc-deadline-calendar .fc-day-today .fc-daygrid-day-frame {{
+            background: #fff9c4 !important;
+        }}
+        #fc-deadline-calendar .fc-day-today .fc-daygrid-day-number {{
+            font-weight: bold;
+            color: #856404;
+        }}
     </style>
 
     <div class="fc-deadline-legend">
         <span><span class="swatch" style="background:#0d6efd;"></span>Conferences</span>
         <span><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstracts</span>
         <span><span class="swatch" style="background:#dc3545;"></span>Calls for Papers</span>
+        <span><span class="swatch" style="background:#fff9c4;border:1px solid #856404;"></span>Today</span>
     </div>
 
     <div id="fc-deadline-calendar"></div>
