@@ -397,6 +397,8 @@ def create_fullcalendar_html(conferences, call_for_papers):
             close_dt = datetime.strptime(conf["abstract_close"], "%Y-%m-%d")
             open_dt  = datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None
             note     = conf.get("abstract_note", "")
+            abstract_end = (close_dt + timedelta(days=1)).strftime("%Y-%m-%d")
+            abstract_start = conf["abstract_open"] if open_dt else conf["abstract_close"]
             ext_props = {
                 "type":    "Abstract Submission",
                 "detail":  conf.get("location", ""),
@@ -407,16 +409,13 @@ def create_fullcalendar_html(conferences, call_for_papers):
 
             abstract_event = {
                 "title": f"{ABS_EMOJI} Abstracts: {conf['name']}",
-                "start": conf["abstract_close"],
+                "start": abstract_start,
+                "end": abstract_end,
                 "backgroundColor": ABS_WINDOW_COLOR,
                 "borderColor": ABS_BORDER_COLOR,
                 "textColor": "#055160",
                 "extendedProps": ext_props,
             }
-
-            if open_dt:
-                abstract_event["start"] = conf["abstract_open"]
-                abstract_event["end"] = (close_dt + timedelta(days=1)).strftime("%Y-%m-%d")
 
             fc_events.append(abstract_event)
 
