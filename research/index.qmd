@@ -449,8 +449,6 @@ def create_fullcalendar_html(conferences, call_for_papers):
         #fc-deadline-calendar .fc-scrollgrid,
         #fc-deadline-calendar .fc-view-harness,
         #fc-deadline-calendar .fc-scroller,
-        #fc-deadline-calendar .fc-list,
-        #fc-deadline-calendar .fc-list-table,
         #fc-deadline-calendar .fc-daygrid-body,
         #fc-deadline-calendar .fc-daygrid-day-frame {{
             background: #fff;
@@ -491,10 +489,7 @@ def create_fullcalendar_html(conferences, call_for_papers):
                 headerToolbar: {{
                     left:   'prev,next today',
                     center: 'title',
-                    right:  'dayGridMonth,listYear'
-                }},
-                buttonText: {{
-                    listYear: 'list'
+                    right:  'dayGridMonth'
                 }},
                 events: {events_json},
                 eventClick: function(info) {{
