@@ -364,8 +364,7 @@ def create_fullcalendar_html(conferences, call_for_papers):
     # Symposiums are merged with conferences — both use conference blue
     CONF_COLOR   = "#0d6efd"
     PAPER_COLOR  = "#dc3545"
-    ABS_OPEN_COLOR     = "#0dcaf0"   # cyan for abstract-opens marker
-    ABS_CLOSE_COLOR    = "#0dcaf0"   # same cyan for abstract-deadline marker
+    ABS_BORDER_COLOR   = "#0dcaf0"
     ABS_WINDOW_COLOR   = "rgba(13,202,240,0.1)"  # 90% transparent cyan window
     CONF_EMOJI  = "📅"
     ABS_EMOJI   = "📋"
@@ -393,7 +392,7 @@ def create_fullcalendar_html(conferences, call_for_papers):
             },
         })
 
-        # Abstract submissions: background window + separate open/close marker events
+        # Abstract submissions: date-range event from open to deadline
         if conf.get("abstract_close"):
             close_dt = datetime.strptime(conf["abstract_close"], "%Y-%m-%d")
             open_dt  = datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None
@@ -406,31 +405,20 @@ def create_fullcalendar_html(conferences, call_for_papers):
                 "note":    note,
             }
 
-            if open_dt:
-                # Background shading for the full submission window
-                fc_events.append({
-                    "title":    "",
-                    "start":    conf["abstract_open"],
-                    "end":      (close_dt + timedelta(days=1)).strftime("%Y-%m-%d"),
-                    "display":  "background",
-                    "color":    ABS_WINDOW_COLOR,
-                    "extendedProps": ext_props,
-                })
-                # "Opens" marker on the open date
-                fc_events.append({
-                    "title": f"{ABS_EMOJI} Abstract Opens: {conf['name']}",
-                    "start": conf["abstract_open"],
-                    "color": ABS_OPEN_COLOR,
-                    "extendedProps": ext_props,
-                })
-
-            # "Deadline" marker on the close date
-            fc_events.append({
-                "title": f"{ABS_EMOJI} Abstract Deadline: {conf['name']}",
+            abstract_event = {
+                "title": f"{ABS_EMOJI} Abstracts: {conf['name']}",
                 "start": conf["abstract_close"],
-                "color": ABS_CLOSE_COLOR,
+                "backgroundColor": ABS_WINDOW_COLOR,
+                "borderColor": ABS_BORDER_COLOR,
+                "textColor": "#055160",
                 "extendedProps": ext_props,
-            })
+            }
+
+            if open_dt:
+                abstract_event["start"] = conf["abstract_open"]
+                abstract_event["end"] = (close_dt + timedelta(days=1)).strftime("%Y-%m-%d")
+
+            fc_events.append(abstract_event)
 
     # Add call-for-papers deadline events
     for paper in call_for_papers:
