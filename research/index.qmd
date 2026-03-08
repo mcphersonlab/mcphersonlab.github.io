@@ -345,6 +345,181 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+## Upcoming Deadlines & Events Calendar
+
+```{python}
+#| echo: false
+#| warning: false
+
+from _conferences_data import conferences
+from _callforpapers_data import call_for_papers
+from datetime import datetime, timedelta
+from IPython.display import display, HTML
+import json
+
+def create_fullcalendar_html(conferences, call_for_papers):
+    current_date = datetime.now()
+    fc_events = []
+
+    # Symposiums are merged with conferences — both use conference blue
+    CONF_COLOR   = "#0d6efd"
+    PAPER_COLOR  = "#dc3545"
+    ABS_OPEN_COLOR     = "#0dcaf0"   # cyan for abstract-opens marker
+    ABS_CLOSE_COLOR    = "#0dcaf0"   # same cyan for abstract-deadline marker
+    ABS_WINDOW_COLOR   = "rgba(13,202,240,0.1)"  # 90% transparent cyan window
+
+    # Add conference and abstract deadline events
+    for conf in conferences:
+        start_dt = datetime.strptime(conf["start_date"], "%Y-%m-%d")
+        end_dt   = datetime.strptime(conf["end_date"],   "%Y-%m-%d")
+        ev_type  = conf.get("type", "Conference")
+
+        # FullCalendar end date is exclusive, so add one day
+        fc_end = (end_dt + timedelta(days=1)).strftime("%Y-%m-%d")
+
+        fc_events.append({
+            "title": conf["name"],
+            "start": conf["start_date"],
+            "end":   fc_end,
+            "color": CONF_COLOR,
+            "extendedProps": {
+                "type":    ev_type,
+                "detail":  conf.get("location", ""),
+                "rowType": "conference",
+                "url":     conf.get("url", ""),
+            },
+        })
+
+        # Abstract submissions: background window + separate open/close marker events
+        if conf.get("abstract_close"):
+            close_dt = datetime.strptime(conf["abstract_close"], "%Y-%m-%d")
+            open_dt  = datetime.strptime(conf["abstract_open"], "%Y-%m-%d") if conf.get("abstract_open") else None
+            note     = conf.get("abstract_note", "")
+            ext_props = {
+                "type":    "Abstract Submission",
+                "detail":  conf.get("location", ""),
+                "rowType": "abstract",
+                "url":     conf.get("url", ""),
+                "note":    note,
+            }
+
+            if open_dt:
+                # Background shading for the full submission window
+                fc_events.append({
+                    "title":    "",
+                    "start":    conf["abstract_open"],
+                    "end":      (close_dt + timedelta(days=1)).strftime("%Y-%m-%d"),
+                    "display":  "background",
+                    "color":    ABS_WINDOW_COLOR,
+                    "extendedProps": ext_props,
+                })
+                # "Opens" marker on the open date
+                fc_events.append({
+                    "title": f"Abstract Opens: {conf['name']}",
+                    "start": conf["abstract_open"],
+                    "color": ABS_OPEN_COLOR,
+                    "extendedProps": ext_props,
+                })
+
+            # "Deadline" marker on the close date
+            fc_events.append({
+                "title": f"Abstract Deadline: {conf['name']}",
+                "start": conf["abstract_close"],
+                "color": ABS_CLOSE_COLOR,
+                "extendedProps": ext_props,
+            })
+
+    # Add call-for-papers deadline events
+    for paper in call_for_papers:
+        if paper["due_date"] == "Ongoing":
+            continue
+        fc_events.append({
+            "title": paper["journal"],
+            "start": paper["due_date"],
+            "color": PAPER_COLOR,
+            "extendedProps": {
+                "type":    "Calls for Papers",
+                "detail":  paper.get("topic", ""),
+                "rowType": "paper",
+                "url":     paper.get("website", ""),
+            },
+        })
+
+    events_json   = json.dumps(fc_events)
+    initial_date  = current_date.strftime("%Y-%m-%d")
+
+    html = f"""
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" integrity="sha384-B1OFx8Gy9GjPu8UbUyXbGQpzll9ubAUQ9agInFJ8NnD7nYG1u/CLR+Sqr5yifl4q" crossorigin="anonymous"></script>
+    <style>
+        #fc-deadline-calendar {{ max-width: 100%; margin: 16px 0; }}
+        .fc-deadline-legend {{
+            display: flex; flex-wrap: wrap; gap: 12px;
+            margin: 4px 0 12px 0; font-size: 13px;
+        }}
+        .fc-deadline-legend span {{
+            display: flex; align-items: center; gap: 5px;
+        }}
+        .fc-deadline-legend .swatch {{
+            display: inline-block; width: 12px; height: 12px;
+            border-radius: 3px; flex-shrink: 0;
+        }}
+    </style>
+
+    <div class="fc-deadline-legend">
+        <span><span class="swatch" style="background:#0d6efd;"></span>Conferences</span>
+        <span><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstract Submission Window</span>
+        <span><span class="swatch" style="background:#dc3545;"></span>Calls for Papers</span>
+    </div>
+
+    <div id="fc-deadline-calendar"></div>
+
+    <script>
+    (function initFCCalendar() {{
+        if (typeof FullCalendar === 'undefined' || !document.getElementById('fc-deadline-calendar')) {{
+            setTimeout(initFCCalendar, 50);
+            return;
+        }}
+        var calendar = new FullCalendar.Calendar(
+            document.getElementById('fc-deadline-calendar'),
+            {{
+                initialView:   'dayGridMonth',
+                initialDate:   '{initial_date}',
+                height:        'auto',
+                headerToolbar: {{
+                    left:   'prev,next today',
+                    center: 'title',
+                    right:  'dayGridMonth,listYear'
+                }},
+                buttonText: {{
+                    listYear: 'list'
+                }},
+                events: {events_json},
+                eventClick: function(info) {{
+                    info.jsEvent.preventDefault();
+                    var url = info.event.extendedProps.url;
+                    if (url) {{
+                        window.open(url, '_blank');
+                    }}
+                }},
+                eventDidMount: function(info) {{
+                    var p = info.event.extendedProps;
+                    var tip = info.event.title;
+                    if (p.type)   tip += '\\nType: '   + p.type;
+                    if (p.detail) tip += '\\nDetail: ' + p.detail;
+                    if (p.note)   tip += '\\n'         + p.note;
+                    info.el.setAttribute('title', tip);
+                }}
+            }}
+        );
+        calendar.render();
+    }})();
+    </script>
+    """
+    return html
+
+display(HTML(create_fullcalendar_html(conferences, call_for_papers)))
+```
+
 {{< include conferences.qmd >}}
 
 {{< include callforpapers.qmd >}}
