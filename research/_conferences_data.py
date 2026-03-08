@@ -4,77 +4,93 @@
 conferences = [
     {
         "name": "Staphylococcal Diseases Gordon Research Conference",
-        "location": "Barcelona, Spain",
-        "lat": 41.283,
-        "lon": -1.982,
-        "start_date": "2025-08-03",
-        "end_date": "2025-08-08",
+        "location": "Waterville Valley, NH, USA",
+        "lat": 43.9815,
+        "lon": -71.5078,
+        "start_date": "2027-08-08",
+        "end_date": "2027-08-13",
         "abstract_open": "",
-        "abstract_close": "2025-04-27",
-        "abstract_note": "",
+        "abstract_close": "",
+        "abstract_note": "2027 abstract dates TBD; check GRC website",
         "type": "Conference",
-        "url": "https://www.grc.org/staphylococcal-diseases-conference/",
+        "url": "https://www.grc.org/staphylococcal-diseases-conference/2027/",
         "projects": [
             "https://github.com/mcphersonlab/amr-staphylococcus-aureus"
         ]
     },
     {
         "name": "ClostPath Biennial",
-        "location": "Paris, France",
+        "location": "Paris, France (2027 TBD)",
         "lat": 48.8566,
         "lon": 2.3522,
-        "start_date": "2025-09-01",
-        "end_date": "2025-09-04",
-        "abstract_open": "2025-03-01",
-        "abstract_close": "2025-05-15",
-        "abstract_note": "",
+        "start_date": "2027-09-01",
+        "end_date": "2027-09-04",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "2027 dates and location TBD (biennial); map shows 2025 host city",
         "type": "Conference",
         "url": "https://www.clostpath2025.conferences-pasteur.org/",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/clostridioides_atlas",
+            "https://github.com/mcphersonlab/mgx-cdi-peds"
+        ]
     },
     {
-        "name": "Peggy Lillis Foundation Scientific Symposium",
-        "location": "Online",
-        "lat": 29.7191,
-        "lon": -95.3881,
-        "start_date": "2025-11-21",
-        "end_date": "2025-11-21",
+        "name": "Peggy Lillis Foundation National C. diff Summit",
+        "location": "Washington, DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "start_date": "2026-04-13",
+        "end_date": "2026-04-13",
         "abstract_open": "",
         "abstract_close": "",
         "abstract_note": "",
         "type": "Symposium",
-        "url": "https://cdiff.org/",
-        "projects": []
+        "url": "https://cdiff.org/event/summit26/",
+        "projects": [
+            "https://github.com/mcphersonlab/tx-cdi",
+            "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+            "https://github.com/mcphersonlab/clostridioides_atlas",
+            "https://github.com/mcphersonlab/mgx-cdi-peds",
+            "https://github.com/mcphersonlab/roi-cdi"
+        ]
     },
     {
         "name": "BPS Annual",
-        "location": "Belfast, UK",
-        "lat": 54.5973,
-        "lon": -5.9301,
-        "start_date": "2025-12-16",
-        "end_date": "2025-12-18",
-        "abstract_open": "2025-04-01",
-        "abstract_close": "2025-09-09",
-        "abstract_note": "",
+        "location": "Manchester, UK",
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "start_date": "2026-12-08",
+        "end_date": "2026-12-10",
+        "abstract_open": "2026-04-01",
+        "abstract_close": "2026-09-01",
+        "abstract_note": "See BPS website for abstract dates and details",
         "type": "Conference",
         "url": "https://www.bps.ac.uk/events",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/structure-function-pharmacology",
+            "https://github.com/mcphersonlab/SpaceTime",
+            "https://github.com/mcphersonlab/pcol-biofilm-rifamycins"
+        ]
     },
     {
         "name": "TMC AMR",
         "location": "Houston, TX",
         "lat": 29.711,
         "lon": -95.3981,
-        "start_date": "2026-01-15",
-        "end_date": "2026-01-17",
-        "abstract_open": "2025-07-29",
-        "abstract_close": "2025-11-15",
-        "abstract_note": "",
+        "start_date": "2027-01-13",
+        "end_date": "2027-01-15",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "10th Annual; 2027 dates TBD (typically mid-January)",
         "type": "Conference",
         "url": "https://www.tmc.edu/events/",
         "projects": [
             "https://github.com/mcphersonlab/mgx-cdi-vre",
-            "https://github.com/mcphersonlab/amr-enterococcus-faecium"
+            "https://github.com/mcphersonlab/amr-enterococcus-faecium",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water",
+            "https://github.com/mcphersonlab/cost-amr"
         ]
     },
     {
@@ -82,17 +98,19 @@ conferences = [
         "location": "Las Vegas, NV",
         "lat": 36.1699,
         "lon": -115.1398,
-        "start_date": "2026-01-28",
-        "end_date": "2026-01-30",
-        "abstract_open": "2025-07-16",
-        "abstract_close": "2025-10-01",
-        "abstract_note": "",
+        "start_date": "2027-01-27",
+        "end_date": "2027-01-29",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "2027 dates TBD; check IMARI website",
         "type": "Conference",
         "url": "https://imari.org",
         "projects": [
             "https://github.com/mcphersonlab/ai-amr",
             "https://github.com/mcphersonlab/amr-acinetobacter-baumannii",
-            "https://github.com/mcphersonlab/amr-candida-auris"
+            "https://github.com/mcphersonlab/amr-candida-auris",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water"
         ]
     },
     {
@@ -100,35 +118,39 @@ conferences = [
         "location": "Online",
         "lat": 51.5074,
         "lon": -0.1278,
-        "start_date": "2026-02-04",
-        "end_date": "2026-02-05",
+        "start_date": "2027-02-03",
+        "end_date": "2027-02-04",
         "abstract_open": "",
-        "abstract_close": "2025-11-15",
-        "abstract_note": "Free online conference",
+        "abstract_close": "",
+        "abstract_note": "2027 dates TBD; free online conference",
         "type": "Conference",
         "url": "https://acc-conference.com/",
         "projects": [
-            "https://github.com/mcphersonlab/mgx-abx-healthy"
+            "https://github.com/mcphersonlab/mgx-abx-healthy",
+            "https://github.com/mcphersonlab/abx-iv-mgx-mbx-imm",
+            "https://github.com/mcphersonlab/amr-env-food"
         ]
     },
     {
         "name": "AAAS Annual",
-        "location": "Phoenix, AZ and online",
-        "lat": 33.4484,
-        "lon": -112.074,
-        "start_date": "2026-02-12",
-        "end_date": "2026-02-14",
-        "abstract_open": "2025-06-05",
-        "abstract_close": "2025-09-07",
-        "abstract_note": "",
+        "location": "Chicago, IL",
+        "lat": 41.8827,
+        "lon": -87.6233,
+        "start_date": "2027-02-18",
+        "end_date": "2027-02-20",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "Abstract dates TBD; check AAAS website",
         "type": "Conference",
-        "url": "https://www.aaas.org/meetings",
+        "url": "https://meetings.aaas.org/",
         "projects": [
             "https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells",
             "https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer",
             "https://github.com/mcphersonlab/mgx-mbx-glp-1",
             "https://github.com/mcphersonlab/EarthEpi",
-            "https://github.com/mcphersonlab/StormPath"
+            "https://github.com/mcphersonlab/StormPath",
+            "https://github.com/mcphersonlab/DigitalTwin-Society-Health",
+            "https://github.com/mcphersonlab/env-mgx-pd"
         ]
     },
     {
@@ -136,45 +158,57 @@ conferences = [
         "location": "Sydney, Australia",
         "lat": -33.8688,
         "lon": 151.2093,
-        "start_date": "2026-02-18",
-        "end_date": "2026-02-20",
+        "start_date": "2027-02-17",
+        "end_date": "2027-02-19",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "",
+        "abstract_note": "2027 dates TBD; invitation-only event",
         "type": "Conference",
         "url": "https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/ai-amr",
+            "https://github.com/mcphersonlab/cost-amr",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water"
+        ]
     },
     {
         "name": "Biophysical Society Annual",
-        "location": "San Francisco, CA",
-        "lat": 37.807,
-        "lon": -122.4311,
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-26",
+        "location": "Philadelphia, PA",
+        "lat": 39.9526,
+        "lon": -75.1652,
+        "start_date": "2027-02-20",
+        "end_date": "2027-02-24",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "",
+        "abstract_note": "Abstract dates TBD; see Biophysical Society website for updates",
         "type": "Conference",
         "url": "https://www.biophysics.org/upcoming-annual-meetings",
         "projects": [
-            "https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics"
+            "https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics",
+            "https://github.com/mcphersonlab/ai-structural-biology",
+            "https://github.com/mcphersonlab/namd-adk",
+            "https://github.com/mcphersonlab/phys-hiv-lenacapavir",
+            "https://github.com/mcphersonlab/SpaceTime"
         ]
     },
     {
         "name": "CROI Annual",
-        "location": "Denver, CO",
-        "lat": 39.7392,
-        "lon": -104.9903,
-        "start_date": "2026-02-22",
-        "end_date": "2026-02-25",
-        "abstract_open": "2025-08-28",
-        "abstract_close": "2025-10-01",
-        "abstract_note": "",
+        "location": "San Diego, CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "start_date": "2027-03-21",
+        "end_date": "2027-03-24",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "Abstract dates TBD; check CROI website",
         "type": "Conference",
         "url": "https://www.croiconference.org/",
         "projects": [
-            "https://github.com/mcphersonlab/amr-hiv"
+            "https://github.com/mcphersonlab/amr-hiv",
+            "https://github.com/mcphersonlab/epi-hbv",
+            "https://github.com/mcphersonlab/phys-hiv-lenacapavir",
+            "https://github.com/mcphersonlab/pcol-vcddmde-hbv"
         ]
     },
     {
@@ -189,7 +223,12 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.asbmb.org/annual-meeting",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/structure-function-pharmacology",
+            "https://github.com/mcphersonlab/namd-adk",
+            "https://github.com/mcphersonlab/SpaceTime",
+            "https://github.com/mcphersonlab/pcol-biofilm-rifamycins"
+        ]
     },
     {
         "name": "EMBL AI and Biology",
@@ -203,7 +242,12 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees26-02/",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/ai-structural-biology",
+            "https://github.com/mcphersonlab/ai-amr",
+            "https://github.com/mcphersonlab/ai-microbiome-transmission",
+            "https://github.com/mcphersonlab/ai-forecast-pharmacology"
+        ]
     },
     {
         "name": "ESCMID Annual",
@@ -218,7 +262,11 @@ conferences = [
         "type": "Conference",
         "url": "https://www.escmid.org/congress-events/escmid-global/",
         "projects": [
-            "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"
+            "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water",
+            "https://github.com/mcphersonlab/tx-cuti",
+            "https://github.com/mcphersonlab/DOOR-STEP"
         ]
     },
     {
@@ -235,7 +283,11 @@ conferences = [
         "url": "https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/",
         "projects": [
             "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
-            "https://github.com/mcphersonlab/mgx-mbx-abx-cdi"
+            "https://github.com/mcphersonlab/mgx-mbx-abx-cdi",
+            "https://github.com/mcphersonlab/clostridioides_atlas",
+            "https://github.com/mcphersonlab/mgx-cdi-peds",
+            "https://github.com/mcphersonlab/roi-cdi",
+            "https://github.com/mcphersonlab/tx-cdi"
         ]
     },
     {
@@ -250,7 +302,12 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.aspet.org/aspet/meetings-awards",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/SpaceTime",
+            "https://github.com/mcphersonlab/pcol-biofilm-rifamycins",
+            "https://github.com/mcphersonlab/structure-function-pharmacology",
+            "https://github.com/mcphersonlab/practice"
+        ]
     },
     {
         "name": "ISPOR Annual",
@@ -265,7 +322,11 @@ conferences = [
         "type": "Conference",
         "url": "https://www.ispor.org/conferences-education",
         "projects": [
-            "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"
+            "https://github.com/mcphersonlab/roi-pipeline-antimicrobial",
+            "https://github.com/mcphersonlab/cost-amr",
+            "https://github.com/mcphersonlab/roi-cdi",
+            "https://github.com/mcphersonlab/DOOR-STEP",
+            "https://github.com/mcphersonlab/epi-hbv"
         ]
     },
     {
@@ -281,7 +342,13 @@ conferences = [
         "type": "Conference",
         "url": "https://asm.org/events/asm-microbe",
         "projects": [
-            "https://github.com/mcphersonlab/ai-microbiome-transmission"
+            "https://github.com/mcphersonlab/ai-microbiome-transmission",
+            "https://github.com/mcphersonlab/MicroSCOPE",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water",
+            "https://github.com/mcphersonlab/env-tx-ocean",
+            "https://github.com/mcphersonlab/mgx-cap",
+            "https://github.com/mcphersonlab/clostridioides_atlas"
         ]
     },
     {
@@ -297,7 +364,10 @@ conferences = [
         "type": "Conference",
         "url": "http://www.anaerobe.org/2026/",
         "projects": [
-            "https://github.com/mcphersonlab/amr-clostridioides-difficile"
+            "https://github.com/mcphersonlab/amr-clostridioides-difficile",
+            "https://github.com/mcphersonlab/clostridioides_atlas",
+            "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+            "https://github.com/mcphersonlab/mgx-cdi-peds"
         ]
     },
     {
@@ -314,7 +384,10 @@ conferences = [
         "url": "https://www.iuphar.org/",
         "projects": [
             "https://github.com/mcphersonlab/structure-function-pharmacology",
-            "https://github.com/mcphersonlab/ai-forecast-pharmacology"
+            "https://github.com/mcphersonlab/ai-forecast-pharmacology",
+            "https://github.com/mcphersonlab/SpaceTime",
+            "https://github.com/mcphersonlab/pcol-biofilm-rifamycins",
+            "https://github.com/mcphersonlab/pcol-vcddmde-hbv"
         ]
     },
     {
@@ -329,7 +402,12 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.aacp.org/events/annual-meetings",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/PharmacyEducation",
+            "https://github.com/mcphersonlab/pharm-comm-ai",
+            "https://github.com/mcphersonlab/practice",
+            "https://github.com/mcphersonlab/immune-izapp"
+        ]
     },
     {
         "name": "Conference on Beneficial Microbes",
@@ -343,7 +421,11 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://conferences.union.wisc.edu/microbes/",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/MicrobiomeHUES",
+            "https://github.com/mcphersonlab/env-mgx-pd",
+            "https://github.com/mcphersonlab/abx-iv-mgx-mbx-imm"
+        ]
     },
     {
         "name": "ASV Annual",
@@ -358,7 +440,8 @@ conferences = [
         "type": "Conference",
         "url": "https://www.asv.org/annual-meeting",
         "projects": [
-            "https://github.com/mcphersonlab/ai-forecast-influenza"
+            "https://github.com/mcphersonlab/ai-forecast-influenza",
+            "https://github.com/mcphersonlab/epi-hbv"
         ]
     },
     {
@@ -374,7 +457,9 @@ conferences = [
         "type": "Conference",
         "url": "https://stipreventionconference.org/",
         "projects": [
-            "https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae"
+            "https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae",
+            "https://github.com/mcphersonlab/amr-hiv",
+            "https://github.com/mcphersonlab/epi-hbv"
         ]
     },
     {
@@ -391,7 +476,11 @@ conferences = [
         "url": "https://www.icds.si/",
         "projects": [
             "https://github.com/mcphersonlab/tx-cdi",
-            "https://github.com/mcphersonlab/roi-cdi"
+            "https://github.com/mcphersonlab/roi-cdi",
+            "https://github.com/mcphersonlab/clostridioides_atlas",
+            "https://github.com/mcphersonlab/mgx-clostridioides-difficile",
+            "https://github.com/mcphersonlab/amr-clostridioides-difficile",
+            "https://github.com/mcphersonlab/mgx-cdi-peds"
         ]
     },
     {
@@ -408,7 +497,8 @@ conferences = [
         "url": "https://msgerc.org/2026-biennial-meeting/",
         "projects": [
             "https://github.com/mcphersonlab/amr-aspergillus-fumigatus",
-            "https://github.com/mcphersonlab/amr-lomentospora-prolificans"
+            "https://github.com/mcphersonlab/amr-lomentospora-prolificans",
+            "https://github.com/mcphersonlab/amr-candida-auris"
         ]
     },
     {
@@ -423,7 +513,12 @@ conferences = [
         "abstract_note": "",
         "type": "Conference",
         "url": "https://www.aihealthconference.com/",
-        "projects": []
+        "projects": [
+            "https://github.com/mcphersonlab/DigitalTwin-Society-Health",
+            "https://github.com/mcphersonlab/ai-amr",
+            "https://github.com/mcphersonlab/ai-microbiome-transmission",
+            "https://github.com/mcphersonlab/pharm-comm-ai"
+        ]
     },
     {
         "name": "ESCV Annual",
@@ -438,7 +533,9 @@ conferences = [
         "type": "Conference",
         "url": "https://escv.eu/calendar-events/",
         "projects": [
-            "https://github.com/mcphersonlab/mgx-virome"
+            "https://github.com/mcphersonlab/mgx-virome",
+            "https://github.com/mcphersonlab/epi-hbv",
+            "https://github.com/mcphersonlab/phys-hiv-lenacapavir"
         ]
     },
     {
@@ -454,7 +551,10 @@ conferences = [
         "type": "Conference",
         "url": "https://www.gamric.org/",
         "projects": [
-            "https://github.com/mcphersonlab/cost-amr"
+            "https://github.com/mcphersonlab/cost-amr",
+            "https://github.com/mcphersonlab/amr-env-food",
+            "https://github.com/mcphersonlab/amr-env-water",
+            "https://github.com/mcphersonlab/roi-pipeline-antimicrobial"
         ]
     },
     {
@@ -470,7 +570,9 @@ conferences = [
         "type": "Conference",
         "url": "https://www.nacfconference.org/",
         "projects": [
-            "https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa"
+            "https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa",
+            "https://github.com/mcphersonlab/MoTrPAC_plus_CF",
+            "https://github.com/mcphersonlab/mgx-cap"
         ]
     },
     {
@@ -503,7 +605,12 @@ conferences = [
         "url": "https://www.idweek.org/",
         "projects": [
             "https://github.com/mcphersonlab/tx-cap",
-            "https://github.com/mcphersonlab/tx-uuti"
+            "https://github.com/mcphersonlab/tx-uuti",
+            "https://github.com/mcphersonlab/mgx-cap",
+            "https://github.com/mcphersonlab/tx-cuti",
+            "https://github.com/mcphersonlab/immune-izapp",
+            "https://github.com/mcphersonlab/DOOR-STEP",
+            "https://github.com/mcphersonlab/mgx-cdi-vre"
         ]
     },
     {
@@ -519,7 +626,13 @@ conferences = [
         "type": "Conference",
         "url": "https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition",
         "projects": [
-            "https://github.com/mcphersonlab/tx-staph-bacteremia"
+            "https://github.com/mcphersonlab/tx-staph-bacteremia",
+            "https://github.com/mcphersonlab/practice",
+            "https://github.com/mcphersonlab/PharmacyEducation",
+            "https://github.com/mcphersonlab/tx-cdi",
+            "https://github.com/mcphersonlab/tx-cap",
+            "https://github.com/mcphersonlab/tx-uuti",
+            "https://github.com/mcphersonlab/tx-cuti"
         ]
     }
 ]
