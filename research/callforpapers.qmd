@@ -20,7 +20,7 @@ This file is included in research/index.qmd and renders on the research page.
 #| warning: false
 
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 from IPython.display import display, HTML
 
 
@@ -37,6 +37,9 @@ from IPython.display import display, HTML
 from _callforpapers_data import call_for_papers
             
 def create_callforpapers_html(papers_data):
+    current_date = datetime.now()
+    cutoff_date = current_date - timedelta(days=180)
+
     # Parse dates and sort (most recent first, then by journal name)
     # Convert "Ongoing" to a far future date for sorting purposes
     for paper in papers_data:
@@ -46,9 +49,15 @@ def create_callforpapers_html(papers_data):
         else:
             paper['sort_date'] = datetime.strptime(paper['due_date'], '%Y-%m-%d')
             paper['display_date'] = paper['sort_date'].strftime('%B %d, %Y')
-    
+
+    # Remove entries more than 6 months past their due date
+    filtered_papers = [
+        p for p in papers_data
+        if p['due_date'] == 'Ongoing' or p['sort_date'] >= cutoff_date
+    ]
+
     # Sort by date (earliest first), but put "Ongoing" at the end
-    sorted_papers = sorted(papers_data, key=lambda x: (x['sort_date'], x['journal']))
+    sorted_papers = sorted(filtered_papers, key=lambda x: (x['sort_date'], x['journal']))
     
     html = """
     <style>
@@ -87,6 +96,9 @@ def create_callforpapers_html(papers_data):
         .callforpapers-table tbody tr.upcoming-deadline:hover {
             background-color: #ffe69c;
         }
+        .callforpapers-table tbody tr.past-deadline {
+            opacity: 0.45;
+        }
     </style>
     <table class="callforpapers-table">
         <thead>
@@ -101,14 +113,14 @@ def create_callforpapers_html(papers_data):
         <tbody>
     """
     
-    current_date = datetime.now()
-    
     for paper in sorted_papers:
-        # Highlight upcoming deadlines (within 60 days)
+        # Determine row class based on due date status
         row_class = ""
         if paper['due_date'] != 'Ongoing':
             days_until = (paper['sort_date'] - current_date).days
-            if 0 <= days_until <= 60:
+            if days_until < 0:
+                row_class = ' class="past-deadline"'
+            elif 0 <= days_until <= 60:
                 row_class = ' class="upcoming-deadline"'
         
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
