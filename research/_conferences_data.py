@@ -20,14 +20,14 @@ conferences = [
     },
     {
         "name": "ClostPath Biennial",
-        "location": "TBD",
+        "location": "Paris, France (2027 TBD)",
         "lat": 48.8566,
         "lon": 2.3522,
         "start_date": "2027-09-01",
         "end_date": "2027-09-04",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "2027 dates and location TBD (biennial)",
+        "abstract_note": "2027 dates and location TBD (biennial); map shows 2025 host city",
         "type": "Conference",
         "url": "https://www.clostpath2025.conferences-pasteur.org/",
         "projects": [
@@ -64,7 +64,7 @@ conferences = [
         "end_date": "2026-12-10",
         "abstract_open": "2026-04-01",
         "abstract_close": "2026-09-01",
-        "abstract_note": "Abstract dates TBD; check BPS website",
+        "abstract_note": "See BPS website for abstract dates and details",
         "type": "Conference",
         "url": "https://www.bps.ac.uk/events",
         "projects": [
@@ -95,7 +95,7 @@ conferences = [
     },
     {
         "name": "IMARI Annual",
-        "location": "TBD",
+        "location": "Las Vegas, NV",
         "lat": 36.1699,
         "lon": -115.1398,
         "start_date": "2027-01-27",
@@ -181,7 +181,7 @@ conferences = [
         "end_date": "2027-02-24",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "Abstract dates TBD; check BPS website",
+        "abstract_note": "Abstract dates TBD; see Biophysical Society website for updates",
         "type": "Conference",
         "url": "https://www.biophysics.org/upcoming-annual-meetings",
         "projects": [

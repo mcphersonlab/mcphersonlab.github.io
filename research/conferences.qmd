@@ -334,8 +334,6 @@ from datetime import datetime, timedelta
 from IPython.display import display, HTML
 import json
 
-_ONGOING_SORT_DATE = datetime(9999, 12, 31)
-
 def create_fullcalendar_html(conferences, call_for_papers):
     current_date = datetime.now()
     fc_events = []
@@ -351,7 +349,6 @@ def create_fullcalendar_html(conferences, call_for_papers):
 
     # Add conference and abstract deadline events
     for conf in conferences:
-        start_dt = datetime.strptime(conf["start_date"], "%Y-%m-%d")
         end_dt   = datetime.strptime(conf["end_date"],   "%Y-%m-%d")
         ev_type  = conf.get("type", "Conference")
 
@@ -481,7 +478,10 @@ def create_fullcalendar_html(conferences, call_for_papers):
                     info.jsEvent.preventDefault();
                     var url = info.event.extendedProps.url;
                     if (url) {{
-                        window.open(url, '_blank');
+                        var newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+                        if (newWindow) {{
+                            newWindow.opener = null;
+                        }}
                     }}
                 }},
                 eventDidMount: function(info) {{
