@@ -268,7 +268,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const fragment = document.createDocumentFragment();
-  activeRows.concat(pastRows).forEach((row) => fragment.appendChild(row));
+  const reorderedRows = activeRows.concat(pastRows);
+  reorderedRows.forEach((row) => fragment.appendChild(row));
   tbody.appendChild(fragment);
 });
 </script>
