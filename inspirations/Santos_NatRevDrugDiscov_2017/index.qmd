@@ -8,7 +8,7 @@ author:
 publication: "Nat Rev Drug Discov, **16**, 19–34 (2017)"
 categories: 
   - external-publication
-  - drug-development
+  - pharmacology
 url_source: https://doi.org/10.1038/nrd.2016.230
 url_preprint: 
 journ: "Nat Rev Drug Discov"

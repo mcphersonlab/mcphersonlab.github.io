@@ -17,10 +17,8 @@ categories:
 #- medicinal-chemistry
 #- artificial-intelligence
 #- economic-analysis
-#- drug-development
 #- genomics
 #- structural-biology
-#- classical-methods
 #- infectious-diseases
 #- antimicrobial-resistance
 #- human-gut-microbiome

@@ -8,7 +8,7 @@ author:
 publication: "Nat Med, **31**, 45–59 (2025)"
 categories: 
   - external-publication
-  - drug-development
+  - artificial-intelligence
 url_source: https://doi.org/10.1038/s41591-024-03434-4
 url_preprint: 
 journ: "Nat Med"

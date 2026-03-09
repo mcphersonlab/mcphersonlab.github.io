@@ -17,10 +17,8 @@ publication: "Journal, **issue**, _page_ (2024)"
 #- medicinal-chemistry
 #- artificial-intelligence
 #- economic-analysis
-#- drug-development
 #- genomics
 #- structural-biology
-#- classical-methods
 #- infectious-diseases
 #- antimicrobial-resistance
 #- human-gut-microbiome
