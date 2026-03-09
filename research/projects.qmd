@@ -133,6 +133,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  const projectHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
+    cell.textContent.trim().toLowerCase().includes('project')
+  );
+  const hasProjectColumn = projectHeaderIndex >= 0;
   const callHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
     cell.textContent.trim().toLowerCase().includes('call for paper')
   );
@@ -219,7 +223,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         select.appendChild(optionElement);
       });
-      const projectName = row.cells[0]?.textContent.trim();
+      const projectCell = hasProjectColumn ? row.children[projectHeaderIndex] : row.cells[0];
+      const projectName = projectCell?.textContent.trim();
       const storageKey = projectName ? `active-projects-status:${projectName}` : null;
       if (storageKey) {
         try {
