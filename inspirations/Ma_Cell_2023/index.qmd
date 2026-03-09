@@ -12,7 +12,7 @@ author:
 publication: "Cell, **186**(4), 877-891.e14 (2023)"
 categories: 
   - external-publication
-  - advanced-methods
+  - antimicrobial-resistance
 url_source: https://doi.org/10.1016/j.cell.2023.01.002
 url_preprint: 
 journ: "Cell"

@@ -8,7 +8,7 @@ author:
 publication: "Nat Methods, **22**, 298–309 (2025)"
 categories: 
   - external-publication
-  - advanced-methods
+  - artificial-intelligence
 url_source: https://doi.org/10.1038/s41592-024-02503-3
 url_preprint: 
 journ: "Nat Methods"

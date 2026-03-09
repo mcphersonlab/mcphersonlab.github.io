@@ -5,7 +5,7 @@ author:
 publication: "Nat Methods, **18**, 9–14 (2021)"
 categories: 
   - external-publication
-  - advanced-methods
+  - genomics
 url_source: https://doi.org/10.1038/s41592-020-01033-y
 url_preprint: 
 journ: "Nat Methods"

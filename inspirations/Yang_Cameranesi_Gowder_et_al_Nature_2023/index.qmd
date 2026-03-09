@@ -16,7 +16,6 @@ categories:
   #- drug-development
   - genomics
   #- structural-biology
-  #- advanced-methods
   #- infectious-diseases
   - antimicrobial-resistance
   #- human-gut-microbiome
