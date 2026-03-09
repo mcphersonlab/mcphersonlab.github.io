@@ -223,7 +223,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         select.appendChild(optionElement);
       });
-      const projectCell = hasProjectColumn ? row.children[projectHeaderIndex] : row.cells[0];
+      const fallbackCell = row.cells.length > 0 ? row.cells[0] : null;
+      const projectCell = hasProjectColumn ? row.children[projectHeaderIndex] : fallbackCell;
       const projectName = projectCell?.textContent.trim();
       const storageKey = projectName ? `active-projects-status:${projectName}` : null;
       if (storageKey) {
