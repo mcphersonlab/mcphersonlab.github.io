@@ -6,7 +6,7 @@ author:
 publication: "Humanit Soc Sci Commun, **11**, 1121 (2024)"
 categories: 
   - external-publication
-  - drug-development
+  - artificial-intelligence
 url_source: https://doi.org/10.1057/s41599-024-03560-x
 url_preprint: 
 journ: "Humanit Soc Sci Commun"

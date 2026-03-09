@@ -77,9 +77,9 @@ call_for_papers = [
     {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
-        "due_date": "2026-01-28",
+        "due_date": "2026-07-08",
         "topic": "Antimicrobials and Resistance in the Food Chain",
-        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "website": "https://www.nature.com/collections/bbeihchhgf",
         "projects": ["https://github.com/mcphersonlab/amr-env-food"]
     },
     {
@@ -94,7 +94,7 @@ call_for_papers = [
     {
         "journal": "npj Genomic Medicine",
         "impact": "4.8",
-        "due_date": "2025-12-28",
+        "due_date": "2026-03-28",
         "topic": "The microbiome in precision medicine",
         "website": "https://www.nature.com/collections/iaadjjbbea",
         "projects": []
@@ -102,7 +102,7 @@ call_for_papers = [
     {
         "journal": "BMC Medicine",
         "impact": "9.4",
-        "due_date": "2025-12-29",
+        "due_date": "2026-03-29",
         "topic": "Diabetes and infectious disease",
         "website": "https://link.springer.com/collections/feijedifdj",
         "projects": []
@@ -158,15 +158,15 @@ call_for_papers = [
     {
         "journal": "npj Biofilms and Microbiomes",
         "impact": "9.3",
-        "due_date": "2026-02-20",
+        "due_date": "2026-05-20",
         "topic": "Natural bioactives, Gut microbiome, and human metabolism",
-        "website": "https://www.nature.com/npjbiofilms/calls-for-papers",
+        "website": "https://www.nature.com/collections/ihecbjhhdd",
         "projects": ["https://github.com/mcphersonlab/mgx-mbx-glp-1"]
     },
     {
         "journal": "BMC Microbiology",
         "impact": "4.2",
-        "due_date": "2026-02-27",
+        "due_date": "2026-05-20",
         "topic": "Advances in microbial ecology",
         "website": "https://link.springer.com/collections/ddbhjfadca",
         "projects": ["https://github.com/mcphersonlab/MicrobiomeHUES"]

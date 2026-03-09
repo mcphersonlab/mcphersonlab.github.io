@@ -18,7 +18,7 @@ Our research is driven by three pillars:
 
 ## Research Approach
 
-We integrate [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) with [**classical experimental techniques**](https://mcphersonlab.github.io/research/area/classical-methods/) for [**drug discovery and development**](https://mcphersonlab.github.io/research/area/drug-development/) and other [**areas of research**](https://mcphersonlab.github.io/research). 
+We integrate [**artificial intelligence**](https://mcphersonlab.github.io/research/area/artificial-intelligence/) with [**pharmacology**](https://mcphersonlab.github.io/research/area/pharmacology/) and [**medicinal chemistry**](https://mcphersonlab.github.io/research/area/medicinal-chemistry/) to advance drug discovery and other [**areas of research**](https://mcphersonlab.github.io/research). 
 Check out a few of our publicly visible [**Ongoing projects**](https://mcphersonlab.github.io/research/projects) at the  [**Lab GitHub**](https://github.com/mcphersonlab), [**Zenodo**](https://zenodo.org/communities/mcphersonlab) or listed under [**publications**](https://mcphersonlab.github.io/publications/)
 
 ## Research Workflow
