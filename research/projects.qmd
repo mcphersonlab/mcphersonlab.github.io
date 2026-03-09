@@ -198,8 +198,11 @@ document.addEventListener('DOMContentLoaded', () => {
     return parsed;
   };
 
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const getToday = () => {
+    const current = new Date();
+    current.setHours(0, 0, 0, 0);
+    return current;
+  };
   const tbody = table.querySelector('tbody');
   const rows = Array.from(tbody.querySelectorAll('tr'));
   const activeRows = [];
@@ -257,6 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const callCell = hasCallColumn ? row.children[callHeaderIndex] : null;
     const deadline = callCell ? parseDeadline(callCell.textContent) : null;
+    const today = getToday();
     if (deadline && deadline < today) {
       row.classList.add('past-deadline');
       pastRows.push(row);
