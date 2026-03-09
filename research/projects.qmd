@@ -134,9 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const callHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
-    cell.textContent.trim().toLowerCase() === 'call for paper'
+    cell.textContent.trim().toLowerCase().includes('call for paper')
   );
   const hasCallColumn = callHeaderIndex >= 0;
+  const deadlinePattern = /Deadline:\s*([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})/;
+  let storageWarningShown = false;
 
   const statusHeader = document.createElement('th');
   statusHeader.textContent = 'Submission Status';
@@ -151,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const parseDeadline = (text) => {
-    const match = text.match(/Deadline:\s*([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})/);
+    const match = text.match(deadlinePattern);
     if (!match) {
       return null;
     }
@@ -210,6 +212,10 @@ document.addEventListener('DOMContentLoaded', () => {
             select.value = storedValue;
           }
         } catch (error) {
+          if (!storageWarningShown) {
+            console.warn('Submission status storage unavailable.', error);
+            storageWarningShown = true;
+          }
         }
       }
       select.addEventListener('change', () => {
@@ -218,6 +224,10 @@ document.addEventListener('DOMContentLoaded', () => {
           try {
             window.localStorage?.setItem(storageKey, select.value);
           } catch (error) {
+            if (!storageWarningShown) {
+              console.warn('Submission status storage unavailable.', error);
+              storageWarningShown = true;
+            }
           }
         }
       });
