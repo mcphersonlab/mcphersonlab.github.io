@@ -201,8 +201,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return parsed;
   };
 
-  const todayDate = new Date();
-  todayDate.setHours(0, 0, 0, 0);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
   const tbody = table.querySelector('tbody');
   const rows = Array.from(tbody.querySelectorAll('tr'));
   const activeRows = [];
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const callCell = hasCallColumn ? row.children[callHeaderIndex] : null;
     const deadline = callCell ? parseDeadline(callCell.textContent) : null;
-    if (deadline && deadline < todayDate) {
+    if (deadline && deadline < today) {
       row.classList.add('past-deadline');
       pastRows.push(row);
     } else {
@@ -268,8 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const fragment = document.createDocumentFragment();
-  const reorderedRows = activeRows.concat(pastRows);
-  reorderedRows.forEach((row) => fragment.appendChild(row));
+  [...activeRows, ...pastRows].forEach((row) => fragment.appendChild(row));
   tbody.appendChild(fragment);
 });
 </script>
