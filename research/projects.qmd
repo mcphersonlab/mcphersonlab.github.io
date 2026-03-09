@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const callHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
     cell.textContent.trim().toLowerCase() === 'call for paper'
   );
+  const hasCallColumn = callHeaderIndex >= 0;
 
   const statusHeader = document.createElement('th');
   statusHeader.textContent = 'Submission Status';
@@ -150,15 +151,36 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const parseDeadline = (text) => {
-    const match = text.match(/Deadline:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/);
+    const match = text.match(/Deadline:\s*([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})/);
     if (!match) {
       return null;
     }
-    const parsed = new Date(match[1]);
+    const monthLookup = {
+      january: 0,
+      february: 1,
+      march: 2,
+      april: 3,
+      may: 4,
+      june: 5,
+      july: 6,
+      august: 7,
+      september: 8,
+      october: 9,
+      november: 10,
+      december: 11
+    };
+    const monthIndex = monthLookup[match[1].toLowerCase()];
+    if (monthIndex === undefined) {
+      return null;
+    }
+    const day = Number.parseInt(match[2], 10);
+    const year = Number.parseInt(match[3], 10);
+    const parsed = new Date(year, monthIndex, day);
     return Number.isNaN(parsed.valueOf()) ? null : parsed;
   };
 
-  const now = new Date();
+  const today = new Date();
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
   const tbody = table.querySelector('tbody');
   const rows = Array.from(tbody.querySelectorAll('tr'));
   const activeRows = [];
@@ -179,17 +201,34 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         select.appendChild(optionElement);
       });
+      const projectName = row.cells[0]?.textContent.trim();
+      const storageKey = projectName ? `active-projects-status:${projectName}` : null;
+      if (storageKey) {
+        try {
+          const storedValue = window.localStorage?.getItem(storageKey);
+          if (storedValue && statusOptions.includes(storedValue)) {
+            select.value = storedValue;
+          }
+        } catch (error) {
+        }
+      }
       select.addEventListener('change', () => {
         row.dataset.submissionStatus = select.value;
+        if (storageKey) {
+          try {
+            window.localStorage?.setItem(storageKey, select.value);
+          } catch (error) {
+          }
+        }
       });
       statusCell.appendChild(select);
       row.appendChild(statusCell);
       row.dataset.submissionStatus = select.value;
     }
 
-    const callCell = callHeaderIndex >= 0 ? row.children[callHeaderIndex] : null;
+    const callCell = hasCallColumn ? row.children[callHeaderIndex] : null;
     const deadline = callCell ? parseDeadline(callCell.textContent) : null;
-    if (deadline && deadline < now) {
+    if (deadline && deadline < todayDate) {
       row.classList.add('past-deadline');
       pastRows.push(row);
     } else {
