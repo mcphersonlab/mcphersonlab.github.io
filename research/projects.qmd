@@ -50,6 +50,21 @@ Each conference and call for papers entry in our [Research page](index.qmd) can 
 
 Visit our [GitHub Organization](https://github.com/McPhersonLab):
 
+<style>
+#active-projects-table-wrapper table .submission-select {
+  width: 100%;
+  min-width: 200px;
+}
+#active-projects-table-wrapper table tbody tr.past-deadline {
+  background-color: rgba(108, 117, 125, 0.1);
+  color: #6c757d;
+}
+#active-projects-table-wrapper table tbody tr.past-deadline a {
+  color: #6c757d;
+}
+</style>
+
+::: {#active-projects-table-wrapper}
 | Project (Link) | Question | Target Conference | Call for Paper | Big Name Journal |
 |:---------------|:---------|:--------------|:----------------|:-----------------|
 | [MicroSCOPE](https://github.com/mcphersonlab/MicroSCOPE) | Microbial speciation from colony observation and prediction | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/bbiccggggj)**<br><em>Deadline: January 09, 2026</em> | Nature Microbiology |
@@ -103,6 +118,162 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | ROI analysis for antimicrobial drug development | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: TBD</em> | **[Pharmacoeconomics](https://link.springer.com/journal/40273)**<br><em>Deadline: TBD</em> | Value in Health |
 | [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | Structure-function relationships in pharmacology | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | Nature Reviews Drug Discovery |
 | [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of *C. difficile* infection | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | Clinical Infectious Diseases |
+:::
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const table = document.querySelector('#active-projects-table-wrapper table');
+  if (!table || table.dataset.interactiveInitialized === 'true') {
+    return;
+  }
+  table.dataset.interactiveInitialized = 'true';
+
+  const headerRow = table.querySelector('thead tr');
+  if (!headerRow) {
+    return;
+  }
+
+  const projectHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
+    cell.textContent.trim().toLowerCase().includes('project')
+  );
+  const hasProjectColumn = projectHeaderIndex >= 0;
+  const callHeaderIndex = Array.from(headerRow.children).findIndex((cell) =>
+    cell.textContent.trim().toLowerCase().includes('call for paper')
+  );
+  const hasCallColumn = callHeaderIndex >= 0;
+  const deadlinePattern = /Deadline:\s*([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})/;
+  let storageWarningShown = false;
+
+  const statusHeader = document.createElement('th');
+  statusHeader.textContent = 'Submission Status';
+  statusHeader.classList.add('submission-status-header');
+  headerRow.appendChild(statusHeader);
+
+  const statusOptions = [
+    'Not Submitted Anywhere',
+    'Submitted to Conference',
+    'Submitted to Call',
+    'Submitted to Big Name Journal'
+  ];
+
+  const parseDeadline = (text) => {
+    const match = text.match(deadlinePattern);
+    if (!match) {
+      return null;
+    }
+    const monthLookup = {
+      january: 0,
+      february: 1,
+      march: 2,
+      april: 3,
+      may: 4,
+      june: 5,
+      july: 6,
+      august: 7,
+      september: 8,
+      october: 9,
+      november: 10,
+      december: 11
+    };
+    const monthIndex = monthLookup[match[1].toLowerCase()];
+    if (monthIndex === undefined) {
+      return null;
+    }
+    const day = Number.parseInt(match[2], 10);
+    const year = Number.parseInt(match[3], 10);
+    if (Number.isNaN(day) || Number.isNaN(year)) {
+      return null;
+    }
+    if (year < 1900 || year > 2100) {
+      return null;
+    }
+    const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+    if (day < 1 || day > daysInMonth) {
+      return null;
+    }
+    const parsed = new Date(year, monthIndex, day);
+    if (Number.isNaN(parsed.valueOf())) {
+      return null;
+    }
+    return parsed;
+  };
+
+  const getToday = () => {
+    const current = new Date();
+    current.setHours(0, 0, 0, 0);
+    return current;
+  };
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  const activeRows = [];
+  const pastRows = [];
+
+  rows.forEach((row) => {
+    if (!row.querySelector('td.submission-status')) {
+      const statusCell = document.createElement('td');
+      statusCell.classList.add('submission-status');
+      const select = document.createElement('select');
+      select.classList.add('submission-select');
+      statusOptions.forEach((option) => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        optionElement.textContent = option;
+        if (option === 'Not Submitted Anywhere') {
+          optionElement.selected = true;
+        }
+        select.appendChild(optionElement);
+      });
+      const fallbackCell = row.cells.length > 0 ? row.cells[0] : null;
+      const projectCell = hasProjectColumn ? row.children[projectHeaderIndex] : fallbackCell;
+      const projectName = projectCell?.textContent.trim();
+      const storageKey = projectName ? `active-projects-status:${projectName}` : null;
+      if (storageKey) {
+        try {
+          const storedValue = window.localStorage.getItem(storageKey);
+          if (storedValue && statusOptions.includes(storedValue)) {
+            select.value = storedValue;
+          }
+        } catch (error) {
+          if (!storageWarningShown) {
+            console.warn('Submission status storage unavailable.', error);
+            storageWarningShown = true;
+          }
+        }
+      }
+      select.addEventListener('change', () => {
+        row.dataset.submissionStatus = select.value;
+        if (storageKey) {
+          try {
+            window.localStorage.setItem(storageKey, select.value);
+          } catch (error) {
+            if (!storageWarningShown) {
+              console.warn('Submission status storage unavailable.', error);
+              storageWarningShown = true;
+            }
+          }
+        }
+      });
+      statusCell.appendChild(select);
+      row.appendChild(statusCell);
+      row.dataset.submissionStatus = select.value;
+    }
+
+    const callCell = hasCallColumn ? row.children[callHeaderIndex] : null;
+    const deadline = callCell ? parseDeadline(callCell.textContent) : null;
+    const today = getToday();
+    if (deadline && deadline < today) {
+      row.classList.add('past-deadline');
+      pastRows.push(row);
+    } else {
+      activeRows.push(row);
+    }
+  });
+
+  const fragment = document.createDocumentFragment();
+  [...activeRows, ...pastRows].forEach((row) => fragment.appendChild(row));
+  tbody.appendChild(fragment);
+});
+</script>
 
 ### Grants
 
