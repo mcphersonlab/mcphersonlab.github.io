@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const day = Number.parseInt(match[2], 10);
     const year = Number.parseInt(match[3], 10);
-    if (!Number.isInteger(day) || !Number.isInteger(year)) {
+    if (Number.isNaN(day) || Number.isNaN(year)) {
       return null;
     }
     if (year < 1900 || year > 2100) {
@@ -193,9 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const parsed = new Date(year, monthIndex, day);
     if (Number.isNaN(parsed.valueOf())) {
-      return null;
-    }
-    if (parsed.getMonth() !== monthIndex || parsed.getDate() !== day) {
       return null;
     }
     return parsed;
