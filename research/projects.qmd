@@ -180,7 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!Number.isInteger(day) || !Number.isInteger(year)) {
       return null;
     }
-    if (day < 1 || day > 31 || year < 1900 || year > 2100) {
+    if (year < 1900 || year > 2100) {
+      return null;
+    }
+    const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+    if (day < 1 || day > daysInMonth) {
       return null;
     }
     const parsed = new Date(year, monthIndex, day);
@@ -193,8 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return parsed;
   };
 
-  const today = new Date();
-  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const todayDate = new Date();
+  todayDate.setHours(0, 0, 0, 0);
   const tbody = table.querySelector('tbody');
   const rows = Array.from(tbody.querySelectorAll('tr'));
   const activeRows = [];
