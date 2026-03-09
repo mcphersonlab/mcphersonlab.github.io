@@ -121,7 +121,7 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 :::
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
+const initializeActiveProjectsTable = () => {
   const table = document.querySelector('#active-projects-table-wrapper table');
   if (!table || table.dataset.interactiveInitialized === 'true') {
     return;
@@ -204,9 +204,13 @@ document.addEventListener('DOMContentLoaded', () => {
     return current;
   };
   const tbody = table.querySelector('tbody');
+  if (!tbody) {
+    return;
+  }
   const rows = Array.from(tbody.querySelectorAll('tr'));
   const activeRows = [];
   const pastRows = [];
+  const today = getToday();
 
   rows.forEach((row) => {
     if (!row.querySelector('td.submission-status')) {
@@ -260,7 +264,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const callCell = hasCallColumn ? row.children[callHeaderIndex] : null;
     const deadline = callCell ? parseDeadline(callCell.textContent) : null;
-    const today = getToday();
     if (deadline && deadline < today) {
       row.classList.add('past-deadline');
       pastRows.push(row);
@@ -272,7 +275,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const fragment = document.createDocumentFragment();
   [...activeRows, ...pastRows].forEach((row) => fragment.appendChild(row));
   tbody.appendChild(fragment);
-});
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeActiveProjectsTable);
+} else {
+  initializeActiveProjectsTable();
+}
 </script>
 
 ### Grants
