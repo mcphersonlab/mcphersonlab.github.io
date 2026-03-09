@@ -8,7 +8,7 @@ author:
 publication: "Nature, **641**, 932–941 (2025)"
 categories: 
   - external-publication
-  - advanced-methods
+  - genomics
 url_source: https://doi.org/10.1038/s41586-025-08757-x
 url_preprint: 
 journ: "Nature"

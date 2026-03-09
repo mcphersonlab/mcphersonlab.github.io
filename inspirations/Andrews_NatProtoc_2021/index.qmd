@@ -8,7 +8,7 @@ author:
 publication: "Nat Protoc, **16**, 1–9 (2021)"
 categories: 
   - external-publication
-  - advanced-methods
+  - genomics
 url_source: https://doi.org/10.1038/s41596-020-00409-w
 url_preprint: 
 journ: "Nat Protoc"

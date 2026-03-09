@@ -5,7 +5,7 @@ author:
 publication: "Nat Methods, **21**, 2195–2196 (2024)"
 categories: 
   - external-publication
-  - advanced-methods
+  - structural-biology
 url_source: https://doi.org/10.1038/s41592-024-02565-3
 url_preprint: 
 journ: "Nat Methods"
