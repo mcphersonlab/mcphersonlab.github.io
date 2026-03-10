@@ -415,6 +415,14 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "JASMS",
+        "impact": "",
+        "due_date": "2026-06-30",
+        "topic": "<a href='https://axial.acs.org/analytical-chemistry/call-for-papers-mass-spectrometry-in-microbial-sciences' target='_blank' style='color: #007bff;'>Call for Papers: Mass Spectrometry in Microbial Sciences</a>",
+        "website": "https://axial.acs.org/analytical-chemistry/call-for-papers-mass-spectrometry-in-microbial-sciences",
+        "projects": []
+    },
+    {
         "journal": "BMC Public Health",
         "impact": "4.2",
         "due_date": "2026-07-03",
@@ -670,6 +678,30 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "Patterns",
+        "impact": "8.1",
+        "due_date": "2026-09-01",
+        "topic": "<a href='https://www.cell.com/patterns/special-issues/call-for-papers/medical-imaging' target='_blank' style='color: #007bff;'>Computational Imaging for Healthcare</a>",
+        "website": "https://www.cell.com/patterns/special-issues/call-for-papers/medical-imaging",
+        "projects": []
+    },
+    {
+        "journal": "Nature Immunology/Nature Cell Biology",
+        "impact": "25.6 / 28.0",
+        "due_date": "2026-10-28",
+        "topic": "<a href='https://www.nature.com/collections/jaehbihgeg' target='_blank' style='color: #007bff;'>Cell death and inflammatory signalling</a>",
+        "website": "https://www.nature.com/collections/jaehbihgeg",
+        "projects": []
+    },
+    {
+        "journal": "Communications Earth &amp; Environment/Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-10-28",
+        "topic": "<a href='https://www.nature.com/collections/hjcbhageee/' target='_blank' style='color: #007bff;'>One Health 2026</a>",
+        "website": "https://www.nature.com/collections/hjcbhageee/",
+        "projects": []
+    },
+    {
         "journal": "BMC Artificial Intelligence",
         "impact": "4.6",
         "due_date": "2026-12-01",
@@ -691,6 +723,22 @@ call_for_papers = [
         "due_date": "2026-12-01",
         "topic": "The ethics of medical artificial intelligence: Trust and adoption of AI in healthcare",
         "website": "https://link.springer.com/collections/abfhhheefd",
+        "projects": []
+    },
+    {
+        "journal": "Nature Neuroscience",
+        "impact": "25.0",
+        "due_date": "2026-12-05",
+        "topic": "<a href='https://www.nature.com/collections/bchejjbhae' target='_blank' style='color: #007bff;'>The Gut-Brain Axis and Health</a>",
+        "website": "https://www.nature.com/collections/bchejjbhae",
+        "projects": []
+    },
+    {
+        "journal": "Nature Medicine/Nature Metabolism",
+        "impact": "87.3",
+        "due_date": "2026-12-06",
+        "topic": "<a href='https://www.nature.com/collections/hidgieebfe/' target='_blank' style='color: #007bff;'>Microbiome and Energy Metabolism</a>",
+        "website": "https://www.nature.com/collections/hidgieebfe/",
         "projects": []
     },
     {
