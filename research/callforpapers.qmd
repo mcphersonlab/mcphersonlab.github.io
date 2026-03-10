@@ -99,6 +99,13 @@ def create_callforpapers_html(papers_data):
         .callforpapers-table tbody tr.past-deadline {
             opacity: 0.45;
         }
+        .callforpapers-table tbody tr.no-project {
+            background-color: #fce0c8;
+            border-left: 4px solid #cc5500;
+        }
+        .callforpapers-table tbody tr.no-project:hover {
+            background-color: #f8c9a8;
+        }
     </style>
     <table class="callforpapers-table">
         <thead>
@@ -114,14 +121,21 @@ def create_callforpapers_html(papers_data):
     """
     
     for paper in sorted_papers:
-        # Determine row class based on due date status
-        row_class = ""
+        # Determine row classes based on due date status and project presence
+        classes = []
         if paper['due_date'] != 'Ongoing':
             days_until = (paper['sort_date'] - current_date).days
             if days_until < 0:
-                row_class = ' class="past-deadline"'
+                classes.append("past-deadline")
             elif 0 <= days_until <= 60:
-                row_class = ' class="upcoming-deadline"'
+                classes.append("upcoming-deadline")
+        
+        projects = paper.get('projects', [])
+        has_project = bool(projects and isinstance(projects, list) and any(p for p in projects))
+        if not has_project:
+            classes.append("no-project")
+        
+        row_class = f' class="{" ".join(classes)}"' if classes else ""
         
         website_html = f"<a href='{paper['website']}' target='_blank' style='color: #007bff;'>Link</a>"
         # Format Journal column with journal name and website link below
