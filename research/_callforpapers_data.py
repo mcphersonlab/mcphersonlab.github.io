@@ -694,7 +694,7 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "Communications Earth &amp; Environment/Nature Communications",
+        "journal": "Communications Earth & Environment/Nature Communications",
         "impact": "15.7",
         "due_date": "2026-10-28",
         "topic": "<a href='https://www.nature.com/collections/hjcbhageee/' target='_blank' style='color: #007bff;'>One Health 2026</a>",
