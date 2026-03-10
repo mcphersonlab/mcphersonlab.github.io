@@ -21,9 +21,9 @@ call_for_papers = [
     {
         "journal": "npj Drug Discovery",
         "impact": "",
-        "due_date": "2026-03-11",
+        "due_date": "2026-09-30",
         "topic": "Drug discovery at G Protein-Coupled Receptors",
-        "website": "https://www.nature.com/npjdrugdiscov/collections",
+        "website": "https://www.nature.com/collections/gfaahhfcaj",
         "projects": []
     },
     {
@@ -226,7 +226,7 @@ call_for_papers = [
     {
         "journal": "npj Digital Medicine",
         "impact": "15.1",
-        "due_date": "2026-03-12",
+        "due_date": "2026-07-12",
         "topic": "Impact of agentic AI on care delivery",
         "website": "https://www.nature.com/collections/ghaghgcbei",
         "projects": []
@@ -234,7 +234,7 @@ call_for_papers = [
     {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
-        "due_date": "2026-03-24",
+        "due_date": "2026-06-24",
         "topic": "Cracking the code of AMR: resistance genomics",
         "website": "https://www.nature.com/collections/cfbjiegbcg",
         "projects": ["https://github.com/mcphersonlab/amr-klebsiella-pneumoniae", 
@@ -270,7 +270,7 @@ call_for_papers = [
         "impact": "8.7",
         "due_date": "2026-04-07",
         "topic": "Data Science, AI and Machine Learning Approaches to AMR",
-        "website": "https://www.nature.com/npjamar/calls-for-papers",
+        "website": "https://www.nature.com/collections/eecajaidbe",
         "projects": ["https://github.com/mcphersonlab/ai-amr", 
                      "https://github.com/mcphersonlab/MicroSCOPE"]
     },
