@@ -271,7 +271,8 @@ call_for_papers = [
         "due_date": "2026-04-07",
         "topic": "Data Science, AI and Machine Learning Approaches to AMR",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
-        "projects": ["https://github.com/mcphersonlab/ai-amr"]
+        "projects": ["https://github.com/mcphersonlab/ai-amr", 
+                     "https://github.com/mcphersonlab/MicroSCOPE"]
     },
     {
         "journal": "Journal of Chemical Theory and Computation (JCTC)",
