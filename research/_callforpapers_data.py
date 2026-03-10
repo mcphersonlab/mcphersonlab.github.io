@@ -323,6 +323,14 @@ call_for_papers = [
         "projects": ["https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells"]
     },
     {
+        "journal": "Journal of Chemical Theory and Computation (JCTC)",
+        "impact": "6.4",
+        "due_date": "2026-06-01",
+        "topic": "Modeling the Impact of Protein Mutations on Chemical Reactions for Biochemistry, Protein Engineering, and Drug Discovery",
+        "website": "https://axial.acs.org/theoretical-and-computational-chemistry/call-for-papers-modeling-the-impact-of-protein-mutations-on-chemical-reactions-for-biochemistry-protein-engineering-and-drug-discovery",
+        "projects": []
+    },
+    {
         "journal": "npj Digital Medicine",
         "impact": "15.1",
         "due_date": "2026-06-03",
@@ -397,6 +405,14 @@ call_for_papers = [
         "website": "https://link.springer.com/collections/ifeeeaadce",
         "projects": ["https://github.com/mcphersonlab/ai-amr", 
                      "https://github.com/mcphersonlab/ai-forecast-pharmacology"]
+    },
+    {
+        "journal": "ACS Infectious Diseases",
+        "impact": "3.8",
+        "due_date": "2026-06-30",
+        "topic": "Celebrating 80 years of the β-lactam Nobel Prize",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-celebrating-80-years-of-the-beta-lactam-nobel-prize",
+        "projects": []
     },
     {
         "journal": "BMC Public Health",
@@ -644,6 +660,14 @@ call_for_papers = [
         "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile", 
                      "https://github.com/mcphersonlab/amr-staphylococcus-aureus", 
                      "https://github.com/mcphersonlab/amr-klebsiella-pneumoniae"]
+    },
+    {
+        "journal": "ACS Infectious Diseases",
+        "impact": "3.8",
+        "due_date": "2026-09-01",
+        "topic": "Emerging Tools for Infection Diagnosis, Prognosis, and Spread Control",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-emerging-tools-for-infection-diagnosis-prognosis-and-spread-control",
+        "projects": []
     },
     {
         "journal": "BMC Artificial Intelligence",
