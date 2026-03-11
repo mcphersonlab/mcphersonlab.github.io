@@ -96,6 +96,14 @@ img {
   object-position: center;
 }
 
+/* Normalize the Education landing grid thumbnails without changing Research */
+#listing-education .quarto-grid-item .card-img,
+#listing-education .quarto-grid-item .card-img-top,
+#listing-education .quarto-grid-item img.thumbnail-image,
+#listing-education .quarto-grid-item img.thumbnail-image.card-img {
+  object-fit: cover;
+}
+
 /* Specific styling for people/alumni page profile images */
 /* Use object-fit: cover for profile photos to fill the container */
 .quarto-grid-item img.listing-box-image {
