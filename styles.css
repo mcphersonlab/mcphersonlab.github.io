@@ -96,11 +96,11 @@ img {
   object-position: center;
 }
 
-/* Keep featured images visually consistent across research and education landing grids */
-:is(#listing-research-areas, #listing-research-approaches, #listing-education) .quarto-grid-item .card-img,
-:is(#listing-research-areas, #listing-research-approaches, #listing-education) .quarto-grid-item .card-img-top,
-:is(#listing-research-areas, #listing-research-approaches, #listing-education) .quarto-grid-item img.thumbnail-image,
-:is(#listing-research-areas, #listing-research-approaches, #listing-education) .quarto-grid-item img.thumbnail-image.card-img {
+/* Normalize the Education landing grid thumbnails without changing Research */
+#listing-education .quarto-grid-item .card-img,
+#listing-education .quarto-grid-item .card-img-top,
+#listing-education .quarto-grid-item img.thumbnail-image,
+#listing-education .quarto-grid-item img.thumbnail-image.card-img {
   object-fit: cover;
 }
 
