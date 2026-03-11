@@ -130,8 +130,8 @@ def create_callforpapers_html(papers_data):
             elif 0 <= days_until <= 60:
                 classes.append("upcoming-deadline")
         
-        projects = paper.get('projects', [])
-        has_project = bool(projects and isinstance(projects, list) and any(p for p in projects))
+        projects = [p for p in paper.get('projects', []) if p and isinstance(p, str) and p.strip()]
+        has_project = bool(projects)
         if not has_project:
             classes.append("no-project")
         
@@ -146,8 +146,7 @@ def create_callforpapers_html(papers_data):
         impact_cell = f'<span style="font-weight: bold;">{impact}</span>' if impact else '—'
         
         # Add project links - support multiple project-specific links
-        projects = paper.get('projects', [])
-        if projects and isinstance(projects, list) and len(projects) > 0:
+        if projects:
             project_links = []
             for project_url in projects:
                 project_links.append(f"<a href='{project_url}' target='_blank' style='color: #007bff;'>Link</a>")
