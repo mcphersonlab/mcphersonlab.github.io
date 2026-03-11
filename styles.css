@@ -96,6 +96,22 @@ img {
   object-position: center;
 }
 
+/* Keep featured images visually consistent across research and education landing grids */
+#research-areas .quarto-grid-item .card-img,
+#research-areas .quarto-grid-item .card-img-top,
+#research-areas .quarto-grid-item img.thumbnail-image,
+#research-areas .quarto-grid-item img.thumbnail-image.card-img,
+#research-approaches .quarto-grid-item .card-img,
+#research-approaches .quarto-grid-item .card-img-top,
+#research-approaches .quarto-grid-item img.thumbnail-image,
+#research-approaches .quarto-grid-item img.thumbnail-image.card-img,
+#education .quarto-grid-item .card-img,
+#education .quarto-grid-item .card-img-top,
+#education .quarto-grid-item img.thumbnail-image,
+#education .quarto-grid-item img.thumbnail-image.card-img {
+  object-fit: cover;
+}
+
 /* Specific styling for people/alumni page profile images */
 /* Use object-fit: cover for profile photos to fill the container */
 .quarto-grid-item img.listing-box-image {
