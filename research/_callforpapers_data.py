@@ -13,7 +13,7 @@ call_for_papers = [
     {
         "journal": "npj Drug Discovery",
         "impact": "",
-        "due_date": "2026-01-21",
+        "due_date": "2026-04-30",
         "topic": "Drug discovery of ion channels",
         "website": "https://www.nature.com/npjdrugdiscov/collections",
         "projects": []
@@ -150,7 +150,7 @@ call_for_papers = [
     {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
-        "due_date": "2026-01-15",
+        "due_date": "2026-04-15",
         "topic": "Pathogen Drug Permeability",
         "website": "https://www.nature.com/npjamar/calls-for-papers",
         "projects": []
@@ -884,6 +884,102 @@ call_for_papers = [
         "due_date": "2026-04-29",
         "topic": "Immuno-senescence",
         "website": "https://www.nature.com/collections/jgafgefgic",
+        "projects": []
+    },
+    {
+        "journal": "npj Toxicology",
+        "impact": "",
+        "due_date": "2026-11-25",
+        "topic": "Pollutants and Toxicology: Gut Microbiota Dysbiosis as a Critical Biomarker",
+        "website": "https://www.nature.com/collections/cejcagffbf",
+        "projects": []
+    },
+    {
+        "journal": "Nature Structural and Molecular Biology",
+        "impact": "",
+        "due_date": "2026-04-30",
+        "topic": "DNA repair and human disease",
+        "website": "https://www.nature.com/collections/ehffcdddfb/",
+        "projects": []
+    },
+    {
+        "journal": "Humanities and Social Sciences Communications",
+        "impact": "3.9",
+        "due_date": "2026-11-24",
+        "topic": "Pharmaceutical intellectual property",
+        "website": "https://www.nature.com/collections/bffjbiagge",
+        "projects": []
+    },
+    {
+        "journal": "Humanities and Social Sciences Communications",
+        "impact": "3.9",
+        "due_date": "2026-08-05",
+        "topic": "Research futures: opportunities, challenges, and competitiveness of doctoral and early-career researchers",
+        "website": "https://www.nature.com/collections/jjbecghcag",
+        "projects": []
+    },
+    {
+        "journal": "Scientific Data",
+        "impact": "4.0",
+        "due_date": "2026-07-08",
+        "topic": "Transcriptomics data from clinical isolates",
+        "website": "https://www.nature.com/collections/aagedjdhjf",
+        "projects": []
+    },
+    {
+        "journal": "npj Drug Discovery",
+        "impact": "",
+        "due_date": "2026-03-31",
+        "topic": "Medicinal Chemistry Approaches for Small-Molecule Drug Discovery",
+        "website": "https://www.nature.com/collections/icgbagijjd",
+        "projects": []
+    },
+    {
+        "journal": "npj Artificial Intelligence",
+        "impact": "",
+        "due_date": "2026-07-10",
+        "topic": "AI in Chemistry",
+        "website": "https://www.nature.com/collections/gcbedibjhc",
+        "projects": []
+    },
+    {
+        "journal": "npj Climate and Atmospheric Science",
+        "impact": "",
+        "due_date": "2026-10-31",
+        "topic": "AI-Driven Innovation in Atmospheric Chemistry and Composition–Climate Interactions",
+        "website": "https://www.nature.com/collections/ggejajfbei",
+        "projects": []
+    },
+    {
+        "journal": "npj Cardiovascular Health",
+        "impact": "",
+        "due_date": "2026-03-25",
+        "topic": "In pursuit of novel drug targets for cardiovascular disease",
+        "website": "https://www.nature.com/collections/ciacchcidh",
+        "projects": []
+    },
+    {
+        "journal": "Scientific Data",
+        "impact": "4.0",
+        "due_date": "2026-12-12",
+        "topic": "Bacteria, archaea and virus genomics",
+        "website": "https://www.nature.com/collections/ejchgjiajh",
+        "projects": []
+    },
+    {
+        "journal": "npj Exercise Medicine and Health",
+        "impact": "",
+        "due_date": "2026-11-25",
+        "topic": "Nutritional strategies to optimise the health outcomes of physical activity and exercise interventions",
+        "website": "https://www.nature.com/collections/gjhabgbcha",
+        "projects": []
+    },
+    {
+        "journal": "Experimental & Molecular Medicine",
+        "impact": "",
+        "due_date": "2026-12-02",
+        "topic": "Single-cell omics: from technology to biology (Reviews)",
+        "website": "https://www.nature.com/collections/gffeedjjjb",
         "projects": []
     }
 ]
