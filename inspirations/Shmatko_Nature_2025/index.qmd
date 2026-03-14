@@ -1,0 +1,21 @@
+---
+title: "Learning the natural history of human disease with generative transformers"
+author: 
+- Shmatko
+- Jung
+- Gaurav
+- et al.
+publication: "Nature, **647**, 248–256 (2025)"
+categories: 
+  - external-publication
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-025-09529-3
+url_preprint: 
+journ: "Nature"
+issue: 647
+page: 248–256
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-09529-3
+---
