@@ -1,0 +1,45 @@
+---
+title: EARS-Net
+alias: &ALIAS earsnet
+href: https://www.ecdc.europa.eu/en/antimicrobial-resistance/surveillance-and-disease-data/ears-net
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The European Antimicrobial Resistance Surveillance Network (EARS-Net, ECDC) is a European network providing reference antimicrobial resistance data for public health purposes across EU/EEA countries.
+
+## Key Features
+
+- Collects standardized susceptibility testing data from clinical isolates across 30+ EU/EEA countries
+- Covers priority pathogens including E. coli, K. pneumoniae, S. aureus, E. faecium, and others
+- Provides annual reports with temporal trends, geographic distributions, and country comparisons
+- Data available for download via ECDC Surveillance Atlas of Infectious Diseases
+- Adheres to EUCAST breakpoints and standardized microbiological methodology across networks
+
+## Use Cases in Research
+
+- Analyzing pan-European AMR prevalence trends for key ESKAPE and priority pathogens
+- Comparing national AMR rates to benchmark clinical and surveillance programs
+- Generating AMR epidemiological context for genomic and mechanistic resistance studies
+- Training predictive models of AMR spread using longitudinal European surveillance data
+- Informing antibiotic stewardship and treatment guideline development with evidence-based resistance rates
+
+## Getting Started
+
+Visit [EARS-Net](https://www.ecdc.europa.eu/en/antimicrobial-resistance/surveillance-and-disease-data/ears-net) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

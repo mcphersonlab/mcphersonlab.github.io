@@ -1,0 +1,45 @@
+---
+title: OpenOrganelle
+alias: &ALIAS openorganelle
+href: https://openorganelle.janelia.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+OpenOrganelle (Janelia Research Campus) provides large-scale electron microscopy volumes and segmentations of cells at nanometer resolution, enabling 3D analysis of subcellular structures.
+
+## Key Features
+
+- Hosts FIB-SEM volumes with isotropic nanometer resolution across multiple cell types
+- Provides 3D segmentations of organelles including mitochondria, ER, nucleus, and lysosomes
+- Uses cloud-native N5/Zarr formats for scalable access to multi-terabyte datasets
+- Enables interactive 3D visualization via Neuroglancer and companion analysis tools
+- Open data with metadata describing cell type, organism, and imaging conditions
+
+## Use Cases in Research
+
+- Studying subcellular structural changes in host cells during bacterial or viral infection
+- Analyzing organelle morphology and dynamics relevant to intracellular pathogen survival
+- Training AI segmentation models for automated organelle detection in EM images
+- Investigating membrane ultrastructure changes associated with antibiotic-induced cell stress
+- Integrating structural data with transcriptomic or proteomic data for subcellular systems analysis
+
+## Getting Started
+
+Visit [OpenOrganelle](https://openorganelle.janelia.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

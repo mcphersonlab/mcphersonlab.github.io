@@ -1,0 +1,45 @@
+---
+title: ImmPort
+alias: &ALIAS immport
+href: https://www.immport.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+ImmPort is a NIAID-funded data repository and analysis platform providing immunology data sharing and reuse to accelerate translational research and clinical trials.
+
+## Key Features
+
+- Archives immunological datasets from NIAID-funded studies including clinical trials and basic research
+- Supports diverse data types: flow cytometry, gene expression, serology, and clinical metadata
+- Provides standardized data templates and ontologies for consistent immunology data reporting
+- Offers interactive analysis tools and programmatic API access for data reuse
+- Enables linking of experimental immunology data across studies for meta-analysis
+
+## Use Cases in Research
+
+- Accessing immunological response data from vaccine and infectious disease clinical trials
+- Mining immune cell phenotyping data to characterize responses to specific pathogens
+- Integrating ImmPort datasets with genomic and transcriptomic data for systems immunology
+- Building training datasets for AI models predicting immune response to infection or vaccination
+- Identifying immune correlates of protection relevant to AMR infection outcomes
+
+## Getting Started
+
+Visit [ImmPort](https://www.immport.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

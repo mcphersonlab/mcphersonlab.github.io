@@ -1,0 +1,45 @@
+---
+title: GLASS
+alias: &ALIAS glass
+href: https://www.who.int/initiatives/glass
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Global Antimicrobial Resistance and Use Surveillance System (GLASS) is a WHO initiative that standardizes global AMR surveillance to understand the magnitude and trends of AMR and guide interventions.
+
+## Key Features
+
+- Collects standardized AMR and antimicrobial use (AMU) data from WHO member states globally
+- Covers priority pathogens and infection sites per WHO AMR action plan targets
+- Provides country-level data on resistance rates, sample sources, and patient demographics
+- Publishes annual GLASS reports with global AMR burden estimates and data quality assessments
+- Integrates with WHONET software for laboratory-level data collection and submission
+
+## Use Cases in Research
+
+- Accessing globally harmonized AMR prevalence data for low- and middle-income country contexts
+- Comparing AMR rates and antimicrobial use patterns across WHO regions
+- Informing global health models of AMR burden and the impact of stewardship interventions
+- Contextualizing local AMR findings within the global WHO GLASS framework
+- Supporting One Health AMR research by linking human, animal, and environmental surveillance contexts
+
+## Getting Started
+
+Visit [GLASS](https://www.who.int/initiatives/glass) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

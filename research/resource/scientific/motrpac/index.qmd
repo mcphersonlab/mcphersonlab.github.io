@@ -1,0 +1,45 @@
+---
+title: MoTrPAC
+alias: &ALIAS motrpac
+href: https://motrpac-data.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Molecular Transducers of Physical Activity Consortium (MoTrPAC) is an NIH Common Fund program generating comprehensive molecular datasets to understand how physical activity improves and maintains health.
+
+## Key Features
+
+- Generates multi-omic data (transcriptomics, proteomics, metabolomics, epigenomics) from exercise studies
+- Covers multiple tissues and time points in both human clinical trials and rat animal models
+- Provides a public data hub with standardized processed data and analysis pipelines
+- Employs rigorous QC and harmonized protocols across multiple clinical and animal sites
+- Supports systems-level analysis of exercise-induced molecular adaptations
+
+## Use Cases in Research
+
+- Investigating how physical activity modulates immune function and susceptibility to infection
+- Analyzing exercise-induced changes in gut microbiome composition and metabolic outputs
+- Using multi-omic datasets to develop AI models linking lifestyle factors to health outcomes
+- Identifying molecular targets altered by exercise that intersect with AMR-relevant pathways
+- Benchmarking multi-omic data integration methods against a well-characterized intervention dataset
+
+## Getting Started
+
+Visit [MoTrPAC](https://motrpac-data.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

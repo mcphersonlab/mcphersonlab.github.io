@@ -1,0 +1,45 @@
+---
+title: DDBJ
+alias: &ALIAS ddbj
+href: https://www.ddbj.nig.ac.jp/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The DNA Data Bank of Japan (DDBJ) is a member of the International Nucleotide Sequence Database Collaboration (INSDC), providing nucleotide sequence data and annotation services.
+
+## Key Features
+
+- Part of INSDC alongside NCBI and EMBL-EBI, ensuring worldwide synchronization of sequence records
+- Accepts submissions of nucleotide sequences, raw reads (DRA), and functional genomics data (GEA)
+- Provides ARSA, BLAST, and other bioinformatics search and analysis tools
+- Hosts the Japanese Genotype-phenotype Archive (JGA) for human genomic data with controlled access
+- Supports MetagenomeDB and microbiome data standards for environmental sequence submissions
+
+## Use Cases in Research
+
+- Submitting and retrieving Asian cohort sequencing data and microbial genome assemblies
+- Cross-referencing INSDC records to validate genome annotations for pathogen characterization
+- Accessing raw sequencing reads from DRA for metagenomics re-analysis pipelines
+- Using JGA for controlled-access human genetic studies relevant to infectious disease
+- Ensuring global data availability and redundancy for nucleotide sequence records
+
+## Getting Started
+
+Visit [DDBJ](https://www.ddbj.nig.ac.jp/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

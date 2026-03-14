@@ -1,0 +1,45 @@
+---
+title: EMDB
+alias: &ALIAS emdb
+href: https://www.ebi.ac.uk/emdb/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Electron Microscopy Data Bank (EMDB, EMBL-EBI) is a public repository for electron microscopy density maps of macromolecules and subcellular structures determined by cryo-EM and related methods.
+
+## Key Features
+
+- Archives cryo-EM density maps and associated fitted atomic models from published studies
+- Standardized metadata including resolution, symmetry, sample preparation, and imaging conditions
+- Integrates with PDBe for linked 3D structure and density map visualization
+- Supports validation reports assessing map quality and model-to-map fit
+- Provides programmatic access via EMDB REST API and bulk download
+
+## Use Cases in Research
+
+- Accessing cryo-EM density maps of pathogen ribosomes, membrane proteins, and drug targets
+- Training AI models for automated particle picking, map classification, and structure refinement
+- Comparing drug-bound and apo structures of AMR-relevant protein targets
+- Using density maps for structure-based antibiotic design and binding mode analysis
+- Benchmarking cryo-EM data processing pipelines against deposited reference datasets
+
+## Getting Started
+
+Visit [EMDB](https://www.ebi.ac.uk/emdb/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

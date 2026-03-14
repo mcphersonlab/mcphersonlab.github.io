@@ -1,0 +1,45 @@
+---
+title: Arc Virtual Cell Atlas
+alias: &ALIAS arcvca
+href: https://virtualcellatlas.arc-institute.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Arc Virtual Cell Atlas (scBaseCamp) is a large-scale single-cell atlas resource developed by the Arc Institute to enable multimodal virtual cell modeling and biological foundation model development.
+
+## Key Features
+
+- Aggregates tens of millions of single-cell profiles across human tissues and disease states
+- Designed to serve as a training and benchmarking resource for AI virtual cell models
+- Provides harmonized metadata and standardized count matrices for immediate use
+- Supports multimodal data integration including RNA, ATAC, and protein measurements
+- Open-access with programmatic download and cloud-native data formats (AnnData/Zarr)
+
+## Use Cases in Research
+
+- Training biological foundation models on large-scale single-cell expression data
+- Benchmarking virtual cell simulation models against diverse cell states and perturbations
+- Generating in silico perturbation predictions for host response to pathogens
+- Building reference embeddings for transfer learning in infectious disease contexts
+- Enabling data-efficient AI model fine-tuning using broad cellular diversity
+
+## Getting Started
+
+Visit [Arc Virtual Cell Atlas](https://virtualcellatlas.arc-institute.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

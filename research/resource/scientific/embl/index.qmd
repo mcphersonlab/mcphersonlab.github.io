@@ -1,0 +1,45 @@
+---
+title: EMBL
+alias: &ALIAS embl
+href: https://www.embl.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The European Molecular Biology Laboratory (EMBL) is Europe's flagship laboratory for the life sciences, providing open-access molecular biology databases and bioinformatics services.
+
+## Key Features
+
+- Operates EMBL-EBI, hosting databases including UniProt, Ensembl, ArrayExpress, and ChEMBL
+- Provides open-access genomic, proteomic, and chemical biology data with standardized formats
+- Offers training programs, workshops, and open educational resources in bioinformatics
+- Supports interoperability through adherence to FAIR data principles and community standards
+- Maintains the European Nucleotide Archive (ENA) as part of INSDC data sharing
+
+## Use Cases in Research
+
+- Accessing annotated European nucleotide sequences and genome assemblies via ENA
+- Querying integrated protein function, structure, and interaction data across EMBL-EBI resources
+- Using EMBL bioinformatics tools for sequence analysis, variant annotation, and pathway enrichment
+- Linking chemical bioactivity data (ChEMBL) to genomic targets for drug discovery workflows
+- Training in FAIR data management practices for microbiome and genomic research projects
+
+## Getting Started
+
+Visit [EMBL](https://www.embl.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

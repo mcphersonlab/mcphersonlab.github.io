@@ -1,0 +1,45 @@
+---
+title: LINCS
+alias: &ALIAS lincs
+href: https://lincsproject.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Library of Integrated Network-Based Cellular Signatures (LINCS) program generates perturbation-response signatures in human cells to build a comprehensive map of how human cells respond to chemical and genetic perturbations.
+
+## Key Features
+
+- Generated L1000 transcriptomic signatures for over 35,000 compounds and genetic perturbations
+- Covers multiple human cell lines with dose-response and time-course perturbation profiles
+- Provides the Connectivity Map (CMap) for drug repurposing via transcriptional signature matching
+- Supports analysis via iLINCS portal and programmatic API access
+- Integrates with ENCODE, GEO, and other functional genomics resources
+
+## Use Cases in Research
+
+- Identifying drug candidates with transcriptional signatures that reverse infection-induced gene expression
+- Repurposing existing compounds as antimicrobial or anti-inflammatory agents via CMap analysis
+- Characterizing cellular responses to antibiotic treatment at the transcriptional level
+- Building predictive models of drug mechanism of action from perturbation signature data
+- Generating hypotheses for synergistic drug combinations to overcome AMR
+
+## Getting Started
+
+Visit [LINCS](https://lincsproject.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

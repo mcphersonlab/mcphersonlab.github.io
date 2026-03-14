@@ -1,0 +1,45 @@
+---
+title: GEO + SRA (NCBI)
+alias: &ALIAS geo-sra
+href: https://www.ncbi.nlm.nih.gov/geo/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+NCBI's Gene Expression Omnibus (GEO) and Sequence Read Archive (SRA) together provide the world's largest publicly accessible repositories for high-throughput functional genomics and raw sequencing data.
+
+## Key Features
+
+- GEO hosts processed functional genomics datasets including microarray, RNA-seq, ChIP-seq, and ATAC-seq
+- SRA archives raw sequencing reads from all next-generation sequencing platforms and assay types
+- Linked data model connects GEO datasets to raw SRA runs and NCBI BioProject/BioSample records
+- SRA Toolkit enables efficient programmatic download and streaming of raw sequencing data
+- Supports submission of metagenomics, single-cell, and spatial transcriptomic datasets
+
+## Use Cases in Research
+
+- Downloading raw metagenomic sequencing reads for microbiome composition re-analysis
+- Accessing transcriptomic datasets from pathogen-infected cell lines and animal models
+- Mining GEO for AMR-related gene expression signatures across experimental conditions
+- Building large training corpora for genomic AI/ML models from publicly available SRA data
+- Conducting meta-analyses of host-pathogen transcriptional interactions across multiple studies
+
+## Getting Started
+
+Visit [GEO + SRA (NCBI)](https://www.ncbi.nlm.nih.gov/geo/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

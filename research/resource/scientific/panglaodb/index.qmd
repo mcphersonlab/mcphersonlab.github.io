@@ -1,0 +1,45 @@
+---
+title: PanglaoDB
+alias: &ALIAS panglaodb
+href: https://panglaodb.se/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+PanglaoDB is a database of single-cell RNA sequencing experiments from human and mouse, enabling cell type annotation and integration with canonical cell type marker genes.
+
+## Key Features
+
+- Aggregates hundreds of scRNA-seq datasets from human and mouse across diverse tissues
+- Provides a curated database of cell type marker genes for automated annotation workflows
+- Offers cell type signature scores and gene-to-cell-type mappings for rapid annotation
+- Supports browsable metadata including tissue, species, and sequencing platform
+- Free and openly accessible with bulk download capabilities
+
+## Use Cases in Research
+
+- Annotating cell clusters in novel scRNA-seq experiments using canonical marker genes
+- Compiling reference marker gene sets for immune and epithelial cell types relevant to infection
+- Benchmarking automated cell type annotation tools against curated PanglaoDB signatures
+- Identifying tissue-specific expression contexts for putative AMR-related genes
+- Integrating marker databases into AI-driven cell type prediction pipelines
+
+## Getting Started
+
+Visit [PanglaoDB](https://panglaodb.se/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

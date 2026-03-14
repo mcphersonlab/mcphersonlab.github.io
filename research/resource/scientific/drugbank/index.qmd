@@ -1,0 +1,45 @@
+---
+title: DrugBank
+alias: &ALIAS drugbank
+href: https://go.drugbank.com/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+DrugBank is a comprehensive, freely accessible online database containing detailed drug data along with comprehensive drug target, mechanism of action, pharmacological, and pharmaceutical information.
+
+## Key Features
+
+- Contains detailed records for over 14,000 drugs including small molecules and biologics
+- Provides drug-target interaction data, mechanism of action, and pharmacokinetic parameters
+- Includes drug interaction, contraindication, and adverse effect information
+- Links drugs to pharmacogenomic variants affecting metabolism and efficacy
+- Offers structured data download and API access for computational research
+
+## Use Cases in Research
+
+- Cataloging pharmacological properties of antimicrobials for drug repurposing analyses
+- Mapping drug-target interactions to inform AMR mechanism investigations
+- Identifying pharmacokinetic parameters for PK/PD modeling of antibiotic efficacy
+- Building knowledge graphs of drug-drug interactions relevant to infectious disease treatment
+- Supporting AI-driven drug discovery by providing curated pharmacology training data
+
+## Getting Started
+
+Visit [DrugBank](https://go.drugbank.com/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

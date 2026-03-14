@@ -1,0 +1,45 @@
+---
+title: TOPMed
+alias: &ALIAS topmed
+href: https://topmed.nhlbi.nih.gov/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Trans-Omics for Precision Medicine (TOPMed) program is an NHLBI initiative integrating whole-genome sequencing with other molecular data and phenotypic information to improve precision medicine for heart, lung, blood, and sleep disorders.
+
+## Key Features
+
+- Whole-genome sequenced over 180,000 individuals from diverse ancestral backgrounds
+- Integrates WGS with multi-omic data including methylation, metabolomics, and proteomics
+- Provides controlled-access data via dbGaP, with summary statistics publicly available
+- Identifies rare and common variants associated with complex disease phenotypes
+- Employs harmonized phenotype data across participating cohorts for meta-analysis
+
+## Use Cases in Research
+
+- Identifying genetic variants associated with susceptibility to respiratory or infectious diseases
+- Using population-scale WGS data to contextualize rare variants in AMR-relevant immune genes
+- Accessing multi-ethnic variant frequency data for pharmacogenomics analyses
+- Providing genetic reference panels for imputation in smaller infectious disease cohort studies
+- Modeling polygenic risk scores for immune-mediated traits intersecting with infection outcomes
+
+## Getting Started
+
+Visit [TOPMed](https://topmed.nhlbi.nih.gov/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

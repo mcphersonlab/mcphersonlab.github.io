@@ -1,0 +1,45 @@
+---
+title: CMS Data
+alias: &ALIAS cmsgov
+href: https://data.cms.gov/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Centers for Medicare & Medicaid Services (CMS) data portal provides access to a wide range of healthcare data including Medicare and Medicaid claims, provider data, and quality metrics. It supports research, policy analysis, and public transparency in healthcare delivery.
+
+## Key Features
+
+- **Medicare Claims**: Inpatient, outpatient, and Part D prescription drug data
+- **Medicaid Data**: State-level program data and beneficiary information
+- **Provider Data**: Physician and hospital performance metrics
+- **Open Payments**: Financial relationships between manufacturers and providers
+- **Research Data**: Limited datasets available for approved research projects
+
+## Use Cases in Research
+
+- Pharmacoepidemiology and drug utilization studies
+- Healthcare cost and utilization analysis
+- Hospital readmission and outcomes research
+- Antimicrobial prescribing patterns
+- Health disparities across payer populations
+
+## Getting Started
+
+Visit [data.cms.gov](https://data.cms.gov/) to explore available datasets and apply for research data access.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,45 @@
+---
+title: EMPIAR
+alias: &ALIAS empiar
+href: https://www.ebi.ac.uk/empiar/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+EMPIAR (Electron Microscopy Public Image Archive, EMBL-EBI) is a public resource for raw two-dimensional electron microscopy images, enabling reproducibility and reuse of cryo-EM and cryo-ET data.
+
+## Key Features
+
+- Archives raw cryo-EM micrographs, particle stacks, tilt series, and tomograms
+- Linked to corresponding EMDB density maps and PDB structures from the same study
+- Provides metadata on microscope, detector, data collection parameters, and sample
+- Supports large-scale data downloads for computational reprocessing and benchmarking
+- Enables reproducibility checks and method development using real experimental raw data
+
+## Use Cases in Research
+
+- Downloading raw cryo-EM data of bacterial ribosomes or resistance proteins for reprocessing
+- Benchmarking deep learning-based particle picking and 2D/3D classification algorithms
+- Training AI models for automated cryo-EM data processing with diverse real-world datasets
+- Reproducing published structures of antibiotic-target complexes from raw micrograph data
+- Developing cryo-ET analysis workflows using deposited tilt series from pathogen samples
+
+## Getting Started
+
+Visit [EMPIAR](https://www.ebi.ac.uk/empiar/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

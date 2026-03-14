@@ -1,0 +1,45 @@
+---
+title: NHANES
+alias: &ALIAS nhanes
+href: https://www.cdc.gov/nchs/nhanes/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Health and Nutrition Examination Survey (NHANES) is a program of studies conducted by the CDC's National Center for Health Statistics (NCHS). NHANES assesses the health and nutritional status of adults and children in the United States through interviews and physical examinations.
+
+## Key Features
+
+- **Cross-Sectional Design**: Nationally representative sample of the U.S. civilian non-institutionalized population
+- **Physical Examinations**: Laboratory tests, physiological measurements, and dietary data
+- **Longitudinal Linkage**: Can be linked to Medicare/Medicaid claims and mortality data
+- **Public Access**: Data freely available for download from CDC website
+- **Continuous Survey**: Conducted in two-year cycles since 1999
+
+## Use Cases in Research
+
+- Population-level nutritional and health status assessments
+- Prevalence estimates of diseases and risk factors
+- Pharmacoepidemiology and medication use studies
+- Environmental exposure and biomonitoring research
+- Health disparities across demographic groups
+
+## Getting Started
+
+Visit [CDC NHANES](https://www.cdc.gov/nchs/nhanes/) to access survey data and documentation.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,45 @@
+---
+title: Broad Single Cell Portal
+alias: &ALIAS broadscportal
+href: https://singlecell.broadinstitute.org/single_cell
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Broad Institute Single Cell Portal is a repository and visualization platform for single-cell genomics datasets, enabling interactive exploration and download of curated data.
+
+## Key Features
+
+- Hosts hundreds of single-cell studies with interactive UMAP/t-SNE visualizations
+- Enables gene expression queries, violin plots, and dot plots directly in the browser
+- Supports download of raw count matrices, metadata, and cluster assignments
+- Integrates with Terra cloud computing platform for scalable analysis workflows
+- Enforces community metadata standards for cell type and tissue annotation
+
+## Use Cases in Research
+
+- Exploring immune cell atlas datasets relevant to infectious disease and AMR
+- Downloading labeled single-cell datasets for training cell type classification models
+- Comparing transcriptional programs across immune cell populations from different donors
+- Accessing companion datasets from landmark single-cell publications
+- Validating computational predictions against experimentally characterized cell states
+
+## Getting Started
+
+Visit [Broad Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::
