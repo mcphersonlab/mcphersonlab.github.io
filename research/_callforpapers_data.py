@@ -773,5 +773,117 @@ call_for_papers = [
         "website": "https://journals.asm.org/asm-calls-for-papers",
         "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile", 
                      "https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
+    },
+    {
+        "journal": "Nature Medicine/Nature Metabolism",
+        "impact": "87.3",
+        "due_date": "2026-04-24",
+        "topic": "Obesity",
+        "website": "https://www.nature.com/collections/aaadhbgfbg/",
+        "projects": []
+    },
+    {
+        "journal": "Nature Cell Biology",
+        "impact": "28.0",
+        "due_date": "2026-05-31",
+        "topic": "Signalling Pathways of Innate Immunity",
+        "website": "https://www.nature.com/collections/ihibjjdcee",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-06-30",
+        "topic": "Phages: from biology to the clinic",
+        "website": "https://www.nature.com/collections/ddgicfcaee",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-06-09",
+        "topic": "Repetitive elements in health and disease",
+        "website": "https://www.nature.com/collections/bfidjigcbc",
+        "projects": []
+    },
+    {
+        "journal": "Nature Cities",
+        "impact": "",
+        "due_date": "2026-04-30",
+        "topic": "Urban air quality",
+        "website": "https://www.nature.com/collections/bjbghhgfjh",
+        "projects": []
+    },
+    {
+        "journal": "npj Exercise Medicine and Health",
+        "impact": "",
+        "due_date": "2026-09-03",
+        "topic": "Exercise and Physical Activity in Health and Disease",
+        "website": "https://www.nature.com/collections/ggcficdbdg/",
+        "projects": []
+    },
+    {
+        "journal": "npj Emerging Contaminants",
+        "impact": "",
+        "due_date": "2026-10-31",
+        "topic": "Antimicrobial Drugs and Antimicrobial Resistance in the Environment",
+        "website": "https://www.nature.com/collections/cfjjbefghj",
+        "projects": []
+    },
+    {
+        "journal": "Nature Genetics",
+        "impact": "",
+        "due_date": "2026-05-31",
+        "topic": "Mechanisms and impact of 3D genome organisation",
+        "website": "https://www.nature.com/collections/bacjiafbeh",
+        "projects": []
+    },
+    {
+        "journal": "Nature Medicine",
+        "impact": "87.3",
+        "due_date": "2026-11-09",
+        "topic": "Digital Medicine for Infectious Diseases",
+        "website": "https://www.nature.com/collections/ddhbhbfgid",
+        "projects": []
+    },
+    {
+        "journal": "npj Systems Biology and Applications",
+        "impact": "",
+        "due_date": "2026-09-12",
+        "topic": "Systems immunology: multi-omics approaches, dynamical modeling and novel agentic AI approaches",
+        "website": "https://www.nature.com/collections/heaibjjajc",
+        "projects": []
+    },
+    {
+        "journal": "Nature Immunology",
+        "impact": "25.6",
+        "due_date": "2026-11-02",
+        "topic": "Crosstalk Between Tissue-Resident Adaptive and Innate Memory Cells",
+        "website": "https://www.nature.com/collections/ccbcciachj",
+        "projects": []
+    },
+    {
+        "journal": "npj Gut and Liver",
+        "impact": "",
+        "due_date": "2026-05-14",
+        "topic": "The immune cells landscape in the gut-liver axis",
+        "website": "https://www.nature.com/collections/jjjihaaiee",
+        "projects": []
+    },
+    {
+        "journal": "npj Autoimmunity",
+        "impact": "",
+        "due_date": "2026-08-17",
+        "topic": "Environmental Triggers and Autoimmune Diseases",
+        "website": "https://www.nature.com/collections/icjbgiabeh",
+        "projects": []
+    },
+    {
+        "journal": "npj Aging",
+        "impact": "",
+        "due_date": "2026-04-29",
+        "topic": "Immuno-senescence",
+        "website": "https://www.nature.com/collections/jgafgefgic",
+        "projects": []
     }
 ]
