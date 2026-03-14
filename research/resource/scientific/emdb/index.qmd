@@ -1,7 +1,7 @@
 ---
-title: EM Open Image Archive
-alias: &ALIAS emoia
-href: https://www.ebi.ac.uk/pdbe/emdb/
+title: EMDB
+alias: &ALIAS emdb
+href: https://www.ebi.ac.uk/emdb/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 
@@ -17,7 +17,7 @@ listing:
 
 ## Overview
 
-The Electron Microscopy Open Image Archive (EMDB/EMOIA, EMBL-EBI) is a public repository for electron microscopy density maps of macromolecules and subcellular structures.
+The Electron Microscopy Data Bank (EMDB, EMBL-EBI) is a public repository for electron microscopy density maps of macromolecules and subcellular structures determined by cryo-EM and related methods.
 
 ## Key Features
 
@@ -37,7 +37,7 @@ The Electron Microscopy Open Image Archive (EMDB/EMOIA, EMBL-EBI) is a public re
 
 ## Getting Started
 
-Visit [EM Open Image Archive](https://www.ebi.ac.uk/pdbe/emdb/) to access the database.
+Visit [EMDB](https://www.ebi.ac.uk/emdb/) to access the database.
 
 ## Related Publications
 
