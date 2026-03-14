@@ -1,0 +1,45 @@
+---
+title: ATLAS
+alias: &ALIAS atlas
+href: https://atlas.pfizer.com/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Antimicrobial Testing Leadership and Surveillance (ATLAS) program is a Pfizer-sponsored global antimicrobial surveillance program tracking resistance trends and susceptibility patterns of clinical isolates.
+
+## Key Features
+
+- Collects clinical isolates from hospitals across more than 60 countries annually
+- Tests susceptibility against a broad panel of approved and investigational antimicrobials
+- Provides an interactive online portal for querying resistance trends by pathogen, region, and year
+- Covers Gram-positive, Gram-negative, and fungal pathogens of clinical importance
+- Publishes peer-reviewed analyses of surveillance findings in scientific journals
+
+## Use Cases in Research
+
+- Querying global susceptibility data for specific pathogen-drug combinations to guide clinical research
+- Accessing longitudinal resistance trend data for priority pathogens across geographic regions
+- Benchmarking novel antibiotic activity against contemporary global clinical isolate datasets
+- Integrating ATLAS data with genomic surveillance to link phenotypic and genotypic resistance
+- Supporting evidence-based antibiotic stewardship recommendations with population-level surveillance data
+
+## Getting Started
+
+Visit [ATLAS](https://atlas.pfizer.com/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

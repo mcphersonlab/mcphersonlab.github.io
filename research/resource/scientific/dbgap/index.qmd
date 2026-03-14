@@ -1,0 +1,45 @@
+---
+title: dbGaP
+alias: &ALIAS dbgap
+href: https://www.ncbi.nlm.nih.gov/gap/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Database of Genotypes and Phenotypes (dbGaP) at NCBI archives and distributes data and results from studies investigating the interaction of genotype and phenotype in humans.
+
+## Key Features
+
+- Hosts controlled-access human genotype and phenotype data from NIH-funded studies
+- Covers GWAS, WGS, WES, and longitudinal cohort studies with linked clinical phenotypes
+- Provides open-access summary statistics and metadata with controlled-access individual-level data
+- Streamlined data access request process through the NIH Data Access Committee system
+- Integrates with NCBI SRA for raw sequencing data associated with dbGaP studies
+
+## Use Cases in Research
+
+- Accessing GWAS and WGS data for infectious disease susceptibility and AMR-related phenotypes
+- Performing polygenic risk score analyses using large human cohort data with phenotypic outcomes
+- Linking germline genetic variation to pharmacogenomic responses to antibiotic treatment
+- Analyzing human genetic determinants of microbiome composition and diversity
+- Using dbGaP cohorts as validation sets for AI models trained on genomic and clinical data
+
+## Getting Started
+
+Visit [dbGaP](https://www.ncbi.nlm.nih.gov/gap/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

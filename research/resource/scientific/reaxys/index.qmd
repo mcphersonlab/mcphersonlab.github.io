@@ -1,0 +1,45 @@
+---
+title: Reaxys
+alias: &ALIAS reaxys
+href: https://www.reaxys.com/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Reaxys is an Elsevier chemistry intelligence platform providing access to experimentally validated reactions, substances, and bioactivity data to support drug discovery and chemical synthesis workflows.
+
+## Key Features
+
+- Contains over 500 million experimentally validated chemical reactions with synthesis conditions
+- Integrates substance properties, bioactivity data, and pharmacological records
+- Retrosynthesis planning tools assist in designing synthetic routes for novel compounds
+- Covers patent literature, journal articles, and historical chemical handbooks
+- Supports structure-based and property-based querying for targeted compound discovery
+
+## Use Cases in Research
+
+- Designing synthesis routes for novel antimicrobial compounds identified through virtual screening
+- Identifying prior art and literature-validated reactions for antibiotic analog synthesis
+- Mining bioactivity data for natural product scaffolds with antimicrobial or microbiome-modulating activity
+- Supporting medicinal chemistry optimization of antibiotic leads with experimental reaction data
+- Integrating Reaxys bioactivity data with other chemical databases for comprehensive SAR analysis
+
+## Getting Started
+
+Visit [Reaxys](https://www.reaxys.com/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

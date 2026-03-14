@@ -1,0 +1,45 @@
+---
+title: GTEx
+alias: &ALIAS gtex
+href: https://gtexportal.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Genotype-Tissue Expression (GTEx) project provides a resource for studying human gene expression and regulation across tissues, linking genetic variants to tissue-specific gene expression phenotypes.
+
+## Key Features
+
+- Profiled gene expression across 54 tissue types from nearly 1,000 post-mortem human donors
+- Identified expression quantitative trait loci (eQTLs) linking genetic variants to gene regulation
+- Provides raw RNA-seq counts, normalized expression matrices, and splicing QTL data
+- Supports tissue-specific regulatory network and co-expression analysis
+- Integrates with GTEx portal tools for interactive expression visualization across tissues
+
+## Use Cases in Research
+
+- Identifying tissue-specific expression patterns of genes relevant to infection and immunity
+- Using eQTL data to prioritize genetic variants associated with infectious disease susceptibility
+- Building tissue-specific gene regulatory networks for systems biology modeling
+- Comparing expression of AMR-related genes (transporters, efflux pumps) across human tissues
+- Providing reference expression data for benchmarking single-cell deconvolution methods
+
+## Getting Started
+
+Visit [GTEx](https://gtexportal.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

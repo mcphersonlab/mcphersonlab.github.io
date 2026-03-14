@@ -1,0 +1,45 @@
+---
+title: NDARO
+alias: &ALIAS ndaro
+href: https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The National Database of Resistant Organisms (NDARO) at NCBI is an integrated resource for antimicrobial resistance (AMR) data, providing genomic and phenotypic AMR data for clinical, research, and public health applications.
+
+## Key Features
+
+- Integrates the NCBI Pathogen Detection pipeline for real-time AMR surveillance from submitted genomes
+- Links AMR genotype data (resistance genes, mutations) to phenotypic MIC susceptibility data
+- Hosts the Reference Gene Catalog (RGC) and MicroBIGG-E for AMR gene identification
+- Supports BioProject-linked pathogen isolate metadata including source, geography, and collection date
+- Provides cluster analysis for outbreak detection among related isolate submissions
+
+## Use Cases in Research
+
+- Identifying AMR genes and mutations in submitted pathogen genome sequences
+- Tracking the spread of resistance determinants across clinical and environmental isolates
+- Correlating genotypic resistance predictions with phenotypic MIC data for model validation
+- Accessing surveillance-scale genomic AMR data for machine learning model development
+- Monitoring emergence of novel resistance mechanisms in real-time pathogen genome submissions
+
+## Getting Started
+
+Visit [NDARO](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

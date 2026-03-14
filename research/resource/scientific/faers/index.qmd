@@ -1,0 +1,45 @@
+---
+title: FAERS
+alias: &ALIAS faers
+href: https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The FDA Adverse Event Reporting System (FAERS) is a pharmacovigilance database containing adverse event and medication error reports submitted to FDA, used for post-marketing safety surveillance.
+
+## Key Features
+
+- Contains millions of post-marketing adverse event and medication error reports
+- Publicly available as quarterly data extracts in ASCII and XML formats
+- Supports disproportionality analyses such as reporting odds ratios (ROR) and PRR calculations
+- Links adverse events to drug names, doses, indications, and patient demographics
+- Integrated into OpenFDA API for programmatic pharmacovigilance signal detection
+
+## Use Cases in Research
+
+- Detecting pharmacovigilance signals for adverse events associated with antimicrobial drugs
+- Characterizing adverse event profiles of novel antibiotics post-approval
+- Identifying drug-drug interaction signals in patients receiving combination antibiotic therapy
+- Analyzing adverse event reporting biases and patterns using data science methods
+- Supporting real-world evidence studies on antibiotic safety and tolerability
+
+## Getting Started
+
+Visit [FAERS](https://www.fda.gov/drugs/surveillance/fda-adverse-event-reporting-system-faers) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

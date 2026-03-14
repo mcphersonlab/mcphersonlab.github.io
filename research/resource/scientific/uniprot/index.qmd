@@ -1,0 +1,45 @@
+---
+title: UniProt
+alias: &ALIAS uniprot
+href: https://www.uniprot.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+UniProt is the world's leading high-quality, comprehensive, and freely accessible resource of protein sequence and functional information, curated by the UniProt Consortium.
+
+## Key Features
+
+- Swiss-Prot provides manually curated protein records with functional annotations and literature support
+- TrEMBL provides computationally annotated records for all translated sequences in INSDC databases
+- Links proteins to GO terms, pathways, domains (Pfam/InterPro), variants, and 3D structures
+- Provides programmatic access via UniProt REST API and SPARQL endpoint
+- Integrates with nearly all major biological databases through cross-reference linking
+
+## Use Cases in Research
+
+- Retrieving functional annotations for AMR-related proteins such as beta-lactamases and efflux pumps
+- Mapping pathogen proteomes to known functions, domains, and interaction partners
+- Generating protein feature matrices for AI-driven AMR gene function prediction
+- Identifying conserved functional domains in novel resistance proteins from metagenomic data
+- Linking sequence variants in microbial proteins to known resistance or virulence phenotypes
+
+## Getting Started
+
+Visit [UniProt](https://www.uniprot.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

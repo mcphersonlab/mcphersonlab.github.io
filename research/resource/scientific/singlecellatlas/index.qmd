@@ -1,0 +1,45 @@
+---
+title: Single Cell Expression Atlas
+alias: &ALIAS singlecellatlas
+href: https://www.ebi.ac.uk/gxa/sc/home
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Single Cell Expression Atlas (EMBL-EBI) provides curated single-cell RNA-seq gene expression data across species and tissues with interactive exploration tools.
+
+## Key Features
+
+- Curates and reanalyzes public single-cell RNA-seq datasets with uniform processing pipelines
+- Supports multiple species including human, mouse, zebrafish, and other model organisms
+- Provides interactive heatmaps and t-SNE/UMAP plots for gene and cell type exploration
+- Integrates with bulk Expression Atlas for multi-resolution expression comparisons
+- Enforces MAGE-TAB metadata standards for experimental annotation
+
+## Use Cases in Research
+
+- Comparing single-cell gene expression across tissues and species for conserved infection responses
+- Identifying cell type-specific expression of AMR-related genes across organisms
+- Accessing uniformly processed scRNA-seq data for integration with in-house datasets
+- Exploring immune cell heterogeneity in disease models relevant to microbiome interactions
+- Generating gene expression hypotheses for validation in wet lab experiments
+
+## Getting Started
+
+Visit [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

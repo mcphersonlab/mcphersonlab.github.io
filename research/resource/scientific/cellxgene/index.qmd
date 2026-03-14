@@ -1,0 +1,45 @@
+---
+title: CZ CELLxGENE
+alias: &ALIAS cellxgene
+href: https://cellxgene.cziscience.com/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+CZ CELLxGENE (Chan Zuckerberg Initiative) is a platform for exploring, analyzing, and downloading large collections of single-cell transcriptomic data curated with consistent cell metadata.
+
+## Key Features
+
+- Hosts over 50 million cells curated with standardized ontology-based metadata (CL, UBERON, MONDO)
+- Interactive browser for UMAP visualization, gene expression queries, and differential expression
+- Census API enables programmatic access to the entire corpus for large-scale analyses
+- Strict data schema enforces consistent cell type, tissue, disease, and assay annotations
+- Integrated with CZI's CELLxGENE Annotate tool for collaborative dataset annotation
+
+## Use Cases in Research
+
+- Querying immune cell gene expression profiles across disease states relevant to infection
+- Downloading harmonized single-cell datasets for training or benchmarking AI/ML models
+- Performing cross-dataset meta-analyses of host transcriptional responses to pathogens
+- Identifying marker genes for cell type annotation in novel microbiome-host studies
+- Generating reference embeddings of human cell states for virtual cell modeling
+
+## Getting Started
+
+Visit [CZ CELLxGENE](https://cellxgene.cziscience.com/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

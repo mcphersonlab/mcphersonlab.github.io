@@ -1,0 +1,45 @@
+---
+title: Human Cell Atlas (HCA)
+alias: &ALIAS humancellatlas
+href: https://www.humancellatlas.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Human Cell Atlas (HCA) is an international consortium building a comprehensive reference atlas of all human cells to understand the foundation of human health and disease.
+
+## Key Features
+
+- Generates single-cell and spatial transcriptomic data across all major human tissues and organs
+- Provides open-access data through a standardized Data Portal with harmonized metadata
+- Enables cell type identification, annotation, and cross-tissue comparison at single-cell resolution
+- Integrates multimodal data including RNA-seq, ATAC-seq, and spatial transcriptomics
+- Supports community-developed pipelines for data processing, QC, and interoperability
+
+## Use Cases in Research
+
+- Identifying host cell types and states targeted by pathogens during infectious disease
+- Building reference atlases of immune cell populations relevant to AMR and infection response
+- Comparing healthy vs. diseased cell states in tissues affected by infection or inflammation
+- Training AI/ML foundation models on large-scale single-cell gene expression data
+- Annotating novel cell types discovered in microbiome-host interaction studies
+
+## Getting Started
+
+Visit [Human Cell Atlas (HCA)](https://www.humancellatlas.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

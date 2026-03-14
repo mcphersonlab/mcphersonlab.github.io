@@ -1,0 +1,45 @@
+---
+title: Human Microbiome Project
+alias: &ALIAS humanmicrobiome
+href: https://hmpdacc.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Human Microbiome Project (HMP) provides comprehensive datasets characterizing the human microbiome and its role in health and disease, including metagenomic, metatranscriptomic, and metabolomic data.
+
+## Key Features
+
+- Generated reference catalogs of microbiomes from 18 body sites across healthy adults (HMP1)
+- Expanded to disease cohorts including IBD, type 2 diabetes, and preterm birth (iHMP/HMP2)
+- Provides 16S amplicon, whole metagenome shotgun, metatranscriptomic, and metabolomic data
+- Standardized sample collection, processing, and analysis protocols across all sites
+- Freely accessible via the HMP Data Analysis and Coordination Center (DACC) portal
+
+## Use Cases in Research
+
+- Establishing baseline microbiome compositions for comparison with infection or AMR studies
+- Identifying microbial taxa and genes associated with disease versus healthy states
+- Integrating multi-omic HMP datasets for microbiome-host interaction modeling
+- Training and validating machine learning models for microbiome-based disease prediction
+- Benchmarking 16S and metagenomics analysis pipelines against well-characterized reference samples
+
+## Getting Started
+
+Visit [Human Microbiome Project](https://hmpdacc.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

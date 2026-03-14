@@ -1,0 +1,45 @@
+---
+title: Cell Image Library
+alias: &ALIAS cellimagelibrary
+href: http://www.cellimagelibrary.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Cell Image Library (CIL) is a public repository for images, videos, and animations of cells, providing open access to microscopy data for cell biology research.
+
+## Key Features
+
+- Hosts thousands of high-resolution light and electron microscopy images of diverse cell types
+- Supports multiple imaging modalities including fluorescence, DIC, confocal, and EM
+- Provides standardized metadata describing cell type, staining, imaging conditions, and provenance
+- Enables download of raw image data in standard formats for computational analysis
+- Curated and maintained to ensure data quality and long-term accessibility
+
+## Use Cases in Research
+
+- Accessing reference cell morphology images for training image segmentation and classification models
+- Studying morphological changes in immune cells during pathogen challenge
+- Generating training data for AI-driven phenotypic screening of antimicrobial compounds
+- Comparing cellular phenotypes across infection conditions using publicly available microscopy data
+- Integrating CIL images with molecular data for multi-modal cell biology studies
+
+## Getting Started
+
+Visit [Cell Image Library](http://www.cellimagelibrary.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,45 @@
+---
+title: SENTRY Surveillance
+alias: &ALIAS sentry
+href: https://www.jmilabs.com/sentry-surveillance-program/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The SENTRY Antimicrobial Surveillance Program is a multinational longitudinal surveillance network monitoring global antimicrobial resistance trends and pathogen prevalence in clinical isolates.
+
+## Key Features
+
+- Continuously active since 1997, providing over two decades of longitudinal AMR trend data
+- Covers isolates from blood, urine, respiratory, and wound infection sites across global regions
+- Monitors susceptibility to a wide panel of current and investigational antimicrobial agents
+- Publishes annual and regional reports in peer-reviewed journals with standardized methodology
+- Provides MIC distribution data enabling epidemiological cutoff analyses
+
+## Use Cases in Research
+
+- Tracking long-term global trends in resistance rates for major clinical pathogens
+- Benchmarking in vitro activity of novel antimicrobial candidates against contemporary clinical isolates
+- Generating AMR epidemiological priors for Bayesian or machine learning resistance prediction models
+- Comparing SENTRY data with in-house clinical microbiology data for local vs. global AMR context
+- Informing empiric antibiotic prescribing guidelines using region-specific prevalence data
+
+## Getting Started
+
+Visit [SENTRY Surveillance](https://www.jmilabs.com/sentry-surveillance-program/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

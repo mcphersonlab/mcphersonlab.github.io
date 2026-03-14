@@ -1,0 +1,45 @@
+---
+title: SenNet
+alias: &ALIAS sennet
+href: https://sennetconsortium.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+SenNet (Cellular Senescence Network) is an NIH Common Fund program creating comprehensive maps of senescent cells across the human body to understand their role in aging and disease.
+
+## Key Features
+
+- Generates single-cell, spatial, and imaging data to map senescent cell states across tissues
+- Develops biomarkers and molecular signatures of cellular senescence
+- Provides open-access data through the SenNet Data Portal with standardized metadata
+- Integrates with HuBMAP and other tissue atlasing initiatives for cross-reference
+- Studies senescence in the context of aging, cancer, metabolic disease, and infection
+
+## Use Cases in Research
+
+- Investigating how cellular senescence contributes to chronic infection susceptibility and AMR
+- Characterizing senescent immune cell populations in tissues affected by infectious disease
+- Using SenNet spatial data to study senescence in gut epithelia relevant to microbiome interactions
+- Integrating senescence signatures with other aging datasets for systems biology modeling
+- Identifying senolytic or senomorphic drug targets relevant to infection-driven tissue damage
+
+## Getting Started
+
+Visit [SenNet](https://sennetconsortium.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

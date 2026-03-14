@@ -1,0 +1,45 @@
+---
+title: PubChem
+alias: &ALIAS pubchem
+href: https://pubchem.ncbi.nlm.nih.gov/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+PubChem (NCBI) is the world's largest freely accessible chemical database, providing information on chemical structures, identifiers, properties, bioactivities, and biomedical literature.
+
+## Key Features
+
+- Contains over 100 million compounds with 2D/3D structures, InChI keys, and SMILES representations
+- Aggregates bioactivity data from high-throughput screening assays across thousands of targets
+- Links chemical records to PubMed literature, gene targets, pathways, and clinical trials
+- Provides PUG REST and PUG View APIs for programmatic data retrieval and integration
+- Supports compound similarity search, substructure search, and property-based filtering
+
+## Use Cases in Research
+
+- Retrieving structural and physicochemical properties of antimicrobial compounds for QSAR modeling
+- Mining bioactivity data for known antibiotics and identifying structure-activity relationships
+- Linking drug candidates to known targets and resistance mechanisms in pathogens
+- Building chemical training datasets for AI-driven antibiotic discovery pipelines
+- Cross-referencing chemical scaffolds across pharmacological datasets for repurposing studies
+
+## Getting Started
+
+Visit [PubChem](https://pubchem.ncbi.nlm.nih.gov/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

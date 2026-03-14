@@ -1,0 +1,45 @@
+---
+title: ZINC Database
+alias: &ALIAS zinc
+href: https://zinc.docking.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+ZINC is a free database of commercially available compounds for virtual screening, containing over 750 million purchasable compounds in ready-to-dock 3D formats.
+
+## Key Features
+
+- Provides 3D conformer-ready compound files for direct input into molecular docking workflows
+- Curates commercially available compounds with vendor and purchasing information
+- Supports subset filtering by lead-likeness, drug-likeness, and fragment properties
+- Includes annotated libraries of natural products, FDA-approved drugs, and antimicrobials
+- Enables tranching and bulk download of compound libraries by property ranges
+
+## Use Cases in Research
+
+- Performing virtual screening campaigns against bacterial or fungal drug targets
+- Identifying purchasable hit compounds for experimental validation in AMR drug discovery
+- Generating compound libraries for AI-based de novo drug design and scoring model training
+- Filtering antibiotic-like scaffolds from large chemical libraries for focused screening
+- Docking fragment libraries against novel resistance protein structures for lead identification
+
+## Getting Started
+
+Visit [ZINC Database](https://zinc.docking.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

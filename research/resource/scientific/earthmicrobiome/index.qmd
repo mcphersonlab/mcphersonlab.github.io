@@ -1,0 +1,45 @@
+---
+title: Earth Microbiome Project
+alias: &ALIAS earthmicrobiome
+href: https://earthmicrobiome.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Earth Microbiome Project (EMP) is a massively collaborative effort to characterize global microbial diversity and function across Earth's environments using standardized protocols.
+
+## Key Features
+
+- Analyzed over 30,000 samples from diverse global environments using standardized 16S protocols
+- Produced the Earth Microbiome Project Ontology (EMPO) for biome classification
+- Provides open-access processed data including OTU/ASV tables, taxonomic summaries, and metadata
+- Established reference sequences and primers (515F/806R) adopted as community standards
+- Enables global-scale ecological comparisons of microbial community structure and diversity
+
+## Use Cases in Research
+
+- Characterizing environmental reservoirs of AMR genes across global habitats
+- Benchmarking 16S amplicon analysis workflows against the EMP reference dataset
+- Investigating microbial diversity gradients relevant to One Health AMR transmission
+- Comparing gut, soil, and water microbiome communities within integrated AMR frameworks
+- Using EMP metadata ontology for standardized environmental annotation in new studies
+
+## Getting Started
+
+Visit [Earth Microbiome Project](https://earthmicrobiome.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

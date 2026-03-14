@@ -1,0 +1,45 @@
+---
+title: ChEMBL
+alias: &ALIAS chembl
+href: https://www.ebi.ac.uk/chembl/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+ChEMBL (EMBL-EBI) is a manually curated database of bioactive drug-like molecules with quantitative information on their target binding, ADMET properties, and pharmacology.
+
+## Key Features
+
+- Contains over 2 million bioactive compounds with experimentally determined activity data (Ki, IC50, MIC)
+- Links compounds to protein targets, assay descriptions, and source literature
+- Provides drug approval status, mechanism of action, and indication data for approved drugs
+- Offers ADMET prediction annotations and Lipinski rule-of-five filtering capabilities
+- Supports REST API, Python client (chembl_webresource_client), and bulk data downloads
+
+## Use Cases in Research
+
+- Compiling MIC and activity data for antimicrobials to train ML models for antibiotic discovery
+- Identifying compounds with activity against specific bacterial or fungal targets
+- Performing QSAR analysis using curated bioactivity data for drug optimization
+- Mapping approved antibiotic pharmacology to resistance mechanisms for repurposing studies
+- Integrating ChEMBL target data with genomic AMR databases for systems-level analysis
+
+## Getting Started
+
+Visit [ChEMBL](https://www.ebi.ac.uk/chembl/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

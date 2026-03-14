@@ -1,0 +1,45 @@
+---
+title: NCBI
+alias: &ALIAS ncbi
+href: https://www.ncbi.nlm.nih.gov/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+National Center for Biotechnology Information (NCBI) is a U.S. National Library of Medicine resource providing access to biomedical and genomic information, including databases like PubMed, GenBank, and Entrez.
+
+## Key Features
+
+- Hosts PubMed, GenBank, RefSeq, dbSNP, and dozens of other interconnected biomedical databases
+- Provides BLAST sequence alignment tools and Entrez cross-database search infrastructure
+- Offers programmatic API access via the Entrez Programming Utilities (E-utilities) and NCBI Datasets
+- Supports sequence submission, annotation pipelines, and INSDC data sharing standards
+- Regularly updated with curated reference genomes, protein records, and clinical variant data
+
+## Use Cases in Research
+
+- Retrieving reference genome assemblies and annotated gene sequences for pathogen analysis
+- Mining PubMed literature for AMR, microbiome, or pharmacological evidence synthesis
+- Downloading SRA/GEO datasets for transcriptomic and metagenomic re-analysis pipelines
+- Identifying SNPs and structural variants associated with antimicrobial resistance phenotypes
+- Building training datasets for machine learning models using curated NCBI records
+
+## Getting Started
+
+Visit [NCBI](https://www.ncbi.nlm.nih.gov/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

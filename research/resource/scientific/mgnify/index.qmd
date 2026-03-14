@@ -1,0 +1,45 @@
+---
+title: MGNify
+alias: &ALIAS mgnify
+href: https://www.ebi.ac.uk/metagenomics/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+MGNify (EMBL-EBI) is a free-to-use platform for assembly, analysis, and archiving of microbiome-derived sequence data, supporting metagenomic and metatranscriptomic research.
+
+## Key Features
+
+- Processes and archives amplicon, metagenomic, and metatranscriptomic sequencing datasets
+- Provides standardized taxonomic profiling, functional annotation, and assembly pipelines
+- Hosts a large catalog of analyzed studies with interactive summary statistics
+- Offers programmatic REST API access to processed results and assembled sequences
+- Supports biome classification across gut, soil, ocean, and other environmental contexts
+
+## Use Cases in Research
+
+- Accessing uniformly processed gut microbiome datasets for comparative AMR gene analysis
+- Mining metagenome-assembled genomes (MAGs) for novel resistance gene discovery
+- Performing taxonomic and functional profiling comparisons across microbiome studies
+- Integrating MGNify outputs with host transcriptomic data for microbiome-host interaction studies
+- Using standardized pipelines to validate in-house metagenomics workflows
+
+## Getting Started
+
+Visit [MGNify](https://www.ebi.ac.uk/metagenomics/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,45 @@
+---
+title: IMG/M
+alias: &ALIAS imgm
+href: https://img.jgi.doe.gov/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Integrated Microbial Genomes & Microbiomes (IMG/M) system from the Joint Genome Institute (JGI/DOE) supports analysis of microbial genomes and microbiome datasets in a comparative genomics context.
+
+## Key Features
+
+- Integrates microbial genomes from isolates, single cells, and metagenomes in a unified system
+- Provides gene annotation, functional classification, and metabolic pathway analysis tools
+- Supports comparative genomics across thousands of microbial genomes and microbiomes
+- Regularly updated with JGI sequencing project outputs and community-contributed data
+- Offers advanced query tools for gene content, COG/KEGG annotation, and phylogenetic context
+
+## Use Cases in Research
+
+- Analyzing AMR gene distributions across microbial genomes and environmental microbiomes
+- Comparing metabolic potential of microbiome communities across health and disease states
+- Identifying gene clusters and biosynthetic pathways in novel microbial isolate genomes
+- Accessing DOE-sequenced environmental metagenomes for ecological microbiome studies
+- Contextualizing novel resistance genes within broader microbial genome neighborhoods
+
+## Getting Started
+
+Visit [IMG/M](https://img.jgi.doe.gov/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::

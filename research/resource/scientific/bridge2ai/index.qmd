@@ -1,0 +1,45 @@
+---
+title: Bridge2AI
+alias: &ALIAS bridge2ai
+href: https://bridge2ai.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+Bridge2AI is an NIH Common Fund program generating flagship AI-ready biomedical datasets with accompanying ethical frameworks, standards, and best practices for responsible AI development.
+
+## Key Features
+
+- Funds four grand challenge projects producing large, diverse, AI-ready biomedical datasets
+- Develops FAIR data standards, metadata schemas, and ethical AI guidelines for biomedical data
+- Covers domains including clinical voice data, electrophysiology, cell biology, and clinical trials
+- Provides open-access toolkits for data harmonization, quality assessment, and bias mitigation
+- Emphasizes diversity and inclusion in data collection to reduce AI model bias
+
+## Use Cases in Research
+
+- Using Bridge2AI frameworks to design FAIR and AI-ready infectious disease datasets
+- Adopting Bridge2AI ethical guidelines for responsible AI development in AMR diagnostics
+- Accessing harmonized clinical datasets for training AI models on infectious disease outcomes
+- Applying Bridge2AI metadata standards to improve interoperability of microbiome data
+- Benchmarking AI readiness of in-house datasets against Bridge2AI standards and rubrics
+
+## Getting Started
+
+Visit [Bridge2AI](https://bridge2ai.org/) to access the database.
+
+## Related Publications
+
+:::{#pubs}
+:::
