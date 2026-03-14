@@ -1,7 +1,7 @@
 ---
-title: HHS Office of the Chief Data Officer (CDO)
+title: HealthData.Gov
 alias: &ALIAS hhscdo
-href: https://cdo.hhs.gov/s/open-data
+href: https://healthdata.gov/
 listing:
   id: pubs
   template: ../../../../_ejs/publications-people.ejs 

@@ -1,0 +1,45 @@
+---
+title: World Bank Open Data
+alias: &ALIAS worldbank
+href: https://data.worldbank.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The World Bank Open Data platform provides free and open access to global development data, including health indicators, economic statistics, and population data from over 200 countries. It is one of the most comprehensive repositories of international development and health data.
+
+## Key Features
+
+- **Global Coverage**: Data from 200+ countries and territories
+- **Health Indicators**: Mortality, morbidity, disease burden, and health system indicators
+- **Time Series**: Historical data spanning several decades
+- **APIs**: Programmatic data access for analysis pipelines
+- **Multiple Formats**: Downloadable in CSV, Excel, and JSON formats
+
+## Use Cases in Research
+
+- Global health and cross-country comparative studies
+- Health economics and financing analyses
+- Infectious disease burden and epidemiology
+- Social determinants of health research
+- Antimicrobial resistance surveillance globally
+
+## Getting Started
+
+Visit [data.worldbank.org](https://data.worldbank.org/) to browse indicators and download datasets.
+
+## Related Publications
+
+:::{#pubs}
+:::

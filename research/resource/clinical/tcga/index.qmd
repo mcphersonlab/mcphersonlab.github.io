@@ -1,0 +1,45 @@
+---
+title: The Cancer Genome Atlas (TCGA)
+alias: &ALIAS tcga
+href: https://www.cancer.gov/ccg/research/genome-sequencing/tcga
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Cancer Genome Atlas (TCGA) is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. The project generated comprehensive, multi-dimensional maps of the key genomic changes in major types and subtypes of cancer.
+
+## Key Features
+
+- **Multi-Omics Data**: Genomic, epigenomic, transcriptomic, and proteomic data
+- **33 Cancer Types**: Comprehensive coverage across major human cancers
+- **Open Access**: Data available through GDC (Genomic Data Commons)
+- **Matched Controls**: Primary tumors paired with matched normal tissue
+- **Clinical Annotations**: Detailed patient clinical data and outcomes
+
+## Use Cases in Research
+
+- Cancer genomics and mutation analysis
+- Biomarker discovery and validation
+- Drug target identification and pharmacogenomics
+- Tumor microenvironment characterization
+- Survival and outcomes research
+
+## Getting Started
+
+Visit [GDC Data Portal](https://portal.gdc.cancer.gov/) to access and download TCGA data.
+
+## Related Publications
+
+:::{#pubs}
+:::

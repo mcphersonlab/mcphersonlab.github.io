@@ -1,0 +1,45 @@
+---
+title: Nurses' Health Study
+alias: &ALIAS nurseshealth
+href: https://nurseshealthstudy.org/
+listing:
+  id: pubs
+  template: ../../../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../../publications/**/*.qmd"
+    - "!../../../../publications/_template/"
+  sort: "pub_number desc"
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+
+## Overview
+
+The Nurses' Health Study (NHS) is one of the largest and longest-running investigations of factors that influence women's health. Started in 1976 by Dr. Frank Speizer at Harvard T.H. Chan School of Public Health, the study has followed hundreds of thousands of female nurses over decades to examine diet, lifestyle, and health outcomes.
+
+## Key Features
+
+- **Long-Term Follow-Up**: Decades of prospective data collection
+- **Large Sample**: Over 280,000 participants across NHS, NHS II, and NHS3
+- **Comprehensive Questionnaires**: Diet, lifestyle, physical activity, medications, and health outcomes
+- **Biospecimen Repository**: Blood, urine, and tissue samples available for biomarker studies
+- **Linked Data**: Linkable to Medicare claims and cancer registries
+
+## Use Cases in Research
+
+- Diet-disease relationships (cancer, cardiovascular, diabetes)
+- Pharmacoepidemiology and medication adherence
+- Lifestyle factors and chronic disease prevention
+- Reproductive and hormonal health
+- Health outcomes over the life course
+
+## Getting Started
+
+Visit [nurseshealthstudy.org](https://nurseshealthstudy.org/) to learn about data access procedures and collaboration opportunities.
+
+## Related Publications
+
+:::{#pubs}
+:::
