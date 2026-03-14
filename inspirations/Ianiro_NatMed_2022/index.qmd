@@ -9,7 +9,7 @@ publication: "Nat Med, **28**, 1913–1923 (2022)"
 categories: 
   - external-publication
   - genomics
-  - human-gut-microbiome
+  - microbiome
 url_source: https://doi.org/10.1038/s41591-022-01964-3
 url_preprint: 
 journ: "Nat Med"

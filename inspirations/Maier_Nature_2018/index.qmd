@@ -8,7 +8,7 @@ author:
 publication: "Nature, **555**, 623–628 (2018)"
 categories: 
   - external-publication
-  - human-gut-microbiome
+  - microbiome
 url_source: https://doi.org/10.1038/nature25979
 url_preprint: 
 journ: "Nature"

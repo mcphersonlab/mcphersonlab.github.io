@@ -15,7 +15,7 @@ categories:
   - external-publication
   - infectious-diseases
   - antimicrobial-resistance
-  - human-gut-microbiome
+  - microbiome
 url_source: https://doi.org/10.1038/s41591-024-03337-4
 url_preprint: 
 journ: "Nat Med"

@@ -9,7 +9,7 @@ publication: "Nature (2025)"
 categories: 
   - external-publication
   - genomics
-  - human-gut-microbiome
+  - microbiome
 url_source: https://doi.org/10.1038/s41586-025-09786-2
 url_preprint: 
 journ: "Nature"

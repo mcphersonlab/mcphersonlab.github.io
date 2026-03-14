@@ -8,7 +8,7 @@ author:
 publication: "Nat Protoc, **16**, 4633–4649 (2021)"
 categories: 
   - external-publication
-  - human-gut-microbiome
+  - microbiome
   - pharmacology
 url_source: https://doi.org/10.1038/s41596-021-00589-z
 url_preprint: 
