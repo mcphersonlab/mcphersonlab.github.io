@@ -981,5 +981,37 @@ call_for_papers = [
         "topic": "Single-cell omics: from technology to biology (Reviews)",
         "website": "https://www.nature.com/collections/gffeedjjjb",
         "projects": []
+    },
+    {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-07-31",
+        "topic": "Virome",
+        "website": "https://www.nature.com/collections/ggifegcdbj",
+        "projects": []
+    },
+    {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-08-21",
+        "topic": "Phages as antimicrobial therapy",
+        "website": "https://www.nature.com/collections/achdiaidjj",
+        "projects": []
+    },
+    {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-03-20",
+        "topic": "Antiviral Therapy",
+        "website": "https://www.nature.com/collections/jihcibajea",
+        "projects": []
+    },
+    {
+        "journal": "npj Fungal Science",
+        "impact": "",
+        "due_date": "2026-09-22",
+        "topic": "Emerging Fungal Pathogens",
+        "website": "https://www.nature.com/collections/hdiadchghc",
+        "projects": []
     }
 ]
