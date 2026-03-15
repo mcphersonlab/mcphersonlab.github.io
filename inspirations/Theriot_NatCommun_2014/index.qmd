@@ -8,7 +8,7 @@ author:
 publication: "Nat Commun, **5**, 3114 (2014)"
 categories: 
   - external-publication
-  - human-gut-microbiome
+  - microbiome
 url_source: https://doi.org/10.1038/ncomms4114
 url_preprint: 
 journ: "Nat Commun"

@@ -1,0 +1,22 @@
+---
+title: "Language model-guided anticipation and discovery of mammalian metabolites"
+author: 
+- Qiang
+- Wang
+- Lu
+- et al.
+publication: "Nature, **651**, 211–220 (2026)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+  - artificial-intelligence
+url_source: https://doi.org/10.1038/s41586-025-09969-x
+url_preprint: 
+journ: "Nature"
+issue: 651
+page: 211–220
+year: 2026
+image: ""
+pub_number: 
+doi: 10.1038/s41586-025-09969-x
+---
