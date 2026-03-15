@@ -44,9 +44,6 @@ website:
       - icon: mic
         href: podcasts/
         aria-label: Podcasts
-      - icon: github
-        href: https://github.com/McPhersonLab
-        aria-label: GitHub
       - icon: cash-coin
         href: https://simpler.grants.gov/
         aria-label: Grants
@@ -62,15 +59,15 @@ website:
       - icon: cloud-check
         href: https://figshare.com/authors/Jacob_McPherson/23126380
         aria-label: FigShare
-      - icon: vector-pen
-        href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
-        aria-label: SCOPUS
-      - icon: book
-        href: https://www.webofscience.com/wos/author/record/OZF-0932-2025
-        aria-label: WOS
-      - icon: mortarboard
-        href: https://scholar.google.com/citations?user=MsZPCoIAAAAJ&hl=en
-        aria-label: Google Scholar
+      #- icon: vector-pen
+      #  href: https://www.scopus.com/authid/detail.uri?authorId=57204192355
+      #  aria-label: SCOPUS
+      #- icon: book
+      #  href: https://www.webofscience.com/wos/author/record/OZF-0932-2025
+      #  aria-label: WOS
+      #- icon: mortarboard
+      #  href: https://scholar.google.com/citations?user=MsZPCoIAAAAJ&hl=en
+      #  aria-label: Google Scholar
       - icon: envelope
         href: mailto:jacobmcpherson@utexas.edu
         aria-label: Email
@@ -80,15 +77,18 @@ website:
       - icon: building
         href: https://jacobkmcpherson.com/
         aria-label: Business
+      - icon: linkedin
+        href: https://www.linkedin.com/company/mcphersonlab
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/McPhersonLab
+        aria-label: GitHub
       - icon: bluesky
         href: https://bsky.app/profile/jacobkmcpherson.bsky.social
         aria-label: BlueSky
       - icon: twitter
         href: https://x.com/JacobKMcPherson/
         aria-label: Twitter
-      - icon: linkedin
-        href: https://linkedin.com/in/jacobkmcpherson/
-        aria-label: LinkedIn
 
   page-footer:
     left: "Copyright © 2025 Jacob K. McPherson, PharmD, PhD - All Rights Reserved"
