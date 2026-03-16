@@ -106,6 +106,81 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of *C. difficile* infection | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | Clinical Infectious Diseases |
 :::
 
+```{python}
+#| echo: false
+#| output: asis
+
+# Shared conference data lives alongside this page under research/_conferences_data.py.
+from _conferences_data import conference_abstract_deadlines
+from IPython.display import display, HTML
+import json
+
+display(HTML(f"""
+<script id="project-conference-abstract-deadlines" type="application/json">
+{json.dumps(conference_abstract_deadlines, ensure_ascii=True)}
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {{
+  const dataElement = document.getElementById('project-conference-abstract-deadlines');
+  const table = document.querySelector('#active-projects-table-wrapper table');
+  if (!dataElement || !table) {{
+    return;
+  }}
+
+  const deadlineLookup = JSON.parse(dataElement.textContent);
+  const normalizeUrl = (url) => (url || '').replace(/\\/+$/, '');
+
+  table.querySelectorAll('tbody tr').forEach((row) => {{
+    const conferenceCell = row.cells[2];
+    if (!conferenceCell) {{
+      return;
+    }}
+
+    const conferenceLinks = Array.from(conferenceCell.querySelectorAll('a'));
+    if (!conferenceLinks.length) {{
+      return;
+    }}
+
+    const abstractDetails = conferenceLinks
+      .map((link) => {{
+        const deadline = deadlineLookup[normalizeUrl(link.getAttribute('href'))];
+        if (!deadline) {{
+          return null;
+        }}
+        return {{
+          name: link.textContent.trim(),
+          abstractDisplay: deadline.abstract_display,
+        }};
+      }})
+      .filter(Boolean);
+
+    if (!abstractDetails.length) {{
+      return;
+    }}
+
+    let abstractLabel = 'Abstract: TBD';
+    const allTbd = abstractDetails.every((item) => item.abstractDisplay === 'TBD');
+    if (!allTbd) {{
+      if (abstractDetails.length === 1) {{
+        abstractLabel = `Abstract: ${{abstractDetails[0].abstractDisplay}}`;
+      }} else {{
+        abstractLabel = `Abstracts: ${{abstractDetails.map((item) => `${{item.name}} — ${{item.abstractDisplay}}`).join('; ')}}`;
+      }}
+    }}
+
+    let abstractElement = conferenceCell.querySelector('em');
+    if (!abstractElement) {{
+      conferenceCell.appendChild(document.createElement('br'));
+      abstractElement = document.createElement('em');
+      conferenceCell.appendChild(abstractElement);
+    }}
+    abstractElement.textContent = abstractLabel;
+  }});
+}});
+</script>
+"""))
+```
+
 ### Grants
 
 For more information about NIH funding opportunities, visit [NIH Funding Opportunities](https://grants.nih.gov/funding/explore-nih-opportunities).
