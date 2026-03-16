@@ -35,14 +35,14 @@ from IPython.display import display, HTML
 
 
 # Call for papers data is imported from _callforpapers_data.py
-from _callforpapers_data import call_for_papers
+from _callforpapers_data import call_for_papers, SPECIAL_CALL_DUE_DATES
             
 def create_callforpapers_html(papers_data):
     current_date = datetime.now()
     cutoff_date = current_date - timedelta(days=180)
 
-# Parse dates and sort (most recent first, then by journal name)
-# Convert "TBD" and "Ongoing" to far future dates for sorting purposes
+    # Parse dates and sort (most recent first, then by journal name)
+    # Convert "TBD" and "Ongoing" to far future dates for sorting purposes
     for paper in papers_data:
         if paper['due_date'] == 'TBD':
             paper['sort_date'] = datetime(9999, 12, 30)
@@ -57,7 +57,7 @@ def create_callforpapers_html(papers_data):
     # Remove entries more than 6 months past their due date
     filtered_papers = [
         p for p in papers_data
-        if p['due_date'] in {'Ongoing', 'TBD'} or p['sort_date'] >= cutoff_date
+        if p['due_date'] in SPECIAL_CALL_DUE_DATES or p['sort_date'] >= cutoff_date
     ]
 
     # Sort by date (earliest first), but put "TBD" and "Ongoing" at the end
@@ -127,7 +127,7 @@ def create_callforpapers_html(papers_data):
     for paper in sorted_papers:
         # Determine row classes based on due date status and project presence
         classes = []
-        if paper['due_date'] not in {'Ongoing', 'TBD'}:
+        if paper['due_date'] not in SPECIAL_CALL_DUE_DATES:
             days_until = (paper['sort_date'] - current_date).days
             if days_until < 0:
                 classes.append("past-deadline")

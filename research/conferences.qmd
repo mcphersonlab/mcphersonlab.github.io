@@ -17,7 +17,7 @@ This file is included in research/index.qmd and renders at the bottom of the res
 #| warning: false
 
 from _conferences_data import conferences
-from _callforpapers_data import call_for_papers
+from _callforpapers_data import call_for_papers, SPECIAL_CALL_DUE_DATES
 from _nih_grant_deadlines_data import nih_grant_deadlines
 from datetime import datetime, timedelta
 from IPython.display import display, HTML
@@ -118,7 +118,7 @@ def create_fullcalendar_html(conferences, call_for_papers, nih_grant_deadlines):
 
     # ---------------- Calls for Papers ----------------
     for paper in call_for_papers:
-        if paper["due_date"] in {"Ongoing", "TBD"}:
+        if paper["due_date"] in SPECIAL_CALL_DUE_DATES:
             continue
 
         fc_events.append({

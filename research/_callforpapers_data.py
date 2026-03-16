@@ -1045,10 +1045,14 @@ call_for_papers = [
 ]
 
 
+# Captures project_name, project_url, question, journal, website, and deadline_text
+# from each row in the Current Active Projects markdown table.
 _PROJECT_ROW_PATTERN = re.compile(
     r"\| \[([^\]]+)\]\((https://github\.com/[^)]+)\) \| (.*?) \| .*? \| \*\*\[([^\]]+)\]\(([^)]+)\)\*\*<br><em>Deadline: ([^<]+)</em> \|",
     re.DOTALL,
 )
+
+SPECIAL_CALL_DUE_DATES = {"Ongoing", "TBD"}
 
 _JOURNAL_ALIASES = {
     "cid": {"cid", "clinical infectious diseases"},
@@ -1058,23 +1062,42 @@ _JOURNAL_ALIASES = {
 }
 
 
-def _normalize_deadline(deadline_text):
-    if deadline_text in {"Ongoing", "TBD"}:
+def _normalize_deadline(deadline_text, source_path, entry_label):
+    if deadline_text in SPECIAL_CALL_DUE_DATES:
         return deadline_text
-    return datetime.strptime(deadline_text, "%B %d, %Y").strftime("%Y-%m-%d")
+    try:
+        return datetime.strptime(deadline_text, "%B %d, %Y").strftime("%Y-%m-%d")
+    except ValueError as exc:
+        raise ValueError(
+            f"Unsupported call-for-papers deadline {deadline_text!r} for {entry_label} in {source_path}"
+        ) from exc
 
 
 def _journal_matches(left, right):
     left_key = left.strip().lower()
     right_key = right.strip().lower()
-    return right_key in _JOURNAL_ALIASES.get(left_key, {left_key}) or left_key in _JOURNAL_ALIASES.get(right_key, {right_key})
+    left_aliases = _JOURNAL_ALIASES.get(left_key, {left_key})
+    right_aliases = _JOURNAL_ALIASES.get(right_key, {right_key})
+    return right_key in left_aliases or left_key in right_aliases
+
+
+def _paper_matches_expected(paper, expected):
+    return (
+        _journal_matches(paper["journal"], expected["journal"])
+        and paper["website"] == expected["website"]
+        and paper["due_date"] == expected["due_date"]
+    )
 
 
 def _extract_active_project_calls():
     projects_path = Path(__file__).with_name("projects.qmd")
     project_calls = []
+    try:
+        projects_text = projects_path.read_text(encoding="utf-8")
+    except OSError as exc:
+        raise OSError(f"Unable to load active project calls from {projects_path}") from exc
 
-    for match in _PROJECT_ROW_PATTERN.finditer(projects_path.read_text(encoding="utf-8")):
+    for match in _PROJECT_ROW_PATTERN.finditer(projects_text):
         project_name, project_url, question, journal, website, deadline_text = match.groups()
         project_calls.append(
             {
@@ -1083,7 +1106,7 @@ def _extract_active_project_calls():
                 "question": question.strip(),
                 "journal": journal.strip(),
                 "website": website.strip(),
-                "due_date": _normalize_deadline(deadline_text.strip()),
+                "due_date": _normalize_deadline(deadline_text.strip(), projects_path, project_name.strip()),
             }
         )
 
@@ -1106,11 +1129,10 @@ def _sync_active_project_calls(papers_data):
             if not isinstance(project_url, str) or not project_url.strip():
                 continue
             expected = expected_by_project.get(project_url)
-            if expected and not (
-                _journal_matches(synced_paper["journal"], expected["journal"])
-                and synced_paper["website"] == expected["website"]
-                and synced_paper["due_date"] == expected["due_date"]
-            ):
+            # When a project's journal, link, or deadline changes in projects.qmd,
+            # drop the stale association from older call entries so the shared data
+            # matches the Current Active Projects table exactly.
+            if expected and not _paper_matches_expected(synced_paper, expected):
                 continue
             if project_url not in projects:
                 projects.append(project_url)
@@ -1127,9 +1149,10 @@ def _sync_active_project_calls(papers_data):
             (
                 paper
                 for paper in synced_papers
-                if _journal_matches(paper["journal"], journal)
-                and paper["website"] == website
-                and paper["due_date"] == due_date
+                if _paper_matches_expected(
+                    paper,
+                    {"journal": journal, "website": website, "due_date": due_date},
+                )
             ),
             None,
         )
