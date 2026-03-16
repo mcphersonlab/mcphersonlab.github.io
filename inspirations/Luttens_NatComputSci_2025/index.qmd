@@ -1,0 +1,21 @@
+---
+title: "Rapid traversal of vast chemical space using machine learning-guided docking screens"
+author: 
+- Luttens
+- Cabeza de Vaca
+- Sparring
+- et al.
+publication: "Nat Comput Sci, **5**, 301–312 (2025)"
+categories: 
+  - external-publication
+  - medicinal-chemistry
+url_source: https://doi.org/10.1038/s43588-025-00777-x
+url_preprint: 
+journ: "Nat Comput Sci"
+issue: 5
+page: 301–312
+year: 2025
+image: ""
+pub_number: 
+doi: 10.1038/s43588-025-00777-x
+---
