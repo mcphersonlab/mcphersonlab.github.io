@@ -1,6 +1,10 @@
 # Call for papers data shared between callforpapers.qmd and index.qmd
 # Update this file to modify call for papers information
 
+from datetime import datetime
+from pathlib import Path
+import re
+
 call_for_papers = [
     {
         "journal": "Journal of Translational Medicine",
@@ -1039,3 +1043,164 @@ call_for_papers = [
         "projects": []
     }
 ]
+
+
+# Captures project_name, project_url, question, journal, website, and deadline_text
+# from each row in the Current Active Projects markdown table.
+_PROJECT_ROW_PATTERN = re.compile(
+    r"\| \[([^\]]+)\]\((https://github\.com/[^)]+)\) \| (.*?) \| .*? \| \*\*\[([^\]]+)\]\(([^)]+)\)\*\*<br><em>Deadline: ([^<]+)</em> \|",
+    re.DOTALL,
+)
+
+SPECIAL_CALL_DUE_DATE_RULES = {
+    "TBD": {
+        "sort_date": datetime(9999, 12, 30),
+        "display_date": "TBD",
+    },
+    "Ongoing": {
+        "sort_date": datetime(9999, 12, 31),
+        "display_date": "Ongoing",
+    },
+}
+
+SPECIAL_CALL_DUE_DATES = set(SPECIAL_CALL_DUE_DATE_RULES)
+
+_JOURNAL_ALIASES = {
+    "cid": {"cid", "clinical infectious diseases"},
+    "clinical infectious diseases": {"cid", "clinical infectious diseases"},
+    "jid": {"jid", "journal of infectious diseases"},
+    "journal of infectious diseases": {"jid", "journal of infectious diseases"},
+}
+
+
+def _normalize_deadline(deadline_text, source_path, entry_label):
+    if deadline_text in SPECIAL_CALL_DUE_DATES:
+        return deadline_text
+    try:
+        return datetime.strptime(deadline_text, "%B %d, %Y").strftime("%Y-%m-%d")
+    except ValueError as exc:
+        raise ValueError(
+            f"Unsupported call-for-papers deadline {deadline_text!r} for {entry_label} in {source_path}"
+        ) from exc
+
+
+def _journal_matches(left, right):
+    left_key = left.strip().lower()
+    right_key = right.strip().lower()
+    left_aliases = _JOURNAL_ALIASES.get(left_key, {left_key})
+    right_aliases = _JOURNAL_ALIASES.get(right_key, {right_key})
+    return right_key in left_aliases or left_key in right_aliases
+
+
+def _paper_matches_expected(paper, expected):
+    return (
+        _journal_matches(paper["journal"], expected["journal"])
+        and paper["website"] == expected["website"]
+        and paper["due_date"] == expected["due_date"]
+    )
+
+
+def _extract_active_project_calls():
+    projects_path = Path(__file__).with_name("projects.qmd")
+    project_calls = []
+    try:
+        projects_text = projects_path.read_text(encoding="utf-8")
+    except OSError as exc:
+        raise OSError(f"Unable to load active project calls from {projects_path}") from exc
+
+    for match in _PROJECT_ROW_PATTERN.finditer(projects_text):
+        project_name, project_url, question, journal, website, deadline_text = match.groups()
+        project_calls.append(
+            {
+                "project_name": project_name.strip(),
+                "project_url": project_url.strip(),
+                "question": question.strip(),
+                "journal": journal.strip(),
+                "website": website.strip(),
+                "due_date": _normalize_deadline(deadline_text.strip(), projects_path, project_name.strip()),
+            }
+        )
+
+    if not project_calls:
+        raise ValueError(
+            f"No active project call rows were detected in {projects_path}; "
+            "update the Current Active Projects table format or the active-project row regex in "
+            "research/_callforpapers_data.py."
+        )
+
+    return project_calls
+
+
+def _sync_active_project_calls(papers_data):
+    active_project_calls = _extract_active_project_calls()
+    if not active_project_calls:
+        return papers_data
+
+    expected_by_project = {item["project_url"]: item for item in active_project_calls}
+    synced_papers = []
+
+    for paper in papers_data:
+        synced_paper = dict(paper)
+        raw_projects = synced_paper.get("projects") or []
+        projects = []
+        for project_url in raw_projects:
+            if not isinstance(project_url, str) or not project_url.strip():
+                continue
+            expected = expected_by_project.get(project_url)
+            # When a project's journal, link, or deadline changes in projects.qmd,
+            # drop the stale association from older call entries so the shared data
+            # matches the Current Active Projects table exactly.
+            if expected and not _paper_matches_expected(synced_paper, expected):
+                continue
+            if project_url not in projects:
+                projects.append(project_url)
+        synced_paper["projects"] = projects
+        synced_papers.append(synced_paper)
+
+    grouped_calls = {}
+    for item in active_project_calls:
+        key = (item["journal"], item["website"], item["due_date"])
+        grouped_calls.setdefault(key, []).append(item)
+
+    for (journal, website, due_date), items in grouped_calls.items():
+        matching_entry = next(
+            (
+                paper
+                for paper in synced_papers
+                if _paper_matches_expected(
+                    paper,
+                    {"journal": journal, "website": website, "due_date": due_date},
+                )
+            ),
+            None,
+        )
+
+        project_urls = []
+        topic_parts = []
+        for item in items:
+            if item["project_url"] not in project_urls:
+                project_urls.append(item["project_url"])
+            if item["question"] and item["question"] not in topic_parts:
+                topic_parts.append(item["question"])
+
+        if matching_entry:
+            for project_url in project_urls:
+                if project_url not in matching_entry["projects"]:
+                    matching_entry["projects"].append(project_url)
+            continue
+
+        synced_papers.append(
+            {
+                "journal": journal,
+                "impact": "",
+                "due_date": due_date,
+                "topic": " / ".join(topic_parts),
+                "website": website,
+                "projects": project_urls,
+            }
+        )
+
+    return synced_papers
+
+
+call_for_papers = _sync_active_project_calls(call_for_papers)

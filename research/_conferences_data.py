@@ -1,6 +1,8 @@
 # Conference data shared between conferences.qmd and index.qmd
 # Update this file to modify conference information
 
+from datetime import datetime
+
 conferences = [
     {
         "name": "Staphylococcal Diseases Gordon Research Conference",
@@ -642,3 +644,38 @@ conferences = [
         ]
     }
 ]
+
+
+def normalize_conference_url(url):
+    return (url or "").rstrip("/")
+
+
+def _format_conference_date(date_str, conference_name, field_name):
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
+    except ValueError as exc:
+        raise ValueError(
+            f"Invalid {field_name} date {date_str!r} for conference {conference_name!r} in research/_conferences_data.py"
+        ) from exc
+
+
+def format_conference_abstract_deadline(conference):
+    if conference.get("abstract_open") and conference.get("abstract_close"):
+        open_date = _format_conference_date(conference["abstract_open"], conference["name"], "abstract_open")
+        close_date = _format_conference_date(conference["abstract_close"], conference["name"], "abstract_close")
+        return f"{open_date} - {close_date}"
+    if conference.get("abstract_close"):
+        return _format_conference_date(conference["abstract_close"], conference["name"], "abstract_close")
+    if conference.get("abstract_open"):
+        return _format_conference_date(conference["abstract_open"], conference["name"], "abstract_open")
+    return "TBD"
+
+
+conference_abstract_deadlines = {
+    normalize_conference_url(conf.get("url", "")): {
+        "name": conf["name"],
+        "abstract_display": format_conference_abstract_deadline(conf),
+    }
+    for conf in conferences
+    if conf.get("url")
+}

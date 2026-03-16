@@ -91,20 +91,251 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 | [amr-neisseria-gonorrhoeae](https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae) | AMR in *N. gonorrhoeae* | [IMARI Annual](https://imari.org); [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: TBD</em> | The Lancet Infectious Diseases |
 | [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | Biophysical analysis of protein machinery | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Biophysical Journal](https://www.cell.com/biophysj/home)**<br><em>Deadline: TBD</em> | Nature Structural & Molecular Biology |
 | [clostridioides_atlas](https://github.com/mcphersonlab/clostridioides_atlas) | Atlas of *C. difficile* phylogeography, AMR, and host-microbe interactions | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Microbiome](https://link.springer.com/collections/fbfahacdhi)**<br><em>Deadline: TBD</em> | Nature Microbiology |
-| [cost-amr](https://github.com/mcphersonlab/cost-amr) | Economic burden of antimicrobial resistance | [Global AMR Innovators' Conference (GAMRIC)](https://www.gamric.org/)<br><em>Abstract: TBD</em> | **[Clinical Infectious Diseases](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: TBD</em> | The Lancet Infectious Diseases |
+| [cost-amr](https://github.com/mcphersonlab/cost-amr) | Economic burden of antimicrobial resistance | [Global AMR Innovators' Conference (GAMRIC)](https://www.gamric.org/)<br><em>Abstract: TBD</em> | **[Clinical Infectious Diseases](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: Ongoing</em> | The Lancet Infectious Diseases |
 | [epi-hbv](https://github.com/mcphersonlab/epi-hbv) | Requirements of HBV elimination in the United States | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | Hepatology |
 | [mgx-cap](https://github.com/mcphersonlab/mgx-cap) | Pulmonary metagenomics of community-acquired pneumonia | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | Clinical Infectious Diseases |
 | [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | C. difficile and VRE co-colonization | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [TMC AMR](https://www.tmc.edu/events/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | Nature Microbiology |
 | [mgx-mbx-colorectal-cancer](https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer) | Microbiome and metabolome in colorectal cancer | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Cell Host & Microbe](https://www.cell.com/cell-host-microbe/home)**<br><em>Deadline: TBD</em> | Nature Medicine |
-| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | Pharmacology of RNAP-targeting rifamycins on biofilms | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[mBio](https://journals.asm.org/asm-calls-for-papers)**<br><em>Deadline: TBD</em> | Antimicrobial Agents and Chemotherapy |
+| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | Pharmacology of RNAP-targeting rifamycins on biofilms | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[mBio](https://journals.asm.org/asm-calls-for-papers)**<br><em>Deadline: Ongoing</em> | Antimicrobial Agents and Chemotherapy |
 | [pcol-vcddmde-hbv](https://github.com/mcphersonlab/pcol-vcddmde-hbv) | Pharmacology of DdmDE degradation of HBV cccDNA | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | Hepatology |
-| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | Interactive AI module for pharmacy student communication training | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[npj Digital Medicine](https://www.nature.com/collections/hcdeibadid)**<br><em>Deadline: TBD</em> | Nature Medicine |
+| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | Interactive AI module for pharmacy student communication training | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[npj Digital Medicine](https://www.nature.com/collections/hcdeibadid)**<br><em>Deadline: June 03, 2026</em> | Nature Medicine |
 | [phys-hiv-lenacapavir](https://github.com/mcphersonlab/phys-hiv-lenacapavir) | Structure and physical properties of HIV-1 capsid hyperstabilization by lenacapavir | [CROI Annual](https://www.croiconference.org/)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | Nature Structural & Molecular Biology |
 | [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | Return on investment analysis for CDI interventions | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Value in Health](https://www.journals.elsevier.com/value-in-health)**<br><em>Deadline: TBD</em> | Clinical Infectious Diseases |
 | [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | ROI analysis for antimicrobial drug development | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: TBD</em> | **[Pharmacoeconomics](https://link.springer.com/journal/40273)**<br><em>Deadline: TBD</em> | Value in Health |
 | [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | Structure-function relationships in pharmacology | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | Nature Reviews Drug Discovery |
 | [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | Treatment of *C. difficile* infection | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | Clinical Infectious Diseases |
 :::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const table = document.querySelector('#active-projects-table-wrapper table');
+  if (!table) {
+    console.warn('Current Active Projects sync skipped: missing #active-projects-table-wrapper table.');
+    return;
+  }
+
+  const INDEX_SOURCE_PATH = 'index.html';
+  const CALL_DATA_ELEMENT_ID = 'research-index-call-for-papers-project-data';
+  const CONFERENCE_DATA_ELEMENT_ID = 'research-index-conference-project-data';
+  const normalizeUrl = (url) => (url || '').replace(/\/+$/, '');
+  const indexUrl = new URL(INDEX_SOURCE_PATH, window.location.href);
+  const tableBody = table.querySelector('tbody');
+  const metadataByProject = new Map();
+
+  if (tableBody) {
+    Array.from(tableBody.rows).forEach((row, index) => {
+      const projectLink = row.cells[0] && row.cells[0].querySelector('a');
+      if (!projectLink) {
+        return;
+      }
+
+      metadataByProject.set(normalizeUrl(projectLink.getAttribute('href')), {
+        order: index,
+        name: projectLink.textContent.trim(),
+        question: row.cells[1] ? row.cells[1].textContent.trim() : '',
+        bigJournal: row.cells[4] ? row.cells[4].textContent.trim() : '',
+      });
+    });
+  }
+
+  const getOrCreateProject = (projectsByUrl, projectUrl) => {
+    const normalizedUrl = normalizeUrl(projectUrl);
+    if (!projectsByUrl.has(normalizedUrl)) {
+      const metadata = metadataByProject.get(normalizedUrl);
+      let fallbackSlug = normalizedUrl;
+      try {
+        fallbackSlug = new URL(normalizedUrl).pathname.split('/').filter(Boolean).pop() || normalizedUrl;
+      } catch (error) {
+        console.warn(`Current Active Projects sync could not parse fallback project name from ${normalizedUrl}.`, error);
+      }
+      if (!metadata) {
+        console.warn(`Current Active Projects sync is using fallback metadata for ${normalizedUrl}.`);
+      }
+      projectsByUrl.set(normalizedUrl, {
+        url: normalizedUrl,
+        name: metadata?.name || `Uncataloged: ${fallbackSlug}`,
+        question: metadata?.question || '',
+        bigJournal: metadata?.bigJournal || '',
+        order: metadata?.order ?? Number.MAX_SAFE_INTEGER,
+        conferences: [],
+        calls: [],
+        conferenceKeys: new Set(),
+        callKeys: new Set(),
+      });
+    }
+    return projectsByUrl.get(normalizedUrl);
+  };
+
+  const createLink = (href, text) => {
+    const link = document.createElement('a');
+    link.href = href;
+    link.textContent = text;
+    return link;
+  };
+
+  const appendConferenceCellContent = (cell, conferences) => {
+    if (!conferences.length) {
+      cell.textContent = 'TBD';
+      cell.appendChild(document.createElement('br'));
+      const em = document.createElement('em');
+      em.textContent = 'Abstract: TBD';
+      cell.appendChild(em);
+      return;
+    }
+
+    conferences.forEach((conference, index) => {
+      if (index > 0) {
+        cell.append('; ');
+      }
+      cell.appendChild(createLink(conference.url, conference.name));
+    });
+
+    cell.appendChild(document.createElement('br'));
+    const allTbd = conferences.every((conference) => conference.abstractDisplay === 'TBD');
+
+    const em = document.createElement('em');
+    if (allTbd) {
+      em.textContent = 'Abstract: TBD';
+    } else if (conferences.length === 1) {
+      em.textContent = `Abstract: ${conferences[0].abstractDisplay}`;
+    } else {
+      em.textContent = `Abstracts: ${conferences.map((conference) => `${conference.name} — ${conference.abstractDisplay}`).join('; ')}`;
+    }
+    cell.appendChild(em);
+  };
+
+  const appendCallCellContent = (cell, calls) => {
+    if (!calls.length) {
+      cell.textContent = '—';
+      return;
+    }
+
+    calls.forEach((call, index) => {
+      const callWrapper = document.createElement('div');
+      if (index > 0) {
+        callWrapper.style.marginTop = '8px';
+      }
+
+      const strong = document.createElement('strong');
+      strong.appendChild(createLink(call.website, call.journal));
+      callWrapper.appendChild(strong);
+      callWrapper.appendChild(document.createElement('br'));
+
+      const em = document.createElement('em');
+      em.textContent = `Deadline: ${call.displayDate}`;
+      callWrapper.appendChild(em);
+
+      cell.appendChild(callWrapper);
+    });
+  };
+
+  const rebuildActiveProjectsTable = (conferenceData, callData) => {
+    if (!tableBody) {
+      return;
+    }
+
+    const projectsByUrl = new Map();
+
+    conferenceData.forEach((conference) => {
+      (conference.projects || []).forEach((projectUrl) => {
+        const project = getOrCreateProject(projectsByUrl, projectUrl);
+        const conferenceKey = `${conference.name}|${conference.url}`;
+        if (!project.conferenceKeys.has(conferenceKey)) {
+          project.conferenceKeys.add(conferenceKey);
+          project.conferences.push({
+            name: conference.name,
+            url: conference.url,
+            abstractDisplay: conference.abstract_display || 'TBD',
+          });
+        }
+      });
+    });
+
+    callData.forEach((call) => {
+      (call.projects || []).forEach((projectUrl) => {
+        const project = getOrCreateProject(projectsByUrl, projectUrl);
+        const callKey = `${call.journal}|${call.website}|${call.display_date}`;
+        if (!project.callKeys.has(callKey)) {
+          project.callKeys.add(callKey);
+          project.calls.push({
+            journal: call.journal,
+            website: call.website,
+            displayDate: call.display_date,
+          });
+        }
+      });
+    });
+
+    const rows = Array.from(projectsByUrl.values())
+      .sort((left, right) => {
+        if (left.order !== right.order) {
+          return left.order - right.order;
+        }
+        return left.name.localeCompare(right.name);
+      });
+
+    if (!rows.length) {
+      console.warn('Current Active Projects sync from the Research page data produced no rows; keeping existing table.');
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    rows.forEach((project) => {
+      const row = document.createElement('tr');
+
+      const projectCell = document.createElement('td');
+      projectCell.appendChild(createLink(project.url, project.name));
+      row.appendChild(projectCell);
+
+      const questionCell = document.createElement('td');
+      questionCell.textContent = project.question || '—';
+      row.appendChild(questionCell);
+
+      const conferenceCell = document.createElement('td');
+      appendConferenceCellContent(conferenceCell, project.conferences);
+      row.appendChild(conferenceCell);
+
+      const callCell = document.createElement('td');
+      appendCallCellContent(callCell, project.calls);
+      row.appendChild(callCell);
+
+      const journalCell = document.createElement('td');
+      journalCell.textContent = project.bigJournal || '—';
+      row.appendChild(journalCell);
+
+      fragment.appendChild(row);
+    });
+
+    tableBody.replaceChildren(fragment);
+  };
+
+  fetch(indexUrl.toString())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Unable to load ${indexUrl.pathname} (${response.status})`);
+      }
+      return response.text();
+    })
+    .then((html) => {
+      const indexDocument = new DOMParser().parseFromString(html, 'text/html');
+      const conferenceDataElement = indexDocument.getElementById(CONFERENCE_DATA_ELEMENT_ID);
+      const callDataElement = indexDocument.getElementById(CALL_DATA_ELEMENT_ID);
+      if (!conferenceDataElement || !callDataElement) {
+        throw new Error(`Missing project sync data in ${indexUrl.pathname}.`);
+      }
+      rebuildActiveProjectsTable(
+        JSON.parse(conferenceDataElement.textContent),
+        JSON.parse(callDataElement.textContent),
+      );
+    })
+    .catch((error) => {
+      console.warn('Current Active Projects sync from the Research page data failed:', error);
+    });
+});
+</script>
+```
 
 ### Grants
 
@@ -133,7 +364,7 @@ Lab members and collaborators can contribute to projects by following these step
 2. **Link to Opportunities**:
    - Add the project to relevant [conference](conferences.qmd) entries
    - Associate with [calls for papers](callforpapers.qmd) that match the research topic
-   - Update the project table above with target venues
+   - The project table above will sync its target venues from the Research page data
 
 3. **Track Progress**:
    - Use GitHub Issues for tasks, bugs, and feature requests
