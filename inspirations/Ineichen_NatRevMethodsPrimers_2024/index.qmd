@@ -1,0 +1,21 @@
+---
+title: "Systematic review and meta-analysis of preclinical studies"
+author: 
+- Ineichen
+- Held
+- Salanti
+- et al.
+publication: "Nat Rev Methods Primers, **4**, 72 (2024)"
+categories: 
+  - external-publication
+  - pharmacology
+url_source: https://doi.org/10.1038/s43586-024-00347-x
+url_preprint: 
+journ: "Nat Rev Methods Primers"
+issue: 4
+page: 72
+year: 2024
+image: ""
+pub_number: 
+doi: 10.1038/s43586-024-00347-x
+---

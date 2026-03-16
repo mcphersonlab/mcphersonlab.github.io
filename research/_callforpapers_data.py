@@ -1013,5 +1013,13 @@ call_for_papers = [
         "topic": "Emerging Fungal Pathogens",
         "website": "https://www.nature.com/collections/hdiadchghc",
         "projects": []
+    },
+    {
+        "journal": "Nature Water",
+        "impact": "",
+        "due_date": "2026-03-31",
+        "topic": "Tropical cyclones impacts and preparedness",
+        "website": "https://www.nature.com/nwater/calls-for-papers",
+        "projects": []
     }
 ]
