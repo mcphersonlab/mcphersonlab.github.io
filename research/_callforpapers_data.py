@@ -1029,5 +1029,13 @@ call_for_papers = [
         "topic": "Basic Psychological Needs and Well-Being",
         "website": "https://www.nature.com/collections/diihddgjcg",
         "projects": []
+    },
+    {
+        "journal": "Value in Health Regional Issues",
+        "impact": "",
+        "due_date": "2026-04-30",
+        "topic": "Economics of Antimicrobial Resistance: Costs, Consequences, and Policy Responses",
+        "website": "https://www.ispor.org/publications/journals/value-in-health-regional-issues/for-authors/call-for-papers",
+        "projects": []
     }
 ]
