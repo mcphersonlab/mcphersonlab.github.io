@@ -118,7 +118,7 @@ def create_fullcalendar_html(conferences, call_for_papers, nih_grant_deadlines):
 
     # ---------------- Calls for Papers ----------------
     for paper in call_for_papers:
-        if paper["due_date"] == "Ongoing":
+        if paper["due_date"] in {"Ongoing", "TBD"}:
             continue
 
         fc_events.append({
@@ -580,4 +580,3 @@ and many more at:
 - [**Houston Methodist**](https://attend.houstonmethodist.org/)
 - [**Baylor College of Medicine**](https://www.bcm.edu/departments/medicine/research/conferences-grand-rounds-seminars)
 - [**UT School of Public Health**](https://sph.uth.edu/events/)
-

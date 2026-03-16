@@ -4,6 +4,7 @@ To edit call for papers information:
 1. Update the 'call_for_papers' list in _callforpapers_data.py
 2. Add, remove, or modify entries following the existing format
 3. Each entry needs: journal, impact, due_date, topic, and website
+   - due_date may be YYYY-MM-DD, TBD, or Ongoing
 4. The 'impact' field should contain the Journal Impact Factor (JIF) from JCR/Clarivate
    - Use empty string ("") if impact factor is unavailable
    - For multi-journal calls with separate submissions to each journal, separate values with " / " (e.g., "19.4 / 87.3")
@@ -40,10 +41,13 @@ def create_callforpapers_html(papers_data):
     current_date = datetime.now()
     cutoff_date = current_date - timedelta(days=180)
 
-    # Parse dates and sort (most recent first, then by journal name)
-    # Convert "Ongoing" to a far future date for sorting purposes
+# Parse dates and sort (most recent first, then by journal name)
+# Convert "TBD" and "Ongoing" to far future dates for sorting purposes
     for paper in papers_data:
-        if paper['due_date'] == 'Ongoing':
+        if paper['due_date'] == 'TBD':
+            paper['sort_date'] = datetime(9999, 12, 30)
+            paper['display_date'] = 'TBD'
+        elif paper['due_date'] == 'Ongoing':
             paper['sort_date'] = datetime(9999, 12, 31)
             paper['display_date'] = 'Ongoing'
         else:
@@ -53,10 +57,10 @@ def create_callforpapers_html(papers_data):
     # Remove entries more than 6 months past their due date
     filtered_papers = [
         p for p in papers_data
-        if p['due_date'] == 'Ongoing' or p['sort_date'] >= cutoff_date
+        if p['due_date'] in {'Ongoing', 'TBD'} or p['sort_date'] >= cutoff_date
     ]
 
-    # Sort by date (earliest first), but put "Ongoing" at the end
+    # Sort by date (earliest first), but put "TBD" and "Ongoing" at the end
     sorted_papers = sorted(filtered_papers, key=lambda x: (x['sort_date'], x['journal']))
     
     html = """
@@ -123,7 +127,7 @@ def create_callforpapers_html(papers_data):
     for paper in sorted_papers:
         # Determine row classes based on due date status and project presence
         classes = []
-        if paper['due_date'] != 'Ongoing':
+        if paper['due_date'] not in {'Ongoing', 'TBD'}:
             days_until = (paper['sort_date'] - current_date).days
             if days_until < 0:
                 classes.append("past-deadline")
