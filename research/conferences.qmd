@@ -10,6 +10,21 @@ This file is included in research/index.qmd and renders at the bottom of the res
 -->
 ## Conference Map and Calendar
 
+```{python}
+#| echo: false
+#| output: asis
+
+from _conferences_data import conference_abstract_deadlines
+from IPython.display import display, HTML
+import json
+
+display(HTML(f"""
+<script id="research-index-conference-abstract-deadlines" type="application/json">
+{json.dumps(conference_abstract_deadlines, ensure_ascii=True)}
+</script>
+"""))
+```
+
 ### Calendar
 
 ```{python}

@@ -1,15 +1,16 @@
 <!-- 
 This file contains the call for papers table for the research page.
 To edit call for papers information:
-1. Update the 'call_for_papers' list in _callforpapers_data.py
+1. Update call metadata in `_callforpapers_data.py`
 2. Add, remove, or modify entries following the existing format
 3. Each entry needs: journal, impact, due_date, topic, and website
    - due_date may be YYYY-MM-DD, TBD, or Ongoing
 4. The 'impact' field should contain the Journal Impact Factor (JIF) from JCR/Clarivate
    - Use empty string ("") if impact factor is unavailable
-   - For multi-journal calls with separate submissions to each journal, separate values with " / " (e.g., "19.4 / 87.3")
-   - For collection calls spanning multiple journals, use the primary or most representative journal's impact factor
-5. The table will automatically update based on this data
+    - For multi-journal calls with separate submissions to each journal, separate values with " / " (e.g., "19.4 / 87.3")
+    - For collection calls spanning multiple journals, use the primary or most representative journal's impact factor
+5. Project links for active projects are derived from `research/projects.qmd`'s Current Active Projects table and may be overwritten during sync
+6. The table will automatically update based on this data
 
 This file is included in research/index.qmd and renders on the research page.
 -->
@@ -35,21 +36,23 @@ from IPython.display import display, HTML
 
 
 # Call for papers data is imported from _callforpapers_data.py
-from _callforpapers_data import call_for_papers, SPECIAL_CALL_DUE_DATES
+from _callforpapers_data import (
+    call_for_papers,
+    SPECIAL_CALL_DUE_DATES,
+    SPECIAL_CALL_DUE_DATE_RULES,
+)
             
 def create_callforpapers_html(papers_data):
     current_date = datetime.now()
     cutoff_date = current_date - timedelta(days=180)
 
     # Parse dates and sort (most recent first, then by journal name)
-    # Convert "TBD" and "Ongoing" to far future dates for sorting purposes
+    # Convert placeholder deadlines using the shared rules from _callforpapers_data.py
     for paper in papers_data:
-        if paper['due_date'] == 'TBD':
-            paper['sort_date'] = datetime(9999, 12, 30)
-            paper['display_date'] = 'TBD'
-        elif paper['due_date'] == 'Ongoing':
-            paper['sort_date'] = datetime(9999, 12, 31)
-            paper['display_date'] = 'Ongoing'
+        if paper['due_date'] in SPECIAL_CALL_DUE_DATE_RULES:
+            rule = SPECIAL_CALL_DUE_DATE_RULES[paper['due_date']]
+            paper['sort_date'] = rule['sort_date']
+            paper['display_date'] = rule['display_date']
         else:
             paper['sort_date'] = datetime.strptime(paper['due_date'], '%Y-%m-%d')
             paper['display_date'] = paper['sort_date'].strftime('%B %d, %Y')

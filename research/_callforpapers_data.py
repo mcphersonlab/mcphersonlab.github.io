@@ -1052,7 +1052,18 @@ _PROJECT_ROW_PATTERN = re.compile(
     re.DOTALL,
 )
 
-SPECIAL_CALL_DUE_DATES = {"Ongoing", "TBD"}
+SPECIAL_CALL_DUE_DATE_RULES = {
+    "TBD": {
+        "sort_date": datetime(9999, 12, 30),
+        "display_date": "TBD",
+    },
+    "Ongoing": {
+        "sort_date": datetime(9999, 12, 31),
+        "display_date": "Ongoing",
+    },
+}
+
+SPECIAL_CALL_DUE_DATES = set(SPECIAL_CALL_DUE_DATE_RULES)
 
 _JOURNAL_ALIASES = {
     "cid": {"cid", "clinical infectious diseases"},
@@ -1108,6 +1119,13 @@ def _extract_active_project_calls():
                 "website": website.strip(),
                 "due_date": _normalize_deadline(deadline_text.strip(), projects_path, project_name.strip()),
             }
+        )
+
+    if not project_calls:
+        raise ValueError(
+            f"No active project call rows were detected in {projects_path}; "
+            "update the Current Active Projects table format or the active-project row regex in "
+            "research/_callforpapers_data.py."
         )
 
     return project_calls
