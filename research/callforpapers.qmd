@@ -24,6 +24,7 @@ This file is included in research/index.qmd and renders on the research page.
 import pandas as pd
 from datetime import datetime, timedelta
 from IPython.display import display, HTML
+import json
 
 
 # PROJECTS in need of a (home) call for paper
@@ -41,6 +42,39 @@ from _callforpapers_data import (
     SPECIAL_CALL_DUE_DATES,
     SPECIAL_CALL_DUE_DATE_RULES,
 )
+
+
+def format_call_due_date(due_date, journal):
+    if due_date in SPECIAL_CALL_DUE_DATE_RULES:
+        return SPECIAL_CALL_DUE_DATE_RULES[due_date]['display_date']
+    try:
+        return datetime.strptime(due_date, '%Y-%m-%d').strftime('%B %d, %Y')
+    except ValueError as exc:
+        raise ValueError(
+            f"Invalid call-for-papers due_date {due_date!r} for journal {journal!r} in the shared call-for-papers data"
+        ) from exc
+
+
+call_for_papers_project_data = [
+    {
+        "journal": paper["journal"],
+        "website": paper["website"],
+        "due_date": paper["due_date"],
+        "display_date": format_call_due_date(paper["due_date"], paper["journal"]),
+        "projects": [
+            project_url.strip()
+            for project_url in (paper.get("projects") or [])
+            if isinstance(project_url, str) and project_url.strip()
+        ],
+    }
+    for paper in call_for_papers
+]
+
+display(HTML(f"""
+<script id="research-index-call-for-papers-project-data" type="application/json">
+{json.dumps(call_for_papers_project_data, ensure_ascii=True)}
+</script>
+"""))
             
 def create_callforpapers_html(papers_data):
     current_date = datetime.now()

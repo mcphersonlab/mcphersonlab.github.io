@@ -14,13 +14,36 @@ This file is included in research/index.qmd and renders at the bottom of the res
 #| echo: false
 #| output: asis
 
-from _conferences_data import conference_abstract_deadlines
+from _conferences_data import conference_abstract_deadlines, conferences
 from IPython.display import display, HTML
 import json
+
+
+def get_conference_abstract_display(conference_url):
+    return conference_abstract_deadlines.get((conference_url or "").rstrip("/"), {}).get("abstract_display", "TBD")
+
+
+conference_project_data = [
+    {
+        "name": conf["name"],
+        "url": conf.get("url", ""),
+        "projects": [
+            project_url.strip()
+            for project_url in (conf.get("projects") or [])
+            if isinstance(project_url, str) and project_url.strip()
+        ],
+        "abstract_display": get_conference_abstract_display(conf.get("url", "")),
+    }
+    for conf in conferences
+    if conf.get("url")
+]
 
 display(HTML(f"""
 <script id="research-index-conference-abstract-deadlines" type="application/json">
 {json.dumps(conference_abstract_deadlines, ensure_ascii=True)}
+</script>
+<script id="research-index-conference-project-data" type="application/json">
+{json.dumps(conference_project_data, ensure_ascii=True)}
 </script>
 """))
 ```
