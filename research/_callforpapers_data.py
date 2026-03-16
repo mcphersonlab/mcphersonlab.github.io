@@ -1021,5 +1021,13 @@ call_for_papers = [
         "topic": "Tropical cyclones impacts and preparedness",
         "website": "https://www.nature.com/nwater/calls-for-papers",
         "projects": []
+    },
+    {
+        "journal": "Nature Human Behaviour",
+        "impact": "",
+        "due_date": "2026-11-27",
+        "topic": "Basic Psychological Needs and Well-Being",
+        "website": "https://www.nature.com/collections/diihddgjcg",
+        "projects": []
     }
 ]
