@@ -6,7 +6,7 @@ categories:
   - ce
   - human-gut-microbiome
   - infectious-diseases
-url_source: ""
+url_source: "https://github.com/JacobKMcPherson/ce-host-microbe-questions"
 journ: "Professional Learning Institute"
 issue: "2.0 CE Credits"
 page: "4 hours"
