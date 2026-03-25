@@ -8,7 +8,7 @@ categories:
   - infectious-diseases
   - antimicrobial-resistance
   - pharmacy
-url_source: ""
+url_source: "https://github.com/JacobKMcPherson/ce-oral-antimicrobials-gut-microbiome"
 journ: "Professional Learning Institute"
 issue: "2.0 CE Credits"
 page: "4 hours"

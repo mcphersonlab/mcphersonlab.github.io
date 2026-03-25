@@ -5,7 +5,7 @@ publication: "Professional Learning Institute, **2.0 CE Credits**, _4 hours_ (20
 categories: 
   - ce
   - pharmacy
-url_source: ""
+url_source: "https://github.com/JacobKMcPherson/ce-pharmacist-principal-investigators"
 journ: "Professional Learning Institute"
 issue: "2.0 CE Credits"
 page: "4 hours"

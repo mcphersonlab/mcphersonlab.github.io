@@ -7,7 +7,7 @@ categories:
   - infectious-diseases
   - drug-development
   - pharmacy
-url_source: ""
+url_source: "https://github.com/JacobKMcPherson/ce-vaccination"
 journ: "Professional Learning Institute"
 issue: "2.0 CE Credits"
 page: "4 hours"
