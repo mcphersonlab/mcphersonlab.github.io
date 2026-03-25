@@ -6,7 +6,7 @@ categories:
   - ce
   - infectious-diseases
   - pharmacy
-url_source: ""
+url_source: "https://github.com/JacobKMcPherson/ce-knowledge-gaps-id"
 journ: "Professional Learning Institute"
 issue: "2.0 CE Credits"
 page: "4 hours"
