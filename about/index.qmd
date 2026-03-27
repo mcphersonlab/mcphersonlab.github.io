@@ -4,6 +4,10 @@ title: "About"
 
 ## Research Philosophy
 
+We are a [**cloud native lab of pharmacists and pharmacologists**](https://github.com/McPhersonLab) exploring infectious diseases and drug development using open-science principles 🧬🌍
+
+We share [**our works**](https://mcphersonlab.github.io/publications/) at [**conferences**](https://mcphersonlab.github.io/research/#conference-map-and-calendar) 📃 & stay updated via [**podcasts**](https://mcphersonlab.github.io/podcasts/) 🎙️🔉
+
 We believe in:
 
 - **Purpose**: The vision of a world without infectious diseases 🦠
