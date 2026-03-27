@@ -1021,9 +1021,9 @@ call_for_papers = [
     {
         "journal": "Nature Water",
         "impact": "",
-        "due_date": "2026-03-31",
+        "due_date": "2026-06-30",
         "topic": "Tropical cyclones impacts and preparedness",
-        "website": "https://www.nature.com/nwater/calls-for-papers",
+        "website": "https://www.nature.com/collections/beigiaacce",
         "projects": []
     },
     {
