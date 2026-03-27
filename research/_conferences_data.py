@@ -315,6 +315,27 @@ conferences = [
         ]
     },
     {
+        "name": "MAD-ID (SIDP)",
+        "location": "Orlando, Florida",
+        "lat": 28.5383,
+        "lon": -81.3792,
+        "start_date": "2026-05-14",
+        "end_date": "2026-05-17",
+        "abstract_open": "",
+        "abstract_close": "",
+        "abstract_note": "See conference website for abstract dates and details",
+        "type": "Conference",
+        "url": "https://www.mad-id.org/annual-meeting-1",
+        "projects": [
+            "https://github.com/mcphersonlab/practice",
+            "https://github.com/mcphersonlab/tx-staph-bacteremia",
+            "https://github.com/mcphersonlab/tx-cdi",
+            "https://github.com/mcphersonlab/tx-cap",
+            "https://github.com/mcphersonlab/tx-uuti",
+            "https://github.com/mcphersonlab/tx-cuti"
+        ]
+    },
+    {
         "name": "ASPET Annual",
         "location": "Minneapolis, MN",
         "lat": 44.9778,
