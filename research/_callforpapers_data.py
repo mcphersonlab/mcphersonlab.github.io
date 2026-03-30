@@ -295,6 +295,14 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "ACS Infectious Diseases/ACS Medicinal Chemistry Letters/ACS Pharmacology & Translational Science/Journal of Medicinal Chemistry",
+        "impact": "3.8 / 4.0 / 3.7 / 6.8",
+        "due_date": "2026-09-30",
+        "topic": "Medicinal Chemistry and Pharmacology of Antiviral Drugs",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-medicinal-chemistry-and-pharmacology-of-antiviral-drugs",
+        "projects": []
+    },
+    {
         "journal": "British Journal of Pharmacology",
         "impact": "7.7",
         "due_date": "2026-05-01",
@@ -416,6 +424,14 @@ call_for_papers = [
         "due_date": "2026-06-30",
         "topic": "Celebrating 80 years of the β-lactam Nobel Prize",
         "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-celebrating-80-years-of-the-beta-lactam-nobel-prize",
+        "projects": []
+    },
+    {
+        "journal": "ACS Infectious Diseases",
+        "impact": "3.8",
+        "due_date": "2026-06-30",
+        "topic": "Nontuberculous Mycobacterial (NTM) Pathogens ─ Biology, Infection, and Drug Discovery",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-nontuberculous-mycobacterial-ntm-pathogens-biology-infection-and-drug-discovery",
         "projects": []
     },
     {
@@ -933,7 +949,7 @@ call_for_papers = [
     {
         "journal": "npj Drug Discovery",
         "impact": "",
-        "due_date": "2026-03-31",
+        "due_date": "2026-06-30",
         "topic": "Medicinal Chemistry Approaches for Small-Molecule Drug Discovery",
         "website": "https://www.nature.com/collections/icgbagijjd",
         "projects": []
