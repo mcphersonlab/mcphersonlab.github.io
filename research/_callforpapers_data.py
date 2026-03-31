@@ -295,12 +295,28 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "ACS Infectious Diseases/ACS Medicinal Chemistry Letters/ACS Pharmacology & Translational Science/Journal of Medicinal Chemistry",
+        "impact": "3.8 / 4.0 / 3.7 / 6.8",
+        "due_date": "2026-09-30",
+        "topic": "Medicinal Chemistry and Pharmacology of Antiviral Drugs",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-medicinal-chemistry-and-pharmacology-of-antiviral-drugs",
+        "projects": []
+    },
+    {
         "journal": "British Journal of Pharmacology",
         "impact": "7.7",
         "due_date": "2026-05-01",
         "topic": "Virtual Cell Models and AI in Drug Discovery",
         "website": "https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers",
         "projects": ["https://github.com/mcphersonlab/ai-forecast-pharmacology"]
+    },
+    {
+        "journal": "Nature Cancer/Communications Medicine/Communications Biology/Scientific Reports",
+        "impact": "",
+        "due_date": "2026-05-19",
+        "topic": "Global Cancer Care: Obstacles, Solutions, and Impact on Survivorship",
+        "website": "https://www.nature.com/collections/haifcgbgah",
+        "projects": []
     },
     {
         "journal": "Genome Biology",
@@ -340,6 +356,14 @@ call_for_papers = [
         "due_date": "2026-06-03",
         "topic": "Evaluating the real-world clinical performance of AI",
         "website": "https://www.nature.com/collections/hcdeibadid",
+        "projects": []
+    },
+    {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-06-12",
+        "topic": "Viruses and cancers",
+        "website": "https://www.nature.com/collections/bfaffbjija",
         "projects": []
     },
     {
@@ -419,6 +443,14 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "ACS Infectious Diseases",
+        "impact": "3.8",
+        "due_date": "2026-06-30",
+        "topic": "Nontuberculous Mycobacterial (NTM) Pathogens ─ Biology, Infection, and Drug Discovery",
+        "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-nontuberculous-mycobacterial-ntm-pathogens-biology-infection-and-drug-discovery",
+        "projects": []
+    },
+    {
         "journal": "JASMS",
         "impact": "",
         "due_date": "2026-06-30",
@@ -432,6 +464,14 @@ call_for_papers = [
         "due_date": "2026-07-03",
         "topic": "Appropriate use of antibiotics: public health strategies, knowledge, and practice gaps",
         "website": "https://link.springer.com/collections/jbeiehebjj",
+        "projects": []
+    },
+    {
+        "journal": "Humanities and Social Sciences Communications",
+        "impact": "3.9",
+        "due_date": "2026-07-07",
+        "topic": "The economics of social mobility",
+        "website": "https://www.nature.com/collections/gcdcdcfbce",
         "projects": []
     },
     {
@@ -543,6 +583,14 @@ call_for_papers = [
         "projects": ["https://github.com/mcphersonlab/tx-uuti"]
     },
     {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-07-29",
+        "topic": "Animal influenza virus epidemiology",
+        "website": "https://www.nature.com/collections/ghahcecaba",
+        "projects": []
+    },
+    {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
         "due_date": "2026-07-28",
@@ -573,6 +621,14 @@ call_for_papers = [
         "topic": "Host-Pathogen Interactions – Infection, Immunity and Beyond",
         "website": "https://www.nature.com/collections/jgggbjghji",
         "projects": ["https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells"]
+    },
+    {
+        "journal": "npj Exercise Medicine and Health",
+        "impact": "",
+        "due_date": "2026-07-30",
+        "topic": "Physical Activity and Mental Health: From Mechanisms to Global Implementation",
+        "website": "https://www.nature.com/collections/abiffchhca",
+        "projects": []
     },
     {
         "journal": "BMC Infectious Diseases",
@@ -656,6 +712,14 @@ call_for_papers = [
         "projects": []
     },
     {
+        "journal": "npj Viruses",
+        "impact": "",
+        "due_date": "2026-08-21",
+        "topic": "Phages in the environment",
+        "website": "https://www.nature.com/collections/hcibigbcfe",
+        "projects": []
+    },
+    {
         "journal": "Nature Communications/Communications Health/Communications Biology",
         "impact": "15.7",
         "due_date": "2026-08-28",
@@ -687,6 +751,14 @@ call_for_papers = [
         "due_date": "2026-09-01",
         "topic": "<a href='https://www.cell.com/patterns/special-issues/call-for-papers/medical-imaging' target='_blank' style='color: #007bff;'>Computational Imaging for Healthcare</a>",
         "website": "https://www.cell.com/patterns/special-issues/call-for-papers/medical-imaging",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications/Communications Biology/Communications Earth & Environment/Communications Medicine/Scientific Reports",
+        "impact": "",
+        "due_date": "2026-09-22",
+        "topic": "Evolutionary responses to contemporary global change",
+        "website": "https://www.nature.com/collections/dhhejgghij",
         "projects": []
     },
     {
@@ -777,6 +849,14 @@ call_for_papers = [
         "website": "https://journals.asm.org/asm-calls-for-papers",
         "projects": ["https://github.com/mcphersonlab/amr-clostridioides-difficile", 
                      "https://github.com/mcphersonlab/amr-staphylococcus-aureus"]
+    },
+    {
+        "journal": "Seminars in Immunopathology",
+        "impact": "",
+        "due_date": "Ongoing",
+        "topic": "Global Pandemics",
+        "website": "https://link.springer.com/collections/feabcghdfa",
+        "projects": []
     },
     {
         "journal": "Nature Medicine/Nature Metabolism",
@@ -933,7 +1013,7 @@ call_for_papers = [
     {
         "journal": "npj Drug Discovery",
         "impact": "",
-        "due_date": "2026-03-31",
+        "due_date": "2026-06-30",
         "topic": "Medicinal Chemistry Approaches for Small-Molecule Drug Discovery",
         "website": "https://www.nature.com/collections/icgbagijjd",
         "projects": []
@@ -1021,9 +1101,9 @@ call_for_papers = [
     {
         "journal": "Nature Water",
         "impact": "",
-        "due_date": "2026-03-31",
+        "due_date": "2026-06-30",
         "topic": "Tropical cyclones impacts and preparedness",
-        "website": "https://www.nature.com/nwater/calls-for-papers",
+        "website": "https://www.nature.com/collections/beigiaacce",
         "projects": []
     },
     {
