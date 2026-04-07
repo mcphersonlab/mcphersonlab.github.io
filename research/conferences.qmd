@@ -214,6 +214,23 @@ border-radius:3px;
 display:inline-block;
 }}
 
+.fc-cat-toggle {{
+cursor:pointer;
+user-select:none;
+border-radius:4px;
+padding:2px 6px;
+transition:opacity 0.2s;
+}}
+
+.fc-cat-toggle:hover {{
+background:rgba(0,0,0,0.06);
+}}
+
+.fc-cat-inactive {{
+opacity:0.35;
+text-decoration:line-through;
+}}
+
 #fc-deadline-calendar .fc-day-today .fc-daygrid-day-frame {{
 background:#fff9c4 !important;
 }}
@@ -225,10 +242,10 @@ color:#856404;
 </style>
 
 <div class="fc-deadline-legend">
-<span><span class="swatch" style="background:#0d6efd;"></span>Conferences</span>
-<span><span class="swatch" style="background:#dc3545;"></span>Calls for Papers</span>
-<span><span class="swatch" style="background:#BF5700;"></span>NIH Grant Deadlines</span>
-<span><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstract Windows</span>
+<span class="fc-cat-toggle" data-cat="conference" onclick="toggleFCCategory('conference')"><span class="swatch" style="background:#0d6efd;"></span>Conferences</span>
+<span class="fc-cat-toggle" data-cat="paper" onclick="toggleFCCategory('paper')"><span class="swatch" style="background:#dc3545;"></span>Calls for Papers</span>
+<span class="fc-cat-toggle" data-cat="nih" onclick="toggleFCCategory('nih')"><span class="swatch" style="background:#BF5700;"></span>NIH Grant Deadlines</span>
+<span class="fc-cat-toggle" data-cat="abstract" onclick="toggleFCCategory('abstract')"><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstract Windows</span>
 <span><span class="swatch" style="background:#fff9c4;border:1px solid #856404;"></span>Today</span>
 </div>
 
@@ -298,7 +315,23 @@ info.el.setAttribute('title',tip);
 
 calendar.render();
 
+window._fcDeadlineCalendar = calendar;
+
 }})();
+
+function toggleFCCategory(cat) {{
+var allowed = {{'conference':1,'paper':1,'nih':1,'abstract':1}};
+if (!allowed[cat] || !window._fcDeadlineCalendar) return;
+var btn = document.querySelector('.fc-cat-toggle[data-cat="' + cat + '"]');
+if (!btn) return;
+btn.classList.toggle('fc-cat-inactive');
+var isActive = !btn.classList.contains('fc-cat-inactive');
+window._fcDeadlineCalendar.getEvents().forEach(function(ev) {{
+if (ev.extendedProps.rowType === cat) {{
+ev.setProp('display', isActive ? 'auto' : 'none');
+}}
+}});
+}}
 </script>
 """
     return html
