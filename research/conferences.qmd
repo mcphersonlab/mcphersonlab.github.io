@@ -320,8 +320,10 @@ window._fcDeadlineCalendar = calendar;
 }})();
 
 function toggleFCCategory(cat) {{
+var allowed = {{'conference':1,'paper':1,'nih':1,'abstract':1}};
+if (!allowed[cat] || !window._fcDeadlineCalendar) return;
 var btn = document.querySelector('.fc-cat-toggle[data-cat="' + cat + '"]');
-if (!btn || !window._fcDeadlineCalendar) return;
+if (!btn) return;
 btn.classList.toggle('fc-cat-inactive');
 var isActive = !btn.classList.contains('fc-cat-inactive');
 window._fcDeadlineCalendar.getEvents().forEach(function(ev) {{
