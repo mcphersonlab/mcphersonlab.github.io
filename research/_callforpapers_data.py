@@ -33,7 +33,7 @@ call_for_papers = [
     {
         "journal": "Scientific Data",
         "impact": "4.0",
-        "due_date": "2026-04-22",
+        "due_date": "2026-07-22",
         "topic": "Data to support drug discovery",
         "website": "https://www.nature.com/collections/efidabcffj",
         "projects": [""]
@@ -73,7 +73,7 @@ call_for_papers = [
     {
         "journal": "npj Digital Medicine",
         "impact": "15.1",
-        "due_date": "2026-04-24",
+        "due_date": "2026-07-24",
         "topic": "Transforming Medical Education through Artificial Intelligence",
         "website": "https://www.nature.com/collections/ehadbhgiji",
         "projects": [""]
@@ -264,7 +264,7 @@ call_for_papers = [
     {
         "journal": "ACS Infectious Diseases",
         "impact": "3.8",
-        "due_date": "2026-04-01",
+        "due_date": "2026-07-31",
         "topic": "Artificial intelligence for next-generation anti-infective discovery",
         "website": "https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery",
         "projects": ["https://github.com/mcphersonlab/ai-amr"]
@@ -272,7 +272,7 @@ call_for_papers = [
     {
         "journal": "npj Antimicrobials and Resistance",
         "impact": "8.7",
-        "due_date": "2026-04-07",
+        "due_date": "2026-07-07",
         "topic": "Data Science, AI and Machine Learning Approaches to AMR",
         "website": "https://www.nature.com/collections/eecajaidbe",
         "projects": ["https://github.com/mcphersonlab/ai-amr", 
@@ -893,7 +893,7 @@ call_for_papers = [
     {
         "journal": "Nature Cities",
         "impact": "",
-        "due_date": "2026-04-30",
+        "due_date": "2026-07-31",
         "topic": "Urban air quality",
         "website": "https://www.nature.com/collections/bjbghhgfjh",
         "projects": []
