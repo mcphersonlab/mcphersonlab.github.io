@@ -312,7 +312,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Cancer/Communications Medicine/Communications Biology/Scientific Reports",
-        "impact": "",
+        "impact": "15.7",
         "due_date": "2026-05-19",
         "topic": "Global Cancer Care: Obstacles, Solutions, and Impact on Survivorship",
         "website": "https://www.nature.com/collections/haifcgbgah",
@@ -916,7 +916,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Genetics",
-        "impact": "",
+        "impact": "29.0",
         "due_date": "2026-05-31",
         "topic": "Mechanisms and impact of 3D genome organisation",
         "website": "https://www.nature.com/collections/bacjiafbeh",
@@ -980,8 +980,8 @@ call_for_papers = [
     },
     {
         "journal": "Nature Structural and Molecular Biology",
-        "impact": "",
-        "due_date": "2026-04-30",
+        "impact": "15.8",
+        "due_date": "2026-10-31",
         "topic": "DNA repair and human disease",
         "website": "https://www.nature.com/collections/ehffcdddfb/",
         "projects": []
@@ -1100,7 +1100,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Water",
-        "impact": "",
+        "impact": "24.1",
         "due_date": "2026-06-30",
         "topic": "Tropical cyclones impacts and preparedness",
         "website": "https://www.nature.com/collections/beigiaacce",
