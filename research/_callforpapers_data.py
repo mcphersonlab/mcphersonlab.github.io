@@ -980,8 +980,8 @@ call_for_papers = [
     },
     {
         "journal": "Nature Structural and Molecular Biology",
-        "impact": "",
-        "due_date": "2026-04-30",
+        "impact": "15.8",
+        "due_date": "2026-10-31",
         "topic": "DNA repair and human disease",
         "website": "https://www.nature.com/collections/ehffcdddfb/",
         "projects": []
