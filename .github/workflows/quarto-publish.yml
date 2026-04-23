@@ -15,10 +15,10 @@ permissions:
   pages: write
   id-token: write
 
-# Prevent concurrent deployments
+# Prevent concurrent deployments; cancel older queued runs so only the latest deploys
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Build job - renders Quarto project
@@ -104,7 +104,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     needs: build
     permissions:
       pages: write
@@ -113,6 +113,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Create deployment summary
         if: success()
