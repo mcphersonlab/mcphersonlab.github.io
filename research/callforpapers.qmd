@@ -166,6 +166,24 @@ def create_callforpapers_html(papers_data):
         }
         .callforpapers-table tbody tr.past-deadline {
             opacity: 0.45;
+            display: none;
+        }
+        .callforpapers-table tbody tr.past-deadline.cfp-past-visible {
+            display: table-row;
+        }
+        #cfp-toggle-past {
+            margin-bottom: 8px;
+            padding: 6px 14px;
+            background: #f8f9fa;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            color: #495057;
+            transition: background 0.15s;
+        }
+        #cfp-toggle-past:hover {
+            background: #e2e6ea;
         }
         .callforpapers-table tbody tr.no-project {
             background-color: #fce0c8;
@@ -175,6 +193,7 @@ def create_callforpapers_html(papers_data):
             background-color: #f8c9a8;
         }
     </style>
+    <button id="cfp-toggle-past" onclick="cfpTogglePastRows()">▸ Show past deadlines</button>
     <table class="callforpapers-table" id="callforpapers-sortable-table">
         <thead>
             <tr>
@@ -290,6 +309,34 @@ def create_callforpapers_html(papers_data):
         });
       });
     })();
+
+    var _cfpPastVisible = false;
+    function cfpTogglePastRows() {
+      _cfpPastVisible = !_cfpPastVisible;
+      var btn = document.getElementById('cfp-toggle-past');
+      var rows = document.querySelectorAll('#callforpapers-sortable-table tbody tr.past-deadline');
+      rows.forEach(function(row) {
+        if (_cfpPastVisible) {
+          row.classList.add('cfp-past-visible');
+        } else {
+          row.classList.remove('cfp-past-visible');
+        }
+      });
+      if (btn) {
+        btn.textContent = _cfpPastVisible
+          ? '▾ Hide past deadlines (' + rows.length + ')'
+          : '▸ Show past deadlines (' + rows.length + ')';
+      }
+    }
+
+    // Set button label with count on load
+    document.addEventListener('DOMContentLoaded', function() {
+      var btn = document.getElementById('cfp-toggle-past');
+      if (btn) {
+        var count = document.querySelectorAll('#callforpapers-sortable-table tbody tr.past-deadline').length;
+        btn.textContent = '▸ Show past deadlines (' + count + ')';
+      }
+    });
     </script>
     """
     return html

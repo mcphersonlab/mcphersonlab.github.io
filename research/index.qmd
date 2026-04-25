@@ -81,8 +81,68 @@ jupyter: python3
 ::: {#research-approaches}
 :::
 
-Find more at our [Projects](projects.qmd) and target [Indications](area/infectious-diseases/index.qmd) pages.
+Find more at our [Projects](projects/index.qmd) and target [Indications](area/infectious-diseases/index.qmd) pages.
 
+
+{{< include conferences.qmd >}}
+
+{{< include callforpapers.qmd >}}
+
+{{< include funding.qmd >}}
+
+
+
+## Research Resources
+
+
+### Literature
+
+::: {#literature}
+:::
+
+#### **Publishing Groups**
+
+::: {#publishing-groups}
+:::
+
+#### **Textbooks**
+
+::: {#textbooks}
+:::
+
+### Experimentation
+
+::: {#experimentation}
+:::
+
+#### **Vendors**
+
+::: {#vendors}
+:::
+
+### Clinical Data Sources
+
+::: {#clinical-data}
+:::
+
+
+### Scientific Data
+
+::: {#scientific-data}
+:::
+
+
+### Data Management & Analysis
+
+::: {#data-analysis}
+:::
+
+### Artificial Intelligence
+
+::: {#ai}
+:::
+
+### PubMed Literature Search Builder
 
 <div id="pubmed-url-builder" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 25px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #dee2e6;">
 <h4 style="margin-top: 0; color: #343a40; font-weight: 600; display: flex; align-items: center; gap: 8px;">
@@ -347,66 +407,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-{{< include conferences.qmd >}}
-
-{{< include callforpapers.qmd >}}
-
-{{< include funding.qmd >}}
-
-
-
-## Research Resources
-
-
-### Literature
-
-::: {#literature}
-:::
-
-#### **Publishing Groups**
-
-::: {#publishing-groups}
-:::
-
-#### **Textbooks**
-
-::: {#textbooks}
-:::
-
-### Experimentation
-
-::: {#experimentation}
-:::
-
-#### **Vendors**
-
-::: {#vendors}
-:::
-
-### Clinical Data Sources
-
-::: {#clinical-data}
-:::
-
-
-### Scientific Data
-
-::: {#scientific-data}
-:::
-
-
-### Data Management & Analysis
-
-::: {#data-analysis}
-:::
-
-### Artificial Intelligence
-
-::: {#ai}
-:::
-
-
 
 ```{=html}
 <div class="page-navigation">
