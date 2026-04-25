@@ -21,6 +21,7 @@ This file is included in research/index.qmd and renders on the research page.
 #| echo: false
 #| warning: false
 
+import re
 import pandas as pd
 from datetime import datetime, timedelta
 from IPython.display import display, HTML
@@ -77,13 +78,15 @@ display(HTML(f"""
 </script>
 """))
             
+_MISSING_IMPACT_SORT_KEY = 99999.0
+
+
 def _impact_sort_key(impact_str):
     """Return a float sort key for an impact factor string; missing/unparseable → large sentinel."""
-    import re as _re
     if not impact_str:
-        return 99999.0
-    m = _re.search(r'(\d+\.?\d*)', impact_str)
-    return float(m.group(1)) if m else 99999.0
+        return _MISSING_IMPACT_SORT_KEY
+    m = re.search(r'(\d+\.?\d*)', impact_str)
+    return float(m.group(1)) if m else _MISSING_IMPACT_SORT_KEY
 
 
 def create_callforpapers_html(papers_data):

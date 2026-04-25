@@ -126,19 +126,24 @@ document.addEventListener('DOMContentLoaded', function () {
   // Sort state: default is original order
   const sortState = { col: null, asc: true };
 
+  // Sentinel sort values: large numbers so TBD/missing entries sort to the end
+  const SORT_KEY_TBD = 99991230;        // "TBD" deadline sorts after all real dates
+  const SORT_KEY_ONGOING = 99991231;    // "Ongoing" sorts after TBD
+  const SORT_KEY_MISSING_IMPACT = 99999; // missing/unparseable impact factor sorts last
+
   // Parse the first numeric value from an impact factor string for sorting
   const parseImpactSortKey = (impactStr) => {
-    if (!impactStr) return 99999;
+    if (!impactStr) return SORT_KEY_MISSING_IMPACT;
     const m = impactStr.match(/(\d+\.?\d*)/);
-    return m ? parseFloat(m[1]) : 99999;
+    return m ? parseFloat(m[1]) : SORT_KEY_MISSING_IMPACT;
   };
 
   // Convert a due_date string ("YYYY-MM-DD", "TBD", "Ongoing") to a numeric sort key
   const parseDateSortKey = (dueDateStr) => {
-    if (!dueDateStr || dueDateStr === 'TBD') return 99991230;
-    if (dueDateStr === 'Ongoing') return 99991231;
+    if (!dueDateStr || dueDateStr === 'TBD') return SORT_KEY_TBD;
+    if (dueDateStr === 'Ongoing') return SORT_KEY_ONGOING;
     const d = dueDateStr.replace(/-/g, '');
-    return parseInt(d, 10) || 99991230;
+    return parseInt(d, 10) || SORT_KEY_TBD;
   };
 
   if (tableBody) {
@@ -307,11 +312,11 @@ document.addEventListener('DOMContentLoaded', function () {
     rows.sort((a, b) => {
       let av, bv;
       if (sortState.col === 'date') {
-        av = parseFloat(a.dataset.sortDate) || 99991230;
-        bv = parseFloat(b.dataset.sortDate) || 99991230;
+        av = parseFloat(a.dataset.sortDate) || SORT_KEY_TBD;
+        bv = parseFloat(b.dataset.sortDate) || SORT_KEY_TBD;
       } else if (sortState.col === 'impact') {
-        av = parseFloat(a.dataset.sortImpact) || 99999;
-        bv = parseFloat(b.dataset.sortImpact) || 99999;
+        av = parseFloat(a.dataset.sortImpact) || SORT_KEY_MISSING_IMPACT;
+        bv = parseFloat(b.dataset.sortImpact) || SORT_KEY_MISSING_IMPACT;
       } else {
         av = parseFloat(a.dataset.sortOrder) || 0;
         bv = parseFloat(b.dataset.sortOrder) || 0;
@@ -386,7 +391,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // For impact: use the first call's impact factor
       const callImpactSortKey = project.calls.length
         ? parseImpactSortKey(project.calls[0].impact)
-        : 99999;
+        : SORT_KEY_MISSING_IMPACT;
 
       row.dataset.sortOrder = String(project.order);
       row.dataset.sortDate = String(callDateSortKey);
