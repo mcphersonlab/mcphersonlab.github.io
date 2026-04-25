@@ -27,6 +27,7 @@ conference_project_data = [
     {
         "name": conf["name"],
         "url": conf.get("url", ""),
+        "start_date": conf.get("start_date", ""),
         "projects": [
             project_url.strip()
             for project_url in (conf.get("projects") or [])
@@ -245,7 +246,7 @@ color:#856404;
 <span class="fc-cat-toggle" data-cat="conference" onclick="toggleFCCategory('conference')"><span class="swatch" style="background:#0d6efd;"></span>Conferences</span>
 <span class="fc-cat-toggle" data-cat="paper" onclick="toggleFCCategory('paper')"><span class="swatch" style="background:#dc3545;"></span>Calls for Papers</span>
 <span class="fc-cat-toggle" data-cat="nih" onclick="toggleFCCategory('nih')"><span class="swatch" style="background:#BF5700;"></span>NIH Grant Deadlines</span>
-<span class="fc-cat-toggle" data-cat="abstract" onclick="toggleFCCategory('abstract')"><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstract Windows</span>
+<span class="fc-cat-toggle fc-cat-inactive" data-cat="abstract" onclick="toggleFCCategory('abstract')"><span class="swatch" style="background:rgba(13,202,240,0.1);border:1px solid #0dcaf0;"></span>Abstract Windows</span>
 <span><span class="swatch" style="background:#fff9c4;border:1px solid #856404;"></span>Today</span>
 </div>
 
@@ -316,6 +317,13 @@ info.el.setAttribute('title',tip);
 calendar.render();
 
 window._fcDeadlineCalendar = calendar;
+
+// Abstract Windows are de-selected by default on initial load
+calendar.getEvents().forEach(function(ev) {{
+if (ev.extendedProps.rowType === 'abstract') {{
+ev.setProp('display', 'none');
+}}
+}});
 
 }})();
 

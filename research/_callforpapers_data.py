@@ -1125,10 +1125,10 @@ call_for_papers = [
 ]
 
 
-# Captures project_name, project_url, question, journal, website, and deadline_text
+# Captures project_name, project_url, journal, website, and deadline_text
 # from each row in the Current Active Projects markdown table.
 _PROJECT_ROW_PATTERN = re.compile(
-    r"\| \[([^\]]+)\]\((https://github\.com/[^)]+)\) \| (.*?) \| .*? \| \*\*\[([^\]]+)\]\(([^)]+)\)\*\*<br><em>Deadline: ([^<]+)</em> \|",
+    r"\| \[([^\]]+)\]\((https://github\.com/[^)]+)\) \| .*? \| \*\*\[([^\]]+)\]\(([^)]+)\)\*\*<br><em>Deadline: ([^<]+)</em> \|",
     re.DOTALL,
 )
 
@@ -1181,7 +1181,7 @@ def _paper_matches_expected(paper, expected):
 
 
 def _extract_active_project_calls():
-    projects_path = Path(__file__).with_name("projects.qmd")
+    projects_path = Path(__file__).parent / "projects" / "index.qmd"
     project_calls = []
     try:
         projects_text = projects_path.read_text(encoding="utf-8")
@@ -1189,12 +1189,12 @@ def _extract_active_project_calls():
         raise OSError(f"Unable to load active project calls from {projects_path}") from exc
 
     for match in _PROJECT_ROW_PATTERN.finditer(projects_text):
-        project_name, project_url, question, journal, website, deadline_text = match.groups()
+        project_name, project_url, journal, website, deadline_text = match.groups()
         project_calls.append(
             {
                 "project_name": project_name.strip(),
                 "project_url": project_url.strip(),
-                "question": question.strip(),
+                "question": "",
                 "journal": journal.strip(),
                 "website": website.strip(),
                 "due_date": _normalize_deadline(deadline_text.strip(), projects_path, project_name.strip()),

@@ -1,0 +1,536 @@
+---
+title: Ongoing Projects
+page-layout: full
+---
+
+## GitHub Organization Projects
+
+This page provides a comprehensive index of ongoing research projects in the McPherson Lab. Our projects are organized through our [GitHub Organization](https://github.com/McPhersonLab) where we collaborate on research initiatives related to conferences, journal publications, and grant applications.
+
+### Quick Overview
+
+We maintain **50+ active research projects** across multiple domains including:
+
+- **Antimicrobial Resistance (AMR)**: Genomic and clinical investigations of drug-resistant pathogens
+- **Gut Microbiome**: Metagenomic and metabolomic analyses of human gut microbiota
+- **Treatment Optimization**: Evidence-based approaches to infectious disease management
+- **Artificial Intelligence**: Machine learning applications in microbiology and medicine
+- **Biophysics & Pharmacology**: Molecular mechanisms and drug discovery
+- **Health Economics**: Cost-effectiveness and ROI analyses
+- **Environmental Health**: Climate change impacts on infectious diseases
+
+All projects use standardized workflows, documentation templates, and CRediT contributor roles for transparent collaboration.
+
+### Project Repository Structure
+
+Our research projects are categorized and tracked through GitHub repositories and project boards:
+
+- **[Template Project Repository](https://github.com/mcphersonlab/template)**: Starting template for new research projects
+- **[CRediT (Contributor Roles Taxonomy)](https://credit.niso.org/)**: Standard for identifying contributions to research outputs
+- **Conference Abstracts**: Research and abstracts for upcoming conferences
+- **Manuscripts in Preparation**: Manuscripts in preparation for journal submissions
+- **Grant Projects**: Grant proposals and collaborative research initiatives
+- **Methods Development**: Novel computational and analytical methods
+- **Data Analysis**: Ongoing data analysis and visualization projects
+
+### How to Connect Projects
+
+Each conference and call for papers entry in our [Research page](../index.qmd) can be linked to:
+
+1. **GitHub Repository**: A specific repository containing project code, data, and documentation
+2. **GitHub Project Board**: A project board tracking tasks and milestones
+3. **GitHub Issues**: Specific issues for abstract submissions, paper drafts, or collaborative work
+
+::: {#fig-project-workflow .center}
+![](../flowchart.jpeg){width=70%}
+
+**Project Workflow and Integration.** This diagram illustrates how research projects flow from initial concepts through GitHub repositories, conference presentations, and journal submissions. Projects are linked to specific calls for papers and conferences, with GitHub issues and project boards tracking progress at each stage.
+:::
+### Current Active Projects
+
+Visit our [GitHub Organization](https://github.com/McPhersonLab):
+
+::: {#active-projects-table-wrapper}
+| Project (Link) | Target Conference | Call for Paper | IF |
+|:---------------|:--------------|:----------------|:---|
+| [ai-forecast-pharmacology](https://github.com/mcphersonlab/ai-forecast-pharmacology) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[British Journal of Pharmacology](https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers)**<br><em>Deadline: May 01, 2026</em> | 7.7 |
+| [EarthEpi](https://github.com/mcphersonlab/EarthEpi) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | 19.4 |
+| [StormPath](https://github.com/mcphersonlab/StormPath) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | 19.4 |
+| [mgx-abx-healthy](https://github.com/mcphersonlab/mgx-abx-healthy) | [BSAC and GARDP Antimicrobial Chemotherapy Conference](https://acc-conference.com/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/ihcfhcieic)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/)<br><em>Abstract: TBD</em> | **[npj Genomic Medicine](https://www.nature.com/collections/iaadjjbbea)**<br><em>Deadline: March 28, 2026</em> | 4.8 |
+| [mgx-mbx-abx-cdi](https://github.com/mcphersonlab/mgx-mbx-abx-cdi) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/)<br><em>Abstract: TBD</em> | **[BMC Personalized Medicine](https://link.springer.com/collections/idddeddhgf)**<br><em>Deadline: August 05, 2026</em> | — |
+| [amr-acinetobacter-baumannii](https://github.com/mcphersonlab/amr-acinetobacter-baumannii) | [IMARI Annual](https://imari.org)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
+| [amr-enterococcus-faecium](https://github.com/mcphersonlab/amr-enterococcus-faecium) | [TMC AMR](https://www.tmc.edu/events/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
+| [amr-klebsiella-pneumoniae](https://github.com/mcphersonlab/amr-klebsiella-pneumoniae) | [IDSA IDWeek](https://www.idweek.org/); [ESCMID Annual](https://www.escmid.org/congress-events/escmid-global/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
+| [ai-amr](https://github.com/mcphersonlab/ai-amr) | [IMARI Annual](https://imari.org)<br><em>Abstract: TBD</em> | **[ACS Infectious Diseases](https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery)**<br><em>Deadline: July 31, 2026</em> | 3.8 |
+| [MicroSCOPE](https://github.com/mcphersonlab/MicroSCOPE) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/eecajaidbe)**<br><em>Deadline: July 07, 2026</em> | 8.7 |
+| [ai-forecast-influenza](https://github.com/mcphersonlab/ai-forecast-influenza) | [ASV Annual](https://www.asv.org/annual-meeting)<br><em>Abstract: TBD</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
+| [ai-microbiome-transmission](https://github.com/mcphersonlab/ai-microbiome-transmission) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
+| [MicrobiomeHUES](https://github.com/mcphersonlab/MicrobiomeHUES) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/ddbhjfadca)**<br><em>Deadline: May 20, 2026</em> | 4.2 |
+| [mgx-mbx-glp-1](https://github.com/mcphersonlab/mgx-mbx-glp-1) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[npj Biofilms and Microbiomes](https://www.nature.com/collections/ihecbjhhdd)**<br><em>Deadline: May 20, 2026</em> | 9.3 |
+| [ai-structural-biology](https://github.com/mcphersonlab/ai-structural-biology) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Nature Communications/Nature Structural & Molecular Biology](https://www.nature.com/collections/jbdjhghacg)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | [North American Cystic Fibrosis (CF) Conference](https://www.nacfconference.org/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/jhbbbdafac)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [mgx-immunol-regulatory-t-cells](https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/ihcfhcieic)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [tx-cap](https://github.com/mcphersonlab/tx-cap) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[Antimicrobial Resistance & Infection Control](https://link.springer.com/collections/bgbhjabeba)**<br><em>Deadline: June 25, 2026</em> | 5.5 |
+| [amr-aspergillus-fumigatus](https://github.com/mcphersonlab/amr-aspergillus-fumigatus) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-candida-auris](https://github.com/mcphersonlab/amr-candida-auris) | [IMARI Annual](https://imari.org); [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-lomentospora-prolificans](https://github.com/mcphersonlab/amr-lomentospora-prolificans) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-env-food](https://github.com/mcphersonlab/amr-env-food) | [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bbeihchhgf)**<br><em>Deadline: July 08, 2026</em> | 8.7 |
+| [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | [ASV Annual](https://www.asv.org/annual-meeting); [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: TBD</em> | **[npj Biofilms and Microbiomes](https://www.nature.com/npjbiofilms/calls-for-papers)**<br><em>Deadline: July 15, 2026</em> | 9.3 |
+| [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | TBD<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/bajaefecgf)**<br><em>Deadline: July 16, 2026</em> | 4.2 |
+| [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | [Anaerobe Biennial](http://www.anaerobe.org/2026/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/ffbaaggicb)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | [IDSA IDWeek](https://www.idweek.org/); [ESCMID Annual](https://www.escmid.org/congress-events/escmid-global/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [tx-uuti](https://github.com/mcphersonlab/tx-uuti) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/aiffadagdf)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [amr-env-water](https://github.com/mcphersonlab/amr-env-water) | [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: July 28, 2026</em> | 8.7 |
+| [DOOR-STEP](https://github.com/mcphersonlab/DOOR-STEP) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[BMC Medical Research Methodology](https://link.springer.com/collections/hgihdahcfj)**<br><em>Deadline: July 30, 2026</em> | 5.2 |
+| [DigitalTwin-Society-Health](https://github.com/mcphersonlab/DigitalTwin-Society-Health) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Implementation Science](https://implementationscience.biomedcentral.com/)**<br><em>Deadline: TBD</em> | — |
+| [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[Academic Medicine](https://journals.lww.com/academicmedicine/pages/default.aspx)**<br><em>Deadline: TBD</em> | — |
+| [SpaceTime](https://github.com/mcphersonlab/SpaceTime) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
+| [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | [CROI Annual](https://www.croiconference.org/); [ASV Annual](https://www.asv.org/annual-meeting); [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: TBD</em> | **[Nature Microbiology](https://www.nature.com/nmicrobiol/)**<br><em>Deadline: TBD</em> | — |
+| [amr-neisseria-gonorrhoeae](https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae) | [IMARI Annual](https://imari.org); [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: TBD</em> | 8.7 |
+| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Biophysical Journal](https://www.cell.com/biophysj/home)**<br><em>Deadline: TBD</em> | — |
+| [clostridioides_atlas](https://github.com/mcphersonlab/clostridioides_atlas) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Microbiome](https://link.springer.com/collections/fbfahacdhi)**<br><em>Deadline: TBD</em> | 12.7 |
+| [cost-amr](https://github.com/mcphersonlab/cost-amr) | [Global AMR Innovators' Conference (GAMRIC)](https://www.gamric.org/)<br><em>Abstract: TBD</em> | **[Clinical Infectious Diseases](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: Ongoing</em> | 7.3 |
+| [epi-hbv](https://github.com/mcphersonlab/epi-hbv) | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
+| [mgx-cap](https://github.com/mcphersonlab/mgx-cap) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
+| [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [TMC AMR](https://www.tmc.edu/events/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+| [mgx-mbx-colorectal-cancer](https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Cell Host & Microbe](https://www.cell.com/cell-host-microbe/home)**<br><em>Deadline: TBD</em> | — |
+| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[mBio](https://journals.asm.org/asm-calls-for-papers)**<br><em>Deadline: Ongoing</em> | 4.7 |
+| [pcol-vcddmde-hbv](https://github.com/mcphersonlab/pcol-vcddmde-hbv) | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
+| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[npj Digital Medicine](https://www.nature.com/collections/hcdeibadid)**<br><em>Deadline: June 03, 2026</em> | 15.1 |
+| [phys-hiv-lenacapavir](https://github.com/mcphersonlab/phys-hiv-lenacapavir) | [CROI Annual](https://www.croiconference.org/)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
+| [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Value in Health](https://www.journals.elsevier.com/value-in-health)**<br><em>Deadline: TBD</em> | — |
+| [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: TBD</em> | **[Pharmacoeconomics](https://link.springer.com/journal/40273)**<br><em>Deadline: TBD</em> | — |
+| [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
+| [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+:::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const table = document.querySelector('#active-projects-table-wrapper table');
+  if (!table) {
+    console.warn('Current Active Projects sync skipped: missing #active-projects-table-wrapper table.');
+    return;
+  }
+
+  const INDEX_SOURCE_PATH = '../index.html';
+  const CALL_DATA_ELEMENT_ID = 'research-index-call-for-papers-project-data';
+  const CONFERENCE_DATA_ELEMENT_ID = 'research-index-conference-project-data';
+  const normalizeUrl = (url) => (url || '').replace(/\/+$/, '');
+  const indexUrl = new URL(INDEX_SOURCE_PATH, window.location.href);
+  const tableBody = table.querySelector('tbody');
+  const metadataByProject = new Map();
+
+  // Sort state: default is original order
+  const sortState = { col: null, asc: true };
+
+  // Sentinel sort values: large numbers so TBD/missing entries sort to the end
+  const SORT_KEY_TBD = 99991230;        // "TBD" deadline sorts after all real dates
+  const SORT_KEY_ONGOING = 99991231;    // "Ongoing" sorts after TBD
+  const SORT_KEY_MISSING_IMPACT = 99999; // missing/unparseable impact factor sorts last
+
+  // Parse the first numeric value from an impact factor string for sorting
+  const parseImpactSortKey = (impactStr) => {
+    if (!impactStr) return SORT_KEY_MISSING_IMPACT;
+    const m = impactStr.match(/(\d+\.?\d*)/);
+    return m ? parseFloat(m[1]) : SORT_KEY_MISSING_IMPACT;
+  };
+
+  // Convert a due_date string ("YYYY-MM-DD", "TBD", "Ongoing") to a numeric sort key
+  const parseDateSortKey = (dueDateStr) => {
+    if (!dueDateStr || dueDateStr === 'TBD') return SORT_KEY_TBD;
+    if (dueDateStr === 'Ongoing') return SORT_KEY_ONGOING;
+    const d = dueDateStr.replace(/-/g, '');
+    return parseInt(d, 10) || SORT_KEY_TBD;
+  };
+
+  if (tableBody) {
+    Array.from(tableBody.rows).forEach((row, index) => {
+      const projectLink = row.cells[0] && row.cells[0].querySelector('a');
+      if (!projectLink) {
+        return;
+      }
+
+      metadataByProject.set(normalizeUrl(projectLink.getAttribute('href')), {
+        order: index,
+        name: projectLink.textContent.trim(),
+
+      });
+    });
+  }
+
+  const getOrCreateProject = (projectsByUrl, projectUrl) => {
+    const normalizedUrl = normalizeUrl(projectUrl);
+    if (!projectsByUrl.has(normalizedUrl)) {
+      const metadata = metadataByProject.get(normalizedUrl);
+      let fallbackSlug = normalizedUrl;
+      try {
+        fallbackSlug = new URL(normalizedUrl).pathname.split('/').filter(Boolean).pop() || normalizedUrl;
+      } catch (error) {
+        console.warn(`Current Active Projects sync could not parse fallback project name from ${normalizedUrl}.`, error);
+      }
+      if (!metadata) {
+        console.warn(`Current Active Projects sync is using fallback metadata for ${normalizedUrl}.`);
+      }
+      projectsByUrl.set(normalizedUrl, {
+        url: normalizedUrl,
+        name: metadata?.name || `Uncataloged: ${fallbackSlug}`,
+        order: metadata?.order ?? Number.MAX_SAFE_INTEGER,
+        conferences: [],
+        calls: [],
+        conferenceKeys: new Set(),
+        callKeys: new Set(),
+      });
+    }
+    return projectsByUrl.get(normalizedUrl);
+  };
+
+  const createLink = (href, text) => {
+    const link = document.createElement('a');
+    link.href = href;
+    link.textContent = text;
+    return link;
+  };
+
+  const appendConferenceCellContent = (cell, conferences) => {
+    if (!conferences.length) {
+      cell.textContent = 'TBD';
+      cell.appendChild(document.createElement('br'));
+      const em = document.createElement('em');
+      em.textContent = 'Abstract: TBD';
+      cell.appendChild(em);
+      return;
+    }
+
+    conferences.forEach((conference, index) => {
+      if (index > 0) {
+        cell.append('; ');
+      }
+      cell.appendChild(createLink(conference.url, conference.name));
+    });
+
+    cell.appendChild(document.createElement('br'));
+    const allTbd = conferences.every((conference) => conference.abstractDisplay === 'TBD');
+
+    const em = document.createElement('em');
+    if (allTbd) {
+      em.textContent = 'Abstract: TBD';
+    } else if (conferences.length === 1) {
+      em.textContent = `Abstract: ${conferences[0].abstractDisplay}`;
+    } else {
+      em.textContent = `Abstracts: ${conferences.map((conference) => `${conference.name} — ${conference.abstractDisplay}`).join('; ')}`;
+    }
+    cell.appendChild(em);
+  };
+
+  const appendCallCellContent = (cell, calls) => {
+    if (!calls.length) {
+      cell.textContent = '—';
+      return;
+    }
+
+    calls.forEach((call, index) => {
+      const callWrapper = document.createElement('div');
+      if (index > 0) {
+        callWrapper.style.marginTop = '8px';
+      }
+
+      const strong = document.createElement('strong');
+      strong.appendChild(createLink(call.website, call.journal));
+      callWrapper.appendChild(strong);
+      callWrapper.appendChild(document.createElement('br'));
+
+      const em = document.createElement('em');
+      em.textContent = `Deadline: ${call.displayDate}`;
+      callWrapper.appendChild(em);
+
+      cell.appendChild(callWrapper);
+    });
+  };
+
+  // Add sortable column headers (Call for Paper = col 3, IF = col 4)
+  const addSortableHeaders = () => {
+    const thead = table.querySelector('thead tr');
+    if (!thead) return;
+
+    const style = document.createElement('style');
+    style.textContent = `
+      #active-projects-table-wrapper table th.apt-sortable {
+        cursor: pointer;
+        user-select: none;
+        white-space: nowrap;
+      }
+      #active-projects-table-wrapper table th.apt-sortable:hover {
+        background-color: #cce5ff;
+      }
+      .apt-sort-indicator { display: inline-block; margin-left: 4px; font-size: 11px; opacity: 0.7; }
+    `;
+    document.head.appendChild(style);
+
+    [
+      { colIndex: 1, colKey: 'confDate', title: 'Sort by Target Conference date' },
+      { colIndex: 2, colKey: 'date', title: 'Sort by Call for Paper due date' },
+      { colIndex: 3, colKey: 'impact', title: 'Sort by Impact Factor' },
+    ].forEach(({ colIndex, colKey, title }) => {
+      const th = thead.cells[colIndex];
+      if (!th) return;
+      th.classList.add('apt-sortable');
+      th.dataset.sortCol = colKey;
+      th.title = title;
+      const indicator = document.createElement('span');
+      indicator.className = 'apt-sort-indicator';
+      indicator.textContent = '⇅';
+      th.appendChild(indicator);
+      th.addEventListener('click', () => {
+        if (sortState.col === colKey) {
+          sortState.asc = !sortState.asc;
+        } else {
+          sortState.col = colKey;
+          sortState.asc = colKey !== 'impact';
+        }
+        applySort();
+        updateSortIndicators();
+      });
+    });
+  };
+
+  const updateSortIndicators = () => {
+    const thead = table.querySelector('thead tr');
+    if (!thead) return;
+    [1, 2, 3].forEach((colIndex) => {
+      const th = thead.cells[colIndex];
+      if (!th) return;
+      const ind = th.querySelector('.apt-sort-indicator');
+      if (!ind) return;
+      const colKey = th.dataset.sortCol;
+      ind.textContent = sortState.col === colKey ? (sortState.asc ? '▼' : '▲') : '⇅';
+    });
+  };
+
+  const applySort = () => {
+    if (!tableBody) return;
+    const rows = Array.from(tableBody.rows);
+    rows.sort((a, b) => {
+      let av, bv;
+      if (sortState.col === 'date') {
+        av = parseFloat(a.dataset.sortDate) || SORT_KEY_TBD;
+        bv = parseFloat(b.dataset.sortDate) || SORT_KEY_TBD;
+      } else if (sortState.col === 'impact') {
+        av = parseFloat(a.dataset.sortImpact) || SORT_KEY_MISSING_IMPACT;
+        bv = parseFloat(b.dataset.sortImpact) || SORT_KEY_MISSING_IMPACT;
+      } else if (sortState.col === 'confDate') {
+        av = parseFloat(a.dataset.sortConfDate) || SORT_KEY_TBD;
+        bv = parseFloat(b.dataset.sortConfDate) || SORT_KEY_TBD;
+      } else {
+        av = parseFloat(a.dataset.sortOrder) || 0;
+        bv = parseFloat(b.dataset.sortOrder) || 0;
+      }
+      return sortState.asc ? av - bv : bv - av;
+    });
+    rows.forEach((row) => tableBody.appendChild(row));
+  };
+
+  const rebuildActiveProjectsTable = (conferenceData, callData) => {
+    if (!tableBody) {
+      return;
+    }
+
+    const projectsByUrl = new Map();
+
+    conferenceData.forEach((conference) => {
+      (conference.projects || []).forEach((projectUrl) => {
+        const project = getOrCreateProject(projectsByUrl, projectUrl);
+        const conferenceKey = `${conference.name}|${conference.url}`;
+        if (!project.conferenceKeys.has(conferenceKey)) {
+          project.conferenceKeys.add(conferenceKey);
+          project.conferences.push({
+            name: conference.name,
+            url: conference.url,
+            abstractDisplay: conference.abstract_display || 'TBD',
+            startDate: conference.start_date || '',
+          });
+        }
+      });
+    });
+
+    callData.forEach((call) => {
+      (call.projects || []).forEach((projectUrl) => {
+        const project = getOrCreateProject(projectsByUrl, projectUrl);
+        const callKey = `${call.journal}|${call.website}|${call.display_date}`;
+        if (!project.callKeys.has(callKey)) {
+          project.callKeys.add(callKey);
+          project.calls.push({
+            journal: call.journal,
+            website: call.website,
+            displayDate: call.display_date,
+            impact: call.impact || '',
+            dueDate: call.due_date || 'TBD',
+          });
+        }
+      });
+    });
+
+    const rows = Array.from(projectsByUrl.values())
+      .sort((left, right) => {
+        if (left.order !== right.order) {
+          return left.order - right.order;
+        }
+        return left.name.localeCompare(right.name);
+      });
+
+    if (!rows.length) {
+      console.warn('Current Active Projects sync from the Research page data produced no rows; keeping existing table.');
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    rows.forEach((project) => {
+      const row = document.createElement('tr');
+
+      // Compute sort values for this row
+      // For date: use the earliest call's due date
+      const callDateSortKey = project.calls.length
+        ? Math.min(...project.calls.map((c) => parseDateSortKey(c.dueDate)))
+        : parseDateSortKey('TBD');
+      // For impact: use the first call's impact factor
+      const callImpactSortKey = project.calls.length
+        ? parseImpactSortKey(project.calls[0].impact)
+        : SORT_KEY_MISSING_IMPACT;
+      // For confDate: use the earliest conference start date
+      const confDateSortKey = project.conferences.length
+        ? Math.min(...project.conferences.map((c) => parseDateSortKey(c.startDate || 'TBD')))
+        : SORT_KEY_TBD;
+
+      row.dataset.sortOrder = String(project.order);
+      row.dataset.sortDate = String(callDateSortKey);
+      row.dataset.sortImpact = String(callImpactSortKey);
+      row.dataset.sortConfDate = String(confDateSortKey);
+
+      const projectCell = document.createElement('td');
+      projectCell.appendChild(createLink(project.url, project.name));
+      row.appendChild(projectCell);
+
+      const conferenceCell = document.createElement('td');
+      appendConferenceCellContent(conferenceCell, project.conferences);
+      row.appendChild(conferenceCell);
+
+      const callCell = document.createElement('td');
+      appendCallCellContent(callCell, project.calls);
+      row.appendChild(callCell);
+
+      // IF column: show the first call's impact factor
+      const ifCell = document.createElement('td');
+      const ifValue = project.calls.length ? (project.calls[0].impact || '—') : '—';
+      ifCell.textContent = ifValue;
+      row.appendChild(ifCell);
+
+      fragment.appendChild(row);
+    });
+
+    tableBody.replaceChildren(fragment);
+
+    // Re-apply current sort after rebuild
+    if (sortState.col) {
+      applySort();
+    }
+  };
+
+  addSortableHeaders();
+
+  fetch(indexUrl.toString())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Unable to load ${indexUrl.pathname} (${response.status})`);
+      }
+      return response.text();
+    })
+    .then((html) => {
+      const indexDocument = new DOMParser().parseFromString(html, 'text/html');
+      const conferenceDataElement = indexDocument.getElementById(CONFERENCE_DATA_ELEMENT_ID);
+      const callDataElement = indexDocument.getElementById(CALL_DATA_ELEMENT_ID);
+      if (!conferenceDataElement || !callDataElement) {
+        throw new Error(`Missing project sync data in ${indexUrl.pathname}.`);
+      }
+      rebuildActiveProjectsTable(
+        JSON.parse(conferenceDataElement.textContent),
+        JSON.parse(callDataElement.textContent),
+      );
+    })
+    .catch((error) => {
+      console.warn('Current Active Projects sync from the Research page data failed:', error);
+    });
+});
+</script>
+```
+
+### Grants
+
+For more information about NIH funding opportunities, visit [NIH Funding Opportunities](https://grants.nih.gov/funding/explore-nih-opportunities).
+
+- [Large Research Projects for Combating Antibiotic-Resistant Bacteria (CARB) (R01)](https://simpler.grants.gov/opportunity/334655) — AHRQ | Close: Oct 30, 2026
+- [AHRQ Mentored Clinical Scientist Research Career Development Award (K08)](https://simpler.grants.gov/opportunity/ef9627c9-6dd2-4dc8-a415-ab06d29093ca) — AHRQ | Close: Feb 12, 2027
+- [Medical Scientist Training Program (MSTP) (T32)](https://simpler.grants.gov/opportunity/15a7a4eb-9a7e-4737-a6e1-7c3a45194e3d) — NIH/NIGMS | Close: Jan 25, 2027
+- [NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens](https://simpler.grants.gov/opportunity/14c2b96f-e210-4856-8901-f8278996198a) — FDA | Close: Apr 1, 2027
+- [NIH Small Research Grant Program (Parent R03 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/357805) — NIH | Close: Jan 8, 2028
+- [Investigator Initiated Innovation in Computational Genomics and Data Science (R01 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/357194) — NIH/NHGRI & NLM | Close: Sep 8, 2027
+- [NEI Research Grant for Vision-Related Secondary Data Analysis (R21 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/4767321c-d902-4914-b62d-48bd9453cbd1) — NIH/NEI | Close: Oct 16, 2027
+- [Accelerating the Pace of Substance Use Research Using Existing Data (R21 Clinical Trial Not Allowed)](https://simpler.grants.gov/opportunity/357545) — NIH/NIDA | Close: Dec 3, 2027
+- [Economic and Modeling Analyses to Support Immunization Policy and Programs](https://simpler.grants.gov/opportunity/5f66747e-3c8a-4920-a9f4-0f398a5c91ce) — CDC | Close: TBD
+- [Summer Institute for Research Education in Biostatistics and Data Science](https://simpler.grants.gov/opportunity/bfc61fde-b048-4f6f-8a14-15e6d2abdc30) — NIH/NHLBI | Close: Jul 1, 2026
+
+### Contributing to Projects
+
+Lab members and collaborators can contribute to projects by following these steps:
+
+1. **Start a New Project**:
+   - Fork or use the [Template Project Repository](https://github.com/mcphersonlab/template)
+   - Set up project structure with README, data directories, and analysis scripts
+   - Define contributor roles using [CRediT taxonomy](https://credit.niso.org/)
+
+2. **Link to Opportunities**:
+   - Add the project to relevant [conference](conferences.qmd) entries
+   - Associate with [calls for papers](callforpapers.qmd) that match the research topic
+   - The project table above will sync its target venues from the Research page data
+
+3. **Track Progress**:
+   - Use GitHub Issues for tasks, bugs, and feature requests
+   - Maintain a GitHub Project Board for milestone tracking
+   - Document progress in regular commits with meaningful messages
+
+4. **Collaborate Effectively**:
+   - Submit pull requests for code review
+   - Participate in discussions on issues and PRs
+   - Follow lab coding standards and documentation guidelines
+
+5. **Prepare for Submission**:
+   - Ensure all analyses are reproducible
+   - Complete documentation and data availability statements
+   - Prepare manuscripts using lab templates
+
+### Project Resources
+
+- **GitHub Organization**: [McPherson Lab on GitHub](https://github.com/McPhersonLab)
+- **CRediT Roles**: [Contributor Roles Taxonomy](https://credit.niso.org/)
+- **Template Repository**: [Project Template](https://github.com/mcphersonlab/template)
+
+### Project Categories and Prefixes
+
+Our projects use standardized naming conventions:
+
+- `amr-*`: Antimicrobial resistance studies
+- `mgx-*`: Metagenomics and microbiome research
+- `tx-*`: Treatment and therapeutic interventions
+- `ai-*`: Artificial intelligence and machine learning
+- `cost-*` or `roi-*`: Health economics and cost-effectiveness
+- `biophysics-*`: Structural biology and biophysics
+- `structure-function-*`: Pharmacology and drug design
+
+---
+
+**Questions or want to join a project?** Contact [jacobmcpherson@utexas.edu](mailto:jacobmcpherson@utexas.edu)
+
+**Browse all repositories**: [https://github.com/McPhersonLab](https://github.com/McPhersonLab)
+___BEGIN___COMMAND_DONE_MARKER___0
