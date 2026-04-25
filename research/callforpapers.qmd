@@ -21,6 +21,7 @@ This file is included in research/index.qmd and renders on the research page.
 #| echo: false
 #| warning: false
 
+import re
 import pandas as pd
 from datetime import datetime, timedelta
 from IPython.display import display, HTML
@@ -58,6 +59,7 @@ def format_call_due_date(due_date, journal):
 call_for_papers_project_data = [
     {
         "journal": paper["journal"],
+        "impact": paper.get("impact", ""),
         "website": paper["website"],
         "due_date": paper["due_date"],
         "display_date": format_call_due_date(paper["due_date"], paper["journal"]),
@@ -76,6 +78,17 @@ display(HTML(f"""
 </script>
 """))
             
+_MISSING_IMPACT_SORT_KEY = 99999.0
+
+
+def _impact_sort_key(impact_str):
+    """Return a float sort key for an impact factor string; missing/unparseable → large sentinel."""
+    if not impact_str:
+        return _MISSING_IMPACT_SORT_KEY
+    m = re.search(r'(\d+\.?\d*)', impact_str)
+    return float(m.group(1)) if m else _MISSING_IMPACT_SORT_KEY
+
+
 def create_callforpapers_html(papers_data):
     current_date = datetime.now()
     cutoff_date = current_date - timedelta(days=180)
@@ -120,6 +133,20 @@ def create_callforpapers_html(papers_data):
             padding: 12px 15px;
             border: 1px solid #ddd;
         }
+        .callforpapers-table th.cfp-sortable {
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .callforpapers-table th.cfp-sortable:hover {
+            background-color: #c82333;
+        }
+        .cfp-sort-indicator {
+            display: inline-block;
+            margin-left: 4px;
+            font-size: 11px;
+            opacity: 0.7;
+        }
         .callforpapers-table tbody tr {
             border-bottom: 1px solid #dddddd;
         }
@@ -148,12 +175,12 @@ def create_callforpapers_html(papers_data):
             background-color: #f8c9a8;
         }
     </style>
-    <table class="callforpapers-table">
+    <table class="callforpapers-table" id="callforpapers-sortable-table">
         <thead>
             <tr>
                 <th>Journal</th>
-                <th>Impact</th>
-                <th>Due Date</th>
+                <th class="cfp-sortable" data-sort-col="impact" title="Sort by Impact Factor">Impact <span class="cfp-sort-indicator"></span></th>
+                <th class="cfp-sortable" data-sort-col="date" title="Sort by Due Date">Due Date <span class="cfp-sort-indicator">▼</span></th>
                 <th>Topic</th>
                 <th>Project</th>
             </tr>
@@ -183,13 +210,17 @@ def create_callforpapers_html(papers_data):
             classes.append("no-project")
         
         row_class = f' class="{" ".join(classes)}"' if classes else ""
+
+        # Compute sort keys for data attributes
+        date_sort_key = int(paper['sort_date'].strftime('%Y%m%d'))
+        impact = paper.get('impact', '')
+        impact_sort_key = _impact_sort_key(impact)
         
         website_html = f"<a href='{paper['website']}' target='_blank' rel='noopener noreferrer' style='color: #007bff;'>Link</a>"
         # Format Journal column with journal name and website link below
         journal_cell = f"<strong>{paper['journal']}</strong><br>{website_html}"
         
         # Format Impact column
-        impact = paper.get('impact', '')
         impact_cell = f'<span style="font-weight: bold;">{impact}</span>' if impact else '—'
         
         # Add project links - support multiple project-specific links
@@ -202,10 +233,10 @@ def create_callforpapers_html(papers_data):
             project_cell = ""
         
         html += f"""
-            <tr{row_class}>
+            <tr{row_class} data-sort-date="{date_sort_key}" data-sort-impact="{impact_sort_key}">
                 <td>{journal_cell}</td>
-                <td>{impact_cell}</td>
-                <td>{paper['display_date']}</td>
+                <td data-sort-val="{impact_sort_key}">{impact_cell}</td>
+                <td data-sort-val="{date_sort_key}">{paper['display_date']}</td>
                 <td>{paper['topic']}</td>
                 <td>{project_cell}</td>
             </tr>
@@ -214,6 +245,52 @@ def create_callforpapers_html(papers_data):
     html += """
         </tbody>
     </table>
+    <script>
+    (function () {
+      var table = document.getElementById('callforpapers-sortable-table');
+      if (!table) return;
+      var sortState = { col: 'date', asc: true };
+
+      function updateIndicators() {
+        table.querySelectorAll('th.cfp-sortable').forEach(function (th) {
+          var ind = th.querySelector('.cfp-sort-indicator');
+          if (!ind) return;
+          if (th.dataset.sortCol === sortState.col) {
+            ind.textContent = sortState.asc ? '▼' : '▲';
+          } else {
+            ind.textContent = '';
+          }
+        });
+      }
+
+      function sortTable(col, asc) {
+        var tbody = table.querySelector('tbody');
+        if (!tbody) return;
+        var rows = Array.from(tbody.rows);
+        var attr = col === 'impact' ? 'data-sort-impact' : 'data-sort-date';
+        rows.sort(function (a, b) {
+          var av = parseFloat(a.getAttribute(attr)) || 0;
+          var bv = parseFloat(b.getAttribute(attr)) || 0;
+          return asc ? av - bv : bv - av;
+        });
+        rows.forEach(function (row) { tbody.appendChild(row); });
+      }
+
+      table.querySelectorAll('th.cfp-sortable').forEach(function (th) {
+        th.addEventListener('click', function () {
+          var col = th.dataset.sortCol;
+          if (sortState.col === col) {
+            sortState.asc = !sortState.asc;
+          } else {
+            sortState.col = col;
+            sortState.asc = col === 'date';
+          }
+          sortTable(sortState.col, sortState.asc);
+          updateIndicators();
+        });
+      });
+    })();
+    </script>
     """
     return html
 
