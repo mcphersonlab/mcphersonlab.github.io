@@ -106,10 +106,6 @@ img {
   height: auto !important;
 }
 
-#listing-education .quarto-grid-item .card-img-top {
-  height: auto !important;
-}
-
 /* Specific styling for people/alumni page profile images */
 /* Use object-fit: cover for profile photos to fill the container */
 .quarto-grid-item img.listing-box-image {
