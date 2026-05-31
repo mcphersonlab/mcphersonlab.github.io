@@ -55,7 +55,7 @@ jupyter: python3
 ::: {#science}
 :::
 
-### Playlist
+### YouTube(s)
 
 
 ```{=html}
@@ -69,7 +69,7 @@ jupyter: python3
 ```{=html}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
   <div>
-    <h3>Laboratory Science</h3>
+    <h3>Lab Life</h3>
     <iframe style="border-radius:12px; border: none;"
             src="https://www.youtube.com/embed/videoseries?list=PLPaY3vQLR3iSJHl_-VoaqoxWBU2GOsw2F"
             width="100%" height="400"
@@ -81,7 +81,7 @@ jupyter: python3
   </div>
   
   <div>
-    <h3>Science</h3>
+    <h3>Breakthroughs in Biology and Medicine</h3>
     <iframe style="border-radius:12px; border: none;"
             src="https://www.youtube.com/embed/videoseries?si=r7053TJe_tTyTSx7&amp;list=PLPaY3vQLR3iQZQPcNECFYsJTZTrC2JzEh"
             width="100%" height="400"

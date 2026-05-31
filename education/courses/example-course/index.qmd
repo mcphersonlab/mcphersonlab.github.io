@@ -1,14 +1,13 @@
 ---
-title: "Example Course - Introduction to Pharmacology"
+title: "Introduction to Biomedical Science"
 author: ["Dr. Jane Smith"]
-publication: "Coursera, **PHARM-101**, _10 weeks_ (2024)"
+publication: "Coursera, **BIOMED-101**, _10 weeks_ (2024)"
 categories: 
   - courses
-  - pharmacy
-  - pharmacology
+  - biomedical-science
 url_source: "https://www.coursera.org/example"
 journ: "Coursera"
-issue: "PHARM-101"
+issue: "BIOMED-101"
 page: "10 weeks"
 year: 2024
 image: ""
@@ -16,4 +15,4 @@ pub_number: 1
 doi: ""
 ---
 
-This is an example course demonstrating the template structure.
+Foundational biomedical science course covering core concepts across biology, physiology, and translational medicine.

@@ -1,0 +1,5 @@
+---
+title: Osmosis 🩺
+alias: &ALIAS osmosis
+href: https://www.osmosis.org/library/full
+---
