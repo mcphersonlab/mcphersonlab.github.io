@@ -35,7 +35,7 @@ McPherson Lab
 
 
 <text x="102" y="112" font-family="Arial" font-size="22" font-style="italic" fill="#003366" opacity="0">
-<tspan x="102" dy="0">studying the pharmacology</tspan>
+<tspan x="102" dy="0">pharmacology and therapeutics</tspan>
 <tspan x="102" dy="26">of infectious diseases</tspan>
 <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.6s" fill="freeze"/>
 </text>

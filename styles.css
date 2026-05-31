@@ -101,7 +101,13 @@ img {
 #listing-education .quarto-grid-item .card-img-top,
 #listing-education .quarto-grid-item img.thumbnail-image,
 #listing-education .quarto-grid-item img.thumbnail-image.card-img {
-  object-fit: cover;
+  object-fit: contain;
+  aspect-ratio: 16 / 9;
+  height: auto !important;
+}
+
+#listing-education .quarto-grid-item .card-img-top {
+  height: auto !important;
 }
 
 /* Specific styling for people/alumni page profile images */
