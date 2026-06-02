@@ -21,7 +21,9 @@ listing:
     fields: [image, title]
     sort: false  # Disable sorting to maintain custom research area order
   - id: literature
-    contents: resource/lit/*/index.qmd
+    contents:
+      - resource/lit/*/index.qmd
+      - "!resource/lit/author.link/index.qmd"
     type: grid
     template: ../_ejs/resource-grid.ejs
     fields: [title, href]
