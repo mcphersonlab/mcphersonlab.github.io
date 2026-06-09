@@ -186,7 +186,7 @@ call_for_papers = [
     {
         "journal": "Nature Communications/Nature Structural & Molecular Biology",
         "impact": "15.7",
-        "due_date": "2026-05-31",
+        "due_date": "2026-11-30",
         "topic": "Artificial Intelligence Methodology in Structural Biology",
         "website": "https://www.nature.com/collections/jbdjhghacg",
         "projects": ["https://github.com/mcphersonlab/ai-structural-biology"]
@@ -202,7 +202,7 @@ call_for_papers = [
     {
         "journal": "Nature Microbiology/Nature Health",
         "impact": "19.4",
-        "due_date": "2026-06-01",
+        "due_date": "2026-09-01",
         "topic": "Climate change and infectious diseases",
         "website": "https://www.nature.com/collections/bagaffbjja",
         "projects": ["https://github.com/mcphersonlab/EarthEpi", 
@@ -869,7 +869,7 @@ call_for_papers = [
     {
         "journal": "Nature Cell Biology",
         "impact": "28.0",
-        "due_date": "2026-05-31",
+        "due_date": "2026-11-30",
         "topic": "Signalling Pathways of Innate Immunity",
         "website": "https://www.nature.com/collections/ihibjjdcee",
         "projects": []
@@ -917,7 +917,7 @@ call_for_papers = [
     {
         "journal": "Nature Genetics",
         "impact": "29.0",
-        "due_date": "2026-05-31",
+        "due_date": "2026-11-30",
         "topic": "Mechanisms and impact of 3D genome organisation",
         "website": "https://www.nature.com/collections/bacjiafbeh",
         "projects": []
