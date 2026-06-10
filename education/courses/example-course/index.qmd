@@ -5,7 +5,7 @@ publication: "Coursera, **BIOMED-101**, _10 weeks_ (2024)"
 categories: 
   - courses
   - biomedical-science
-url_source: "https://mcphersonlab.github.io/introduction-to-biomedical-science"
+url_source: "https://mcphersonlab.github.io/introduction-to-biomedical-science/"
 journ: "Coursera"
 issue: "BIOMED-101"
 page: "10 weeks"
