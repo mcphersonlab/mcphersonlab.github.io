@@ -1195,7 +1195,7 @@ call_for_papers = [
         "projects": []
     },
     {
-        "journal": "",
+        "journal": "Nature Portfolio",
         "impact": "",
         "due_date": "2027-01-23",
         "topic": "The expanding therapeutic landscape of GLP-1 receptor agonists",
@@ -1277,7 +1277,7 @@ call_for_papers = [
     {
         "journal": "Cell Reports Medicine",
         "impact": "",
-        "due_date": "",
+        "due_date": "Ongoing",
         "topic": "Bench-to-Bedside Initiative",
         "website": "https://www.cell.com/cp/special-issues/call-for-papers/bench-to-bedside-initiative",
         "projects": []
