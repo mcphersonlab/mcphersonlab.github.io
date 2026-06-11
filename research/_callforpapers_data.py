@@ -1121,6 +1121,166 @@ call_for_papers = [
         "topic": "Economics of Antimicrobial Resistance: Costs, Consequences, and Policy Responses",
         "website": "https://www.ispor.org/publications/journals/value-in-health-regional-issues/for-authors/call-for-papers",
         "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-11-25",
+        "topic": "Viral infections and the nervous system",
+        "website": "https://www.nature.com/collections/jedibijbag",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-12-10",
+        "topic": "Soft materials for drug delivery",
+        "website": "https://www.nature.com/collections/hfdadgcdii",
+        "projects": []
+    },
+    {
+        "journal": "Communications AI & Computing",
+        "impact": "",
+        "due_date": "2026-12-13",
+        "topic": "Agentic AI Systems",
+        "website": "https://www.nature.com/collections/gaejiiicah",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-12-21",
+        "topic": "Organoid models for infectious diseases",
+        "website": "https://www.nature.com/collections/hdbicfdbeg",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2026-12-25",
+        "topic": "Interpretable models for spatial transcriptomics",
+        "website": "https://www.nature.com/collections/iicebchbih/",
+        "projects": []
+    },
+    {
+        "journal": "Nature Biomedical Engineering",
+        "impact": "",
+        "due_date": "2026-12-30",
+        "topic": "Microphysiological systems for advanced modeling, high-throughput evaluation, and clinical translation",
+        "website": "https://www.nature.com/collections/fgjeddegjc",
+        "projects": []
+    },
+    {
+        "journal": "Communications AI & Computing",
+        "impact": "",
+        "due_date": "2026-12-31",
+        "topic": "Quantum machine learning: understanding capabilities, limitations, and perspectives for quantum advantage",
+        "website": "https://www.nature.com/collections/iheeaggidj",
+        "projects": []
+    },
+    {
+        "journal": "Communications Health",
+        "impact": "",
+        "due_date": "2026-12-31",
+        "topic": "Bridging environmental microbes to human, animal and planetary health",
+        "website": "https://www.nature.com/collections/hjahhiejef",
+        "projects": []
+    },
+    {
+        "journal": "Communications Health",
+        "impact": "",
+        "due_date": "2027-01-08",
+        "topic": "Implementation Science in Public Health",
+        "website": "https://www.nature.com/collections/ebgdeifaei",
+        "projects": []
+    },
+    {
+        "journal": "Nature Portfolio",
+        "impact": "",
+        "due_date": "2027-01-23",
+        "topic": "The expanding therapeutic landscape of GLP-1 receptor agonists",
+        "website": "https://www.nature.com/collections/hcgegcgcgh",
+        "projects": []
+    },
+    {
+        "journal": "Communications Earth & Environment",
+        "impact": "",
+        "due_date": "2027-01-28",
+        "topic": "Functional Soil Ecology",
+        "website": "https://www.nature.com/collections/hbhaegbjgi/",
+        "projects": []
+    },
+    {
+        "journal": "Nature Structural & Molecular Biology",
+        "impact": "",
+        "due_date": "2027-01-28",
+        "topic": "Peptide drug design",
+        "website": "https://www.nature.com/collections/iaafbfhcch",
+        "projects": []
+    },
+    {
+        "journal": "Communications Earth & Environment",
+        "impact": "",
+        "due_date": "2027-02-07",
+        "topic": "High-resolution modeling for Earth system",
+        "website": "https://www.nature.com/collections/cjeacddcbc",
+        "projects": []
+    },
+    {
+        "journal": "Nature Medicine",
+        "impact": "",
+        "due_date": "2027-02-18",
+        "topic": "Clinical Research in Respiratory Medicine",
+        "website": "https://www.nature.com/collections/bdaadggjeb",
+        "projects": []
+    },
+    {
+        "journal": "Nature Chemical Biology",
+        "impact": "",
+        "due_date": "2027-02-25",
+        "topic": "Protein Dynamics Informing Structure, Function, and Evolution",
+        "website": "https://www.nature.com/collections/bhjjedadcb",
+        "projects": []
+    },
+    {
+        "journal": "Nature Communications",
+        "impact": "15.7",
+        "due_date": "2027-02-27",
+        "topic": "Translational challenges in multi drug discovery: model informed design to enhance efficacy and limit resistance",
+        "website": "https://www.nature.com/collections/gbhjbiacji",
+        "projects": []
+    },
+    {
+        "journal": "Nature Genetics",
+        "impact": "",
+        "due_date": "2027-02-28",
+        "topic": "Human Admixture and Migration",
+        "website": "https://www.nature.com/collections/bidgeabjaa",
+        "projects": []
+    },
+    {
+        "journal": "Nature Immunology",
+        "impact": "",
+        "due_date": "2027-03-01",
+        "topic": "Inflammation, Immunometabolism, and Chronic Disease",
+        "website": "https://www.nature.com/collections/dccecdcjjh/",
+        "projects": []
+    },
+    {
+        "journal": "JAMA",
+        "impact": "",
+        "due_date": "2027-09-30",
+        "topic": "Artificial Intelligence Across the JAMA Network",
+        "website": "https://doi.org/10.1001/jama.2025.15074",
+        "projects": []
+    },
+    {
+        "journal": "Cell Reports Medicine",
+        "impact": "",
+        "due_date": "Ongoing",
+        "topic": "Bench-to-Bedside Initiative",
+        "website": "https://www.cell.com/cp/special-issues/call-for-papers/bench-to-bedside-initiative",
+        "projects": []
     }
 ]
 
