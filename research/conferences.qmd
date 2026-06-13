@@ -28,6 +28,8 @@ conference_project_data = [
         "name": conf["name"],
         "url": conf.get("url", ""),
         "start_date": conf.get("start_date", ""),
+        "abstract_open": conf.get("abstract_open", ""),
+        "abstract_close": conf.get("abstract_close", ""),
         "projects": [
             project_url.strip()
             for project_url in (conf.get("projects") or [])
@@ -345,6 +347,101 @@ ev.setProp('display', isActive ? 'auto' : 'none');
     return html
 
 display(HTML(create_fullcalendar_html(conferences, call_for_papers, nih_grant_deadlines)))
+```
+
+
+### Next Upcoming Conferences and Abstract Deadlines
+
+```{python}
+#| echo: false
+#| warning: false
+
+from datetime import datetime
+from IPython.display import display, HTML
+
+from _conferences_data import conferences, conference_abstract_deadlines, normalize_conference_url
+
+today = datetime.now()
+
+upcoming = []
+for conf in conferences:
+        start_dt = datetime.strptime(conf["start_date"], "%Y-%m-%d")
+        if start_dt < today:
+                continue
+
+        deadline_meta = conference_abstract_deadlines.get(normalize_conference_url(conf.get("url", "")), {})
+        upcoming.append({
+                "name": conf["name"],
+                "url": conf.get("url", ""),
+                "location": conf.get("location", ""),
+                "start": start_dt,
+                "end": datetime.strptime(conf["end_date"], "%Y-%m-%d"),
+                "abstract_display": deadline_meta.get("abstract_display", "TBD"),
+        })
+
+upcoming = sorted(upcoming, key=lambda item: item["start"])[:15]
+
+html = """
+<style>
+    .upcoming-conference-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 18px 0;
+        font-size: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .upcoming-conference-table th,
+    .upcoming-conference-table td {
+        border: 1px solid #ddd;
+        padding: 10px 12px;
+        vertical-align: top;
+    }
+    .upcoming-conference-table thead tr {
+        background: #0d6efd;
+        color: white;
+        text-align: left;
+    }
+    .upcoming-conference-table tbody tr:nth-of-type(even) {
+        background: #f8f9fa;
+    }
+</style>
+<table class="upcoming-conference-table">
+    <thead>
+        <tr>
+            <th>Conference</th>
+            <th>Location</th>
+            <th>Dates</th>
+            <th>Abstract Submission</th>
+        </tr>
+    </thead>
+    <tbody>
+"""
+
+if upcoming:
+        for conf in upcoming:
+                conf_link = f"<a href='{conf['url']}' target='_blank' rel='noopener noreferrer'>{conf['name']}</a>" if conf["url"] else conf["name"]
+                date_text = f"{conf['start'].strftime('%B %d, %Y')} - {conf['end'].strftime('%B %d, %Y')}"
+                html += f"""
+        <tr>
+            <td>{conf_link}</td>
+            <td>{conf['location']}</td>
+            <td>{date_text}</td>
+            <td>{conf['abstract_display']}</td>
+        </tr>
+"""
+else:
+        html += """
+        <tr>
+            <td colspan="4">No upcoming conferences currently listed.</td>
+        </tr>
+"""
+
+html += """
+    </tbody>
+</table>
+"""
+
+display(HTML(html))
 ```
 
 

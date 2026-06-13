@@ -1,4 +1,4 @@
-name: Update conferences
+name: Update research opportunities
 
 on:
   schedule:
@@ -37,13 +37,22 @@ jobs:
       - name: Apply updates
         run: python3 scripts/apply_updates.py
 
+      - name: Update projects opportunities table
+        run: python3 scripts/update_projects_opportunities.py
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Automated conference updates
+          commit-message: Automated research opportunities updates
           branch: auto/conference-updates
-          title: Automated conference updates
+          title: Automated research opportunities updates
           body: |
-            This PR was created automatically by the monthly conference update workflow. It contains updated start/end dates for conferences when confident matches were found on the official websites. Please review before merging.
-          labels: automated,conferences
+            This PR was created automatically by the monthly research opportunities workflow.
+
+            Included updates:
+            - Conference date updates when high-confidence matches are found on official websites
+            - Projects table refresh with best next conference abstract opportunity and best call for papers per project
+
+            Please review before merging.
+          labels: automated,conferences,projects
