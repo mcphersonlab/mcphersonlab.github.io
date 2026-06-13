@@ -625,7 +625,7 @@ conferences = [
         "location": "Washington, DC",
         "lat": 38.9072,
         "lon": -77.0369,
-        "start_date": "2026-10-24",
+        "start_date": "2026-10-21",
         "end_date": "2026-10-24",
         "abstract_open": "2026-02-18",
         "abstract_close": "2026-04-30",
