@@ -16,7 +16,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Drug Discovery",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-04-30",
         "topic": "Drug discovery of ion channels",
         "website": "https://www.nature.com/npjdrugdiscov/collections",
@@ -24,7 +24,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Drug Discovery",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-09-30",
         "topic": "Drug discovery at G Protein-Coupled Receptors",
         "website": "https://www.nature.com/collections/gfaahhfcaj",
@@ -105,7 +105,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Medicine",
-        "impact": "9.4",
+        "impact": "10.0",
         "due_date": "2026-03-29",
         "topic": "Diabetes and infectious disease",
         "website": "https://link.springer.com/collections/feijedifdj",
@@ -360,7 +360,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-06-12",
         "topic": "Viruses and cancers",
         "website": "https://www.nature.com/collections/bfaffbjija",
@@ -427,7 +427,7 @@ call_for_papers = [
     },
     {
         "journal": "AAPS Open",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-06-30",
         "topic": "Artificial Intelligence and Computational Tools in Drug Development",
         "website": "https://link.springer.com/collections/ifeeeaadce",
@@ -452,7 +452,7 @@ call_for_papers = [
     },
     {
         "journal": "JASMS",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-06-30",
         "topic": "<a href='https://axial.acs.org/analytical-chemistry/call-for-papers-mass-spectrometry-in-microbial-sciences' target='_blank' style='color: #007bff;'>Call for Papers: Mass Spectrometry in Microbial Sciences</a>",
         "website": "https://axial.acs.org/analytical-chemistry/call-for-papers-mass-spectrometry-in-microbial-sciences",
@@ -584,7 +584,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-29",
         "topic": "Animal influenza virus epidemiology",
         "website": "https://www.nature.com/collections/ghahcecaba",
@@ -624,7 +624,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Exercise Medicine and Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-30",
         "topic": "Physical Activity and Mental Health: From Mechanisms to Global Implementation",
         "website": "https://www.nature.com/collections/abiffchhca",
@@ -640,7 +640,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Drug Discovery",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-31",
         "topic": "Pharmacokinetic-driven strategies in personalized drug discovery",
         "website": "https://www.nature.com/collections/fddbafafhg",
@@ -664,7 +664,7 @@ call_for_papers = [
     },
     {
         "journal": "BMC Personalized Medicine",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-08-05",
         "topic": "Microbiome–drug interaction networks",
         "website": "https://link.springer.com/collections/idddeddhgf",
@@ -713,7 +713,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-08-21",
         "topic": "Phages in the environment",
         "website": "https://www.nature.com/collections/hcibigbcfe",
@@ -755,7 +755,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Communications/Communications Biology/Communications Earth & Environment/Communications Medicine/Scientific Reports",
-        "impact": "",
+        "impact": "15.7",
         "due_date": "2026-09-22",
         "topic": "Evolutionary responses to contemporary global change",
         "website": "https://www.nature.com/collections/dhhejgghij",
@@ -852,7 +852,7 @@ call_for_papers = [
     },
     {
         "journal": "Seminars in Immunopathology",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "Ongoing",
         "topic": "Global Pandemics",
         "website": "https://link.springer.com/collections/feabcghdfa",
@@ -892,7 +892,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Cities",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-31",
         "topic": "Urban air quality",
         "website": "https://www.nature.com/collections/bjbghhgfjh",
@@ -900,7 +900,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Exercise Medicine and Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-09-03",
         "topic": "Exercise and Physical Activity in Health and Disease",
         "website": "https://www.nature.com/collections/ggcficdbdg/",
@@ -908,7 +908,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Emerging Contaminants",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-10-31",
         "topic": "Antimicrobial Drugs and Antimicrobial Resistance in the Environment",
         "website": "https://www.nature.com/collections/cfjjbefghj",
@@ -932,7 +932,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Systems Biology and Applications",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-09-12",
         "topic": "Systems immunology: multi-omics approaches, dynamical modeling and novel agentic AI approaches",
         "website": "https://www.nature.com/collections/heaibjjajc",
@@ -948,7 +948,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Gut and Liver",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-05-14",
         "topic": "The immune cells landscape in the gut-liver axis",
         "website": "https://www.nature.com/collections/jjjihaaiee",
@@ -956,7 +956,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Autoimmunity",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-08-17",
         "topic": "Environmental Triggers and Autoimmune Diseases",
         "website": "https://www.nature.com/collections/icjbgiabeh",
@@ -964,7 +964,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Aging",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-04-29",
         "topic": "Immuno-senescence",
         "website": "https://www.nature.com/collections/jgafgefgic",
@@ -972,7 +972,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Toxicology",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-11-25",
         "topic": "Pollutants and Toxicology: Gut Microbiota Dysbiosis as a Critical Biomarker",
         "website": "https://www.nature.com/collections/cejcagffbf",
@@ -1012,7 +1012,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Drug Discovery",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-06-30",
         "topic": "Medicinal Chemistry Approaches for Small-Molecule Drug Discovery",
         "website": "https://www.nature.com/collections/icgbagijjd",
@@ -1020,7 +1020,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Artificial Intelligence",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-10",
         "topic": "AI in Chemistry",
         "website": "https://www.nature.com/collections/gcbedibjhc",
@@ -1028,7 +1028,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Climate and Atmospheric Science",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-10-31",
         "topic": "AI-Driven Innovation in Atmospheric Chemistry and Composition–Climate Interactions",
         "website": "https://www.nature.com/collections/ggejajfbei",
@@ -1036,7 +1036,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Cardiovascular Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-03-25",
         "topic": "In pursuit of novel drug targets for cardiovascular disease",
         "website": "https://www.nature.com/collections/ciacchcidh",
@@ -1052,7 +1052,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Exercise Medicine and Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-11-25",
         "topic": "Nutritional strategies to optimise the health outcomes of physical activity and exercise interventions",
         "website": "https://www.nature.com/collections/gjhabgbcha",
@@ -1060,7 +1060,7 @@ call_for_papers = [
     },
     {
         "journal": "Experimental & Molecular Medicine",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-12-02",
         "topic": "Single-cell omics: from technology to biology (Reviews)",
         "website": "https://www.nature.com/collections/gffeedjjjb",
@@ -1068,7 +1068,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-07-31",
         "topic": "Virome",
         "website": "https://www.nature.com/collections/ggifegcdbj",
@@ -1076,7 +1076,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-08-21",
         "topic": "Phages as antimicrobial therapy",
         "website": "https://www.nature.com/collections/achdiaidjj",
@@ -1084,7 +1084,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Viruses",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-03-20",
         "topic": "Antiviral Therapy",
         "website": "https://www.nature.com/collections/jihcibajea",
@@ -1092,7 +1092,7 @@ call_for_papers = [
     },
     {
         "journal": "npj Fungal Science",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-09-22",
         "topic": "Emerging Fungal Pathogens",
         "website": "https://www.nature.com/collections/hdiadchghc",
@@ -1108,7 +1108,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Human Behaviour",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-11-27",
         "topic": "Basic Psychological Needs and Well-Being",
         "website": "https://www.nature.com/collections/diihddgjcg",
@@ -1116,7 +1116,7 @@ call_for_papers = [
     },
     {
         "journal": "Value in Health Regional Issues",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-04-30",
         "topic": "Economics of Antimicrobial Resistance: Costs, Consequences, and Policy Responses",
         "website": "https://www.ispor.org/publications/journals/value-in-health-regional-issues/for-authors/call-for-papers",
@@ -1140,7 +1140,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications AI & Computing",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-12-13",
         "topic": "Agentic AI Systems",
         "website": "https://www.nature.com/collections/gaejiiicah",
@@ -1164,7 +1164,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Biomedical Engineering",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-12-30",
         "topic": "Microphysiological systems for advanced modeling, high-throughput evaluation, and clinical translation",
         "website": "https://www.nature.com/collections/fgjeddegjc",
@@ -1172,7 +1172,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications AI & Computing",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-12-31",
         "topic": "Quantum machine learning: understanding capabilities, limitations, and perspectives for quantum advantage",
         "website": "https://www.nature.com/collections/iheeaggidj",
@@ -1180,7 +1180,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2026-12-31",
         "topic": "Bridging environmental microbes to human, animal and planetary health",
         "website": "https://www.nature.com/collections/hjahhiejef",
@@ -1188,7 +1188,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications Health",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-01-08",
         "topic": "Implementation Science in Public Health",
         "website": "https://www.nature.com/collections/ebgdeifaei",
@@ -1196,7 +1196,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Portfolio",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-01-23",
         "topic": "The expanding therapeutic landscape of GLP-1 receptor agonists",
         "website": "https://www.nature.com/collections/hcgegcgcgh",
@@ -1204,7 +1204,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications Earth & Environment",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-01-28",
         "topic": "Functional Soil Ecology",
         "website": "https://www.nature.com/collections/hbhaegbjgi/",
@@ -1212,7 +1212,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Structural & Molecular Biology",
-        "impact": "",
+        "impact": "15.8",
         "due_date": "2027-01-28",
         "topic": "Peptide drug design",
         "website": "https://www.nature.com/collections/iaafbfhcch",
@@ -1220,7 +1220,7 @@ call_for_papers = [
     },
     {
         "journal": "Communications Earth & Environment",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-02-07",
         "topic": "High-resolution modeling for Earth system",
         "website": "https://www.nature.com/collections/cjeacddcbc",
@@ -1228,7 +1228,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Medicine",
-        "impact": "",
+        "impact": "87.3",
         "due_date": "2027-02-18",
         "topic": "Clinical Research in Respiratory Medicine",
         "website": "https://www.nature.com/collections/bdaadggjeb",
@@ -1236,7 +1236,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Chemical Biology",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-02-25",
         "topic": "Protein Dynamics Informing Structure, Function, and Evolution",
         "website": "https://www.nature.com/collections/bhjjedadcb",
@@ -1252,7 +1252,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Genetics",
-        "impact": "",
+        "impact": "29.0",
         "due_date": "2027-02-28",
         "topic": "Human Admixture and Migration",
         "website": "https://www.nature.com/collections/bidgeabjaa",
@@ -1260,7 +1260,7 @@ call_for_papers = [
     },
     {
         "journal": "Nature Immunology",
-        "impact": "",
+        "impact": "25.6",
         "due_date": "2027-03-01",
         "topic": "Inflammation, Immunometabolism, and Chronic Disease",
         "website": "https://www.nature.com/collections/dccecdcjjh/",
@@ -1268,7 +1268,7 @@ call_for_papers = [
     },
     {
         "journal": "JAMA",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "2027-09-30",
         "topic": "Artificial Intelligence Across the JAMA Network",
         "website": "https://doi.org/10.1001/jama.2025.15074",
@@ -1276,7 +1276,7 @@ call_for_papers = [
     },
     {
         "journal": "Cell Reports Medicine",
-        "impact": "",
+        "impact": "N/A",
         "due_date": "Ongoing",
         "topic": "Bench-to-Bedside Initiative",
         "website": "https://www.cell.com/cp/special-issues/call-for-papers/bench-to-bedside-initiative",
@@ -1397,6 +1397,14 @@ def _sync_active_project_calls(papers_data):
         synced_paper["projects"] = projects
         synced_papers.append(synced_paper)
 
+    # Reuse known journal impact factors when a new row must be appended from
+    # projects.qmd so we do not regress to N/A for journals already tracked here.
+    known_journal_impacts = {}
+    for paper in synced_papers:
+        impact_value = (paper.get("impact") or "").strip()
+        if impact_value and impact_value != "N/A" and re.search(r"\d", impact_value):
+            known_journal_impacts.setdefault(paper.get("journal", "").strip(), impact_value)
+
     grouped_calls = {}
     for item in active_project_calls:
         key = (item["journal"], item["website"], item["due_date"])
@@ -1432,7 +1440,7 @@ def _sync_active_project_calls(papers_data):
         synced_papers.append(
             {
                 "journal": journal,
-                "impact": "",
+                "impact": known_journal_impacts.get(journal, "N/A"),
                 "due_date": due_date,
                 "topic": " / ".join(topic_parts),
                 "website": website,

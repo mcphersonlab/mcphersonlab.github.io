@@ -53,57 +53,66 @@ Visit our [GitHub Organization](https://github.com/McPhersonLab):
 ::: {#active-projects-table-wrapper}
 | Project (Link) | Target Conference | Call for Paper | IF |
 |:---------------|:--------------|:----------------|:---|
-| [ai-forecast-pharmacology](https://github.com/mcphersonlab/ai-forecast-pharmacology) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[British Journal of Pharmacology](https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers)**<br><em>Deadline: May 01, 2026</em> | 7.7 |
-| [EarthEpi](https://github.com/mcphersonlab/EarthEpi) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | 19.4 |
-| [StormPath](https://github.com/mcphersonlab/StormPath) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | 19.4 |
-| [mgx-abx-healthy](https://github.com/mcphersonlab/mgx-abx-healthy) | [BSAC and GARDP Antimicrobial Chemotherapy Conference](https://acc-conference.com/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/ihcfhcieic)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
-| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/)<br><em>Abstract: TBD</em> | **[npj Genomic Medicine](https://www.nature.com/collections/iaadjjbbea)**<br><em>Deadline: March 28, 2026</em> | 4.8 |
-| [mgx-mbx-abx-cdi](https://github.com/mcphersonlab/mgx-mbx-abx-cdi) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/)<br><em>Abstract: TBD</em> | **[BMC Personalized Medicine](https://link.springer.com/collections/idddeddhgf)**<br><em>Deadline: August 05, 2026</em> | — |
 | [amr-acinetobacter-baumannii](https://github.com/mcphersonlab/amr-acinetobacter-baumannii) | [IMARI Annual](https://imari.org)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
+| [amr-klebsiella-pneumoniae](https://github.com/mcphersonlab/amr-klebsiella-pneumoniae) | [ESCMID Annual](https://www.escmid.org/congress-events/escmid-global/)<br><em>Abstract: October 15, 2025 - November 26, 2025</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
+| [mgx-mbx-abx-cdi](https://github.com/mcphersonlab/mgx-mbx-abx-cdi) | [Houston C diff & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/)<br><em>Abstract: February 14, 2026 - March 31, 2026</em> | **[BMC Personalized Medicine](https://link.springer.com/collections/idddeddhgf)**<br><em>Deadline: August 05, 2026</em> | — |
+| [mgx-clostridioides-difficile](https://github.com/mcphersonlab/mgx-clostridioides-difficile) | [Anaerobe Biennial](http://www.anaerobe.org/2026/)<br><em>Abstract: October 23, 2025 - February 01, 2026</em> | **[npj Genomic Medicine](https://www.nature.com/collections/iaadjjbbea)**<br><em>Deadline: March 28, 2026</em> | 4.8 |
+| [mgx-cdi-peds](https://github.com/mcphersonlab/mgx-cdi-peds) | [Anaerobe Biennial](http://www.anaerobe.org/2026/)<br><em>Abstract: October 23, 2025 - February 01, 2026</em> | **[British Journal of Pharmacology](https://bpspubs.onlinelibrary.wiley.com/hub/call-for-papers)**<br><em>Deadline: May 01, 2026</em> | 7.7 |
+| [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | [Anaerobe Biennial](http://www.anaerobe.org/2026/)<br><em>Abstract: October 23, 2025 - February 01, 2026</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/ffbaaggicb)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [clostridioides_atlas](https://github.com/mcphersonlab/clostridioides_atlas) | [Anaerobe Biennial](http://www.anaerobe.org/2026/)<br><em>Abstract: October 23, 2025 - February 01, 2026</em> | **[Microbiome](https://link.springer.com/collections/fbfahacdhi)**<br><em>Deadline: TBD</em> | — |
+| [ai-forecast-pharmacology](https://github.com/mcphersonlab/ai-forecast-pharmacology) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: February 01, 2025 - September 15, 2025</em> | **[AAPS Open](https://link.springer.com/collections/ifeeeaadce)**<br><em>Deadline: June 30, 2026</em> | — |
+| [pcol-vcddmde-hbv](https://github.com/mcphersonlab/pcol-vcddmde-hbv) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: February 01, 2025 - September 15, 2025</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
+| [immune-izapp](https://github.com/mcphersonlab/immune-izapp) | [AACP Pharmacy Education](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/ddbhjfadca)**<br><em>Deadline: May 20, 2026</em> | 4.2 |
+| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | [AACP Pharmacy Education](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[npj Digital Medicine](https://www.nature.com/collections/hcdeibadid)**<br><em>Deadline: June 03, 2026</em> | 15.1 |
+| [abx-iv-mgx-mbx-imm](https://github.com/mcphersonlab/abx-iv-mgx-mbx-imm) | [Conference on Beneficial Microbes](https://conferences.union.wisc.edu/microbes/)<br><em>Abstract: February 01, 2026 - April 08, 2026</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
+| [env-mgx-pd](https://github.com/mcphersonlab/env-mgx-pd) | [Conference on Beneficial Microbes](https://conferences.union.wisc.edu/microbes/)<br><em>Abstract: February 01, 2026 - April 08, 2026</em> | **[Nature Communications/Communications Health/Communications Biology](https://www.nature.com/collections/cafdeadabd/)**<br><em>Deadline: August 28, 2026</em> | 15.7 |
+| [MicrobiomeHUES](https://github.com/mcphersonlab/MicrobiomeHUES) | [Conference on Beneficial Microbes](https://conferences.union.wisc.edu/microbes/)<br><em>Abstract: February 01, 2026 - April 08, 2026</em> | **[JID](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: Ongoing</em> | 5.8 |
+| [ai-forecast-influenza](https://github.com/mcphersonlab/ai-forecast-influenza) | [ASV Annual](https://www.asv.org/annual-meeting)<br><em>Abstract: December 01, 2025 - February 01, 2026</em> | **[Nature Communications/Communications Health/Communications Biology](https://www.nature.com/collections/cafdeadabd/)**<br><em>Deadline: August 28, 2026</em> | 15.7 |
+| [epi-hbv](https://github.com/mcphersonlab/epi-hbv) | [ASV Annual](https://www.asv.org/annual-meeting)<br><em>Abstract: December 01, 2025 - February 01, 2026</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
+| [amr-aspergillus-fumigatus](https://github.com/mcphersonlab/amr-aspergillus-fumigatus) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: April 01, 2026 - July 31, 2026</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-candida-auris](https://github.com/mcphersonlab/amr-candida-auris) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: April 01, 2026 - July 31, 2026</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-lomentospora-prolificans](https://github.com/mcphersonlab/amr-lomentospora-prolificans) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: April 01, 2026 - July 31, 2026</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
+| [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | [STI Prevention Conference](https://stipreventionconference.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology](https://www.nature.com/nmicrobiol/)**<br><em>Deadline: TBD</em> | — |
+| [amr-neisseria-gonorrhoeae](https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae) | [STI Prevention Conference](https://stipreventionconference.org/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: TBD</em> | — |
+| [SpaceTime](https://github.com/mcphersonlab/SpaceTime) | [BPS Annual](https://www.bps.ac.uk/events)<br><em>Abstract: April 01, 2026 - September 01, 2026</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
+| [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | [BPS Annual](https://www.bps.ac.uk/events)<br><em>Abstract: April 01, 2026 - September 01, 2026</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
+| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | [BPS Annual](https://www.bps.ac.uk/events)<br><em>Abstract: April 01, 2026 - September 01, 2026</em> | **[mBio](https://journals.asm.org/asm-calls-for-papers)**<br><em>Deadline: Ongoing</em> | 4.7 |
+| [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | [The 9th International C. difficile Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: March 10, 2026 - May 15, 2026</em> | **[Value in Health](https://www.journals.elsevier.com/value-in-health)**<br><em>Deadline: TBD</em> | — |
+| [ai-microbiome-transmission](https://github.com/mcphersonlab/ai-microbiome-transmission) | [Rice AI in Health](https://www.aihealthconference.com/)<br><em>Abstract: TBD</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
+| [ai-amr](https://github.com/mcphersonlab/ai-amr) | [Rice AI in Health](https://www.aihealthconference.com/)<br><em>Abstract: TBD</em> | **[ACS Infectious Diseases](https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery)**<br><em>Deadline: July 31, 2026</em> | 3.8 |
+| [DigitalTwin-Society-Health](https://github.com/mcphersonlab/DigitalTwin-Society-Health) | [Rice AI in Health](https://www.aihealthconference.com/)<br><em>Abstract: TBD</em> | **[Implementation Science](https://implementationscience.biomedcentral.com/)**<br><em>Deadline: TBD</em> | — |
+| [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: February 02, 2026 - May 11, 2026</em> | **[npj Biofilms and Microbiomes](https://www.nature.com/npjbiofilms/calls-for-papers)**<br><em>Deadline: July 15, 2026</em> | 9.3 |
+| [phys-hiv-lenacapavir](https://github.com/mcphersonlab/phys-hiv-lenacapavir) | [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: February 02, 2026 - May 11, 2026</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
+| [DOOR-STEP](https://github.com/mcphersonlab/DOOR-STEP) | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: October 31, 2025 - January 09, 2026</em> | **[BMC Medical Research Methodology](https://link.springer.com/collections/hgihdahcfj)**<br><em>Deadline: July 30, 2026</em> | 5.2 |
+| [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: October 31, 2025 - January 09, 2026</em> | **[Pharmacoeconomics](https://link.springer.com/journal/40273)**<br><em>Deadline: TBD</em> | — |
+| [cost-amr](https://github.com/mcphersonlab/cost-amr) | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: October 31, 2025 - January 09, 2026</em> | **[CID](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: Ongoing</em> | 7.3 |
+| [practice](https://github.com/mcphersonlab/practice) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[Nature Communications](https://www.nature.com/collections/jhbbbdafac)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [tx-cuti](https://github.com/mcphersonlab/tx-cuti) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[Nature Communications](https://www.nature.com/collections/jhbbbdafac)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [tx-cap](https://github.com/mcphersonlab/tx-cap) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[Antimicrobial Resistance & Infection Control](https://link.springer.com/collections/bgbhjabeba)**<br><em>Deadline: June 25, 2026</em> | 5.5 |
+| [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [tx-uuti](https://github.com/mcphersonlab/tx-uuti) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/aiffadagdf)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[Academic Medicine](https://journals.lww.com/academicmedicine/pages/default.aspx)**<br><em>Deadline: TBD</em> | — |
+| [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: May 30, 2026 - October 01, 2026</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+| [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | [North American Cystic Fibrosis (CF) Conference](https://www.nacfconference.org/)<br><em>Abstract: March 17, 2026 - April 17, 2026</em> | **[Nature Communications](https://www.nature.com/collections/jhbbbdafac)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
+| [mgx-cap](https://github.com/mcphersonlab/mgx-cap) | [North American Cystic Fibrosis (CF) Conference](https://www.nacfconference.org/)<br><em>Abstract: March 17, 2026 - April 17, 2026</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
+| [MoTrPAC_plus_CF](https://github.com/mcphersonlab/MoTrPAC_plus_CF) | [North American Cystic Fibrosis (CF) Conference](https://www.nacfconference.org/)<br><em>Abstract: March 17, 2026 - April 17, 2026</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+| [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: February 18, 2026 - April 30, 2026</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
 | [amr-enterococcus-faecium](https://github.com/mcphersonlab/amr-enterococcus-faecium) | [TMC AMR](https://www.tmc.edu/events/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
-| [amr-klebsiella-pneumoniae](https://github.com/mcphersonlab/amr-klebsiella-pneumoniae) | [IDSA IDWeek](https://www.idweek.org/); [ESCMID Annual](https://www.escmid.org/congress-events/escmid-global/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/cfbjiegbcg)**<br><em>Deadline: June 24, 2026</em> | 8.7 |
-| [ai-amr](https://github.com/mcphersonlab/ai-amr) | [IMARI Annual](https://imari.org)<br><em>Abstract: TBD</em> | **[ACS Infectious Diseases](https://axial.acs.org/medicinal-chemistry/call-for-papers-artificial-intelligence-for-next-generation-anti-infective-discovery)**<br><em>Deadline: July 31, 2026</em> | 3.8 |
-| [MicroSCOPE](https://github.com/mcphersonlab/MicroSCOPE) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/eecajaidbe)**<br><em>Deadline: July 07, 2026</em> | 8.7 |
-| [ai-forecast-influenza](https://github.com/mcphersonlab/ai-forecast-influenza) | [ASV Annual](https://www.asv.org/annual-meeting)<br><em>Abstract: TBD</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
-| [ai-microbiome-transmission](https://github.com/mcphersonlab/ai-microbiome-transmission) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[npj Digital Medicine/npj Digital Public Health](https://www.nature.com/collections/jaibcfdhef)**<br><em>Deadline: May 15, 2026</em> | 15.1 |
-| [MicrobiomeHUES](https://github.com/mcphersonlab/MicrobiomeHUES) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/ddbhjfadca)**<br><em>Deadline: May 20, 2026</em> | 4.2 |
+| [amr-env-food](https://github.com/mcphersonlab/amr-env-food) | [TMC AMR](https://www.tmc.edu/events/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bbeihchhgf)**<br><em>Deadline: July 08, 2026</em> | 8.7 |
+| [amr-env-water](https://github.com/mcphersonlab/amr-env-water) | [TMC AMR](https://www.tmc.edu/events/)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: July 28, 2026</em> | 8.7 |
+| [mgx-abx-healthy](https://github.com/mcphersonlab/mgx-abx-healthy) | [BSAC and GARDP Antimicrobial Chemotherapy Conference](https://acc-conference.com/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/ihcfhcieic)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
 | [mgx-mbx-glp-1](https://github.com/mcphersonlab/mgx-mbx-glp-1) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[npj Biofilms and Microbiomes](https://www.nature.com/collections/ihecbjhhdd)**<br><em>Deadline: May 20, 2026</em> | 9.3 |
-| [ai-structural-biology](https://github.com/mcphersonlab/ai-structural-biology) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Nature Communications/Nature Structural & Molecular Biology](https://www.nature.com/collections/jbdjhghacg)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
-| [amr-pseudomonas-aeruginosa](https://github.com/mcphersonlab/amr-pseudomonas-aeruginosa) | [North American Cystic Fibrosis (CF) Conference](https://www.nacfconference.org/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/jhbbbdafac)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
 | [mgx-immunol-regulatory-t-cells](https://github.com/mcphersonlab/mgx-immunol-regulatory-t-cells) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Communications](https://www.nature.com/collections/ihcfhcieic)**<br><em>Deadline: May 31, 2026</em> | 15.7 |
-| [tx-cap](https://github.com/mcphersonlab/tx-cap) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[Antimicrobial Resistance & Infection Control](https://link.springer.com/collections/bgbhjabeba)**<br><em>Deadline: June 25, 2026</em> | 5.5 |
-| [amr-aspergillus-fumigatus](https://github.com/mcphersonlab/amr-aspergillus-fumigatus) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
-| [amr-candida-auris](https://github.com/mcphersonlab/amr-candida-auris) | [IMARI Annual](https://imari.org); [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
-| [amr-lomentospora-prolificans](https://github.com/mcphersonlab/amr-lomentospora-prolificans) | [MSGERC Biennial](https://msgerc.org/2026-biennial-meeting/)<br><em>Abstract: TBD</em> | **[BMC Immunology](https://link.springer.com/collections/ddhfibjigd)**<br><em>Deadline: June 26, 2026</em> | 3.1 |
-| [amr-env-food](https://github.com/mcphersonlab/amr-env-food) | [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bbeihchhgf)**<br><em>Deadline: July 08, 2026</em> | 8.7 |
-| [mgx-virome](https://github.com/mcphersonlab/mgx-virome) | [ASV Annual](https://www.asv.org/annual-meeting); [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: TBD</em> | **[npj Biofilms and Microbiomes](https://www.nature.com/npjbiofilms/calls-for-papers)**<br><em>Deadline: July 15, 2026</em> | 9.3 |
-| [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | TBD<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/bajaefecgf)**<br><em>Deadline: July 16, 2026</em> | 4.2 |
-| [amr-clostridioides-difficile](https://github.com/mcphersonlab/amr-clostridioides-difficile) | [Anaerobe Biennial](http://www.anaerobe.org/2026/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/ffbaaggicb)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
-| [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | [IDSA IDWeek](https://www.idweek.org/); [ESCMID Annual](https://www.escmid.org/congress-events/escmid-global/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
-| [tx-staph-bacteremia](https://github.com/mcphersonlab/tx-staph-bacteremia) | [ASHP Midyear](https://www.ashp.org/meetings-and-conferences/midyear-clinical-meeting-and-exhibition)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
-| [tx-uuti](https://github.com/mcphersonlab/tx-uuti) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/aiffadagdf)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
-| [amr-env-water](https://github.com/mcphersonlab/amr-env-water) | [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: July 28, 2026</em> | 8.7 |
-| [DOOR-STEP](https://github.com/mcphersonlab/DOOR-STEP) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[BMC Medical Research Methodology](https://link.springer.com/collections/hgihdahcfj)**<br><em>Deadline: July 30, 2026</em> | 5.2 |
-| [DigitalTwin-Society-Health](https://github.com/mcphersonlab/DigitalTwin-Society-Health) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Implementation Science](https://implementationscience.biomedcentral.com/)**<br><em>Deadline: TBD</em> | — |
-| [PharmacyEducation](https://github.com/mcphersonlab/PharmacyEducation) | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[Academic Medicine](https://journals.lww.com/academicmedicine/pages/default.aspx)**<br><em>Deadline: TBD</em> | — |
-| [SpaceTime](https://github.com/mcphersonlab/SpaceTime) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
-| [amr-hiv](https://github.com/mcphersonlab/amr-hiv) | [CROI Annual](https://www.croiconference.org/); [ASV Annual](https://www.asv.org/annual-meeting); [ESCV Annual](https://escv.eu/calendar-events/)<br><em>Abstract: TBD</em> | **[Nature Microbiology](https://www.nature.com/nmicrobiol/)**<br><em>Deadline: TBD</em> | — |
-| [amr-neisseria-gonorrhoeae](https://github.com/mcphersonlab/amr-neisseria-gonorrhoeae) | [IMARI Annual](https://imari.org); [CSIRO AMR Summit](https://www.csiro.au/en/about/challenges-missions/antimicrobial-resistance/amr-summit)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/bjgbhdgcbf)**<br><em>Deadline: TBD</em> | 8.7 |
-| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Biophysical Journal](https://www.cell.com/biophysj/home)**<br><em>Deadline: TBD</em> | — |
-| [clostridioides_atlas](https://github.com/mcphersonlab/clostridioides_atlas) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Microbiome](https://link.springer.com/collections/fbfahacdhi)**<br><em>Deadline: TBD</em> | 12.7 |
-| [cost-amr](https://github.com/mcphersonlab/cost-amr) | [Global AMR Innovators' Conference (GAMRIC)](https://www.gamric.org/)<br><em>Abstract: TBD</em> | **[Clinical Infectious Diseases](https://academic.oup.com/idsa/pages/calls-for-papers)**<br><em>Deadline: Ongoing</em> | 7.3 |
-| [epi-hbv](https://github.com/mcphersonlab/epi-hbv) | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
-| [mgx-cap](https://github.com/mcphersonlab/mgx-cap) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home)**<br><em>Deadline: TBD</em> | — |
-| [mgx-cdi-vre](https://github.com/mcphersonlab/mgx-cdi-vre) | [Houston *C diff* & Microbiome Conference](https://www.uh.edu/pharmacy/news-and-events/events/houston-cdiff-and-microbiome-conference/); [TMC AMR](https://www.tmc.edu/events/); [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+| [EarthEpi](https://github.com/mcphersonlab/EarthEpi) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | — |
+| [StormPath](https://github.com/mcphersonlab/StormPath) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Nature Microbiology/Nature Health](https://www.nature.com/collections/bagaffbjja)**<br><em>Deadline: June 01, 2026</em> | — |
 | [mgx-mbx-colorectal-cancer](https://github.com/mcphersonlab/mgx-mbx-colorectal-cancer) | [AAAS Annual](https://meetings.aaas.org/)<br><em>Abstract: TBD</em> | **[Cell Host & Microbe](https://www.cell.com/cell-host-microbe/home)**<br><em>Deadline: TBD</em> | — |
-| [pcol-biofilm-rifamycins](https://github.com/mcphersonlab/pcol-biofilm-rifamycins) | [IDSA IDWeek](https://www.idweek.org/)<br><em>Abstract: TBD</em> | **[mBio](https://journals.asm.org/asm-calls-for-papers)**<br><em>Deadline: Ongoing</em> | 4.7 |
-| [pcol-vcddmde-hbv](https://github.com/mcphersonlab/pcol-vcddmde-hbv) | [AASLD Annual](https://www.aasld.org/the-liver-meeting)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
-| [pharm-comm-ai](https://github.com/mcphersonlab/pharm-comm-ai) | [AACP Annual](https://www.aacp.org/events/annual-meetings)<br><em>Abstract: TBD</em> | **[npj Digital Medicine](https://www.nature.com/collections/hcdeibadid)**<br><em>Deadline: June 03, 2026</em> | 15.1 |
-| [phys-hiv-lenacapavir](https://github.com/mcphersonlab/phys-hiv-lenacapavir) | [CROI Annual](https://www.croiconference.org/)<br><em>Abstract: TBD</em> | **[Journal of Virology](https://journals.asm.org/journal/jvi)**<br><em>Deadline: TBD</em> | — |
-| [roi-cdi](https://github.com/mcphersonlab/roi-cdi) | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Value in Health](https://www.journals.elsevier.com/value-in-health)**<br><em>Deadline: TBD</em> | — |
-| [roi-pipeline-antimicrobial](https://github.com/mcphersonlab/roi-pipeline-antimicrobial) | [ISPOR Annual](https://www.ispor.org/conferences-education)<br><em>Abstract: TBD</em> | **[Pharmacoeconomics](https://link.springer.com/journal/40273)**<br><em>Deadline: TBD</em> | — |
-| [structure-function-pharmacology](https://github.com/mcphersonlab/structure-function-pharmacology) | [IUPHAR Annual](https://www.iuphar.org/)<br><em>Abstract: TBD</em> | **[Molecular Pharmacology](https://molpharm.aspetjournals.org/)**<br><em>Deadline: TBD</em> | — |
-| [tx-cdi](https://github.com/mcphersonlab/tx-cdi) | [9th International *C. difficile* Symposium (ICDS)](https://www.icds.si/)<br><em>Abstract: TBD</em> | **[Gut Microbes](https://www.tandfonline.com/journals/kgmi20)**<br><em>Deadline: TBD</em> | — |
+| [ai-structural-biology](https://github.com/mcphersonlab/ai-structural-biology) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Nature Communications/Nature Structural & Molecular Biology](https://www.nature.com/collections/jbdjhghacg)**<br><em>Deadline: May 31, 2026</em> | — |
+| [namd-adk](https://github.com/mcphersonlab/namd-adk) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/eecajaidbe)**<br><em>Deadline: July 07, 2026</em> | 8.7 |
+| [biophysics-proteins-as-complex-machines-of-physics](https://github.com/mcphersonlab/biophysics-proteins-as-complex-machines-of-physics) | [Biophysical Society Annual](https://www.biophysics.org/upcoming-annual-meetings)<br><em>Abstract: TBD</em> | **[Biophysical Journal](https://www.cell.com/biophysj/home)**<br><em>Deadline: TBD</em> | — |
+| [MicroSCOPE](https://github.com/mcphersonlab/MicroSCOPE) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: October 15, 2025 - January 21, 2026</em> | **[npj Antimicrobials and Resistance](https://www.nature.com/collections/eecajaidbe)**<br><em>Deadline: July 07, 2026</em> | 8.7 |
+| [env-tx-ocean](https://github.com/mcphersonlab/env-tx-ocean) | [ASM Microbe](https://asm.org/events/asm-microbe)<br><em>Abstract: October 15, 2025 - January 21, 2026</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/fjheihhice)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [amr-staphylococcus-aureus](https://github.com/mcphersonlab/amr-staphylococcus-aureus) | [Staphylococcal Diseases Gordon Research Conference](https://www.grc.org/staphylococcal-diseases-conference/2027/)<br><em>Abstract: TBD</em> | **[BMC Infectious Diseases](https://link.springer.com/collections/ffbaaggicb)**<br><em>Deadline: July 20, 2026</em> | 3.1 |
+| [amr-mycobacterium-tuberculosis](https://github.com/mcphersonlab/amr-mycobacterium-tuberculosis) | TBD<br><em>Abstract: TBD</em> | **[BMC Microbiology](https://link.springer.com/collections/bajaefecgf)**<br><em>Deadline: July 16, 2026</em> | 4.2 |
 :::
 
 ```{=html}
@@ -136,6 +145,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!impactStr) return SORT_KEY_MISSING_IMPACT;
     const m = impactStr.match(/(\d+\.?\d*)/);
     return m ? parseFloat(m[1]) : SORT_KEY_MISSING_IMPACT;
+  };
+
+  const parseImpactPriority = (impactStr) => {
+    const m = (impactStr || '').match(/(\d+\.?\d*)/);
+    if (!m) return Number.POSITIVE_INFINITY;
+    return -parseFloat(m[1]);
   };
 
   // Convert a due_date string ("YYYY-MM-DD", "TBD", "Ongoing") to a numeric sort key
@@ -194,8 +209,73 @@ document.addEventListener('DOMContentLoaded', function () {
     return link;
   };
 
-  const appendConferenceCellContent = (cell, conferences) => {
-    if (!conferences.length) {
+  const today = new Date();
+
+  const parseIsoDate = (value) => {
+    if (!value || value === 'TBD' || value === 'Ongoing') return null;
+    const d = new Date(`${value}T00:00:00`);
+    return Number.isNaN(d.getTime()) ? null : d;
+  };
+
+  const conferenceRank = (conference) => {
+    const closeDate = parseIsoDate(conference.abstractClose || '');
+    const startDate = parseIsoDate(conference.startDate || '');
+    if (closeDate && closeDate >= today) {
+      return [0, closeDate.getTime(), startDate ? startDate.getTime() : SORT_KEY_TBD];
+    }
+    if (startDate && startDate >= today) {
+      return [1, startDate.getTime(), startDate.getTime()];
+    }
+    return [2, startDate ? startDate.getTime() : SORT_KEY_TBD, SORT_KEY_TBD];
+  };
+
+  const callRank = (call) => {
+    const dueDate = parseIsoDate(call.dueDate || '');
+    const impactSort = parseImpactPriority(call.impact || '');
+    if (dueDate && dueDate >= today) {
+      return [0, dueDate.getTime(), impactSort];
+    }
+    if (call.dueDate === 'Ongoing') {
+      return [1, SORT_KEY_ONGOING, impactSort];
+    }
+    if (call.dueDate === 'TBD') {
+      return [2, SORT_KEY_TBD, impactSort];
+    }
+    if (dueDate) {
+      return [3, dueDate.getTime(), impactSort];
+    }
+    return [3, SORT_KEY_TBD, impactSort];
+  };
+
+  const pickBestConference = (conferences) => {
+    if (!conferences.length) return null;
+    return conferences
+      .slice()
+      .sort((a, b) => {
+        const ar = conferenceRank(a);
+        const br = conferenceRank(b);
+        if (ar[0] !== br[0]) return ar[0] - br[0];
+        if (ar[1] !== br[1]) return ar[1] - br[1];
+        return (a.name || '').localeCompare(b.name || '');
+      })[0];
+  };
+
+  const pickBestCall = (calls) => {
+    if (!calls.length) return null;
+    return calls
+      .slice()
+      .sort((a, b) => {
+        const ar = callRank(a);
+        const br = callRank(b);
+        if (ar[0] !== br[0]) return ar[0] - br[0];
+        if (ar[1] !== br[1]) return ar[1] - br[1];
+        if (ar[2] !== br[2]) return ar[2] - br[2];
+        return (a.journal || '').localeCompare(b.journal || '');
+      })[0];
+  };
+
+  const appendConferenceCellContent = (cell, conference) => {
+    if (!conference) {
       cell.textContent = 'TBD';
       cell.appendChild(document.createElement('br'));
       const em = document.createElement('em');
@@ -204,50 +284,27 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    conferences.forEach((conference, index) => {
-      if (index > 0) {
-        cell.append('; ');
-      }
-      cell.appendChild(createLink(conference.url, conference.name));
-    });
-
+    cell.appendChild(createLink(conference.url, conference.name));
     cell.appendChild(document.createElement('br'));
-    const allTbd = conferences.every((conference) => conference.abstractDisplay === 'TBD');
-
     const em = document.createElement('em');
-    if (allTbd) {
-      em.textContent = 'Abstract: TBD';
-    } else if (conferences.length === 1) {
-      em.textContent = `Abstract: ${conferences[0].abstractDisplay}`;
-    } else {
-      em.textContent = `Abstracts: ${conferences.map((conference) => `${conference.name} — ${conference.abstractDisplay}`).join('; ')}`;
-    }
+    em.textContent = `Abstract: ${conference.abstractDisplay || 'TBD'}`;
     cell.appendChild(em);
   };
 
-  const appendCallCellContent = (cell, calls) => {
-    if (!calls.length) {
+  const appendCallCellContent = (cell, call) => {
+    if (!call) {
       cell.textContent = '—';
       return;
     }
 
-    calls.forEach((call, index) => {
-      const callWrapper = document.createElement('div');
-      if (index > 0) {
-        callWrapper.style.marginTop = '8px';
-      }
+    const strong = document.createElement('strong');
+    strong.appendChild(createLink(call.website, call.journal));
+    cell.appendChild(strong);
+    cell.appendChild(document.createElement('br'));
 
-      const strong = document.createElement('strong');
-      strong.appendChild(createLink(call.website, call.journal));
-      callWrapper.appendChild(strong);
-      callWrapper.appendChild(document.createElement('br'));
-
-      const em = document.createElement('em');
-      em.textContent = `Deadline: ${call.displayDate}`;
-      callWrapper.appendChild(em);
-
-      cell.appendChild(callWrapper);
-    });
+    const em = document.createElement('em');
+    em.textContent = `Deadline: ${call.displayDate}`;
+    cell.appendChild(em);
   };
 
   // Add sortable column headers (Call for Paper = col 3, IF = col 4)
@@ -350,6 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
             url: conference.url,
             abstractDisplay: conference.abstract_display || 'TBD',
             startDate: conference.start_date || '',
+            abstractClose: conference.abstract_close || '',
           });
         }
       });
@@ -389,20 +447,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     rows.forEach((project) => {
       const row = document.createElement('tr');
+      const bestConference = pickBestConference(project.conferences);
+      const bestCall = pickBestCall(project.calls);
 
       // Compute sort values for this row
-      // For date: use the earliest call's due date
-      const callDateSortKey = project.calls.length
-        ? Math.min(...project.calls.map((c) => parseDateSortKey(c.dueDate)))
-        : parseDateSortKey('TBD');
-      // For impact: use the first call's impact factor
-      const callImpactSortKey = project.calls.length
-        ? parseImpactSortKey(project.calls[0].impact)
-        : SORT_KEY_MISSING_IMPACT;
-      // For confDate: use the earliest conference start date
-      const confDateSortKey = project.conferences.length
-        ? Math.min(...project.conferences.map((c) => parseDateSortKey(c.startDate || 'TBD')))
-        : SORT_KEY_TBD;
+      const callDateSortKey = bestCall ? parseDateSortKey(bestCall.dueDate) : parseDateSortKey('TBD');
+      const callImpactSortKey = bestCall ? parseImpactSortKey(bestCall.impact) : SORT_KEY_MISSING_IMPACT;
+      const confDateSortKey = bestConference ? parseDateSortKey(bestConference.startDate || 'TBD') : SORT_KEY_TBD;
 
       row.dataset.sortOrder = String(project.order);
       row.dataset.sortDate = String(callDateSortKey);
@@ -414,16 +465,16 @@ document.addEventListener('DOMContentLoaded', function () {
       row.appendChild(projectCell);
 
       const conferenceCell = document.createElement('td');
-      appendConferenceCellContent(conferenceCell, project.conferences);
+      appendConferenceCellContent(conferenceCell, bestConference);
       row.appendChild(conferenceCell);
 
       const callCell = document.createElement('td');
-      appendCallCellContent(callCell, project.calls);
+      appendCallCellContent(callCell, bestCall);
       row.appendChild(callCell);
 
-      // IF column: show the first call's impact factor
+      // IF column: show the selected best call impact factor
       const ifCell = document.createElement('td');
-      const ifValue = project.calls.length ? (project.calls[0].impact || '—') : '—';
+      const ifValue = bestCall ? ((bestCall.impact && bestCall.impact !== 'N/A') ? bestCall.impact : '—') : '—';
       ifCell.textContent = ifValue;
       row.appendChild(ifCell);
 
