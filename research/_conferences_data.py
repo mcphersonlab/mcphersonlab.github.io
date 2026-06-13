@@ -104,7 +104,7 @@ conferences = [
         "end_date": "2026-01-30",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "2027 dates TBD; check IMARI website",
+        "abstract_note": "Dates may change; check IMARI website for updates",
         "type": "Conference",
         "url": "https://imari.org",
         "projects": [
