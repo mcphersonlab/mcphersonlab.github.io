@@ -1,0 +1,49 @@
+name: Update conferences
+
+on:
+  schedule:
+    - cron: '0 6 1 * *' # monthly on the 1st at 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Fetch conference pages
+        run: python3 scripts/fetch_conference_dates.py
+
+      - name: Prepare proposals
+        run: python3 scripts/prepare_conference_updates.py
+
+      - name: Select update candidates
+        run: python3 scripts/select_updates.py
+
+      - name: Apply updates
+        run: python3 scripts/apply_updates.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Automated conference updates
+          branch: auto/conference-updates
+          title: Automated conference updates
+          body: |
+            This PR was created automatically by the monthly conference update workflow. It contains updated start/end dates for conferences when confident matches were found on the official websites. Please review before merging.
+          labels: automated,conferences

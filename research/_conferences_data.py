@@ -100,11 +100,11 @@ conferences = [
         "location": "Las Vegas, NV",
         "lat": 36.1699,
         "lon": -115.1398,
-        "start_date": "2027-01-27",
-        "end_date": "2027-01-29",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-30",
         "abstract_open": "",
         "abstract_close": "",
-        "abstract_note": "2027 dates TBD; check IMARI website",
+        "abstract_note": "Dates may change; check IMARI website for updates",
         "type": "Conference",
         "url": "https://imari.org",
         "projects": [
@@ -180,7 +180,7 @@ conferences = [
         "lat": 39.9526,
         "lon": -75.1652,
         "start_date": "2027-02-20",
-        "end_date": "2027-02-24",
+        "end_date": "2027-02-20",
         "abstract_open": "",
         "abstract_close": "",
         "abstract_note": "Abstract dates TBD; see Biophysical Society website for updates",
@@ -199,8 +199,8 @@ conferences = [
         "location": "San Diego, CA",
         "lat": 32.7157,
         "lon": -117.1611,
-        "start_date": "2027-03-21",
-        "end_date": "2027-03-24",
+        "start_date": "2026-03-24",
+        "end_date": "2026-03-24",
         "abstract_open": "",
         "abstract_close": "",
         "abstract_note": "Abstract dates TBD; check CROI website",
@@ -359,8 +359,8 @@ conferences = [
         "location": "Philadelphia, PA",
         "lat": 39.9526,
         "lon": -75.1652,
-        "start_date": "2026-05-17",
-        "end_date": "2026-05-20",
+        "start_date": "2026-09-22",
+        "end_date": "2026-09-23",
         "abstract_open": "2025-10-31",
         "abstract_close": "2026-01-09",
         "abstract_note": "",
@@ -379,8 +379,8 @@ conferences = [
         "location": "Washington, DC",
         "lat": 38.9072,
         "lon": -77.0369,
-        "start_date": "2026-06-11",
-        "end_date": "2026-06-15",
+        "start_date": "2027-06-22",
+        "end_date": "2027-06-25",
         "abstract_open": "2025-10-15",
         "abstract_close": "2026-01-21",
         "abstract_note": "Travel awards: Oct 15 - Dec 2, 2025; Abstracts: Dec 2, 2025 - Jan 21, 2026",
@@ -441,7 +441,7 @@ conferences = [
         "lat": 32.9342,
         "lon": -97.0781,
         "start_date": "2026-07-18",
-        "end_date": "2026-07-21",
+        "end_date": "2026-07-18",
         "abstract_open": "",
         "abstract_close": "",
         "abstract_note": "",
@@ -551,7 +551,7 @@ conferences = [
         "location": "Houston, TX",
         "lat": 29.7174,
         "lon": -95.4018,
-        "start_date": "2026-09-14",
+        "start_date": "2026-09-15",
         "end_date": "2026-09-17",
         "abstract_open": "",
         "abstract_close": "",
@@ -588,8 +588,8 @@ conferences = [
         "location": "Lisbon, Portugal",
         "lat": 38.7223,
         "lon": -9.1393,
-        "start_date": "2026-09-22",
-        "end_date": "2026-09-24",
+        "start_date": "2026-04-26",
+        "end_date": "2026-04-26",
         "abstract_open": "2026-03-10",
         "abstract_close": "2026-03-31",
         "abstract_note": "",
@@ -679,7 +679,6 @@ def _format_conference_date(date_str, conference_name, field_name):
             f"Invalid {field_name} date {date_str!r} for conference {conference_name!r} in research/_conferences_data.py"
         ) from exc
 
-
 def format_conference_abstract_deadline(conference):
     if conference.get("abstract_open") and conference.get("abstract_close"):
         open_date = _format_conference_date(conference["abstract_open"], conference["name"], "abstract_open")
@@ -697,6 +696,59 @@ conference_abstract_deadlines = {
         "name": conf["name"],
         "abstract_display": format_conference_abstract_deadline(conf),
     }
-    for conf in conferences
+    for conf in sorted(conferences, key=lambda c: c.get("start_date") or "")
     if conf.get("url")
 }
+
+
+def _validate_conferences(conf_list):
+    """Run light validation on conference entries and raise helpful errors.
+
+    Checks performed:
+    - `start_date` and `end_date` parse as YYYY-MM-DD when present
+    - `start_date` is not after `end_date` when both present
+    - `lat` and `lon` are numeric when present
+    - `url` is present and non-empty
+    """
+    for conf in conf_list:
+        name = conf.get("name", "(unknown)")
+
+        # Dates
+        sd = conf.get("start_date")
+        ed = conf.get("end_date")
+        try:
+            if sd:
+                sd_dt = datetime.strptime(sd, "%Y-%m-%d")
+            else:
+                sd_dt = None
+            if ed:
+                ed_dt = datetime.strptime(ed, "%Y-%m-%d")
+            else:
+                ed_dt = None
+        except ValueError as exc:
+            raise ValueError(f"Invalid date for conference {name!r}: {exc}") from exc
+
+        if sd_dt and ed_dt and sd_dt > ed_dt:
+            raise ValueError(
+                f"Conference {name!r} has start_date {sd!r} after end_date {ed!r}"
+            )
+
+        # Coordinates
+        lat = conf.get("lat")
+        lon = conf.get("lon")
+        try:
+            if lat is not None:
+                float(lat)
+            if lon is not None:
+                float(lon)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"Invalid coordinates for conference {name!r}: {exc}") from exc
+
+        # URL
+        url = conf.get("url")
+        if not url:
+            raise ValueError(f"Conference {name!r} is missing a URL field")
+
+
+# Run validation at import time so problems are visible early
+_validate_conferences(conferences)
