@@ -1329,6 +1329,62 @@ call_for_papers = [
         "topic": "HPV-related Head and Neck Cancers",
         "website": "https://link.springer.com/collections/icajhhebdh",
         "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "impact": "8.7",
+        "due_date": "2026-12-30",
+        "topic": "Molecular mechanisms of antimicrobial resistance",
+        "website": "https://www.nature.com/collections/jiehafjagd",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance",
+        "impact": "8.7",
+        "due_date": "2026-12-21",
+        "topic": "Sex and Gender Differences in Antimicrobial Use and Resistance",
+        "website": "https://www.nature.com/collections/iiihifcfdi",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance/npj Biofilms and Microbiomes",
+        "impact": "8.7",
+        "due_date": "2027-04-01",
+        "topic": "AMR and microbiome",
+        "website": "https://www.nature.com/collections/eaiahagigj",
+        "projects": []
+    },
+    {
+        "journal": "npj Antimicrobials and Resistance/Nature Water/Nature Communications/npj Fungal Science",
+        "impact": "8.7",
+        "due_date": "2027-04-24",
+        "topic": "Climate Change and Antimicrobial Resistance: Navigating A One Health Crisis",
+        "website": "https://www.nature.com/collections/aajijgahhd",
+        "projects": []
+    },
+    {
+        "journal": "npj Biofilms and Microbiomes",
+        "impact": "9.3",
+        "due_date": "2026-10-21",
+        "topic": "Microbial endocrinology",
+        "website": "https://www.nature.com/collections/eajbdeebca",
+        "projects": []
+    },
+    {
+        "journal": "Antimicrobial Resistance & Infection Control",
+        "impact": "5.5",
+        "due_date": "2026-12-23",
+        "topic": "Antimicrobial Resistance in Humanitarian Settings: Evidence and Operational Solutions",
+        "website": "https://link.springer.com/collections/feccdjhbcj",
+        "projects": []
+    },
+    {
+        "journal": "Journal of Clinical Microbiology",
+        "impact": "5.4",
+        "due_date": "2026-08-31",
+        "topic": "Diagnostic Testing for Mycobacteria",
+        "website": "https://journals.asm.org/asm-calls-for-papers",
+        "projects": []
     }
 ]
 
