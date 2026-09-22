@@ -1281,6 +1281,54 @@ call_for_papers = [
         "topic": "Bench-to-Bedside Initiative",
         "website": "https://www.cell.com/cp/special-issues/call-for-papers/bench-to-bedside-initiative",
         "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "impact": "3.1",
+        "due_date": "2026-11-20",
+        "topic": "Malaria in the 21st century: diagnostics, resistance, and control strategies",
+        "website": "https://link.springer.com/collections/afciheihef",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "impact": "3.1",
+        "due_date": "2026-11-27",
+        "topic": "Innovations in HIV testing, surveillance, and treatment",
+        "website": "https://link.springer.com/collections/chcaggibeh",
+        "projects": []
+    },
+    {
+        "journal": "BMC Infectious Diseases",
+        "impact": "3.1",
+        "due_date": "2026-12-16",
+        "topic": "Personalized medicine in infectious diseases",
+        "website": "https://link.springer.com/collections/dfiiecfadc",
+        "projects": []
+    },
+    {
+        "journal": "Infectious Diseases of Poverty",
+        "impact": "5.7",
+        "due_date": "2026-11-25",
+        "topic": "Angiostrongylus cantonensis: From local discovery to global endemic",
+        "website": "https://link.springer.com/collections/edcidbbagj",
+        "projects": []
+    },
+    {
+        "journal": "Infectious Diseases of Poverty",
+        "impact": "5.7",
+        "due_date": "2027-06-28",
+        "topic": "New Approaches Amidst Changing Global Financing Landscape for Infectious Diseases",
+        "website": "https://link.springer.com/collections/cgdfdjbdij",
+        "projects": []
+    },
+    {
+        "journal": "Infectious Agents and Cancer",
+        "impact": "2.6",
+        "due_date": "2026-12-01",
+        "topic": "HPV-related Head and Neck Cancers",
+        "website": "https://link.springer.com/collections/icajhhebdh",
+        "projects": []
     }
 ]
 
